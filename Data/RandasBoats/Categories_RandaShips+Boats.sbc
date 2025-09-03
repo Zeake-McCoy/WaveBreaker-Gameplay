@@ -1,0 +1,68 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Randa's Boat Parts</DisplayName>
+      <Name>x-mod-digi</Name>
+      <ItemIds>
+	  
+        <string>CubeBlock/ShipWindow1x2Base</string>
+	<string>CubeBlock/ShipWindow1x2BaseCorner</string>
+	<string>CubeBlock/ShipWindow1x2BaseCornerInverted</string>
+	<string>CubeBlock/ShipWindow1x2SideRight</string>
+	<string>CubeBlock/ShipWindow1x2SideLeft</string>
+
+	<string>CubeBlock/ShipWindow1x1</string>
+	<string>CubeBlock/ShipWindow1x1Corner</string>
+
+	<string>Thrust/BoatPropellor2x2Large</string>
+	<string>Thrust/BoatPropellor3x3Huge</string>
+	<string>Thrust/BoatProp3Blade</string>
+	<string>Thrust/BoatPropNew2x2Yellow</string>
+	<string>Thrust/BoatProp3BladeYellow</string>
+	<string>Thrust/BoatProp3BladeYellowPower</string>
+
+        <string>CubeBlock/CarrierMarkingFull</string>
+	<string>CubeBlock/CarrierMarkingHalf</string>
+        <string>CubeBlock/CarrierMarkingHalfCentre</string>
+	<string>CubeBlock/CarrierMarkingQuarter</string>
+
+	<string>CubeBlock/CarrierRamp1</string>
+        <string>CubeBlock/CarrierRamp2</string>
+	<string>CubeBlock/CarrierRamp3</string>
+	<string>CubeBlock/CarrierRamp4</string>
+
+	<string>CubeBlock/CarrierRamp4Slope1</string>
+	<string>CubeBlock/CarrierRamp4Slope2</string>
+	<string>CubeBlock/CarrierRamp4Slope3</string>
+	<string>CubeBlock/CarrierRamp4Slope4</string>
+
+	<string>CubeBlock/BowTip</string>
+	<string>CubeBlock/BowTip1x1</string>
+	<string>CubeBlock/BowTip1x1Inverted</string>
+	<string>CubeBlock/Bow1x2Base</string>
+	<string>CubeBlock/Bow1x2Tip</string>
+	<string>CubeBlock/InvertBow1x2Base</string>
+	<string>CubeBlock/InvertBow1x2Tip</string>
+
+	<string>CubeBlock/WingFillRanda</string>
+	<string>CubeBlock/HalfFillRanda</string>
+
+	<string>CubeBlock/ShaftExtensionHalfBlock</string>
+	<string>CubeBlock/ShaftExtension</string>
+	<string>CubeBlock/ShaftExtensionT</string>
+
+	<string>CubeBlock/Half1x2Base</string>
+	<string>CubeBlock/Half1x2BaseMirror</string>
+	<string>CubeBlock/Half1x2Tip</string>
+	<string>CubeBlock/Half1x2TipMirror</string>
+	<string>CubeBlock/QuarterBlock</string>
+
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

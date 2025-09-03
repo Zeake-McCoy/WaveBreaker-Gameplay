@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>WingFillRanda</SubtypeId>
+      </Id>
+      <DisplayName>Non-Deforming Fill Block</DisplayName>
+      <Description>A large grid block that is similar to a standard light armour block, except it doesnt deform making it good for things such as carrier elevators.</Description>
+      <Icon>Textures\Icons\WingFillRanda.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\WingFillRanda.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\WingFillRanda_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>WingFillRanda</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HalfFillRanda</SubtypeId>
+      </Id>
+      <DisplayName>Non-Deforming Half Block</DisplayName>
+      <Description>A large grid block that is similar to a standard light armour block, except it doesnt deform making it good for things such as carrier elevators.</Description>
+      <Icon>Textures\Icons\HalfFillRanda.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\HalfFillRanda.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="12"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\HalfFillRanda_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>HalfFillRanda</BlockPairName>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ShaftExtensionHalfBlock</SubtypeId>
+      </Id>
+      <DisplayName>Ship Propeller Shaft Half-Block</DisplayName>
+      <Description>Extends ship propellers. (decorative, no thrust)</Description>
+      <Icon>Textures\Icons\ShaftExtensionHalfBlock.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\ShaftExtensionHalfBlock.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>ShaftExtensionHalfBlock</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ShaftExtension</SubtypeId>
+      </Id>
+      <DisplayName>Ship Propeller Shaft Extension</DisplayName>
+      <Description>Extends ship propellers. (decorative, no thrust)</Description>
+      <Icon>Textures\Icons\ShaftExtension.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\ShaftExtension.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ShaftExtension_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>ShaftExtension</BlockPairName>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>ShaftExtensionT</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>ShaftExtensionHalfBlock</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ShaftExtensionT</SubtypeId>
+      </Id>
+      <DisplayName>Ship Propeller Shaft T-Shape</DisplayName>
+      <Description>Extends ship propellers. (decorative, no thrust)</Description>
+      <Icon>Textures\Icons\ShaftExtensionT.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\ShaftExtensionT.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ShaftExtensionT_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>ShaftExtensionT</BlockPairName>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Markings-->
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierMarkingFull</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Marking Full</DisplayName>
+      <Description>Collisionless block for carrier markings that wont eat wheels</Description>
+      <Icon>Textures\Icons\CarrierMarkingFull.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierMarkingFull.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <IsStandAlone>false</IsStandAlone>
+	  <IsAirtight>false</IsAirtight>
+      <HasPhysics>false</HasPhysics>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.48" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.52" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>CarrierMarkingFull</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierMarkingHalf</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierMarkingHalfCentre</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierMarkingQuarter</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierMarkingHalf</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Marking Half</DisplayName>
+      <Description>Collisionless block for carrier markings that wont eat wheels</Description>
+      <Icon>Textures\Icons\CarrierMarkingHalf.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierMarkingHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <IsStandAlone>false</IsStandAlone>
+	  <IsAirtight>false</IsAirtight>
+      <HasPhysics>false</HasPhysics>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>CarrierMarkingHalf</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierMarkingHalfCentre</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Marking Half Centre</DisplayName>
+      <Description>Collisionless block for carrier markings that wont eat wheels</Description>
+      <Icon>Textures\Icons\CarrierMarkingHalfCentre.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierMarkingHalfCentre.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <IsStandAlone>false</IsStandAlone>
+	  <IsAirtight>false</IsAirtight>
+      <HasPhysics>false</HasPhysics>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.25" StartY="0.00" EndX="0.75" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>CarrierMarkingHalfCentre</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierMarkingQuarter</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Marking Quarter</DisplayName>
+      <Description>Collisionless block for carrier markings that wont eat wheels</Description>
+      <Icon>Textures\Icons\CarrierMarkingQuarter.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierMarkingQuarter.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>CarrierMarkingQuarter</BlockPairName>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+    </Definition>
+
+
+    <!-- Ramp-->
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp1</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp Transition 1/4</DisplayName>
+      <Description>A smoother slope for launching planes without voiding the gear's warranty</Description>
+      <Icon>Textures\Icons\CarrierRamp1.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp1_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp4</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp2</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp Transition 2/4</DisplayName>
+      <Description>A smoother slope for launching planes without voiding the gear's warranty</Description>
+      <Icon>Textures\Icons\CarrierRamp2.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp2.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp2_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp3</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp Transition 3/4</DisplayName>
+      <Description>A smoother slope for launching planes without voiding the gear's warranty</Description>
+      <Icon>Textures\Icons\CarrierRamp3.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp3.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp3_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp4</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp Transition 4/4</DisplayName>
+      <Description>A smoother slope for launching planes without voiding the gear's warranty</Description>
+      <Icon>Textures\Icons\CarrierRamp4.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp4.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp4_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp4</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp4Slope1</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp 4-Slope 1/4</DisplayName>
+      <Description>For extending a carrier's ramp (with the same texture)</Description>
+      <Icon>Textures\Icons\CarrierRamp4Slope1.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp4Slope1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp4Slope1_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp4Slope1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp4Slope2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp4Slope3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CarrierRamp4Slope4</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp4Slope2</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp 4-Slope 2/4</DisplayName>
+      <Description>For extending a carrier's ramp (with the same texture)</Description>
+      <Icon>Textures\Icons\CarrierRamp4Slope2.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp4Slope2.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp4Slope2_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp4Slope2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp4Slope3</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp 4-Slope 3/4</DisplayName>
+      <Description>For extending a carrier's ramp (with the same texture)</Description>
+      <Icon>Textures\Icons\CarrierRamp4Slope3.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp4Slope3.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp4Slope3_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp4Slope3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CarrierRamp4Slope4</SubtypeId>
+      </Id>
+      <DisplayName>Carrier Ramp 4-Slope 4/4</DisplayName>
+      <Description>For extending a carrier's ramp (with the same texture)</Description>
+      <Icon>Textures\Icons\CarrierRamp4Slope4.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CarrierRamp4Slope4.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\CarrierRamp4Slope4_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>CarrierRamp4Slope4</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Half1x2Tip</SubtypeId>
+      </Id>
+      <DisplayName>Half 1x2 Tip</DisplayName>
+      <Description></Description>
+      <Icon>Textures\Icons\Half1x2Tip.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Half1x2Tip.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>Half1x2Tip</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>Half1x2TipMirror</MirroringBlock>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Half1x2TipMirror</SubtypeId>
+      </Id>
+      <DisplayName>Half 1x2 Tip Mirror</DisplayName>
+      <Description></Description>
+      <Icon>Textures\Icons\Half1x2TipMirror.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Half1x2TipMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>Half1x2TipMirror</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>Half1x2Tip</MirroringBlock>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Half1x2Base</SubtypeId>
+      </Id>
+      <DisplayName>Half 1x2 Base</DisplayName>
+      <Description></Description>
+      <Icon>Textures\Icons\Half1x2Base.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Half1x2Base.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Half1x2Base_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Half1x2Base</BlockPairName>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Half1x2BaseMirror</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Half1x2Tip</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Half1x2TipMirror</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterBlock</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>Half1x2BaseMirror</MirroringBlock>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Half1x2BaseMirror</SubtypeId>
+      </Id>
+      <DisplayName>Half 1x2 Base Mirror</DisplayName>
+      <Description></Description>
+      <Icon>Textures\Icons\Half1x2BaseMirror.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Half1x2BaseMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Half1x2BaseMirror_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Half1x2BaseMirror</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>Half1x2Base</MirroringBlock>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterBlock</SubtypeId>
+      </Id>
+      <DisplayName>Quarter Block</DisplayName>
+      <Description></Description>
+      <Icon>Textures\Icons\QuarterBlock.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\QuarterBlock.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\QuarterBlock_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>QuarterBlock</BlockPairName>
+      <MirroringY>MinusHalfX</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </CubeBlocks>
+</Definitions>

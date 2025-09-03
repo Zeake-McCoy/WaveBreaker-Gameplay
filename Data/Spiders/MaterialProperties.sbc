@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaterialProperties>
+     
+   
+    <!--ExplodingCreature -->
+    <Properties>
+      <Id>
+        <TypeId>PhysicalMaterialDefinition</TypeId>
+        <SubtypeId>ExplodingCreature</SubtypeId>
+      </Id>
+      <ContactProperties>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Ice</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Snow</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Rock</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Grass</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>GrassDry</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>OrangeAlienGrass</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+          <ParticleEffect>CharacterStepGrassAlienOrange</ParticleEffect>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>AlienGreenGrass</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+          <ParticleEffect>AlienGreenGrass</ParticleEffect>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>AlienYellowGrass</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+          <ParticleEffect>CharacterStepAlienYellow</ParticleEffect>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>MarsSoil</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+          <ParticleEffect>CharacterStepMarsSoil</ParticleEffect>
+          <ParticleProperties>
+            <ColorMultiplier>
+              <X>2.0</X>
+              <Y>1.0</Y>
+              <Z>1.0</Z>
+              <W>3.0</W>
+            </ColorMultiplier>
+            <SizeMultiplier>1.0</SizeMultiplier>
+            <Preload>0.0</Preload>
+          </ParticleProperties>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>MoonSoil</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+          <ParticleEffect>CharacterStepMoonSoil</ParticleEffect>
+          <ParticleProperties>
+            <ColorMultiplier>
+              <X>0.8</X>
+              <Y>1.0</Y>
+              <Z>1.0</Z>
+              <W>3.0</W>
+            </ColorMultiplier>
+            <SizeMultiplier>1.0</SizeMultiplier>
+            <Preload>0.0</Preload>
+          </ParticleProperties>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Sand</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Soil</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>SoilDry</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+        <ContactProperty>
+          <Type>Run</Type>
+          <Material>Metal</Material>
+          <SoundCue>ArcBotSpiderWalk</SoundCue>
+        </ContactProperty>
+      </ContactProperties>
+    </Properties>
+
+   		<!--rifle bullet-->
+    <Properties>
+			<Id>
+				<TypeId>PhysicalMaterialDefinition</TypeId>
+				<SubtypeId>RifleBullet</SubtypeId>
+			</Id>
+      <ContactProperties>
+        <ContactProperty>
+          <Type>Hit</Type>
+          <Material>ExplodingCreature</Material>
+          <SoundCue>WepPlayRifleImpPlay</SoundCue>
+          <ParticleEffect>Blood_ExplodingCreature</ParticleEffect>
+        </ContactProperty>
+       </ContactProperties>
+		</Properties>
+    
+    <!--gun bullet-->
+    <Properties>
+			<Id>
+				<TypeId>PhysicalMaterialDefinition</TypeId>
+				<SubtypeId>GunBullet</SubtypeId>
+			</Id>
+      <ContactProperties>
+        
+        <ContactProperty>
+          <Type>Hit</Type>
+          <Material>ExplodingCreature</Material>
+          <SoundCue>WepShipGatlingImpPlay</SoundCue>
+          <ParticleEffect>Blood_ExplodingCreature</ParticleEffect>
+        </ContactProperty>
+  
+      </ContactProperties>
+		</Properties>
+
+    <!--exp bullet-->
+    <Properties>
+			<Id>
+				<TypeId>PhysicalMaterialDefinition</TypeId>
+				<SubtypeId>ExpBullet</SubtypeId>
+			</Id>
+      <ContactProperties>
+        <ContactProperty>
+          <Type>Hit</Type>
+          <Material>ExplodingCreature</Material>
+          <SoundCue>WepPlayRifleImpPlay</SoundCue>
+		  <ParticleEffect>Blood_ExplodingCreature</ParticleEffect>
+        </ContactProperty>
+      </ContactProperties>
+		</Properties>
+
+    <!--grinder-->
+    <Properties>
+      <Id>
+        <TypeId>PhysicalMaterialDefinition</TypeId>
+        <SubtypeId>Grinder</SubtypeId>
+      </Id>
+      <ContactProperties>
+       
+        <ContactProperty>
+          <Type>Start</Type>
+          <Material>ExplodingCreature</Material>
+          <ParticleEffect>Blood_ExplodingCreature</ParticleEffect>
+          <SoundCue>ToolPlayGrindMetal</SoundCue>
+        </ContactProperty>
+       </ContactProperties>
+    </Properties>
+
+
+
+	</MaterialProperties>
+</Definitions>

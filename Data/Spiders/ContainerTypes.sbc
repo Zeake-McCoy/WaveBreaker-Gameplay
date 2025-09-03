@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+ 
+	<ContainerType CountMin="1" CountMax="2">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>SandwichLoot</SubtypeId>
+      </Id>
+      <Items>
+        <Item AmountMin="2" AmountMax="2">
+          <Frequency>1</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Sub_Sandwich</SubtypeId>
+          </Id>
+        </Item>        
+       
+	
+      </Items>
+    </ContainerType>
+	
+	 
+	
+	
+    
+  </ContainerTypes>
+</Definitions>

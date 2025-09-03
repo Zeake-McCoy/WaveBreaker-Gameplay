@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension1x1</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension2x2</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension3x3</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension5x5</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension1x1mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension2x2mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension3x3mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallSuspension5x5mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension1x1</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension2x2</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension3x3</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension5x5</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension1x1mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension2x2mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension3x3mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>SmallShortSuspension5x5mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension1x1</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension2x2</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension3x3</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension5x5</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension1x1mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension2x2mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension3x3mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallSuspension5x5mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension1x1</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension2x2</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension3x3</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension5x5</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension1x1mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>10000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension2x2mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>15000</PropulsionForce>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension3x3mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>25000</PropulsionForce>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+				<TypeId>MotorSuspension</TypeId>
+				<SubtypeId>OffroadSmallShortSuspension5x5mirrored</SubtypeId>
+			</Id>
+			<PropulsionForce>50000</PropulsionForce>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>

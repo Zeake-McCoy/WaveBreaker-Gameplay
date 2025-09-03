@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_SensorBlockDefinition">
+            <Id>
+                <TypeId>SensorBlock</TypeId>
+                <SubtypeId>Long_Range_Sensor_Array_Large</SubtypeId>
+            </Id>
+            <DisplayName>Long Range Sensor Array</DisplayName>
+            <Icon>Textures\GUI\Icons\Long_Range_Sensor_Array\Long_Range_Sensor_Array.dds</Icon>
+            <Description>Long range sensor designed for use with a radar script.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Long_Range_Sensor_Array\LG_Long_Range_Sensor_Array.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Computer" Count="40" />
+                <Component Subtype="RadioCommunication" Count="10" />
+                <Component Subtype="Detector" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Detector" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Long_Range_Sensor_Array\LG_Long_Range_Sensor_Array_BS1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            </MountPoints>
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.4</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.4</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Long_Range_Sensor_Array</BlockPairName>
+            <MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <MaxRange>10000</MaxRange>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <ActionSound>BlockSensor</ActionSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>100</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SensorBlockDefinition">
+            <Id>
+                <TypeId>SensorBlock</TypeId>
+                <SubtypeId>Long_Range_Sensor_Array_Small</SubtypeId>
+            </Id>
+            <DisplayName>Long Range Sensor Array</DisplayName>
+            <Icon>Textures\GUI\Icons\Long_Range_Sensor_Array\Long_Range_Sensor_Array.dds</Icon>
+            <Description>Long range sensor designed for use with a radar script.</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Long_Range_Sensor_Array\SG_Long_Range_Sensor_Array.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="RadioCommunication" Count="5" />
+                <Component Subtype="Detector" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Detector" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Long_Range_Sensor_Array\SG_Long_Range_Sensor_Array_BS1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            </MountPoints>
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.4</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.4</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Long_Range_Sensor_Array</BlockPairName>
+            <MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <MaxRange>5000</MaxRange>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <ActionSound>BlockSensor</ActionSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>20</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

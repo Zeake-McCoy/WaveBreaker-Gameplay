@@ -1,0 +1,41 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>WB Industry</DisplayName>
+      <Name>WB Industry</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>CargoContainer/1x1x3CargoSG</string>
+        <string>CargoContainer/2x1x2CargoSG</string>
+        <string>CargoContainer/2x1x2CargoSGInv</string>
+        <string>CargoContainer/2x2x2CargoSG</string>
+        <string>CargoContainer/StorageShelfv1SG</string>
+        <string>CargoContainer/StorageShelfv2SG</string>
+		<string>CargoContainer/StorageShelfv3SG</string>
+		<string>CargoContainer/9x11x5CargoSG</string>
+        <string>CargoContainer/HalfBlockCargo</string>
+		<string>CargoContainer/EDPAccessCargoTube</string>
+        <string>CargoContainer/StorageShelfv1LG</string>
+        <string>CargoContainer/StorageShelfv2LG</string>
+        <string>CargoContainer/StorageShelfv3LG</string>		
+        <string>CargoContainer/3x3x1Cargo</string>
+        <string>CargoContainer/3x3x1OpenCargo</string>
+        <string>CargoContainer/3x3x1OpenCargoV2</string>
+        <string>CargoContainer/3x5x3LargeContainer</string>
+        <string>CargoContainer/3x11x3LargeContainer</string>
+        <string>CargoContainer/7x11x3LargeContainer</string>
+			
+		<string>RadioAntenna/Deflector_MK1</string>
+		<string>SensorBlock/Long_Range_Sensor_Array_Large</string>
+		<string>SoundBlock/LargeLongRangeSoundBlock</string>
+      </ItemIds>
+    </Category>	
+</CategoryClasses>
+</Definitions>

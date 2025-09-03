@@ -1,0 +1,2474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_A_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_A.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_A_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_A_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_A_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_A.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_A_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_A_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_B_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_B.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_B_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_B_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_B_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_B.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_B_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_B_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_C_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_C.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_C_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_C_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_C_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_C.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_C_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_C_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_D_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_D.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_D_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_D_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_D_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_D.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_D_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_D_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_E_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_E.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_E_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_E_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_E_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_E.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_E_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_E_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_F_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_F.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_F_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_F_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_F_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_F.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_F_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_F_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_G_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_G.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_G_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_G_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_G_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_G.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_G_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_G_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_H_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_H.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_H_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_H_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_H_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_H.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_H_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_H_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_I_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_I.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_I_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_I_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_I_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_I.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_I_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_I_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_J_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_J.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_J_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_J_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_J_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_J.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_J_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_J_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_K_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_K.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_K_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_K_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_K_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_K.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_K_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_K_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_L_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_L.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_L_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_L_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_L_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_L.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_L_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_L_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_M_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_M.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_M_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_M_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_M_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_M.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_M_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_M_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_N_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_N.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_N_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_N_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_N_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_N.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_N_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_N_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_O_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_O.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_O_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_O_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_O_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_O.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_O_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_O_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_P_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_P.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_P_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_P_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_P_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_P.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_P_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_P_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Q_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Q.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_Q_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Q_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Q_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Q.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_Q_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Q_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_R_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_R.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_R_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_R_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_R_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_R.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_R_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_R_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_S_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_S.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_S_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_S_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_S_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_S.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_S_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_S_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_T_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_T.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_T_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_T_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_T_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_T.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_T_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_T_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_U_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_U.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_U_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_U_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_U_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_U.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_U_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_U_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_V_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_V.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_V_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_V_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_V_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_V.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_V_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_V_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_W_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_W.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_W_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_W_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_W_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_W.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_W_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_W_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_X_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_X.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_X_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_X_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_X_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_X.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_X_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_X_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Y_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Y.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_Y_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Y_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Y_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Y.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_Y_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Y_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Z_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Z.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_Z_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Z_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Z_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Z.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_Z_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Z_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_0_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_0.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_0_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_0_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_0_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_0.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_0_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_0_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_1_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_1.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_1_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_1_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_1_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_1.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_1_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_1_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_2_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_2.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_2_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_2_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_2_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_2.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_2_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_2_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_3_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_3.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_3_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_3_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_3_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_3.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_3_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_3_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_4_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_4.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_4_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_4_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_4_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_4.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_4_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_4_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_5_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_5.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_5_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_5_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_5_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_5.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_5_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_5_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_6_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_6.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_6_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_6_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_6_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_6.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_6_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_6_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+        
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_7_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_7.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_7_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_7_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_7_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_7.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_7_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_7_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_8_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_8.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_8_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_8_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_8_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_8.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_8_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_8_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_9_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_9.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_9_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_9_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_9_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_9.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_9_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_9_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Hyphen_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Hyphen.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_Hyphen_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Hyphen_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Hyphen_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Hyphen.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_Hyphen_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Hyphen_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Period_1x1_Large</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Period.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\LG_Characters_Period_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\LG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Period_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Characters_Period_1x1_Small</SubtypeId>
+            </Id>
+            <DisplayName>Characters 1x1</DisplayName>
+            <Icon>Textures\GUI\Icons\Characters\Characters_Period.dds</Icon>
+            <Description>A set of Tritanium character panels for ship names and registry numbers.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Characters\SG_Characters_Period_1x1.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Characters\SG_Characters_BS_1x1.mwm"/>
+			</BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BlockPairName>Characters_Period_1x1</BlockPairName>
+            <MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <DisassembleRatio>2</DisassembleRatio>
+            <PCU>1</PCU>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

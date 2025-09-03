@@ -1,0 +1,564 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_DoubleHalfSlope</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Double Half Slope</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_DoubleHalfSlope.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_DoubleHalfSlope.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="17" />
+				<Component Subtype="MetalGrid" Count="6" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_DoubleHalfSlope_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_DoubleHalfSlope</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_DoubleSlopeTip</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Double Slope Tip</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_DoubleSlopeTip.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_DoubleSlopeTip.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="65" />
+				<Component Subtype="MetalGrid" Count="25" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_DoubleSlopeTip_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_DoubleSlopeTip</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_HalfSlope2Base</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Half Slope 2x1x1 Base</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_HalfSlope2Base.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_HalfSlope2Base.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="SteelPlate" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.75" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.00" EndX="0.75" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_HalfSlope2Base_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_HalfSlope2Base</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_HalfSlope2BaseMirrored</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_HalfSlope2BaseMirrored</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Half Slope 2x1x1 Base Mirrored</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_HalfSlope2BaseMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_HalfSlope2BaseMirrored.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="SteelPlate" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_HalfSlope2BaseMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_HalfSlope2BaseMirrored</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_HalfSlope2Base</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_HalfSlopePanel</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Half Slope Panel}</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_HalfSlopePanel.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_HalfSlopePanel.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.03" StartY="0.00" EndX="0.07" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.93" StartY="0.00" EndX="0.97" EndY="0.50"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_HalfSlopePanel_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>JEB_LG_HA_HalfSlopePanel</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>MinusHalfX</MirroringY>
+			<MirroringZ>HalfX</MirroringZ>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_InvertedHalfSlopePanel</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Inverted Half Slope Panel</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_InvertedHalfSlopePanel.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_InvertedHalfSlopePanel.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.95" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.95" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_InvertedHalfSlopePanel_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_InvertedHalfSlopePanel</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>MinusHalfX</MirroringY>
+			<MirroringZ>HalfX</MirroringZ>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_InvertedSLopeTransitionTip</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Inverted SLope Transition Tip</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_InvertedSLopeTransitionTip.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_InvertedSLopeTransitionTip.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="110" />
+				<Component Subtype="MetalGrid" Count="45" />
+                <Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_InvertedSLopeTransitionTip_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>JEB_LG_HA_InvertedSLopeTransitionTip</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_InvertedSLopeTransitionTipMirrored</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_InvertedSLopeTransitionTipMirrored</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Inverted SLope Transition Tip Mirrored</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_InvertedSLopeTransitionTipMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_InvertedSLopeTransitionTipMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="110" />
+				<Component Subtype="MetalGrid" Count="45" />
+                <Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_InvertedSLopeTransitionTipMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>JEB_LG_HA_InvertedSLopeTransitionTipMirrored</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_InvertedSLopeTransitionTip</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_OffsetHalfSlope</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Offset Half Slope</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_OffsetHalfSlope.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_OffsetHalfSlope.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="40" />
+				<Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_OffsetHalfSlope_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_OffsetHalfSlope</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeird</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeird.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeird.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="MetalGrid" Count="15" />
+                <Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeird_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeird</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeirdMirrored</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeirdLarge</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird Large</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeirdLarge.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdLarge.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="84" />
+				<Component Subtype="MetalGrid" Count="25" />
+                <Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdLarge_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeirdLarge</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeirdLargeMirrored</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeirdLargeMirrored</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird Large Mirrored</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeirdLargeMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdLargeMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="84" />
+				<Component Subtype="MetalGrid" Count="25" />
+                <Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdLargeMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeirdLargeMirrored</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeirdLarge</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeirdMirrored</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird Mirrored</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeirdMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="MetalGrid" Count="15" />
+                <Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeirdMirrored</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeird</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeirdSmall</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird Small</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeirdSmall.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdSmall.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="17" />
+				<Component Subtype="MetalGrid" Count="6" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdSmall_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeirdSmall</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeirdSmallMirrored</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_TransitionSlopeWeirdSmallMirrored</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Transition Slope Weird Small Mirrored</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_TransitionSlopeWeirdSmallMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdSmallMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="17" />
+				<Component Subtype="MetalGrid" Count="6" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_TransitionSlopeWeirdSmallMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_TransitionSlopeWeirdSmallMirrored</BlockPairName>
+			<MirroringBlock>JEB_LG_HA_TransitionSlopeWeirdSmall</MirroringBlock>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>JEB_LG_HA_RoundSlopeSmall</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Armor Round Slope Small</DisplayName>
+			<Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\JEB_LG_HA_RoundSlopeSmall.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\JEB\large\JEB_LG_HA_RoundSlopeSmall.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\JEB\large\JEB_LG_HA_RoundSlopeSmall_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <PCU>1</PCU>
+			<BlockPairName>JEB_LG_HA_RoundSlopeSmall</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringZ>MinusHalfY</MirroringZ>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

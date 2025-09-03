@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>Deflector_MK1</SubtypeId>
+      </Id>
+      <DisplayName>Deflector MK1</DisplayName>
+      <Icon>Textures\GUI\Icons\Deflector\Deflector_Blue.dds</Icon>
+      <Description>Deflector MK1. One block wide antenna dish.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Deflector\Deflector_MK1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="LargeTube" Count="25" />
+        <Component Subtype="SmallTube" Count="35" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="RadioCommunication" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="RadioCommunication" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Deflector\Deflector_MK1_BS1.mwm"/>
+			</BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <BlockPairName>Deflector_MK1</BlockPairName>
+      <MaxBroadcastRadius>500000</MaxBroadcastRadius>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <MirroringY>X</MirroringY>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>Deflector_MK3</SubtypeId>
+      </Id>
+      <DisplayName>Deflector MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Deflector\Deflector_Blue.dds</Icon>
+      <Description>
+	  Deflector MK3. Three blocks wide antenna dish.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Deflector\Deflector_MK3.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="LargeTube" Count="60" />
+        <Component Subtype="SmallTube" Count="100" />
+        <Component Subtype="Construction" Count="70" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="RadioCommunication" Count="65" />
+      </Components>
+      <CriticalComponent Subtype="RadioCommunication" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Deflector\Deflector_MK3_BS1.mwm"/>
+			</BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+      </MountPoints>
+      <BlockPairName>Deflector_MK3</BlockPairName>
+      <MaxBroadcastRadius>500000</MaxBroadcastRadius>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <MirroringY>X</MirroringY>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>Deflector_MK5</SubtypeId>
+      </Id>
+      <DisplayName>Deflector MK5</DisplayName>
+      <Icon>Textures\GUI\Icons\Deflector\Deflector_Blue.dds</Icon>
+      <Description>Deflector MK5. Five blocks wide antenna dish.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Deflector\Deflector_MK5.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="350" />
+        <Component Subtype="LargeTube" Count="100" />
+        <Component Subtype="SmallTube" Count="160" />
+        <Component Subtype="Construction" Count="100" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="RadioCommunication" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="RadioCommunication" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Deflector\Deflector_MK5_BS1.mwm"/>
+			</BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="2.00" StartY="2.00" EndX="3.00" EndY="3.00" />
+      </MountPoints>
+      <BlockPairName>Deflector_MK5</BlockPairName>
+      <MaxBroadcastRadius>500000</MaxBroadcastRadius>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <MirroringY>X</MirroringY>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

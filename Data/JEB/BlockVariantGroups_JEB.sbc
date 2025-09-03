@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <!-- Armor -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JEBArmorBlockGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\JEB_LG_LA_HalfSlope2Base.dds</Icon>
+            <DisplayName>LightArmorHalfSlope2Base</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_HalfSlope2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_HalfSlope2BaseMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_HalfSlopePanel" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_InvertedHalfSlopePanel" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_DoubleHalfSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_DoubleSlopeTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_InvertedSLopeTransitionTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_InvertedSLopeTransitionTipMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_OffsetHalfSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeird" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeirdMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeirdLarge" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeirdLargeMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeirdSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_TransitionSlopeWeirdSmallMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_LG_LA_RoundSlopeSmal" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_HalfSlope2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_HalfSlope2BaseMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_HalfSlopePanel" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_InvertedHalfSlopePanel" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_DoubleHalfSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_DoubleSlopeTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_InvertedSLopeTransitionTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_InvertedSLopeTransitionTipMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_OffsetHalfSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeird" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeirdMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeirdLarge" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeirdLargeMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeirdSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_TransitionSlopeWeirdSmallMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="JEB_SG_LA_RoundSlopeSmal" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		</BlockVariantGroups>
+</Definitions>

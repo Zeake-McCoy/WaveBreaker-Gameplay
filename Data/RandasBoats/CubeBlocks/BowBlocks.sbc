@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BowTip</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point Block</DisplayName>
+      <Icon>Textures\Icons\BowTip.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\BowTip.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BowTip_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>BowTip</BlockPairName>
+
+      <BlockVariants>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>BowTip1x1</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>BowTip1x1Inverted</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Bow1x2Base</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Bow1x2Tip</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>InvertBow1x2Base</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>InvertBow1x2Tip</SubtypeId>
+        </BlockVariant>
+        
+    </BlockVariants>
+      
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BowTip1x1</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x1 Slope</DisplayName>
+      <Icon>Textures\Icons\BowTip1x1.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\BowTip1x1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BowTip1x1_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>BowTip1x1</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BowTip1x1Inverted</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x1 Slope Inverted</DisplayName>
+      <Icon>Textures\Icons\BowTip1x1Inverted.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\BowTip1x1Inverted.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BowTip1x1Inverted_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>BowTip1x1Inverted</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Bow1x2Base</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x2 Base</DisplayName>
+      <Icon>Textures\Icons\BowTip1x2Base.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Bowtip1x2Base.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Bowtip1x2Base_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Bow1x2Base</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Bow1x2Tip</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x2 Tip</DisplayName>
+      <Icon>Textures\Icons\BowTip1x2Tip.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\BowTip1x2Tip.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BowTip1x2Tip_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Bow1x2Tip</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>InvertBow1x2Base</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x2 Base Inverted</DisplayName>
+      <Icon>Textures\Icons\BowTip1x2BaseInverted.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\BowTip1x2BaseInverted.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BowTip1x2BaseInverted_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>InvertBow1x2Base</BlockPairName>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>InvertBow1x2Tip</SubtypeId>
+      </Id>
+      <DisplayName>Ship Bow Point 1x2 Tip Inverted</DisplayName>
+      <Icon>Textures\Icons\BowTip1x2TipInverted.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Bow1x2TipInverted.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Bow1x2TipInverted_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>InvertBow1x2Tip</BlockPairName>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

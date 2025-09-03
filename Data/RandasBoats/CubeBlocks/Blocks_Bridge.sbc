@@ -1,0 +1,347 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+
+
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindow1x2Base</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window 1x2 Base</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindow1x2Base.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindow1x2Base.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+				<Component Subtype="BulletproofGlass" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>ShipWindow1x2Base</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockVariants>
+        
+      				<BlockVariant>
+      					<TypeId>CubeBlock</TypeId>
+        				<SubtypeId>ShipWindow1x2BaseCorner</SubtypeId>
+      				</BlockVariant>     
+				<BlockVariant>
+      					<TypeId>CubeBlock</TypeId>
+        				<SubtypeId>ShipWindow1x2BaseCornerInverted</SubtypeId>
+      				</BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>ShipWindow1x2SideRight</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>ShipWindow1x2SideLeft</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindow1x2BaseCorner</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window 1x2 Base Corner</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindow1x2BaseCorner.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindow1x2BaseCorner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="BulletproofGlass" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>ShipWindow1x2BaseCorner</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindow1x2BaseCornerInverted</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window 1x2 Base Corner Inverted</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindow1x2BaseCornerInverted.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindow1x2BaseCornerInverted.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="BulletproofGlass" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x2BaseCornerInverted_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ShipWindow1x2BaseCornerInverted</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+		</Definition>
+
+		
+
+
+
+
+
+
+
+		
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindow1x1</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window 1x1</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindow1x1.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindow1x1.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+				<Component Subtype="BulletproofGlass" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>ShipWindow1x1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockVariants>
+        
+      				<BlockVariant>
+      					<TypeId>CubeBlock</TypeId>
+        				<SubtypeId>ShipWindow1x1Corner</SubtypeId>
+      				</BlockVariant>       
+      
+			</BlockVariants>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindow1x1Corner</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window 1x1 Corner</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindow1x1Corner.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindow1x1Corner.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="BulletproofGlass" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x1Corner_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ShipWindow1x1Corner</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+		</Definition>
+		
+
+
+
+
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindowFlat</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window Flat}</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindowFlat.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindowFlat.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="BulletproofGlass" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\ShipWindowFlat_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ShipWindowFlat</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockVariants>
+        
+      				<BlockVariant>
+      					<TypeId>CubeBlock</TypeId>
+        				<SubtypeId>ShipWindowFlatSloped</SubtypeId>
+      				</BlockVariant>       
+      
+			</BlockVariants>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>ShipWindowFlatSloped</SubtypeId>
+			</Id>
+			<DisplayName>Ship Window Flat Sloped</DisplayName>
+			<Description>A window for modern style ship bridges</Description>
+			<Icon>Textures\Icons\ShipWindowFlatSloped.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\ShipWindowFlatSloped.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="BulletproofGlass" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\ShipWindowFlatSloped_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ShipWindowFlatSloped</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>HalfY</MirroringZ>
+		</Definition>
+
+
+        <Definition>
+          <Id>
+            <TypeId>CubeBlock</TypeId>
+            <SubtypeId>ShipWindow1x2SideRight</SubtypeId>
+          </Id>
+          <DisplayName>Ship Window 1x2 Base Side Right</DisplayName>
+          <Description>A window for modern style ship bridges</Description>
+          <Icon>Textures\Icons\ShipWindow1x2SideRight.png</Icon>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1"/>
+          <ModelOffset x="0" y="0" z="0"/>
+          <Model>Models\ShipWindow1x2SideRight.mwm</Model>
+          <Components>
+            <Component Subtype="SteelPlate" Count="10"/>
+          </Components>
+          <CriticalComponent Subtype="SteelPlate" Index="0"/>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x2SideRight_BS1.mwm"/>
+          </BuildProgressModels>
+          <BlockPairName>ShipWindow1x2SideRight</BlockPairName>
+          <MirroringBlock>ShipWindow1x2SideLeft</MirroringBlock>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+        </Definition>
+
+        <Definition>
+          <Id>
+            <TypeId>CubeBlock</TypeId>
+            <SubtypeId>ShipWindow1x2SideLeft</SubtypeId>
+          </Id>
+          <DisplayName>Ship Window 1x2 Base Side Left</DisplayName>
+          <Description>A window for modern style ship bridges</Description>
+          <Icon>Textures\Icons\ShipWindow1x2SideLeft.png</Icon>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1"/>
+          <ModelOffset x="0" y="0" z="0"/>
+          <Model>Models\ShipWindow1x2SideLeft.mwm</Model>
+          <Components>
+            <Component Subtype="SteelPlate" Count="10"/>
+          </Components>
+          <CriticalComponent Subtype="SteelPlate" Index="0"/>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x2SideLeft_BS1.mwm"/>
+          </BuildProgressModels>
+          <BlockPairName>ShipWindow1x2SideLeft</BlockPairName>
+          <MirroringBlock>ShipWindow1x2SideRight</MirroringBlock>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+        </Definition>
+
+    <!--  <Definition> 
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ShipWindow1x2TipSideRight</SubtypeId>
+      </Id>
+      <DisplayName>Ship Window 1x2 Tip Side Right</DisplayName>
+      <Description>A window for modern style ship bridges</Description>
+      <Icon>Textures\Icons\ShipWindow1x2TipSideRight.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\ShipWindow1x2TipSideRight.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x2TipSideRight_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>ShipWindow1x2TipSideRight</BlockPairName>
+      <MirroringBlock>ShipWindow1x2TipSideLeft</MirroringBlock>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ShipWindow1x2TipSideLeft</SubtypeId>
+      </Id>
+      <DisplayName>Ship Window 1x2 Tip Side Left</DisplayName>
+      <Description>A window for modern style ship bridges</Description>
+      <Icon>Textures\Icons\ShipWindow1x2TipSideLeft.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\ShipWindow1x2TipSideLeft.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ShipWindow1x2TipSideLeft_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>ShipWindow1x2TipSideLeft</BlockPairName>
+      <MirroringBlock>ShipWindow1x2TipSideRight</MirroringBlock>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+    </Definition>
+    
+		-->
+
+
+
+
+	</CubeBlocks>
+</Definitions>

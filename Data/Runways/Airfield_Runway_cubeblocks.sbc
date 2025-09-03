@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--Begin BlockCategories -->
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>NarrowRunwayStart</string>
+        <string>RunwayStart</string>
+        <string>NarrowRunwayMiddle</string>
+        <string>RunwayMiddle</string>
+        <string>RunwayStartAngled</string>
+        <string>RunwayMiddleAngled</string>
+        <string>RunwayStartWide</string>
+        <string>RunwayMiddleWide</string>
+        <string>RunwayStartAngledWide</string>
+        <string>RunwayMiddleAngledWide</string>
+        <string>Helipad</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Runways</DisplayName>
+      <Name>Runways</Name>
+      <ItemIds>
+        <string>NarrowRunwayStart</string>
+        <string>RunwayStart</string>
+        <string>NarrowRunwayMiddle</string>
+        <string>RunwayStartAngled</string>
+        <string>RunwayMiddleAngled</string>
+        <string>RunwayStartWide</string>
+        <string>RunwayMiddleWide</string>
+        <string>RunwayStartAngledWide</string>
+        <string>RunwayMiddleAngledWide</string>
+        <string>Helipad</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+<!--End BlockCategories -->
+  <Components>
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CementMixItem</SubtypeId>
+      </Id>
+      <DisplayName>Cement Mix</DisplayName>
+      <Icon>Textures\Icons\CementMix.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Ingots\stone_ingot.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <MaxIntegrity>300</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>2500</Health>
+    </Component>
+   </Components>
+
+<!--Begin Blueprint Stuff-->
+    <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CementMixItem</SubtypeId>
+      </Id>
+      <DisplayName>Cement Mix</DisplayName>
+      <Icon>Textures\Icons\CementMix.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="35" TypeId="Component" SubtypeId="CementMixItem" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+   </Blueprints>
+  <BlueprintClasses>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+  
+   <!-- Large Block -->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStart" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddle" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartAngled" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleAngled" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartAngledWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleAngledWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Helipad" />
+	
+  <!-- Components -->
+	<Entry Class="Components" BlueprintSubtypeId="CementMixItem" />
+	
+  </BlueprintClassEntries>
+<!--End BlueprintClasses-->
+
+  
+<!--Begin Cubeblocks definitions-->
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStart</SubtypeId>
+      </Id>
+      <DisplayName>Runway Start End</DisplayName>
+      <Icon>Textures\Icons\RunwayEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="10" y="0" z="19" />
+      <Model>Models\Cubes\RunwayStart.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1000" />
+        <Component Subtype="CementMixItem" Count="1100" />
+        
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStart_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSection</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	   <BlockVariants>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>RunwayStartAngled</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddle</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>NarrowRunwayMiddle</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>NarrowRunwayStart</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddleAngled</SubtypeId>
+        </BlockVariant>
+	   </BlockVariants>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+	
+	<!-- Narrow sections -->
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>NarrowRunwayStart</SubtypeId>
+      </Id>
+      <DisplayName>Narrow Runway Start End</DisplayName>
+      <Icon>Textures\Icons\RunwayEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="4" y="0" z="6" />
+      <Model>Models\Cubes\NarrowRunwayStart.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="500" />
+        <Component Subtype="Girder" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\NarrowRunwayStart_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>NarrowRunwayStartSection</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	  <GuiVisible>false</GuiVisible>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>NarrowRunwayMiddle</SubtypeId>
+      </Id>
+      <DisplayName>Narrow Runway Middle</DisplayName>
+      <Icon>Textures\Icons\RunwayStraight.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="4" y="0" z="6" />
+      <Model>Models\Cubes\NarrowRunwayMiddle.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="500" />
+        <Component Subtype="Girder" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\NarrowRunwayMiddle_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NarrowRunwayMiddleSection</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+	  <GuiVisible>false</GuiVisible>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStartAngled</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Start End </DisplayName>
+      <Icon>Textures\Icons\RunwayAngledEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Center x="21" y="0" z="0" />
+	<Size x="22" y="1" z="30" />
+	<ModelOffset x="0" y="0" z="0" />
+	<GuiVisible>false</GuiVisible>
+	<Model>Models\Cubes\RunwayStartAngled.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="1175" />
+        <Component Subtype="Girder" Count="3250" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="30" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="30" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="30" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngled_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSectionAngled</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddle</SubtypeId>
+      </Id>
+      <DisplayName>Runway Middle</DisplayName>
+      <Icon>Textures\Icons\RunwayStraight.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="10" y="0" z="19" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayMiddle.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="1100" />
+        <Component Subtype="Girder" Count="1000" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayMiddle_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSection</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddleAngled</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Middle</DisplayName>
+      <Icon>Textures\Icons\RunwayAngled.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="22" y="1" z="38" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="21" y="0" z="37" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayAngled.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="1390" />
+        <Component Subtype="Girder" Count="3500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="38" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="38" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="38" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="38" />
+      </MountPoints>
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayAngled_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSectionAngled</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>	
+	
+	<!-- Helipad square -->
+    <Definition>
+	 <Id>	
+        <TypeId>CubeBlock</TypeId>
+		<SubtypeId>Helipad_Runway</SubtypeId>
+	 </Id>
+	<DisplayName>Helipad</DisplayName>
+	<Icon>Textures\Icons\Helipad.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="11" y="1" z="11" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Helipad.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="750" />
+        <Component Subtype="Girder" Count="1500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Helipad_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="11" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="11" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.02" StartY="0.00" EndX="10.98" EndY="11" />
+		<MountPoint Side="Top" StartX="0.02" StartY="0.00" EndX="10.98" EndY="11" />
+	</MountPoints>
+	<BlockPairName>Helipad</BlockPairName>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+</Definition>
+	
+	
+<!-- Wide runways -->
+
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStartWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Start End Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="22" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="19" />
+      <Model>Models\Cubes\RunwayStartWide.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="2200" />
+        <Component Subtype="Girder" Count="2000" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartWide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSectionWide</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	   <BlockVariants>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>RunwayStartAngledWide</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddleWide</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddleAngledWide</SubtypeId>
+        </BlockVariant>
+	   </BlockVariants>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStartAngledWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Wide Start End</DisplayName>
+      <Icon>Textures\Icons\RunwayAngledEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Center x="0" y="0" z="1" />
+	<Size x="49" y="1" z="76" />
+	<ModelOffset x="0" y="0" z="0" />
+	<GuiVisible>false</GuiVisible>
+	<Model>Models\Cubes\RunwayStartAngledWide.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="2275" />
+        <Component Subtype="Girder" Count="3250" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="76" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="49" EndY="76" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="49" EndY="76" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngledWide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSectionAngledWide</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddleWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Middle Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayStraight.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="22" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="19" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayMiddleWide.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="2200" />
+        <Component Subtype="Girder" Count="2000" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayMiddleWide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSectionWide</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddleAngledWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Middle Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayAngled.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="22" y="1" z="76" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="11" y="0" z="37" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayAngledWide.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="2400" />
+        <Component Subtype="Girder" Count="6650" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="76" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="76" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="76" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="76" />
+      </MountPoints>
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayAngledWide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSectionAngledWide</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>		
+	
+	
+	
+ </CubeBlocks>
+<!-- End CubeBlocks -->
+
+<!-- Begin BlockPositions-->
+ <BlockPositions>
+     <BlockPosition>
+      <Name>RunwayStartSection</Name>
+      <Position>
+        <X>0</X>
+        <Y>21</Y>
+      </Position>
+    </BlockPosition>
+     <BlockPosition>
+      <Name>RunwayStartSectionWide</Name>
+      <Position>
+        <X>1</X>
+        <Y>21</Y>
+      </Position>
+    </BlockPosition>
+     <BlockPosition>
+      <Name>Helipad</Name>
+      <Position>
+        <X>2</X>
+        <Y>21</Y>
+      </Position>
+    </BlockPosition>
+ </BlockPositions>
+<!--End Block Positions-->
+  <EmissiveColorStatePresets>
+    <!--
+    Blocks use these states:
+      Working - block is functional
+      Disabled - block has no power or is not enabled
+      Damaged - block is not functional (damaged)
+      Warning - used by some blocks to when the block is not working correctly (for example used by vent when the room is not presurized)
+      Alternative - used by some blocks that it is working in different way than default one (for example used by vent when depressurizing)
+      Locked - Used by connector type blocks when they are locked with each other
+      Autolock - Used by landing gear
+      Constraint - Used by connector type block when they are close enough and are not locked
+    -->
+    
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>Shield</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Red" DisplayColorName="White" Emissivity="50" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="50" />
+        <EmissiveState StateName="Working" EmissiveColorName="Blue" DisplayColorName="White" Emissivity="50" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Orange" DisplayColorName="White" Emissivity="50" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+  </EmissiveColorStatePresets>
+  
+  <EmissiveColors>
+    
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Green</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Red</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Blue</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>0</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Yellow</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+  </EmissiveColors>
+</Definitions>

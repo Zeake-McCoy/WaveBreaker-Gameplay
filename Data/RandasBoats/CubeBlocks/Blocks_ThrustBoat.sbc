@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- bote! ok now give me the comedy award -->
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      
+        <Id>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>BoatProp4Blade</SubtypeId>
+        </Id>
+        <DisplayName>Large Ship Propeller (4 Blades) (200t Lift)</DisplayName>
+        <Description>You need to power that battleship somehow</Description>
+        <Icon>Textures\Icons\BoatPropNew2x2.png</Icon>
+        <CubeSize>Large</CubeSize>
+        <BlockTopology>TriangleMesh</BlockTopology>
+        <Size x="1" y="1" z="2"/>
+        <ModelOffset x="0" y="0" z="0"/>
+        <Model>Models\BoatPropNew2x2.mwm</Model>
+        <ThrusterType>Atmospheric</ThrusterType>
+        <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+        <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="110" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+        <MountPoints>
+          <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>  
+          <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+          <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+          <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+          <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+          <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+        </MountPoints>
+        <BlockPairName>BoatProp4Blade</BlockPairName>
+        <MirroringY>Z</MirroringY>
+        <MirroringZ>Y</MirroringZ>
+        <EdgeType>Light</EdgeType>
+        <BuildTimeSeconds>10</BuildTimeSeconds>
+        <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+        <ForceMagnitude>2016000</ForceMagnitude>
+        <MaxPowerConsumption>10</MaxPowerConsumption>
+        <MinPowerConsumption>0.000000001</MinPowerConsumption>
+        <SlowdownFactor>1</SlowdownFactor>
+
+	<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+        <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>3</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>3</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>1000</PropellerMaxVisibleDistance>
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+        <IsAirTight>false</IsAirTight>
+        <TieredUpdateTimes>
+          <unsignedInt>100</unsignedInt>
+          <unsignedInt>3600</unsignedInt>
+          <unsignedInt>0</unsignedInt>
+        </TieredUpdateTimes>
+      </Definition>
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      
+        <Id>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>BoatProp3Blade</SubtypeId>
+        </Id>
+        <DisplayName>Large Ship Propeller (3 Blades) (200t Lift)</DisplayName>
+        <Description>You need to power that battleship somehow</Description>
+        <Icon>Textures\Icons\BoatPropNew2x23Blade.png</Icon>
+        <CubeSize>Large</CubeSize>
+        <BlockTopology>TriangleMesh</BlockTopology>
+        <Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\BoatPropNew2x23Blade.mwm</Model>
+        <ThrusterType>Atmospheric</ThrusterType>
+        <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+        <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="110" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+        <MountPoints>
+          <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>  
+          <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+          <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+          <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+          <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+          <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+        </MountPoints>
+        <BlockPairName>BoatProp3Blade</BlockPairName>
+        <MirroringY>Z</MirroringY>
+        <MirroringZ>Y</MirroringZ>
+        <EdgeType>Light</EdgeType>
+        <BuildTimeSeconds>10</BuildTimeSeconds>
+        <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+        <ForceMagnitude>2016000</ForceMagnitude>
+        <MaxPowerConsumption>10</MaxPowerConsumption>
+        <MinPowerConsumption>0.000000001</MinPowerConsumption>
+        <SlowdownFactor>1</SlowdownFactor>
+
+	<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+        <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>3</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>3</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>1000</PropellerMaxVisibleDistance>
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+        <IsAirTight>false</IsAirTight>
+        <TieredUpdateTimes>
+          <unsignedInt>100</unsignedInt>
+          <unsignedInt>3600</unsignedInt>
+          <unsignedInt>0</unsignedInt>
+        </TieredUpdateTimes>
+      </Definition>
+   
+  </CubeBlocks>
+</Definitions>

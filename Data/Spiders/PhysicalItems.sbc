@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+            <Id>
+                <TypeId>ConsumableItem</TypeId>
+                <SubtypeId>Sub_Sandwich</SubtypeId>
+            </Id>
+            <DisplayName>Sandwich</DisplayName>
+            <Description>Sub Sandwich</Description>
+            <Icon>Textures\GUI\Icons\Items\Sub_Sandwich_Icon.png</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </Size>
+            <Mass>0.25</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Items\Sub_Sandwich.mwm</Model>
+            <PhysicalMaterial>Wood</PhysicalMaterial>
+            <Stats>
+                <Stat Name="Health" Value ="1" Time="5"/>
+                <Stat Name="BatteryCharge" Value ="1" Time="5"/>
+            </Stats>
+
+            <MinimalPricePerUnit>750</MinimalPricePerUnit>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+
+    </PhysicalItems>
+</Definitions>

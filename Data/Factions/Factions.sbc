@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Factions>
+        <Faction Tag="WB" Founder="WaveBreaker">
+            <Id>
+                <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+                <SubtypeId>WB_Faction</SubtypeId>
+            </Id>
+            <DisplayName>WaveBreaker</DisplayName>
+            <Description>Official WaveBreaker Admin Faction</Description>
+			<DefaultRelation>Neutral</DefaultRelation>
+            <AcceptHumans>false</AcceptHumans>
+            <AutoAcceptMember>false</AutoAcceptMember>
+            <IsDefault>true</IsDefault>
+            <StartingBalance>90000000000</StartingBalance>
+            <DiscoveredByDefault>true</DiscoveredByDefault>
+            <FactionIcon>Textures\Factions\WB.png</FactionIcon>
+        </Faction>
+    </Factions>
+
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="WB_Icon" />
+        <BackgroundColorRanges>
+            <Color x="1" y="0.02" z="0.2" />
+            <Color x="0" y="-0.77" z="-0.17" />
+            <Color x="0.12" y="-0.1" z="0.26" />            
+            <Color x="0" y="-0.96" z="-0.5" />
+            <Color x="0" y="-0.85" z="0.2" />
+            <Color x="0.33" y="-0.33" z="-0.05" />            
+
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>
+        <Icon>Textures\Factions\WB.png</Icon>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="UFP_Icon" />
+        <BackgroundColorRanges>
+            <Color x="1" y="0.02" z="0.2" />
+            <Color x="0" y="-0.77" z="-0.17" />
+            <Color x="0.12" y="-0.1" z="0.26" />            
+            <Color x="0" y="-0.96" z="-0.5" />
+            <Color x="0" y="-0.85" z="0.2" />
+            <Color x="0.33" y="-0.33" z="-0.05" />            
+
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>
+        <Icon>Textures\Factions\UFP.png</Icon>
+    </Definition>
+</Definitions>

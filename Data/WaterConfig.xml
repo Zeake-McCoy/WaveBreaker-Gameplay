@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<WaterConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockConfigs>
+
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatProp4Blade" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatProp3Blade" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatPropellor3x3HugeDualEven" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatPropellor3x3Huge" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatProp4BladeYellow" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatProp3BladeYellow" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	<BlockConfig TypeId="Thrust" SubtypeId="BoatProp3BladeYellowPower" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+	
+	<BlockConfig TypeId="ConveyorSorter" SubtypeId="BeamToolTurret" Volume="20" FunctionalUnderwater="false" FunctionalAboveWater="true" PlayDamageEffect="false" />
+
+  </BlockConfigs>
+  <PlanetConfigs>
+  </PlanetConfigs>
+  <CharacterConfigs>
+  </CharacterConfigs>
+</WaterConfig>

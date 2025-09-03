@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!--
+  Usage:
+  
+  All entity component definitions (not components used in assemblers in game) have base class MyComponentDefinitionBase.
+  
+  You can define default definition for all components of same type, if you ommit the SubtypeId:
+  
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_CraftingComponentBlock</TypeId>        
+      </Id>      
+    </EntityComponent>
+  </EntityComponents>
+  
+  You need to define type of the definition for deserializer - xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition"
+  
+  When container on init of the components will look for component definition, it will first look for the same SubtypeId,
+  when it's not found, it will look for the definition with empty SubtypeId, if it doesn't find either, it will not call 
+  Init(MyComponentDefinitionBase definition) on component. If definition is found, it will pass the definition and call that method.
+  
+  See EntityContainers.sbc for defining default components in containers.
+
+  To enable the MyModStorageComponent and allow mods to save custom data to entities, add a entry like the following
+  and list all the custom GUIDs the mod uses for the dictionary keys.
+
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>ModName</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>00000000-0000-0000-0000-000000000000</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+
+  -->
+    <EntityComponents>
+    <!--Small Grid Conatiners-->	
+
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>1x1x3CargoSG</SubtypeId>
+            </Id>
+            <Size x="0.75" y="1.5" z="0.75" />
+        </EntityComponent>
+
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>2x1x2CargoSG</SubtypeId>
+            </Id>
+            <Size x="1.25" y="0.5" z="1.25" />
+        </EntityComponent>
+		
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>2x1x2CargoSGInv</SubtypeId>
+            </Id>
+            <Size x="1.25" y="0.5" z="1.25" />
+        </EntityComponent>
+		
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>2x2x2CargoSG</SubtypeId>
+            </Id>
+            <Size x="1.5" y="1" z="1.5" />
+        </EntityComponent>	
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv1SG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv2SG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv3SG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>9x11x5CargoSG</SubtypeId>
+            </Id>
+            <Size x="5" y="7.5" z="6" />
+        </EntityComponent>		
+
+    <!--Large Grid Conatiners-->
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>HalfBlockCargo</SubtypeId>
+            </Id>
+            <Size x="3" y="1.25" z="3" />
+        </EntityComponent>
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>EDPAccessCargoTube</SubtypeId>
+            </Id>
+            <Size x="3" y="2.5" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv1LG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv2LG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>StorageShelfv3LG</SubtypeId>
+            </Id>
+            <Size x="3" y="0.625" z="3" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>3x3x1Cargo</SubtypeId>
+            </Id>
+            <Size x="6" y="3" z="6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>3x3x1OpenCargo</SubtypeId>
+            </Id>
+            <Size x="6" y="3" z="6" />
+        </EntityComponent>
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>3x3x1OpenCargoV2</SubtypeId>
+            </Id>
+            <Size x="6" y="3" z="6" />
+        </EntityComponent>
+	
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>3x5x3LargeContainer</SubtypeId>
+            </Id>
+            <Size x="6" y="10" z="6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>3x11x3LargeContainer</SubtypeId>
+            </Id>
+            <Size x="6" y="22" z="6" />
+        </EntityComponent>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>7x11x3LargeContainer</SubtypeId>
+            </Id>
+            <Size x="14" y="22" z="6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+            <Id>
+                <TypeId>ModStorageComponent</TypeId>
+                <SubtypeId>CustomData</SubtypeId>
+            </Id>
+            <RegisteredStorageGuids>
+                <guid>74DE02B3-27F9-4960-B1C4-27351F2B06D1</guid>
+            </RegisteredStorageGuids>
+        </EntityComponent>
+    </EntityComponents>
+
+</Definitions>

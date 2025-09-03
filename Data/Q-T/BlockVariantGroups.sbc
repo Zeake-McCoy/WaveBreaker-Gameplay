@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlockVariantGroups>
+		<!-- Characters -->
+
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Characters_1x1_Group" />
+			<Icon>Textures\GUI\Icons\Characters\Characters_A.dds</Icon>
+			<DisplayName>Characters 1x1 Group</DisplayName>
+			<Description>Characters 1x1 Group</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_1x1_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_1x1_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_1x1_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_1x1_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_1x1_Small" />
+			</Blocks>
+		</BlockVariantGroup>
+
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Characters_2x2_Group" />
+			<Icon>Textures\GUI\Icons\Characters\Characters_A.dds</Icon>
+			<DisplayName>Characters 2x2 Group</DisplayName>
+			<Description>Characters 2x2 Group</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_2x2_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_2x2_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_2x2_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_2x2_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_2x2_Small" />
+			</Blocks>
+		</BlockVariantGroup>
+
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Characters_3x3_Group" />
+			<Icon>Textures\GUI\Icons\Characters\Characters_A.dds</Icon>
+			<DisplayName>Characters 3x3 Group</DisplayName>
+			<Description>Characters 3x3 Group</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_A_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_B_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_C_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_D_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_E_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_F_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_G_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_H_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_I_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_J_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_K_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_L_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_M_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_N_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_O_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_P_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Q_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_R_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_S_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_T_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_U_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_V_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_W_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_X_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Y_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Z_3x3_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_0_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_1_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_2_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_3_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_4_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_5_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_6_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_7_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_8_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_9_3x3_Small" />
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Hyphen_3x3_Small" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_3x3_Large" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Characters_Period_3x3_Small" />
+			</Blocks>
+		</BlockVariantGroup>
+
+		<!-- Deflector -->
+
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Deflector_Group" />
+            <Icon>Textures\GUI\Icons\Deflector\Deflector_Blue.dds</Icon>
+            <DisplayName>Deflector</DisplayName>
+            <Description>Deflector</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="Deflector_MK1" />
+                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="Deflector_MK3" />
+                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="Deflector_MK5" />
+            </Blocks>
+        </BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>
