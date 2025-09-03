@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AQD_SG_Freight_I</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="1" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AQD_SG_Freight_II</SubtypeId>
+            </Id>
+            <Size x="2" y="1" z="1" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AQD_SG_Freight_III</SubtypeId>
+            </Id>
+            <Size x="3" y="1" z="1" />
+        </EntityComponent>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+		  <Id>
+			<TypeId>Inventory</TypeId>
+			<SubtypeId>ProgressionFramework_AQD_Upgradeable_Gyroscopes</SubtypeId>
+		  </Id>
+		  <Description>
+			[?xml version="1.0" encoding="utf-16"?]
+			[ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
+			  [ResearchGroup]
+				[Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_G1" /]
+				[BlockDefinitons]
+				  [OverwriteOthers]false[/OverwriteOthers]
+				  [Id Type="MyObjectBuilder_Gyro" SubtypeId="LargeBlockGyro" UseBlockVariantsGroup="false" /]
+				  [Id Type="UpgradeModule" SubtypeId="AQD_LG_GyroBooster" UseBlockVariantsGroup="false" /]
+				  [Id Type="UpgradeModule" SubtypeId="AQD_SG_GyroBooster" UseBlockVariantsGroup="false" /]
+				[/BlockDefinitons]
+			  [/ResearchGroup]
+			  [ResearchGroup]
+				[Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_G2" /]
+				[BlockDefinitons]
+				  [OverwriteOthers]false[/OverwriteOthers]
+				  [Id Type="Gyro" SubtypeId="AQD_LG_LargeGyro" UseBlockVariantsGroup="false" /]
+				  [Id Type="UpgradeModule" SubtypeId="AQD_LG_GyroUpgrade" UseBlockVariantsGroup="false" /]
+				[/BlockDefinitons]
+			  [/ResearchGroup]
+			[/ResearchGroups]
+		  </Description>
+		</EntityComponent>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+		  <Id>
+			<TypeId>Inventory</TypeId>
+			<SubtypeId>ProgressionFramework_AQD_Armor_Expansion</SubtypeId>
+		  </Id>
+		  <Description>
+			[?xml version="1.0" encoding="utf-16"?]
+			[ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
+			  [ResearchGroup]
+				[Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_ARM_A1" /]
+				[BlockDefinitons]
+				  [OverwriteOthers]false[/OverwriteOthers]
+				  [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_HA_Slope3x1" UseBlockVariantsGroup="true" /]
+				[/BlockDefinitons]
+			  [/ResearchGroup]
+			[/ResearchGroups]
+		  </Description>
+		</EntityComponent>
+    </EntityComponents>
+</Definitions>

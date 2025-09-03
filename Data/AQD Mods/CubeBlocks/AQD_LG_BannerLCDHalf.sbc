@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>AQD_LG_BannerLCDHalf</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
+      <Description>{LOC:Description_AQD_BannerLCD}</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\AQD_LG_BannerLCDHalf.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AQD_LG_BannerLCDHalf.mwm" />
+      </BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>AQD_SG_BannerLCDHalf</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
+      <Description>{LOC:Description_AQD_BannerLCD}</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Small\AQD_SG_BannerLCDHalf.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\AQD_SG_BannerLCDHalf.mwm" />
+      </BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
