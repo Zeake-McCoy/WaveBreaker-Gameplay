@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SS_WindowCenterd_Small" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SS_Half_Sloped_Window_Small" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SS_Half_Sloped_WindowInv_Small" />Ω
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/SS_WindowCenterd" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/SS_Half_Sloped_Window" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/SS_Half_Sloped_WindowInv" />
+	</BlueprintClassEntries>
+</Definitions>

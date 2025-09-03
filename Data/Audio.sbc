@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+	<Sound>
+		<Id>
+			<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			<SubtypeId>LaserMultitoolSoundLoop</SubtypeId>
+		</Id>
+	    <Category>SHOT</Category>
+	    <MaxDistance>150</MaxDistance>
+            <VolumeVariation>0.03</VolumeVariation>
+            <PitchVariation>10</PitchVariation>
+	    <Loopable>true</Loopable>
+	    <PreventSynchronization>1</PreventSynchronization>
+	    <Volume>2</Volume>
+	    <SoundLimit>10</SoundLimit>
+		<Waves>
+			<Wave Type="D3">
+				<Start>Audio\LaserStart.wav</Start>
+				<Loop>Audio\LaserLoop.wav</Loop>
+				<End>Audio\LaserEnd.wav</End>
+			</Wave>
+		</Waves>
+	</Sound>
+    </Sounds>
+</Definitions>

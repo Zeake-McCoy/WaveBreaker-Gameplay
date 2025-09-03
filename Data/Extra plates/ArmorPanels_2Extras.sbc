@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	// Extra Centered Blocks
+	LargeArmorHalfRaisedPanelLight
+	LargeArmorHalfRaisedPanelHeavy
+	LargeArmorHalfRaised2PanelLight
+	LargeArmorHalfRaised2PanelHeavy
+	SmallArmorHalfRaisedPanelLight
+	SmallArmorHalfRaisedPanelHeavy
+	SmallArmorHalfRaised2PanelLight
+	SmallArmorHalfRaised2PanelHeavy
+	LargeArmorHalfSlopedPanelLightMedian
+	LargeArmorHalfSlopedPanelHeavyMedian
+	SmallArmorHalfSlopedPanelLightMedian
+	SmallArmorHalfSlopedPanelHeavyMedian
+	LargeArmor2x1SlopedSideBasePanelLightC
+	LargeArmor2x1SlopedSideTipPanelLightC
+	LargeArmor2x1SlopedSideBasePanelLightInvC
+	LargeArmor2x1SlopedSideTipPanelLightInvC
+	SmallArmor2x1SlopedSideBasePanelLightC
+	SmallArmor2x1SlopedSideTipPanelLightC
+	SmallArmor2x1SlopedSideBasePanelLightInvC
+	SmallArmor2x1SlopedSideTipPanelLightInvC
+	LargeArmor2x1SlopedSideBasePanelHeavyC
+	LargeArmor2x1SlopedSideTipPanelHeavyC
+	LargeArmor2x1SlopedSideBasePanelHeavyInvC
+	LargeArmor2x1SlopedSideTipPanelHeavyInv
+	SmallArmor2x1SlopedSideBasePanelHeavyC
+	SmallArmor2x1SlopedSideTipPanelHeavyC
+	SmallArmor2x1SlopedSideBasePanelHeavyInvC
+	SmallArmor2x1SlopedSideTipPanelHeavyInvC
+	LargeArmor2x1HalfSlopedPanelLightCenter
+	LargeArmor2x1HalfSlopedTipPanelLightCenter
+	LargeArmor2x1HalfSlopedPanelHeavyCenter
+	LargeArmor2x1HalfSlopedTipPanelHeavyCenter
+	SmallArmor2x1HalfSlopedPanelLightCenter
+	SmallArmor2x1HalfSlopedTipPanelLightCenter
+	SmallArmor2x1HalfSlopedPanelHeavyCenter
+	SmallArmor2x1HalfSlopedTipPanelHeavyCenter
+	LargeArmorSlopedSidePanelLightCenter
+	LargeArmorSlopedSidePanelHeavyCenter
+	SmallArmorSlopedSidePanelLightCenter
+	SmallArmorSlopedSidePanelHeavyCenter
+	LargeLightArmorPanelHalfJointSideC
+	LargeHeavyArmorPanelHalfJointSideC
+	SmallLightArmorPanelHalfJointSideC
+	SmallHeavyArmorPanelHalfJointSideC
+	LargeLightArmorPanelSlopedSide2C
+	LargeHeavyArmorPanelSlopedSide2C
+	SmallLightArmorPanelSlopedSide2C
+	SmallHeavyArmorPanelSlopedSide2C
+	LargeLightArmorPanelHalfSlopeInvSideC
+	LargeHeavyArmorPanelHalfSlopeInvSideC
+	SmallLightArmorPanelHalfSlopeInvSideC
+	SmallHeavyArmorPanelHalfSlopeInvSideC
+	LargeLightArmorPanelHalfSlopeSideC
+	LargeHeavyArmorPanelHalfSlopeSideC
+	SmallLightArmorPanelHalfSlopeSideC
+	SmallHeavyArmorPanelHalfSlopeSideC
+	LargeLightArmorPanelIsoHalfTriangleC
+	LargeHeavyArmorPanelIsoHalfTriangleC
+	SmallLightArmorPanelIsoHalfTriangleC
+	SmallHeavyArmorPanelIsoHalfTriangleC
+	LargeLightArmorPanelIsoTriangleC
+	LargeHeavyArmorPanelIsoTriangleC
+	SmallLightArmorPanelIsoTriangleC
+	SmallHeavyArmorPanelIsoTriangleC
+	LargeLightArmorPanelQuarterSlopeInvC
+	LargeHeavyArmorPanelQuarterSlopeInvC
+	SmallLightArmorPanelQuarterSlopeInvC
+	SmallHeavyArmorPanelQuarterSlopeInvC
+	LargeLightArmorPanel2x1SlopedSideC
+	LargeHeavyArmorPanel2x1SlopedSideC
+	SmallLightArmorPanel2x1SlopedSideC
+	SmallHeavyArmorPanel2x1SlopedSideC
+	LargeLightArmorPanel2x1SlopedSideMirroredC
+	LargeHeavyArmorPanel2x1SlopedSideMirroredC
+	SmallLightArmorPanel2x1SlopedSideMirroredC
+	SmallHeavyArmorPanel2x1SlopedSideMirroredC
+	LargeArmorQuarterPanelLightCenter
+	LargeArmorQuarterPanelHeavyCenter
+	SmallArmorQuarterPanelLightCenter
+	SmallArmorQuarterPanelHeavyCenter
+	LargeArmorQuarterPanelLightCenter2
+	LargeArmorQuarterPanelHeavyCenter2
+	SmallArmorQuarterPanelLightCenter2
+	SmallArmorQuarterPanelHeavyCenter2
+	-->
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Half Panels Centered -->
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfRaisedPanelLight</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfPanelLight} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="0" y="0.625" z="0" />
+            <Model>Models\Cubes\Large\LightArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.9" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Right" StartX="0" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0" StartY="0.25" EndX="0.1" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaisedPanelLight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfRaisedPanelHeavy</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfPanelHeavy} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="0" y="0.625" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.9" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Right" StartX="0" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0" StartY="0.25" EndX="0.1" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaisedPanelHeavy</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfRaised2PanelLight</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0.625" z="0" />
+            <Model>Models\Cubes\Large\LightArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.5" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0.25" EndX="0.6" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaised2PanelLight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfRaised2PanelHeavy</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0.625" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.5" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0.25" EndX="0.6" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaised2PanelHeavy</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfRaisedPanelLight</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfPanelLight} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="0" y="0.125" z="0" />
+            <Model>Models\Cubes\Small\LightArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.9" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Right" StartX="0" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0" StartY="0.25" EndX="0.1" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaisedPanelLight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfRaisedPanelHeavy</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfPanelHeavy} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="0" y="0.125" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.9" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Right" StartX="0" StartY="0.25" EndX="1" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0" StartY="0.25" EndX="0.1" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaisedPanelHeavy</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfRaised2PanelLight</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0.125" z="0" />
+            <Model>Models\Cubes\Small\LightArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.5" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0.25" EndX="0.6" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaised2PanelLight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfRaised2PanelHeavy</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Raised</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0.125" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmorHalfPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.5" EndY="0.75" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0.25" EndX="0.6" EndY="0.75" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorHalfRaised2PanelHeavy</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Half Sloped Panels Centered -->
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfSlopedPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfSlopedPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmorHalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0" PropertiesMask="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmorHalfSlopedPanelMedian</BlockPairName>
+            <MirroringY>HalfX</MirroringY><MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorHalfSlopedPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfSlopedPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfSlopedPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmorHalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="6" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0" PropertiesMask="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmorHalfSlopedPanelMedian</BlockPairName>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfSlopedPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfSlopedPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmorHalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0" PropertiesMask="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmorHalfSlopedPanelMedian</BlockPairName>
+            <MirroringY>HalfX</MirroringY><MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorHalfSlopedPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorHalfSlopedPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfSlopedPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmorHalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0" PropertiesMask="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmorHalfSlopedPanelMedian</BlockPairName>
+            <MirroringY>HalfX</MirroringY><MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+		<!-- 2x1 Panels Centered -->
+
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideBasePanelLightC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelLight} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.4" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideBasePanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideBasePanelLightInvC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideTipPanelLightC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelLight} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideTipPanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideTipPanelLightInvC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideBasePanelLightInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1SlopeSideBasePanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideBasePanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideBasePanelLightC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideTipPanelLightInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideTipPanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideTipPanelLightC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideBasePanelLightC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelLight} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.4" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideBasePanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideBasePanelLightInvC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideTipPanelLightC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelLight} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideTipPanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideTipPanelLightInvC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideBasePanelLightInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1SlopeSideBasePanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideBasePanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideBasePanelLightC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideTipPanelLightInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv} Centered</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1SlopedSideTipPanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideTipPanelLightC</MirroringBlock>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideBasePanelHeavyC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy} Centered</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedSideBasePanel.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1SlopedSideBasePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="MetalGrid" Count="4" />
+                <Component Subtype="SteelPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.4" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavyInvC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideTipPanelHeavyC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy} Centered</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanel.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1SlopeSideTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavyInvC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideBasePanelHeavyInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv} Centered</DisplayName>
+            <Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideBasePanelInv.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1SlopeSideBasePanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="MetalGrid" Count="4" />
+                <Component Subtype="SteelPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavyC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1SlopedSideTipPanelHeavyInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv} Centered</DisplayName>
+            <Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanelInv.dds</Icon>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1SlopeSideTipPanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavyC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideBasePanelHeavyC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy} Centered</DisplayName>
+            <Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedSideBasePanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1SlopedSideBasePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.4" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavyInvC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideTipPanelHeavyC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy} Centered</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1SlopeSideTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavyInvC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideBasePanelHeavyInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv} Centered</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideBasePanelInv.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1SlopeSideBasePanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavyC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1SlopedSideTipPanelHeavyInvC</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv} Centered</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanelInv.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1SlopeSideTipPanelInv.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInvC</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY><MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavyC</MirroringBlock>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- 2x1 Half Sloped Panels Centered -->
+
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1HalfSlopedPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1HalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0" EndX="0.75" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1HalfSlopedPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1HalfSlopedTipPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedTipPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.5" EndX="0.75" EndY="0.6" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1HalfSlopedTipPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1HalfSlopedPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1HalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="6" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0" EndX="0.75" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1HalfSlopedPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmor2x1HalfSlopedTipPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmor2x1HalfSlopedTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="6" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.5" EndX="0.75" EndY="0.6" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1HalfSlopedPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1HalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1HalfSlopedPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1HalfSlopedTipPanelLightMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedTipPanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.5" EndX="0.75" EndY="0.6" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightArmor2x1HalfSlopedTipPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1HalfSlopedPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1HalfSlopedPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0" EndX="0.75" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1HalfSlopedPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmor2x1HalfSlopedTipPanelHeavyMedian</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmor2x1HalfSlopedTipPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.5" EndX="0.75" EndY="0.6" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelMedian</BlockPairName>
+            <MirroringZ>Y</MirroringZ><MirroringY>Z</MirroringY>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+         <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorSlopedSidePanelLightCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightArmorSlopedSidePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedSidePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorSlopedSidePanelLightCenter</BlockPairName>
+            <MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorSlopedSidePanelHeavyCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedSidePanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-1.25" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyArmorSlopedSidePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="MetalGrid" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedSidePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorSlopedSidePanelHeavyCenter</BlockPairName>
+            <MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+       <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorSlopedSidePanelLightCenter</SubtypeId></Id>
+            <DisplayName>DisplayName_Block_ArmorSlopedSidePanelLight</DisplayName><Description>Description_LightArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightArmorSlopedSidePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorSlopedSidePanelLightCenter</BlockPairName>
+            <MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorSlopedSidePanelHeavyCenter</SubtypeId></Id>
+            <DisplayName>DisplayName_Block_ArmorSlopedSidePanelHeavy</DisplayName><Description>Description_HeavyArmor</Description>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedSidePanel.dds</Icon>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" /><ModelOffset x="-0.25" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyArmorSlopedSidePanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="0.6" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.5" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorSlopedSidePanelHeavyCenter</BlockPairName>
+            <MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+
+
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelHalfJointSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Square Corner</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfJointSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelHalfJointSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfJointSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfJointSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelHalfJointSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Square Corner</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfJointSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelHalfJointSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="8"/>
+				<Component Subtype="MetalGrid" Count="4"/>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfJointSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfJointSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelHalfJointSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Square Corner</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfJointSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelHalfJointSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfJointSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfJointSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelHalfJointSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Square Corner</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfJointSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelHalfJointSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfJointSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfJointSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelHalfSlopeInvSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Inv Sloped Side</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfSlopeInvSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelHalfSlopeInvSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfSlopeInvSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfSlopeInvSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelHalfSlopeInvSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Inv Sloped Side</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfSlopeInvSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelHalfSlopeInvSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="8"/>
+				<Component Subtype="MetalGrid" Count="4"/>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfSlopeInvSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfSlopeInvSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelHalfSlopeInvSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Inv Sloped Side</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfSlopeInvSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelHalfSlopeInvSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfSlopeInvSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfSlopeInvSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelHalfSlopeInvSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Inv Side</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfSlopeInvSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelHalfSlopeInvSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfSlopeInvSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfSlopeInvSideC</BlockPairName>
+			<MirroringX>YHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelHalfSlopeSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Slope Side</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfSlopeSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelHalfSlopeSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfSlopeSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfSlopeSideC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelHalfSlopeSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Slope Side</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfSlopeSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelHalfSlopeSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelHalfSlopeSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfSlopeSideC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelHalfSlopeSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Slope Side</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelHalfSlopeSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelHalfSlopeSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfSlopeSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelHalfSlopeSideC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelHalfSlopeSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Slope Side</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelHalfSlopeSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelHalfSlopeSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelHalfSlopeSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelHalfSlopeSideC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelIsoHalfTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Triangle</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelIsoHalfTriangle.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelIsoHalfTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelIsoHalfTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelIsoHalfTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelIsoHalfTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Triangle</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelIsoHalfTriangle.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelIsoHalfTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="MetalGrid" Count="2"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelIsoHalfTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelIsoHalfTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelIsoHalfTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelLight} Triangle</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelIsoHalfTriangle.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelIsoHalfTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelIsoHalfTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelIsoHalfTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelIsoHalfTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorHalfCenterPanelHeavy} Triangle</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelIsoHalfTriangle.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelIsoHalfTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelIsoHalfTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelIsoHalfTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelIsoTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorCenterPanelLight} Triangle</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelIsoTriangle.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelIsoTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelIsoTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelIsoTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelIsoTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorCenterPanelHeavy} Triangle</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelIsoTriangle.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelIsoTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="MetalGrid" Count="3"/>
+				<Component Subtype="SteelPlate" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelIsoTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelIsoTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelIsoTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorCenterPanelLight} Triangle</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelIsoTriangle.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelIsoTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelIsoTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelIsoTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelIsoTriangleC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorCenterPanelHeavy} Triangle</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelIsoTriangle.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelIsoTriangle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.0" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelIsoTriangle_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelIsoTriangleC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringY>X</MirroringY>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelQuarterSlopeInvC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Centered Inv Slope</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelQuarterSlopeInv.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.625" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelQuarterSlopeInv.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.25" StartY="0.5" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelQuarterSlopeInv_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelQuarterSlopeInvC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>4</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelQuarterSlopeInvC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Centered Inv Slope</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelQuarterSlopeInv.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.625" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelQuarterSlopeInv.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="9"/>
+				<Component Subtype="MetalGrid" Count="4"/>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.25" StartY="0.5" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelQuarterSlopeInv_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelQuarterSlopeInvC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>8</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelQuarterSlopeInvC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Centered Inv Slope</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelQuarterSlopeInv.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.125" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelQuarterSlopeInv.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.25" StartY="0.5" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelQuarterSlopeInv_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelQuarterSlopeInvC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelQuarterSlopeInvC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Centered Inv Slope</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelQuarterSlopeInv.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.125" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelQuarterSlopeInv.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.0" EndX="0.75" EndY="0.5"/>
+				<MountPoint Side="Top" StartX="0.25" StartY="0.5" EndX="0.75" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelQuarterSlopeInv_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelQuarterSlopeInvC</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanelSlopedSide2C</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2 Centered</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelSlopedSide2.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeLightArmorPanelSlopedSide2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelSlopedSide2_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelSlopedSide2C</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanelSlopedSide2C</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2 Centered</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelSlopedSide2.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-1.25" y="0" z="0"/>
+			<Model>Models\Cubes\Large\LargeHeavyArmorPanelSlopedSide2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="MetalGrid" Count="3"/>
+				<Component Subtype="SteelPlate" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeLightArmorPanelSlopedSide2_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelSlopedSide2C</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>6</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanelSlopedSide2C</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2 Centered</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanelSlopedSide2.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallLightArmorPanelSlopedSide2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelSlopedSide2_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanelSlopedSide2C</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanelSlopedSide2C</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2 Centered</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanelSlopedSide2.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="-0.25" y="0" z="0"/>
+			<Model>Models\Cubes\Small\SmallHeavyArmorPanelSlopedSide2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.5" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SmallLightArmorPanelSlopedSide2_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanelSlopedSide2C</BlockPairName>
+			<MirroringX>ZMinusHalfX</MirroringX><MirroringY>XHalfX</MirroringY><MirroringZ>HalfX</MirroringZ>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanel2x1SlopedSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2x1 Centered</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanel2x1SlopedSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="1.25" y="0" z="0"/>
+			<Model>Models\Cubes\large\LargeLightArmorPanel2x1SlopedSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.00" EndX="0.6" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.00" EndX="0.6" EndY="0.50"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\LargeLightArmorPanel2x1SlopedSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanel2x1SlopedSideC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>LargeLightArmorPanel2x1SlopedSideMirroredC</MirroringBlock>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanel2x1SlopedSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2x1 Centered</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel2x1SlopedSide.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="1.25" y="0" z="0"/>
+			<Model>Models\Cubes\large\LargeHeavyArmorPanel2x1SlopedSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="MetalGrid" Count="3" />
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.00" EndX="0.6" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.00" EndX="0.6" EndY="0.50"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\LargeHeavyArmorPanel2x1SlopedSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanel2x1SlopedSideC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>LargeHeavyArmorPanel2x1SlopedSideMirrored</MirroringBlock>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanel2x1SlopedSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2x1 Centered</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanel2x1SlopedSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="0.25" y="0" z="0"/>
+			<Model>Models\Cubes\small\SmallLightArmorPanel2x1SlopedSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\small\SmallLightArmorPanel2x1SlopedSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanel2x1SlopedSideC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>SmallLightArmorPanel2x1SlopedSideMirroredC</MirroringBlock>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanel2x1SlopedSideC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2x1 Centered</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel2x1SlopedSide.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="0.25" y="0" z="0"/>
+			<Model>Models\Cubes\small\SmallHeavyArmorPanel2x1SlopedSide.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.0" EndX="0.6" EndY="0.5"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\small\SmallHeavyArmorPanel2x1SlopedSide_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanel2x1SlopedSideC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>SmallHeavyArmorPanel2x1SlopedSideMirrored</MirroringBlock>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeLightArmorPanel2x1SlopedSideMirroredC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2x1 Centered Mirrored</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanel2x1SlopedSideMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="1.25" y="0" z="0"/>
+			<Model>Models\Cubes\large\LargeLightArmorPanel2x1SlopedSideMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\LargeLightArmorPanel2x1SlopedSideMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanel2x1SlopedSideMirroredC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>LargeLightArmorPanel2x1SlopedSideC</MirroringBlock>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeHeavyArmorPanel2x1SlopedSideMirroredC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2x1 Centered Mirrored</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel2x1SlopedSideMirrored.dds</Icon>
+			<CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="1.25" y="0" z="0"/>
+			<Model>Models\Cubes\large\LargeHeavyArmorPanel2x1SlopedSideMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="MetalGrid" Count="3" />
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.50" EndX="0.6" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.50" EndX="0.6" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\LargeHeavyArmorPanel2x1SlopedSideMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanel2x1SlopedSideMirroredC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>LargeHeavyArmorPanel2x1SlopedSideC</MirroringBlock>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallLightArmorPanel2x1SlopedSideMirroredC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelLight} 2x1 Centered Mirrored</DisplayName><Description>Description_LightArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\LightArmorPanel2x1SlopedSideMirrored.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="0.25" y="0" z="0"/>
+			<Model>Models\Cubes\small\SmallLightArmorPanel2x1SlopedSideMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\small\SmallLightArmorPanel2x1SlopedSideMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>LightArmorPanel2x1SlopedSideMirroredC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>SmallLightArmorPanel2x1SlopedSideC</MirroringBlock>
+			<EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+ 		<Definition>
+			<Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallHeavyArmorPanel2x1SlopedSideMirroredC</SubtypeId></Id>
+			<DisplayName>{LOC:DisplayName_Block_ArmorSlopedSidePanelHeavy} 2x1 Centered Mirrored</DisplayName><Description>Description_HeavyArmor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel2x1SlopedSideMirrored.dds</Icon>
+			<CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1"/><ModelOffset x="0.25" y="0" z="0"/>
+			<Model>Models\Cubes\small\SmallHeavyArmorPanel2x1SlopedSideMirrored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="MetalGrid" Count="1"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.6" EndY="1.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\small\SmallHeavyArmorPanel2x1SlopedSideMirrored_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>HeavyArmorPanel2x1SlopedSideMirroredC</BlockPairName>
+			<MirroringX>Y</MirroringX><MirroringBlock>SmallHeavyArmorPanel2x1SlopedSide</MirroringBlock>
+			<EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+		</Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorQuarterPanelLightCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Center</DisplayName><Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelLightCenter</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorQuarterPanelHeavyCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Center</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon><Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeavyQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelHeavyCenter</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorQuarterPanelLightCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Center</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon><Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelLightCenter</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorQuarterPanelHeavyCenter</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Center</DisplayName><Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeavyQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.9" EndX="0.75" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelHeavyCenter</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorQuarterPanelLightCenter2</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Centered Center</DisplayName><Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
+            <Description>Description_LightArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="-0.625" />
+            <Model>Models\Cubes\Large\LightQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelLightCenter2</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>3</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>LargeArmorQuarterPanelHeavyCenter2</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Centered Center</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon><Description>Description_HeavyArmor</Description>
+            <CubeSize>Large</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.625" y="0" z="-0.625" />
+            <Model>Models\Cubes\Large\HeavyQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelHeavyCenter2</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>5</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorQuarterPanelLightCenter2</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelLight} Centered Center</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon><Description>Description_LightArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="-0.25" />
+            <Model>Models\Cubes\Small\LightQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelLightCenter2</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType><BuildTimeSeconds>1</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id><TypeId>CubeBlock</TypeId><SubtypeId>SmallArmorQuarterPanelHeavyCenter2</SubtypeId></Id>
+            <DisplayName>{LOC:DisplayName_Block_ArmorQuarterPanelHeavy} Centered Center</DisplayName><Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon>
+            <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize><BlockTopology>TriangleMesh</BlockTopology><Size x="1" y="1" z="1" /><ModelOffset x="-0.125" y="0" z="-0.25" />
+            <Model>Models\Cubes\Small\HeavyQuarterPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.25" StartY="0.4" EndX="0.75" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ArmorQuarterPanelHeavyCenter2</BlockPairName>
+            <MirroringY>Z</MirroringY><MirroringZ>Y</MirroringZ>
+            <EdgeType>Heavy</EdgeType><BuildTimeSeconds>2</BuildTimeSeconds><DisassembleRatio>2</DisassembleRatio><PCU>1</PCU><IsAirTight>false</IsAirTight>
+        </Definition>
+   </CubeBlocks>
+</Definitions>

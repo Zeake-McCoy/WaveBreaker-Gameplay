@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<!--Center window-->
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_WindowCenterd</SubtypeId>
+			</Id>
+			<DisplayName>Centered Window</DisplayName>
+			<Icon>Textures\GUI\Icons\center_window.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Centered_Window_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Centered_Window_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>None</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<BlockPairName>Centered_Window</BlockPairName>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<!--Half 2x1 slope-->
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_Half_Sloped_Window</SubtypeId>
+			</Id>
+			<DisplayName>Half 2x1 Sloped Window</DisplayName>
+			<Icon>Textures\GUI\Icons\half_slope_window.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Half_Slope_Window_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Half_Slope_Window_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringX>Z</MirroringX>
+			<MirroringY>None</MirroringY>
+			<MirroringZ>X</MirroringZ>
+			<BlockPairName>Half_Slope_Window</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_Half_Sloped_WindowInv</SubtypeId>
+			</Id>
+			<DisplayName>Half 2x1 Sloped Window inset</DisplayName>
+			<Icon>Textures\GUI\Icons\half_slope_window_Inset.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Half_Slope_Window_Inv_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Half_Slope_Window_Inv_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringX>Z</MirroringX>
+			<MirroringY>None</MirroringY>
+			<MirroringZ>X</MirroringZ>
+			<BlockPairName>Half_Slope_Window_Inv</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<!--wird slope block-->
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_wierd_slope</SubtypeId>
+			</Id>
+			<DisplayName>Angled Sloped Window</DisplayName>
+			<Icon>Textures\GUI\Icons\wierd_slope_window.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Angled_Slope_Window_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Angled_Slope_Window_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringBlock>SS_wierd_slope_inv</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockPairName>Angled_Slope_Window</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_wierd_slope_inset</SubtypeId>
+			</Id>
+			<DisplayName>Angled Sloped Window Inset</DisplayName>
+			<Icon>Textures\GUI\Icons\wierd_slope_window_Inset.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Angled_Slope_Window_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Left" StartX="1.00" StartY="0.00" EndX="1.50" EndY="1.00" />
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="1.50" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Angled_Slope_Window_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringBlock>SS_wierd_slope_inset_inv</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockPairName>Angled_Slope_Window_Inset</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_wierd_slope_inv</SubtypeId>
+			</Id>
+			<DisplayName>Angled Sloped Window Inv</DisplayName>
+			<Icon>Textures\GUI\Icons\wierd_slope_window_Inv.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Angled_Slope_Window_Inv_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Angled_Slope_Window_Inv_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringBlock>SS_wierd_slope</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockPairName>Angled_Slope_Window_Inv</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SS_wierd_slope_inset_inv</SubtypeId>
+			</Id>
+			<DisplayName>Angled Sloped Window Inset Inv</DisplayName>
+			<Icon>Textures\GUI\Icons\wierd_slope_window_Inv_Inset.png</Icon>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="0" />
+			<Model>Models\Windows\Large\Angled_Slope_Window_Inv_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Windows\Large\Angled_Slope_Window_Inv_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<MirroringBlock>SS_wierd_slope_inset</MirroringBlock>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BlockPairName>Angled_Slope_Window_Inv_Inset</BlockPairName>
+			<PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,44 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Missing Windows and Armor</DisplayName>
+      <Name>Missing Windows and Armor</Name>
+      <ItemIds>
+		<string>CubeBlock/SS_LA_negative_Half_Slope_Small</string>
+		<string>CubeBlock/SS_LA_Tiny_Corner_Small</string>
+		<string>CubeBlock/SS_LA_half_slope_top_Small</string>
+		<string>CubeBlock/SS_LA_half_slope_Small</string>
+		<string>CubeBlock/SS_LA_slope_tip_Corner_Small</string>
+		<string>CubeBlock/SS_LA_Slope_Straight_Corner_Small</string>
+		<string>CubeBlock/SS_WindowCenterd_Small</string>
+		<string>CubeBlock/SS_Half_Sloped_Window_Small</string>
+		<string>CubeBlock/SS_Half_Sloped_WindowInv_Small</string>
+		<string>CubeBlock/SS_wierd_slope_Small</string>
+		<string>CubeBlock/SS_wierd_slope_inset_Small</string>
+		<string>CubeBlock/SS_wierd_slope_inv_Small</string>
+		<string>CubeBlock/SS_wierd_slope_inset_inv_Small</string>
+
+		<string>CubeBlock/SS_LA_negative_Half_Slope_Large</string>
+		<string>CubeBlock/SS_LA_Tiny_Corner_Large</string>
+		<string>CubeBlock/SS_LA_half_slope_top_Large</string>
+		<string>CubeBlock/SS_LA_half_slope_Large</string>
+		<string>CubeBlock/SS_LA_slope_tip_Corner_Large</string>
+		<string>CubeBlock/SS_LA_Slope_Straight_Corner_Large</string>
+		<string>CubeBlock/SS_wierd_slope_inset_inv_Small</string>
+
+		<string>CubeBlock/SS_WindowCenterd</string>
+		<string>CubeBlock/SS_Half_Sloped_Window</string>
+		<string>CubeBlock/SS_Half_Sloped_WindowInv</string>
+		<string>CubeBlock/SS_wierd_slope</string>
+		<string>CubeBlock/SS_wierd_slope_inset</string>
+		<string>CubeBlock/SS_wierd_slope_inv</string>
+		<string>CubeBlock/SS_wierd_slope_inset_inv</string>
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+</Definitions>
