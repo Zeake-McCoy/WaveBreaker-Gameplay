@@ -6,7 +6,7 @@
             <SubtypeId>Default</SubtypeId>
         </Id>
 
-        <EnvironmentTexture>Textures\BackgroundCube\Final\BackgroundCube.dds</EnvironmentTexture>
+        <EnvironmentTexture>BackgroundCube.dds</EnvironmentTexture>
         <EnvironmentOrientation Yaw="60.3955536" Pitch="-61.1861954" Roll="90.90578" />
 
         <Id>
