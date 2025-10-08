@@ -4,8 +4,8 @@
         <Id Type="MyObjectBuilder_BankingSystemDefinition" Subtype="BankingSystem" />
 
         <Icon>Textures\GUI\Icons\SpaceCredits.dds</Icon>
-        <CurrencyFullName>Reales</CurrencyFullName>
-        <CurrencyShortName>R</CurrencyShortName>
+        <CurrencyFullName>Mark</CurrencyFullName>
+        <CurrencyShortName>MK</CurrencyShortName>
         <StartingBalance>100000</StartingBalance>
         <AccountLogLen>25</AccountLogLen>
 

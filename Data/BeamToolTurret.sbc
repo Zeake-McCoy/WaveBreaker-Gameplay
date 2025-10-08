@@ -30,18 +30,19 @@
 			<CriticalComponent Subtype="Motor" Index="0" />
 
 			<ToolValues Type="Weld">
-				<EffectShape>Line</EffectShape>
-				<WorkOrder>Backward</WorkOrder>
+				<EffectShape>Cylinder</EffectShape>
+				<WorkOrder>Uniform</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-0.1" />
+				<Offset x="0" y="0" z="-175" />
 				<HalfExtent x="5" y="8" z="5" />
-				<Radius>20</Radius>
+				<Radius>3</Radius>
 				<Length>350</Length>
-				<Speed>2.5</Speed>
-				<WorkRate>2</WorkRate>
+				<Speed>3</Speed>
+				<WorkRate>10</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
+				<PickUpFloatings>true</PickUpFloatings>
 				<Action Type="Primary" SizeRatio="1" SpeedRatio="1" HarvestRatio="1" />
 				<Turret>
 					<TargetRadius>350</TargetRadius>
@@ -105,18 +106,19 @@
 			</ToolValues>
 
 			<ToolValues Type="Grind">
-				<EffectShape>Line</EffectShape>
-				<WorkOrder>Forward</WorkOrder>
+				<EffectShape>Cylinder</EffectShape>
+				<WorkOrder>Uniform</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-0.1" />
+				<Offset x="0" y="0" z="-175" />
 				<HalfExtent x="5" y="8" z="5" />
-				<Radius>20</Radius>
-				<Length>300</Length>
-				<Speed>2.5</Speed>
-				<WorkRate>2</WorkRate>
+				<Radius>3</Radius>
+				<Length>350</Length>
+				<Speed>3</Speed>
+				<WorkRate>10</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
+				<PickUpFloatings>true</PickUpFloatings>
 				<Action Type="Primary" SizeRatio="1" SpeedRatio="1" HarvestRatio="1" />
 				<Turret>
 					<TargetRadius>350</TargetRadius>
