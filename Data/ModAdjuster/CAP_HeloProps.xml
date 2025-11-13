@@ -6,11 +6,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_2Blade</SubtypeId>
 			</Id>
-			<DisplayName>2 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>2-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>2 Bladed Helicopter Rotor
 			Max Thrust: 20t
 			Max Power: 600W</Description>
-			<ForceMagnitude>98400</ForceMagnitude>
+			<ForceMagnitude>196800</ForceMagnitude>
 			<MaxPowerConsumption>0.600</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>
@@ -20,11 +20,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_3Blade</SubtypeId>
 			</Id>
-			<DisplayName>3 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>3-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>3 Bladed Helicopter Rotor
 			Max Thrust: 25t
 			Max Power: 700W</Description>
-			<ForceMagnitude>123000</ForceMagnitude>
+			<ForceMagnitude>246000</ForceMagnitude>
 			<MaxPowerConsumption>0.700</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>
@@ -34,11 +34,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_4Blade</SubtypeId>
 			</Id>
-			<DisplayName>4 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>4-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>4 Bladed Helicopter Rotor
 			Max Thrust: 40t
 			Max Power: 1.0KW</Description>
-			<ForceMagnitude>177120</ForceMagnitude>
+			<ForceMagnitude>393600</ForceMagnitude>
 			<MaxPowerConsumption>1.0</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>
@@ -48,11 +48,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_5Blade</SubtypeId>
 			</Id>
-			<DisplayName>5 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>5-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>5 Bladed Helicopter Rotor
 			Max Thrust: 50t
 			Max Power: 1.4KW</Description>
-			<ForceMagnitude>246000</ForceMagnitude>
+			<ForceMagnitude>492000</ForceMagnitude>
 			<MaxPowerConsumption>1.4</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>
@@ -62,11 +62,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_6Blade</SubtypeId>
 			</Id>
-			<DisplayName>6 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>6-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>6 Bladed Helicopter Rotor
 			Max Thrust: 60t
 			Max Power: 1.6KW</Description>
-			<ForceMagnitude>295200</ForceMagnitude>
+			<ForceMagnitude>590400</ForceMagnitude>
 			<MaxPowerConsumption>1.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>
@@ -76,11 +76,11 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>CAP_HeloProp_6BladeSmall</SubtypeId>
 			</Id>
-			<DisplayName>6 Bladed Helicopter Rotor (CAP)</DisplayName>
+			<DisplayName>6-Blade Helicopter Rotor (CAP)</DisplayName>
 			<Description>6 Bladed Helicopter Rotor
 			Max Thrust: 20t
 			Max Power: 600W</Description>
-			<ForceMagnitude>98400</ForceMagnitude>
+			<ForceMagnitude>196800</ForceMagnitude>
 			<MaxPowerConsumption>0.600</MaxPowerConsumption>
 			<MinPowerConsumption>0.000002</MinPowerConsumption>
 		</Definition>

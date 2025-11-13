@@ -1,360 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CubeBlocks>
+	<CubeBlocks>
 
- 
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>2BladeHeli</SubtypeId>
+			</Id>
+			<DisplayName>2-Blade Helicopter Propeller (Randa)</DisplayName>
+			<Description>2 Bladed Propeller
+			Max Thrust: 30t
+			Max Power: 800W</Description>
+			<ForceMagnitude>324000</ForceMagnitude>
+			<MaxPowerConsumption>0.800</MaxPowerConsumption>
+			<MinPowerConsumption>0.000008</MinPowerConsumption>
+		</Definition>
 
-	 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
-      <Id>
-        <TypeId>Thrust</TypeId>
-        <SubtypeId>2BladeHeli</SubtypeId>
-      </Id>
-      <DisplayName>Helicopter Propeller (2 blades) (16t)</DisplayName>
-      <Icon>Textures\Icons\2BladeHeli.png</Icon>
-      <Description>Thwip Thwip Thwip Thwip Thwip Thwip</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\2BladeHeli.mwm</Model>
-      <ThrusterType>Atmospheric</ThrusterType>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-     <GeneralDamageMultiplier>2</GeneralDamageMultiplier>
-      <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="13" />
-        <Component Subtype="Motor" Count="20" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
-      </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>4BladeHeli</SubtypeId>
+			</Id>
+			<DisplayName>4-Blade Helicopter Propeller (Randa)</DisplayName>
+			<Description>3 Bladed Propeller
+			Max Thrust: 30t
+			Max Power: 800W</Description>
+			<ForceMagnitude>324000</ForceMagnitude>
+			<MaxPowerConsumption>0.800</MaxPowerConsumption>
+			<MinPowerConsumption>0.000008</MinPowerConsumption>
+		</Definition>
 
-      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>172800</ForceMagnitude>
-      <MaxPowerConsumption>0.14</MaxPowerConsumption>
-      <MinPowerConsumption>0.000008</MinPowerConsumption>
-      <SlowdownFactor>1</SlowdownFactor>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>2BladeHeliSmall</SubtypeId>
+			</Id>
+			<DisplayName>2-Blade Small Helicopter Propeller (Randa)</DisplayName>
+			<Description>2 Bladed Propeller
+			Max Thrust: 20t
+			Max Power: 600W</Description>
+			<ForceMagnitude>196800</ForceMagnitude>
+			<MaxPowerConsumption>0.600</MaxPowerConsumption>
+			<MinPowerConsumption>0.000008</MinPowerConsumption>
+		</Definition>
 
-      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
-      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
-	  <PrimarySound>HeliSound</PrimarySound>
-
-      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
-      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
-      <PropellerRoundsPerSecondOnFullSpeed>5.4</PropellerRoundsPerSecondOnFullSpeed>
-      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
-      <PropellerAccelerationTime>12</PropellerAccelerationTime>
-      <PropellerDecelerationTime>3</PropellerDecelerationTime>
-      <PropellerMaxVisibleDistance>2000</PropellerMaxVisibleDistance>
-
-    
-
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-	 <TieredUpdateTimes>
-          <unsignedInt>100</unsignedInt>
-          <unsignedInt>3600</unsignedInt>
-          <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
-    </Definition>
-
-
-
-
-
-
-
-	 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
-      <Id>
-        <TypeId>Thrust</TypeId>
-        <SubtypeId>4BladeHeli</SubtypeId>
-      </Id>
-      <DisplayName>Helicopter Propeller (4 blades) (16t)</DisplayName>
-      <Icon>Textures\Icons\4BladeHeli.png</Icon>
-      <Description>Thwip Thwip Thwip Thwip Thwip Thwip</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\4BladeHeli.mwm</Model>
-      <ThrusterType>Atmospheric</ThrusterType>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-     <GeneralDamageMultiplier>2</GeneralDamageMultiplier>
-     <Components>
-       <Component Subtype="SteelPlate" Count="10" />
-       <Component Subtype="Construction" Count="13" />
-       <Component Subtype="Motor" Count="20" />
-       <Component Subtype="Construction" Count="2" />
-       <Component Subtype="SteelPlate" Count="5" />
-     </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-
-      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>172800</ForceMagnitude>
-      <MaxPowerConsumption>0.14</MaxPowerConsumption>
-      <MinPowerConsumption>0.000008</MinPowerConsumption>
-      <SlowdownFactor>1</SlowdownFactor>
-
-      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
-      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
-	  <PrimarySound>HeliSound</PrimarySound>
-
-      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
-      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
-      <PropellerRoundsPerSecondOnFullSpeed>5.4</PropellerRoundsPerSecondOnFullSpeed>
-      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
-      <PropellerAccelerationTime>12</PropellerAccelerationTime>
-      <PropellerDecelerationTime>3</PropellerDecelerationTime>
-      <PropellerMaxVisibleDistance>2000</PropellerMaxVisibleDistance>
-
-    
-
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-	 <TieredUpdateTimes>
-          <unsignedInt>100</unsignedInt>
-          <unsignedInt>3600</unsignedInt>
-          <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
-    </Definition>
-
-
-
-
-
-
-
-
-
-
-
-
-
-	 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
-      <Id>
-        <TypeId>Thrust</TypeId>
-        <SubtypeId>2BladeHeliSmall</SubtypeId>
-      </Id>
-      <DisplayName>Small Helicopter Propeller (2 blades) (9t)</DisplayName>
-      <Icon>Textures\Icons\2BladeHeliSmall.png</Icon>
-      <Description>Thwip Thwip Thwip Thwip Thwip Thwip</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\2BladeHeliSmall.mwm</Model>
-      <ThrusterType>Atmospheric</ThrusterType>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-     <GeneralDamageMultiplier>2</GeneralDamageMultiplier>
-     <Components>
-       <Component Subtype="SteelPlate" Count="10" />
-       <Component Subtype="Construction" Count="13" />
-       <Component Subtype="Motor" Count="10" />
-       <Component Subtype="Construction" Count="2" />
-       <Component Subtype="SteelPlate" Count="5" />
-     </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-
-     <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\2BladeHeliSmall_BS1.mwm"/>
-      </BuildProgressModels>
-     
-      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>97200</ForceMagnitude>
-      <MaxPowerConsumption>0.1</MaxPowerConsumption>
-      <MinPowerConsumption>0.000008</MinPowerConsumption>
-      <SlowdownFactor>1</SlowdownFactor>
-
-      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
-      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
-	  <PrimarySound>HeliSmallSound</PrimarySound>
-
-      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
-      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
-      <PropellerRoundsPerSecondOnFullSpeed>5.4</PropellerRoundsPerSecondOnFullSpeed>
-      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
-      <PropellerAccelerationTime>12</PropellerAccelerationTime>
-      <PropellerDecelerationTime>3</PropellerDecelerationTime>
-      <PropellerMaxVisibleDistance>2000</PropellerMaxVisibleDistance>
-
-    
-
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-	 <TieredUpdateTimes>
-          <unsignedInt>100</unsignedInt>
-          <unsignedInt>3600</unsignedInt>
-          <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
-    </Definition>
-
-
-
-
-
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
-      <Id>
-        <TypeId>Thrust</TypeId>
-        <SubtypeId>6BladeHeli</SubtypeId>
-      </Id>
-      <DisplayName>Helicopter Propeller (6 blades) (33t)</DisplayName>
-      <Icon>Textures\Icons\6BladeHeli.png</Icon>
-      <Description>Thwip Thwip Thwip Thwip Thwip Thwip</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\6BladeHeli.mwm</Model>
-      <ThrusterType>Atmospheric</ThrusterType>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <GeneralDamageMultiplier>2</GeneralDamageMultiplier>
-      <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="13" />
-        <Component Subtype="Motor" Count="30" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
-      </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-
-      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>356400</ForceMagnitude>
-      <MaxPowerConsumption>0.25</MaxPowerConsumption>
-      <MinPowerConsumption>0.000008</MinPowerConsumption>
-      <SlowdownFactor>1</SlowdownFactor>
-
-      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
-      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
-      <PrimarySound>HeliLargeSound</PrimarySound>
-
-      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
-      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
-      <PropellerRoundsPerSecondOnFullSpeed>2.5</PropellerRoundsPerSecondOnFullSpeed>
-      <PropellerRoundsPerSecondOnIdleSpeed>0</PropellerRoundsPerSecondOnIdleSpeed>
-      <PropellerAccelerationTime>12</PropellerAccelerationTime>
-      <PropellerDecelerationTime>3</PropellerDecelerationTime>
-      <PropellerMaxVisibleDistance>2000</PropellerMaxVisibleDistance>
-
-
-
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-      <TieredUpdateTimes>
-        <unsignedInt>100</unsignedInt>
-        <unsignedInt>3600</unsignedInt>
-        <unsignedInt>0</unsignedInt>
-      </TieredUpdateTimes>
-    </Definition>
-
-
-
-
-
-
-
-  </CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>6BladeHeli</SubtypeId>
+			</Id>
+			<DisplayName>6-Blade Helicopter Propeller (Randa)</DisplayName>
+			<Description>6 Bladed Propeller
+			Max Thrust: 60t
+			Max Power: 1.6KW</Description>
+			<ForceMagnitude>590400</ForceMagnitude>
+			<MaxPowerConsumption>1.6</MaxPowerConsumption>
+			<MinPowerConsumption>0.000008</MinPowerConsumption>
+		</Definition>
+	</CubeBlocks>
 </Definitions>
