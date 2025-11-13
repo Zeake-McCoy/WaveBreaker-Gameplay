@@ -1,0 +1,377 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAP_Propeller_2Blade</SubtypeId>
+			</Id>
+			<DisplayName>Propeller 2 Blade</DisplayName>
+			<Description>2 Bladed Propeller (Thruster)
+			Max Thrust: 2.5t</Description>
+			<Icon>Textures\CAP_Propeller_2Blade.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\CAP_Propeller_2Blade.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="2" />
+				<Component Subtype="Motor" Count="2" />
+				<Component Subtype="InteriorPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\CAP_Propeller_2Blade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_Propeller_2Blade_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAP_Propeller_2Blade</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>24600</ForceMagnitude>
+			<MaxPowerConsumption>0.075</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>CAPJetThrustPoint</FlamePointMaterial>
+			<FlameLengthMaterial>CAPJetThrust</FlameLengthMaterial>
+			<FlameFlare>LargeGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>5</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.1</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>5</PropellerAccelerationTime>
+			<PropellerDecelerationTime>0.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>3000</PropellerMaxVisibleDistance>
+			<PrimarySound>CAP_PropellerSmall</PrimarySound>
+			<DamageEffectName>CAP_Damaged_Fire</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAP_Propeller_3Blade</SubtypeId>
+			</Id>
+			<DisplayName>Propeller 3 Blade</DisplayName>
+			<Description>3 Bladed Propeller (Thruster)
+			Max Thrust: 5t</Description>
+			<Icon>Textures\CAP_Propeller_3Blade.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\CAP_Propeller_3Blade.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="3" />
+				<Component Subtype="Motor" Count="3" />
+				<Component Subtype="InteriorPlate" Count="6" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\CAP_Propeller_3Blade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_Propeller_3Blade_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAP_Propeller_3Blade</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>49200</ForceMagnitude>
+			<MaxPowerConsumption>0.140</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>CAPJetThrustPoint</FlamePointMaterial>
+			<FlameLengthMaterial>CAPJetThrust</FlameLengthMaterial>
+			<FlameFlare>LargeGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller_2</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>5</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.1</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>5</PropellerAccelerationTime>
+			<PropellerDecelerationTime>0.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>3000</PropellerMaxVisibleDistance>
+			<PrimarySound>CAP_PropellerMedium</PrimarySound>
+			<DamageEffectName>CAP_Damaged_Fire</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAP_Propeller_4Blade</SubtypeId>
+			</Id>
+			<DisplayName>Propeller 4 Blade</DisplayName>
+			<Description>4 Bladed Propeller (Thruster)
+			Max Thrust: 7.5t</Description>
+			<Icon>Textures\CAP_Propeller_4Blade.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\CAP_Propeller_4Blade.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="4" />
+				<Component Subtype="Motor" Count="4" />
+				<Component Subtype="InteriorPlate" Count="8" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\CAP_Propeller_4Blade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_Propeller_4Blade_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAP_Propeller_4Blade</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			
+			
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>73800</ForceMagnitude>
+			<MaxPowerConsumption>0.210</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>CAPJetThrustPoint</FlamePointMaterial>
+			<FlameLengthMaterial>CAPJetThrust</FlameLengthMaterial>
+			<FlameFlare>LargeGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller_3</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>6</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.1</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>5</PropellerAccelerationTime>
+			<PropellerDecelerationTime>0.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>3000</PropellerMaxVisibleDistance>
+			<PrimarySound>CAP_PropellerLarge</PrimarySound>
+			<DamageEffectName>CAP_Damaged_Fire</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAP_Propeller_5Blade</SubtypeId>
+			</Id>
+			<DisplayName>Propeller 5 Blade</DisplayName>
+			<Description>5 Bladed Propeller (Thruster)
+			Max Thrust: 10t</Description>
+			<Icon>Textures\CAP_Propeller_5Blade.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\CAP_Propeller_5Blade.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="InteriorPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\CAP_Propeller_5Blade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_Propeller_5Blade_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAP_Propeller_5Blade</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			
+			
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>98400</ForceMagnitude>
+			<MaxPowerConsumption>0.250</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>CAPJetThrustPoint</FlamePointMaterial>
+			<FlameLengthMaterial>CAPJetThrust</FlameLengthMaterial>
+			<FlameFlare>LargeGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller_4</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>4</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.1</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>5</PropellerAccelerationTime>
+			<PropellerDecelerationTime>0.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>3000</PropellerMaxVisibleDistance>
+			<PrimarySound>CAP_PropellerXLarge</PrimarySound>
+			<DamageEffectName>CAP_Damaged_Fire</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
