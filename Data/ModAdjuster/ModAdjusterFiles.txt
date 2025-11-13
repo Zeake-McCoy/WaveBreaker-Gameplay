@@ -2,3 +2,12 @@ ZEROASP_AmmoMagazines.xml
 Wheels.xml
 BankingSystem.xml
 CubeBlocks_Sorters.xml
+CAP_Propeller_Half.xml
+CAP_Propellers.xml
+CAP_HeavyProp_3_Blade.xml
+CAP_HeavyProp_4_Blade.xml
+CAP_HeloProps.xml
+Blocks_HeliThrust.xml
+Blocks_DuctedFanandProps.xml
+Blocks_PropsHalf.xml
+Blocks_PropsDouble.xml
