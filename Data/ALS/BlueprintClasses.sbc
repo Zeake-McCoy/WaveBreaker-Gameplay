@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries>
+	   <Entry Class="Components" BlueprintSubtypeId="RHS_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="RHSL_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="RHSH_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="Ceramic_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="Letterprint_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="AluminumAlloy_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="AluminumAlloyLight_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="DepletedUranium_Plate" />
+	   <Entry Class="Components" BlueprintSubtypeId="ERA_Part" />
+	   <Entry Class="Components" BlueprintSubtypeId="Plant_Raw_Materials" />
+	   <Entry Class="Components" BlueprintSubtypeId="ConcreteBuildingMaterials" />
+	   <Entry Class="Components" BlueprintSubtypeId="BrickMaterials" />
+	   
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="RHS_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="Ceramic_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="Letterprint_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="AluminumAlloy_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="AluminumAlloyLight_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="DepletedUranium_Plate" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="ERA_Part" />
+	   <Entry Class="SimpleComponents" BlueprintSubtypeId="Plant_Raw_Materials" />
+
+   </BlueprintClassEntries>
+</Definitions>

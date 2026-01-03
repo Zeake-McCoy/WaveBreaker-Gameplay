@@ -1,0 +1,4757 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_FallSafetyNet</SubtypeId>
+            </Id>
+            <DisplayName>Fall Safety Net</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\FallSafetyNet.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\FallSafetyNet.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.01" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\FallSafetyNet.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_FallSafetyNet</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_DiskAntenna</SubtypeId>
+            </Id>
+            <DisplayName>Disk Antenna Decorate</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DiskAntenna.dds</Icon>
+            <Description>
+				Decorate Disk Antenna
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_DiskAntenna.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DiskAntenna.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_DiskAntenna</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CockpitDecorate</SubtypeId>
+		  </Id>
+		  <DisplayName>CockpitDecorate</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CockpitDecorate.dds</Icon>
+		  <Description>
+			  
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_CockpitDecorate.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_CockpitDecorate.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CockpitDecorate</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Marking</SubtypeId>
+            </Id>
+            <DisplayName>Marking</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Marking.dds</Icon>
+            <Description>
+				Marking
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Marking.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Marking.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Marking</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Marking_offset</SubtypeId>
+            </Id>
+            <DisplayName>Marking offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Marking_offset.dds</Icon>
+            <Description>
+				Marking
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Marking_offset.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Marking_offset.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Marking_offset</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_MarkingCorner</SubtypeId>
+            </Id>
+            <DisplayName>Marking T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MarkingCorner.dds</Icon>
+            <Description>
+				Marking
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_MarkingCorner.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_MarkingCorner.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_MarkingCorner</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_MarkingT</SubtypeId>
+            </Id>
+            <DisplayName>Marking T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MarkingT.dds</Icon>
+            <Description>
+				Marking
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_MarkingT.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_MarkingT.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_MarkingT</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Marking_14</SubtypeId>
+            </Id>
+            <DisplayName>Marking 1/4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Marking_14.dds</Icon>
+            <Description>
+				Marking
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Marking_14.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Marking_14.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Marking_14</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Marking_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>Marking</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Marking.dds</Icon>
+		  <Description>
+			  Marking
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Marking.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Marking.mwm"/>
+
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BlockPairName>ASL_Marking</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_MarkingCorner_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>Marking T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MarkingCorner.dds</Icon>
+		  <Description>
+			  Marking
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_MarkingCorner.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_MarkingCorner.mwm"/>
+
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BlockPairName>ASL_MarkingCorner</BlockPairName>
+		  <MirroringX>YHalfY</MirroringX>
+		  <MirroringY>XHalfY</MirroringY>
+		  <MirroringZ>MinusHalfY</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Marking_offset_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>Marking</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Marking.dds</Icon>
+		  <Description>
+			  Marking
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Marking_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Marking_offset.mwm"/>
+
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BlockPairName>ASL_Marking_offset_Small</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_MarkingCorner_offset_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>Marking T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MarkingCorner.dds</Icon>
+		  <Description>
+			  Marking
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_MarkingCorner_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_MarkingCorner_offset.mwm"/>
+
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BlockPairName>ASL_MarkingCorner_offset_Small</BlockPairName>
+		  <MirroringX>YHalfY</MirroringX>
+		  <MirroringY>XHalfY</MirroringY>
+		  <MirroringZ>MinusHalfY</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LifeRaft</SubtypeId>
+		  </Id>
+		  <DisplayName>Life Raft</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\LifeRaft.dds</Icon>
+		  <Description>
+			  Life Raft (Olny Decorate)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\LifeRaft.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  <MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  <MountPoint Side="Front" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\LifeRaft.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LifeRaft</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LifeRaft_2x</SubtypeId>
+		  </Id>
+		  <DisplayName>Life Raft 2x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\LifeRaft_2x.dds</Icon>
+		  <Description>
+			  Life Raft (Olny Decorate)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\LifeRaft_2x.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\LifeRaft_2x.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LifeRaft_2x</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LifeRaft_2x_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Life Raft 2x offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\LifeRaft_2x.dds</Icon>
+		  <Description>
+			  Life Raft (Olny Decorate)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\LifeRaft_2x_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\LifeRaft_2x_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LifeRaft_2x_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Radar</SubtypeId>
+		  </Id>
+		  <DisplayName>Radar</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Radar.dds</Icon>
+		  <Description>
+			  Radar (Olny Decorate)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Radar.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Radar.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Radar</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Anchor</SubtypeId>
+            </Id>
+            <DisplayName>Anchor</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Anchor.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Anchor.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Anchor.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Anchor</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Lifebuoy</SubtypeId>
+            </Id>
+            <DisplayName>Lifebuoy</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Lifebuoy.dds</Icon>
+            <Description>
+				Lifebuoy (Olny Decorate)
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Lifebuoy.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Lifebuoy.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Lifebuoy</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+  
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ShutterArmor</SubtypeId>
+		  </Id>
+		  <DisplayName>Shutter Armor</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ShutterArmor.dds</Icon>
+		  <Description>
+			  Shutter Armor
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ShutterArmor.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <MountPoints>
+
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+
+            </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ShutterArmor.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ShutterArmor</BlockPairName>
+			<MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover5x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 5x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover5x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover5x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover5x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover5x2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 5x2 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover5x2_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover5x2_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover5x2_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_2x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_2x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_2x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_2x1</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_2x1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover offset 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_2x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_2x1_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_2x1_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_2x1_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_2x1_Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 2x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_2x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_2x1_Slope.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_2x1_Slope.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_2x1_Slope</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_3x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_3x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_3x1</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_3x1_Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 3x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_3x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_3x1_Slope.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_3x1_Slope.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_3x1_Slope</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_3x1_Slope2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 3x1 Slope2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_3x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_3x1_Slope2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_3x1_Slope2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_3x1_Slope2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_3x1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover offset 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_3x1.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_3x1_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_3x1_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_3x1_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover2x2.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover2x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover2x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_2x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover2x2.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover3x3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover3x3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_3x3</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover3x3_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 3x3 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover2x2.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover3x3_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover3x3_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover3x3_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_2x2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover 2x2 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover2x2.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover2x2_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover2x2_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_2x2_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_Slope_3x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope 3x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x2.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_Slope 3x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_Slope_3x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_Slope_3x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_Slope_3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x3.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_Slope 3x3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_Slope 3x3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_Slope_3x3</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_SlopeHalf3x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope Half 3x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x3.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_SlopeHalf3x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_SlopeHalf3x3x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope Half 3x3x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x3.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x3x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x3x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_SlopeHalf3x3x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_SlopeHalf3x5x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope Half 3x5x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x3.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x5x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf3x5x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_SlopeHalf3x5x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_EngineCover_SlopeHalf4x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Engine Cover Slope Half 4x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EngineCover_Slope_3x3.dds</Icon>
+		  <Description>
+			  ASL_EngineCover
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="4" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf4x2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EngineCover_SlopeHalf4x2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_EngineCover_SlopeHalf4x2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track1</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Track1</BlockPairName>
+			<MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1L.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track1L.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track1L.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track1L</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track1R</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track1R</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1R.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track1R.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track1R.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track1R</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track1L</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track1L_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track L offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1L.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track1L_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track1L_offset.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track1L_offset</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track1R_offset</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track1R_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track R offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1R.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track1R_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track1R_offset.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track1R_offset</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track1L_offset</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track(Narrow)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1.dds</Icon>
+		  <Description>
+			  IFV Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Track2</BlockPairName>
+			<MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track2L</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track L(Narrow)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1L.dds</Icon>
+		  <Description>
+			  IFV Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track2L.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track2L.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track2L</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track2R</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track2R</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track R(Narrow)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1R.dds</Icon>
+		  <Description>
+			  IFV Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track2R.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track2R.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track2R</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track2L</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track2L_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track L(Narrow) offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1L.dds</Icon>
+		  <Description>
+			  IFV Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track2L_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track2L_offset.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track2L_offset</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track2R_offset</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track2R_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track R(Narrow) offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1R.dds</Icon>
+		  <Description>
+			  IFV Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track2R_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track2R_offset.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track2R_offset</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track2L_offset</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track3</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track (short)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Track3</BlockPairName>
+			<MirroringX>Y</MirroringX>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track3L</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track L (short)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1L.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track3L.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track3L.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track3L</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track3R</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Track3R</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Track R (short)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Track1R.dds</Icon>
+		  <Description>
+			  MBT Track
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Track3R.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track3R.mwm"/>
+
+		  </BuildProgressModels>
+			
+		  <BlockPairName>ASL_Track3R</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ASL_Track3L</MirroringBlock>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest2.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown2.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown2</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest 2_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest2.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest2_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest2_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest2_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down 2_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown2.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown2_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown2_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown2_offset</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T2_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT2_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT2_offset.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT2_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest_offset2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Armrest2_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest 2_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Armrest2.dds</Icon>
+		  <Description>
+			  Armrest
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Armrest2_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Armrest2_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Armrest2_offset2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown_offset2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestDown2_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest Down 2_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestDown2.dds</Icon>
+		  <Description>
+			  Armrest Down
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestDown2_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestDown2_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestDown2_offset2</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT_offset2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArmrestT2_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Armrest T2_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArmrestT.dds</Icon>
+		  <Description>
+			  Armrest T
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_ArmrestT2_offset2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmrestT2_offset2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArmrestT2_offset2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Hook</SubtypeId>
+		  </Id>
+		  <DisplayName>Hook</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Hook.dds</Icon>
+		  <Description>
+			  Hook
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Hook.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Hook.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Hook</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Hook_Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Hook Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Hook.dds</Icon>
+		  <Description>
+			  Hook_offset
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Hook_Slope.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Hook_Slope.mwm"/>
+
+		  </BuildProgressModels>
+			<HasPhysics>false</HasPhysics>
+		  <BlockPairName>Hook_Slope</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Hook_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Hook offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Hook.dds</Icon>
+		  <Description>
+			  Hook_offset
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Hook_offset.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Hook_offset.mwm"/>
+
+		  </BuildProgressModels>
+			<HasPhysics>false</HasPhysics>
+		  <BlockPairName>Hook_offset</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer.dds</Icon>
+		  <Description>
+			  Fuel Container
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer2</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container 2x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer2.dds</Icon>
+		  <Description>
+			  FuelContainer
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer3</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer.dds</Icon>
+		  <Description>
+			  Fuel Container
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_SmokeLauncher</SubtypeId>
+		  </Id>
+		  <DisplayName>Smoke Launcher</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SmokeLauncher.dds</Icon>
+		  <Description>
+			  Smoke Launcher (Decirate)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_SmokeLauncher.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SmokeLauncher.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_SmokeLauncher</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_FireEquipmentLocker</SubtypeId>
+            </Id>
+            <DisplayName>Fire Equipment Locker</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FireEquipmentLocker.dds</Icon>
+            <Description>
+				Fire Equipment Locker (Olny Decorate)
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_FireEquipmentLocker.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.01" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_FireEquipmentLocker.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_FireEquipmentLocker</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_FireExtinguisher</SubtypeId>
+            </Id>
+            <DisplayName>Fire Extinguisher</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FireExtinguisher.dds</Icon>
+            <Description>
+				Fire Extinguisher (Olny Decorate)
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_FireExtinguisher.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_FireExtinguisher.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_FireExtinguisher</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_FireExtinguisher_Small</SubtypeId>
+            </Id>
+            <DisplayName>Fire Extinguisher</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FireExtinguisher.dds</Icon>
+            <Description>
+				Fire Extinguisher (Olny Decorate)
+		    </Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Small\ASL_FireExtinguisher.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FireExtinguisher.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_FireExtinguisher</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+		  <Id>
+			  <TypeId>CargoContainer</TypeId>
+			  <SubtypeId>ASL_FirstAidBox</SubtypeId>
+		  </Id>
+		  <DisplayName>First Aid Box</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FirstAidBox.dds</Icon>
+		  <Description>
+			  First Aid Box
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_FirstAidBox.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_FirstAidBox.mwm"/>
+
+            </BuildProgressModels>
+		  <InventorySize>
+			  <X>0.5</X>
+			  <Y>0.5</Y>
+			  <Z>0.5</Z>
+		  </InventorySize>
+		  <BlockPairName>ASL_FirstAidBox</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>6</BuildTimeSeconds>
+		  <EdgeType>Light</EdgeType>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+		  <Id>
+			  <TypeId>CargoContainer</TypeId>
+			  <SubtypeId>ASL_FirstAidBox_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>First Aid Box</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FirstAidBox.dds</Icon>
+		  <Description>
+			  First Aid Box
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Small\ASL_FirstAidBox.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FirstAidBox.mwm"/>
+
+            </BuildProgressModels>
+		  <InventorySize>
+			  <X>0.5</X>
+			  <Y>0.5</Y>
+			  <Z>0.5</Z>
+		  </InventorySize>
+		  <BlockPairName>ASL_FirstAidBox</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>6</BuildTimeSeconds>
+		  <EdgeType>Light</EdgeType>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+		  <Id>
+			  <TypeId>CargoContainer</TypeId>
+			  <SubtypeId>ASL_DrawerToolCabinet</SubtypeId>
+		  </Id>
+		  <DisplayName>Drawer Tool Cabinet</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DrawerToolCabinet.dds</Icon>
+		  <Description>
+			  Drawer Tool Cabinet
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_DrawerToolCabinet.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DrawerToolCabinet.mwm"/>
+
+            </BuildProgressModels>
+		  <InventorySize>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </InventorySize>
+		  <BlockPairName>ASL_DrawerToolCabinet</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>6</BuildTimeSeconds>
+		  <EdgeType>Light</EdgeType>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDeskComputer</SubtypeId>
+            </Id>
+            <DisplayName>Desk(Computer)</DisplayName>
+            <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DeskComputer.dds</Icon>
+            <Description>
+				Desk with computer (need DLC)
+			</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Models\Cubes\Large\ASL_DeskComputer.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>ASL_DeskkComputer</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDeskCornerComputerInv</SubtypeId>
+            </Id>
+            <DisplayName>Desk Corner (Computer)</DisplayName>
+            <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DeskComputerCorner.dds</Icon>
+            <Description>
+				Desk with computer (need DLC)
+			</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Models\Cubes\Large\ASL_DeskComputerCorner.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedCornerDeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedCornerDeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedCornerDeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>ASL_DeskCornerComputerInv</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_DeskKitchenCabinets</SubtypeId>
+		  </Id>
+		  <DisplayName>Desk(Kitchen Cabinets)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DeskKitchenCabinets.dds</Icon>
+		  <Description>
+			  Desk with Kitchen Cabinets (need DLC)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <Model>Models\Models\Cubes\Large\ASL_DeskKitchenCabinets.mwm</Model>
+		  <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="5" />
+			  <Component Subtype="Construction" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+			  <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+			  <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+			  <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+			  <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+			  <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskConstruction_3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_DeskKitchenCabinets</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EdgeType>Light</EdgeType>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <PCU>1</PCU>
+		  <DLC>DecorativeBlocks</DLC>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_DeskKitchenCabinetsCorner</SubtypeId>
+		  </Id>
+		  <DisplayName>Desk Corner (Kitchen Cabinets)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DeskKitchenCabinetsCorner.dds</Icon>
+		  <Description>
+			  Desk with Kitchen Cabinets (need DLC)
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <Model>Models\Models\Cubes\Large\ASL_DeskKitchenCabinetsCorner.mwm</Model>
+		  <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="20" />
+			  <Component Subtype="Construction" Count="20" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+			  <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+			  <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+			  <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+			  <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+			  <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+			  <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+			  <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedCornerDeskConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedCornerDeskConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedCornerDeskConstruction_3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_DeskKitchenCabinetsCorner</BlockPairName>
+		  <MirroringX>MinusHalfY</MirroringX>
+		  <MirroringY>ZHalfY</MirroringY>
+		  <MirroringZ>YHalfY</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <PCU>1</PCU>
+		  <DLC>DecorativeBlocks</DLC>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>	  
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Large_BarredWindow</SubtypeId>
+		  </Id>
+		  <DisplayName>DisplayName_Block_BarredWindow</DisplayName>
+		  <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\BarredWindow_Flat_Large.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\BarredWindow_Flat_Large.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindow</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Large_BarredWindow_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>DisplayName_Block_BarredWindow_offset</DisplayName>
+		  <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\BarredWindow_Flat_offset_Large.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\BarredWindow_Flat_offset_Large.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindow_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>BarredWindow_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>DisplayName_Block_BarredWindow_offset</DisplayName>
+		  <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\BarredWindow_Flat_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\BarredWindow_Flat_offset.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindow_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Large_BarredWindowSide</SubtypeId>
+		  </Id>
+		  <DisplayName>DisplayName_Block_BarredWindow</DisplayName>
+		  <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Side.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\BarredWindow_Side_Large.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\BarredWindow_Side_Large.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindowSide</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+              <MirroringX>YMinusHalfX</MirroringX>
+              <MirroringY>HalfX</MirroringY>
+              <MirroringZ>MinusHalfX</MirroringZ>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Large_BarredWindow_Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Barred Window Slope</DisplayName>
+		  <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Slope.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\BarredWindow_Slope_Large.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\BarredWindow_Slope_Large.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindowSlope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Large_BarredWindow_Slope2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Barred Window Slope 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\BarredWindow_Slope2x1_Large.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Large</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\BarredWindow_Slope2x1_Large.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\BarredWindow_Slope2x1_Large.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindowSlope2x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>BarredWindow_Slope2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Barred Window Slope 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\BarredWindow_Slope2x1_Large.dds</Icon>
+		  <Description>Description_BarredWindow</Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\BarredWindow_Slope2x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\BarredWindow_Slope2x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>BarredWindowSlope2x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <IsAirTight>false</IsAirTight>
+		  <PCU>1</PCU>
+		  <DLC>ScrapRace</DLC>
+	  </Definition>
+	  
+  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingStraight</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Straight</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingStraight.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingStraight.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingStraight.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_RailingStraight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingCenter</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Center</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingCenter.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingCenter.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingCenter.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_RailingCenter</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingCorner</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Corner</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingCorner.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingCorner.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingCorner.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_RailingCorner</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingDiagonal</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Diagonal</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingDiagonal.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingDiagonal.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingDiagonal.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_RailingDiagonal</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingRight</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Right</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingRight.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingRight.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingRight.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingLeft</MirroringBlock>
+
+            <BlockPairName>ASL_RailingRight</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingLeft</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Left</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingLeft.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingLeft.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingLeft.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingRight</MirroringBlock>
+
+            <BlockPairName>ASL_RailingLeft</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>	  
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingRight2</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Right 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingRight.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingRight2.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingRight2.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingLeft2</MirroringBlock>
+
+            <BlockPairName>ASL_RailingRight2</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingLeft2</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Left 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingLeft.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingLeft2.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingLeft2.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingRight2</MirroringBlock>
+
+            <BlockPairName>ASL_RailingLeft2</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_RailingRight3</SubtypeId>
+		  </Id>
+		  <DisplayName>Warship Railing Right 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingRight.dds</Icon>
+		  <Description>
+			  Simple ship railing
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_RailingRight3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingRight3.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_RailingLeft3</MirroringBlock>
+
+		  <BlockPairName>ASL_RailingRight3</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_RailingLeft3</SubtypeId>
+		  </Id>
+		  <DisplayName>Warship Railing Left 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingLeft.dds</Icon>
+		  <Description>
+			  Simple ship railing
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_RailingLeft3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingLeft3.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_RailingRight3</MirroringBlock>
+
+		  <BlockPairName>ASL_RailingLeft3</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingHalfLeft</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Half Right</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingHalfLeft.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingHalfLeft.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingHalfLeft.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingHalfRight</MirroringBlock>
+
+            <BlockPairName>ASL_RailingHalfLeft</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_RailingHalfRight</SubtypeId>
+            </Id>
+            <DisplayName>Warship Railing Half Left</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_RailingHalfRight.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_RailingHalfRight.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_RailingHalfRight.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_RailingHalfLeft</MirroringBlock>
+
+            <BlockPairName>ASL_RailingHalfRight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkStraight</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Straight</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkStraight.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkStraight.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkStraight.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkStraight</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkCenter</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Center</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkCenter.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkCenter.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkCenter.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkCenter</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+			  
+		          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkCorner</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Corner</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkCorner.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkCorner.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkCorner.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkCorner</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>  
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkDiagonal</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Diagonal</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkDiagonal.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkDiagonal.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkDiagonal.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkDiagonal</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkDiagonal41</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Diagonal 4/1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkDiagonal.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkDiagonal41.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkDiagonal41.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkDiagonal41</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CatwalkDiagonal41inv</SubtypeId>
+            </Id>
+            <DisplayName>Catwalk Diagonal 4/1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CatwalkDiagonal.dds</Icon>
+            <Description>
+				Simple ship railing
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_CatwalkDiagonal41inv.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_CatwalkDiagonal41inv.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CatwalkDiagonal41inv</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Stairs</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Stairs.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Stairs.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Stairs.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Stairs</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Stairs2x1</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Stairs2x1.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Stairs2x1.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Stairs2x1.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Stairs2x1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_StairsLeft</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs Left</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_StairsLeft.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_StairsLeft.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_StairsLeft.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_StairsRight</MirroringBlock>
+
+            <BlockPairName>ASL_StairsLeft</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_StairsRight</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs Right</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_StairsRight.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_StairsRight.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_StairsRight.mwm"/>
+
+            </BuildProgressModels>
+			<MirroringBlock>ASL_StairsLeft</MirroringBlock>
+
+            <BlockPairName>ASL_StairsRight</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Stairs2x1L</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs 2x1 Left</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Stairs2x1L.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Stairs2x1L.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Stairs2x1L.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Stairs2x1L</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Stairs2x1R</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs 2x1 Right</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Stairs2x1R.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_Stairs2x1R.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Stairs2x1R.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Stairs2x1R</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_StairsSmall</SubtypeId>
+            </Id>
+            <DisplayName>Ship Stairs(Small)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Stairs.dds</Icon>
+            <Description>
+				Simple ship stairs
+		    </Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="5" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Small\ASL_StairsSmall.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_StairsSmall.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_StairsSmall</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_BasketballStan</SubtypeId>
+            </Id>
+            <DisplayName>Basketball Stan</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BasketballStan.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Large\ASL_BasketballStan.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BasketballStan.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_BasketballStan</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Catapult</SubtypeId>
+		  </Id>
+		  <DisplayName>Catapult(Decorate)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Catapult.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Catapult.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="50" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Catapult.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Catapult</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+
+
+
+
+  </CubeBlocks>
+</Definitions>

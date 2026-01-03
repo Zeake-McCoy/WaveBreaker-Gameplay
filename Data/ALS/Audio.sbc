@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sounds>
+
+
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>HelicopterS</SubtypeId>
+			</Id>
+			<Category>SHIP_JET</Category>
+			<MaxDistance>1000</MaxDistance>
+			<Volume>1</Volume>
+			<PreventSynchronization>15</PreventSynchronization>
+			<Loopable>true</Loopable>
+
+			<UpdateDistance>1000</UpdateDistance>
+
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\HelicopterS.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>PlaneS</SubtypeId>
+			</Id>
+			<Category>SHIP_JET</Category>
+			<MaxDistance>1000</MaxDistance>
+			<Volume>1</Volume>
+			<PreventSynchronization>15</PreventSynchronization>
+			<Loopable>true</Loopable>
+
+			<UpdateDistance>1000</UpdateDistance>
+			<RealisticFilter>realShipFilter</RealisticFilter>
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\Plane.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+
+
+
+	</Sounds>
+</Definitions>
