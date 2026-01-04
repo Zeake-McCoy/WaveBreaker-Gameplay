@@ -1,0 +1,2217 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_BridgeControl</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Bridge Control</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BridgeControl.dds</Icon>
+		  <Description>
+			  
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BridgeControl.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_stand</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Computer" Count="100" />
+			  <Component Subtype="Display" Count="4" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BridgeControl.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>BridgeControl</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_BridgeControlScreen</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Bridge Control(Screen Olny,Back)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BridgeControl.dds</Icon>
+		  <Description>
+			  Use with BridgeControl if necessary
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BridgeControlScreen.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_stand</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+
+			  <Component Subtype="Display" Count="4" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Right_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_ClockDigital" />
+		  
+		  </ScreenAreas>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BridgeControlScreen.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>BridgeControlScreen</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_BridgeControlScreen2</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Bridge Control(Screen Olny,Front)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BridgeControl.dds</Icon>
+		  <Description>
+			  Use with BridgeControl if necessary
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BridgeControlScreen2.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_stand</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+
+			  <Component Subtype="Display" Count="4" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Right_Screen_Large" TextureResolution="1024" ScreenWidth="1" ScreenHeight="1" Script="TSS_ClockDigital" />
+		  
+		  </ScreenAreas>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BridgeControlScreen2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>BridgeControlScreen2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_BridgeControlCryo</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Bridge Control Cryo</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BridgeControlCryo.dds</Icon>
+		  <Description>
+			  
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BridgeControlCryo.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_stand</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Computer" Count="100" />
+			  <Component Subtype="Display" Count="4" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BridgeControlCryo.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>BridgeControlCryo</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>		
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_AircraftControlSeat</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Aircraft Control Seat</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftControlSeat.dds</Icon>
+		  <Description>
+			  Aircraft control seat with large mesh
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_AircraftControlSeat.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Computer" Count="100" />
+			  <Component Subtype="Display" Count="4" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_AircraftControlSeat.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_AircraftControlSeat</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_AircraftControlSeat_Small</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Aircraft Control Seat</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftControlSeat.dds</Icon>
+		  <Description>
+			  Aircraft control seat 
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_AircraftControlSeat_Small.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Computer" Count="100" />
+			  <Component Subtype="Display" Count="4" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_AircraftControlSeat_Small.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_AircraftControlSeat</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_AircraftControlCryo</SubtypeId>
+		  </Id>
+		  <DisplayName>Aircraft Control Cryo</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftControlCryo.dds</Icon>
+		  <Description>
+			  Aircraft control seat with large mesh
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_AircraftControlCryo.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightCryo</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Computer" Count="100" />
+			  <Component Subtype="Display" Count="4" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_AircraftControlCryo.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_AircraftControlCryo</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <!-- Samll -->
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_DriveSeat1</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Drive Seat 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveSeat1.dds</Icon>
+		  <Description>
+			  Drive Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_DriveSeat1.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_TankDrive</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveSeat1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_DriveSeat1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_DriveSeat1_offset</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Drive Seat 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveSeat1.dds</Icon>
+		  <Description>
+			  Drive Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_DriveSeat1_offset.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_TankDrive</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveSeat1_offset.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_DriveSeat1_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_TankSeat1</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Tank Seat 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankSeat1.dds</Icon>
+		  <Description>
+			  Tank Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankSeat1.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankSeat1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_TankSeat1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_TankSeat1_offset</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Tank Seat 1 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankSeat1.dds</Icon>
+		  <Description>
+			  Tank Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankSeat1_offset.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankSeat1_offset.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_TankSeat1_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_TankSeat2</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Tank Seat 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankSeat2.dds</Icon>
+		  <Description>
+			  Tank Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankSeat2.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>ASL_TankDrive</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankSeat2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_TankSeat2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_TankSeat3</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Tank Seat 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankSeat1.dds</Icon>
+		  <Description>
+			  Tank Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankSeat3.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankSeat3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_TankSeat3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_FlatChair</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Flat Bench</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FlatChair.dds</Icon>
+		  <Description>
+			  Flat Bench
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FlatChair.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FlatChair.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_FlatChair</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_VehicleBench</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Vehicle Bench</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_VehicleBench.dds</Icon>
+		  <Description>
+			  Vehicle Bench
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_VehicleBench.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		<HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_VehicleBench.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_VehicleBench</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_VehicleBench_offset</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Vehicle Bench offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_VehicleBench.dds</Icon>
+		  <Description>
+			  Vehicle Bench
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_VehicleBench_offset.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_VehicleBench_offset.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_VehicleBench_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_VehicleBench_Narrow</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Vehicle Bench (Narrow)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_VehicleBench.dds</Icon>
+		  <Description>
+			  Vehicle Bench
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_VehicleBench_Narrow.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_VehicleBench_Narrow.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_VehicleBench_Narrow</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+  
+<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_VehicleBed</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Vehicle Bed</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_VehicleBed.dds</Icon>
+		  <Description>
+			  Vehicle Bed
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_VehicleBed.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_VehicleBed.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_VehicleBed</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+	  
+	  
+	  	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F14</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-14</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F14.dds</Icon>
+		  <Description>
+			  Ejection Seat F-14
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F14.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F14.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F14</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>  
+	  
+	  	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F14_offsetL</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-14 offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F14.dds</Icon>
+		  <Description>
+			  Ejection Seat F-14
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F14_offsetL.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F14_offsetL.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F14_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>  
+		  
+	  	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F14_offsetR</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-14 offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F14.dds</Icon>
+		  <Description>
+			  Ejection Seat F-14
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F14_offsetR.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F14_offsetR.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F14_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>  
+	  
+	  	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F15</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-15</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F15.dds</Icon>
+		  <Description>
+			  Ejection Seat F-15
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F15.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F15.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F15</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>  	  
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F16</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-16</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F16.dds</Icon>
+		  <Description>
+			  Ejection Seat F-16
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F16.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F16.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F16</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_F18</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat F-18</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_F18.dds</Icon>
+		  <Description>
+			  Ejection Seat F-18
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_F18.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_F18.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_F18</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_Mirage</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat Mirage</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_Mirage.dds</Icon>
+		  <Description>
+			  Ejection Seat Mirage
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_Mirage.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_Mirage.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_Mirage</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 	 	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_Su27</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat Su-27</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_Su27.dds</Icon>
+		  <Description>
+			  Ejection Seat Su-27
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_Su27.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_Su27.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_Su27</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 		  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_Su27_offsetL</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat Su-27_offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_Su27.dds</Icon>
+		  <Description>
+			  Ejection Seat Su-27
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_Su27_offsetL.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_Su27_offsetL.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_Su27_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 		  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_EjectionSeat_Su27_offsetR</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Ejection Seat Su-27_offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EjectionSeat_Su27.dds</Icon>
+		  <Description>
+			  Ejection Seat Su-27
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_EjectionSeat_Su27_offsetR.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EjectionSeat_Su27_offsetR.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_EjectionSeat_Su27_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 	
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_PilotSeatHelicopter</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Pilot Seat Helicopter</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_PilotSeatHelicopter.dds</Icon>
+		  <Description>
+			  Pilot Seat Helicopter
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_PilotSeatHelicopter.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+<CharacterAnimation>cockpit1_small</CharacterAnimation>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_PilotSeatHelicopter.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_PilotSeatHelicopter</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>true</EnableShipControl>
+		  <EnableBuilderCockpit>true</EnableBuilderCockpit>
+		  <TargetLockingEnabled>true</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition> 	
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_HelicopterSeat</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Helicopter Seat</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HelicopterSeat.dds</Icon>
+		  <Description>
+			  Helicopter Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HelicopterSeat.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		<HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HelicopterSeat.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_HelicopterSeat</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_HelicopterSeat_offsetL</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Helicopter Seat offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HelicopterSeat.dds</Icon>
+		  <Description>
+			  Helicopter Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HelicopterSeat_offsetL.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		<HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HelicopterSeat_offsetL.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_HelicopterSeat_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_HelicopterSeat_offsetR</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Helicopter Seat offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HelicopterSeat.dds</Icon>
+		  <Description>
+			  Helicopter Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HelicopterSeat_offsetR.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		<HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HelicopterSeat_offsetR.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_HelicopterSeat_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>	  
+
+	  <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+		  <Id>
+			  <TypeId>Cockpit</TypeId>
+			  <SubtypeId>ASL_AircraftSeat</SubtypeId>
+			  <!-- Flight seat -->
+		  </Id>
+		  <DisplayName>Aircraft Seat</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftSeat.dds</Icon>
+		  <Description>
+			  Aircraft Seat
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_AircraftSeat.mwm</Model>
+		  <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+		  <CharacterAnimationMale>PassengerBench</CharacterAnimationMale>
+		  <CharacterAnimationFemale>PassengerBenchFemale</CharacterAnimationFemale>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="InteriorPlate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		<HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_AircraftSeat.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_AircraftSeat</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>30</BuildTimeSeconds>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <EnableFirstPerson>true</EnableFirstPerson>
+		  <EnableShipControl>false</EnableShipControl>
+		  <EnableBuilderCockpit>false</EnableBuilderCockpit>
+		  <TargetLockingEnabled>false</TargetLockingEnabled>
+		  <IsPressurized>false</IsPressurized>
+		  <HasInventory>false</HasInventory>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <RaycastOffset>
+			  <X>0.016</X>
+			  <Y>0.4983</Y>
+			  <Z>0.15</Z>
+		  </RaycastOffset>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+  </CubeBlocks>
+</Definitions>

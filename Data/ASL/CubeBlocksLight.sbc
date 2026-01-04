@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_SignalLight</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLight.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_SignalLight.mwm</Model>
+		  <Components>
+			  
+			  <Component Subtype="Construction" Count="1" />
+			  
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLight.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLight</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_SignalLightLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLight.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_SignalLight.mwm</Model>
+		  <Components>
+
+			  <Component Subtype="Construction" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SignalLight.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLight</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_SignalLightFull</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Full</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLight.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_SignalLightFull.mwm</Model>
+		  <Components>
+			  
+			  <Component Subtype="Construction" Count="1" />
+			  
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLightFull.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightFull</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_SignalLightFullLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Full</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLight.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_SignalLightFull.mwm</Model>
+		  <Components>
+
+			  <Component Subtype="Construction" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Construction" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SignalLightFull.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightFull</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight_offset</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light offset 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight_offset2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight_offset2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight_offset2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light 2 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight2_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight2_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight2_offset</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TankLight2_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tank Light 2 offset 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankLight.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TankLight2_offset2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankLight2_offset2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TankLight2_offset2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight1</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight1.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight1.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight1.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight1</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight1_offset1</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 1_offset1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight1.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight1_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight1_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight1_offset1</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight1_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 1_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight1.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight1_offset2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight1_offset2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight1_offset2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight2.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight2_offset1</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 2_offset1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight2.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight2_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight2_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight2_offset1</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_TailLight2_offset2</SubtypeId>
+		  </Id>
+		  <DisplayName>Tail Light 2_offset2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TailLight2.dds</Icon>
+		  <Description>
+			  TaTailnk Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_TailLight2_offset2.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TailLight2_offset2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_TailLight2_offset2</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>false</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_LightBlock</SubtypeId>
+		  </Id>
+		  <DisplayName>Light Block</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LightBlock.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_LightBlock.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LightBlock.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_LightBlock</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_LightBlockHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>Light Block</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LightBlockHalf.dds</Icon>
+		  <Description>
+			  Tank Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_LightBlockHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LightBlockHalf.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_LightBlockHalf</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_SignalLightCornerTip</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Corner Tip</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLightCornerTip.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_SignalLightCornerTip.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLightCornerTip.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightCornerTip</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_SignalLightSlope2x1Tip</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Slope 2x1 Tip</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLightSlope2x1Tip.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_SignalLightSlope2x1Tip.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLightSlope2x1Tip.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightSlope2x1Tip</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_SignalLightCornerTip2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Corner Tip 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLightCornerTip2x1.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_SignalLightCornerTip2x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLightCornerTip2x1.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightCornerTip2x1</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+		  <Id>
+			  <TypeId>ReflectorLight</TypeId>
+			  <SubtypeId>ASL_SignalLightHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>Signal Light Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SignalLightHalf.dds</Icon>
+		  <Description>
+			  Signal Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <GuiVisible>false</GuiVisible>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_SignalLightHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_SignalLightHalf.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_SignalLightHalf</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <LightRadius Min="1" Max="5" Default="5" />
+		  <LightReflectorRadius Min="10" Max="60" Default="60" />
+		  <LightFalloff Min="1" Max="3" Default="1.5" />
+		  <LightIntensity Min="0.5" Max="5" Default="3" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <Flare>SpotlightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <ReflectorThickness>2.5</ReflectorThickness>
+		  <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+		  <ReflectorConeDegrees>52</ReflectorConeDegrees>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat2</DestroySound>
+		  <PCU>1</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+  </CubeBlocks>
+</Definitions>

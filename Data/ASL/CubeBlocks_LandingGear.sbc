@@ -1,0 +1,4241 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+	  <!--Branch-->
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranch</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch.dds</Icon>
+		  <Description>
+			  Landing Gear Branch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranch</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+		  
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchCollisionlesst</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Collisionlesst</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch.dds</Icon>
+		  <Description>
+			  Landing Gear Branch(Collisionlesst)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch.mwm" />
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+
+		  <BlockPairName>ASL_LandingGearBranchCollisionlesst</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGear_BranchT</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_BranchT.dds</Icon>
+		  <Description>
+			  Landing Gear Branch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchT.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LandingGear_BranchT</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGear_BranchTCollisionlesst</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Collisionlesst</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_BranchT.dds</Icon>
+		  <Description>
+			  Landing Gear Branch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchT.mwm" />
+		  </BuildProgressModels>
+		  <IsStandAlone>false</IsStandAlone>
+		  <HasPhysics>false</HasPhysics>
+		  <BlockPairName>ASL_LandingGear_BranchTCollisionlesst</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchSuspension</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Suspension</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_Suspension.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Suspension(decorate)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_Suspension.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchSuspension</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+		  
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchSuspensionCollisionlesst</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Suspension Collisionlesst</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_Suspension.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Suspension(Collisionlesst)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_Suspension.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>LandingGearBranchSuspensionCollisionlesst</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+		  
+	  </Definition>
+	  
+	  
+	  <!-- Light-->
+
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>InteriorLight</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchLight</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Light</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_Light.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Light.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_Light.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASLLandingGearBranchLight</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <Flare>InteriorLightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <LightRadius Min="1" Max="10" Default="3.6" />
+		  <LightFalloff Min="0" Max="3" Default="1.3" />
+		  <LightIntensity Min="0.5" Max="10" Default="5" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00006</RequiredPowerInput>
+		  <LightGlare>GlareLsInteriorLight</LightGlare>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+		  <Id>
+			  <TypeId>InteriorLight</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_SuspensionLight</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Suspension Light</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_SuspensionLight.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Light
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionLight.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_SuspensionLight.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_LandingGear_Branch_SuspensionLight</BlockPairName>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <Flare>InteriorLightSmall</Flare>
+		  <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+		  <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+		  <LightRadius Min="1" Max="10" Default="3.6" />
+		  <LightFalloff Min="0" Max="3" Default="1.3" />
+		  <LightIntensity Min="0.5" Max="10" Default="5" />
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00006</RequiredPowerInput>
+		  <LightGlare>GlareLsInteriorLight</LightGlare>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+
+	  </Definition>
+	  
+
+	  <!-- Rotor-->
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+		  <Id>
+			  <TypeId>MotorStator</TypeId>
+			  <SubtypeId>ASL_LandingGearRotor1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotor.dds</Icon>
+		  <Description>
+			Landing Gear Rotor 
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotor.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_BranchRotor.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>LandingGearRotor</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>10</BuildTimeSeconds>
+		  <PrimarySound>BlockRotorSmall</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <MaxForceMagnitude>1E7</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <RotorPart>ASLLandingGearRotorHead</RotorPart>
+
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <RotorDisplacementMin>-0.50</RotorDisplacementMin>
+		  <RotorDisplacementMax>0.50</RotorDisplacementMax>
+		  <RotorDisplacementMinSmall>-0.50</RotorDisplacementMinSmall>
+		  <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+		  <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+		  <PCU>10</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>MotorRotor</TypeId>
+			  <SubtypeId>ASL_LandingGearRotorHead1x1</SubtypeId>
+
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor 1x1 Head</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotorHead.dds</Icon>
+		  <Description>
+			Landing Gear Rotor
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotorHead.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+
+		  <BlockPairName>ASLLandingGearRotorHead</BlockPairName>
+		  <!-- add this for RotorPart-->
+
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+		  <Id>
+			  <TypeId>MotorStator</TypeId>
+			  <SubtypeId>ASL_LandingGearRotor1x1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor 1x1 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotor.dds</Icon>
+		  <Description>
+			Landing Gear Rotor 
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotor_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_BranchRotor_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>LandingGearRotor_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>10</BuildTimeSeconds>
+		  <PrimarySound>BlockRotorSmall</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <MaxForceMagnitude>1E7</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <RotorPart>ASLLandingGearRotorHead</RotorPart>
+
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <RotorDisplacementMin>-0.50</RotorDisplacementMin>
+		  <RotorDisplacementMax>0.50</RotorDisplacementMax>
+		  <RotorDisplacementMinSmall>-0.50</RotorDisplacementMinSmall>
+		  <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+		  <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+		  <PCU>10</PCU>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+		  <Id>
+			  <TypeId>MotorStator</TypeId>
+			  <SubtypeId>ASL_BranchRotor_offsetCentered</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor 1x1 Centered</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotor.dds</Icon>
+		  <Description>
+			Landing Gear Rotor 
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotor_offsetCentered.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_BranchRotor_offsetCentered.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_BranchRotor_offsetCentered</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>10</BuildTimeSeconds>
+		  <PrimarySound>BlockRotorSmall</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <MaxForceMagnitude>1E7</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <RotorPart>ASLLandingGearRotorHead</RotorPart>
+
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <RotorDisplacementMin>-0.50</RotorDisplacementMin>
+		  <RotorDisplacementMax>0.50</RotorDisplacementMax>
+		  <RotorDisplacementMinSmall>-0.50</RotorDisplacementMinSmall>
+		  <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+		  <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+		  <PCU>10</PCU>
+
+	  </Definition>
+	  
+
+	  <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+		  <Id>
+			  <TypeId>MotorStator</TypeId>
+			  <SubtypeId>ASL_LandingGearRotor1x1Thick</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor Thick 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotorThick.dds</Icon>
+		  <Description>
+			Landing Gear Rotor 
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotorThick.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.97" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.97" EndX="1.00" EndY="0.99"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.97" EndX="1.00" EndY="0.99"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_BranchRotorThick.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>LandingGearRotorThick</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>10</BuildTimeSeconds>
+		  <PrimarySound>BlockRotorSmall</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <MaxForceMagnitude>1E6</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <RotorPart>ASLLandingGearRotorHeadThick</RotorPart>
+
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <RotorDisplacementMin>-0.50</RotorDisplacementMin>
+		  <RotorDisplacementMax>0.50</RotorDisplacementMax>
+		  <RotorDisplacementMinSmall>-0.50</RotorDisplacementMinSmall>
+		  <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+		  <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+		  <PCU>10</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>MotorRotor</TypeId>
+			  <SubtypeId>ASL_LandingGearRotorHead1x1Thick</SubtypeId>
+
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor 1x1 Thick Head</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotorHead.dds</Icon>
+		  <Description>
+			Landing Gear Rotor
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_BranchRotorHeadThick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+
+		  <BlockPairName>ASLLandingGearRotorHeadThick</BlockPairName>
+		  <!-- add this for RotorPart-->
+
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+		  <Id>
+			  <TypeId>MotorStator</TypeId>
+			  <SubtypeId>ASL_LandingGearRotorLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor Large</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotorThick.dds</Icon>
+		  <Description>
+			Landing Gear Rotor 
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BranchRotorLarge.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.97" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.97" EndX="1.00" EndY="0.99"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.97" EndX="1.00" EndY="0.99"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BranchRotorLarge.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>LandingGearRotorThick</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>10</BuildTimeSeconds>
+		  <PrimarySound>BlockRotorSmall</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.0002</RequiredPowerInput>
+		  <MaxForceMagnitude>1E6</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+		  <RotorPart>ASLLandingGearRotorHeadLarge</RotorPart>
+
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <RotorDisplacementMin>-0.50</RotorDisplacementMin>
+		  <RotorDisplacementMax>0.50</RotorDisplacementMax>
+		  <RotorDisplacementMinSmall>-0.50</RotorDisplacementMinSmall>
+		  <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+		  <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+		  <PCU>10</PCU>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>MotorRotor</TypeId>
+			  <SubtypeId>ASL_LandingGearRotorHeadLarge</SubtypeId>
+
+		  </Id>
+		  <DisplayName>ASL Landing Gear Rotor Large Head</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BranchRotorHead.dds</Icon>
+		  <Description>
+			Landing Gear Rotor
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_BranchRotorHeadLarge.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+
+		  <BlockPairName>ASLLandingGearRotorHeadLarge</BlockPairName>
+		  <!-- add this for RotorPart-->
+
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+
+	  <!-- Wheel-->
+
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>LandingGearLeft1x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+	
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_MainWheel1x1TL</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 1x1 TL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1TL.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1TL.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheel1x1TL</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+	
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_MainWheel1x1TR</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 1x1 TR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1TR.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1TR.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheel1x1TR</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+	
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>LandingGearLeft2x2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>1000</PropulsionForce>
+		  
+
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.4</MinHeight>
+		  <MaxHeight>0.2</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearDouble2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Double 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheelDouble2x2.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>LandingGearLeftDouble2x2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>2000</PropulsionForce>
+		  
+
+		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.4</MinHeight>
+		  <MaxHeight>0.0</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearDouble2x2T</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Double 2x2T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheelDouble2x2.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWhee1x3.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWhee1x3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>LandingGearLeftDouble2x2T</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>2000</PropulsionForce>
+		  
+
+		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.4</MinHeight>
+		  <MaxHeight>0.0</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear2x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x1 L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheeL2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheeL2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheeL2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear2x1R</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x1 R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheeR2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheeR2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheeR2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+
+
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_MainWheel2x2TL</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x2 TL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1TL.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1TL.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheel2x2TL</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+	
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_MainWheel2x2TR</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x2 TR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1TR.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1TR.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheel2x2TR</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+	
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear2x2x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x2x1 L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheeL2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheeL2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheeL2x2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+
+
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear2x12xR</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 2x2x1 R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheeR2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheeR2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>ASL_LandingGear_Branch_MainWheeR2x2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+
+
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel Suspension 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearWheel1x1</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel Suspension 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_MainWheel2x2.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_MainWheel2x2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearWheel2x2</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheelDouble2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel Suspension 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_MainWheelDouble2x2.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_MainWheelDouble2x2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearWheelDouble2x2</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear1x1Double</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheelDouble1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheelDouble1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheelDouble1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearLeft1x1Double</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+		  <RotorPart>LandingGearWheelDouble1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheelDouble1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel Suspension Double 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_MainWheelDouble1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_MainWheelDouble1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearWheelDouble1x1</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearSlope1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Slope 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_SlopeBranch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_SlopeBranch_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_SlopeBranch_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearSlope1x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearSlope2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Slope 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_SlopeBranch_MainWheel2x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_SlopeBranch_MainWheel2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_SlopeBranch_MainWheel2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearSlope2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+		  <RotorPart>LandingGearWheel1x1</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearSlope2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Slope 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_SlopeBranch_MainWheel2x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_SlopeBranch_MainWheel2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_SlopeBranch_MainWheel2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearSlope2x2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGearSlope2x2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Slope 2x2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_SlopeBranch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_SlopeBranch_MainWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_SlopeBranch_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>ASL_LandingGearSlope2x2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>250</PropulsionForce>
+		  
+		  <RotorPart>LandingGearWheel2x2</RotorPart>
+		  
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.0</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGear1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>FrontLandingGear1x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+
+		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGear2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheel2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheel2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>ASL_LandingGear_Branch_FrontWheel2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGear2x1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension2x1_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheel1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheel2x1_offset.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheel2x1_offset.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>ASL_FrontLandingGear2x1_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearFrontWheel1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Front Wheel 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheel1x1.dds</Icon>
+		  <Description>
+			Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_FrontWheel1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_MainWheel1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearFrontWheel1x1</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGearDouble1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension Double 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheelDouble1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheelDouble1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheelDouble1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>FrontLandingGearDouble1x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+		  <RotorPart>LandingGearFrontWheelDouble1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGearDouble2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension Double 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheelDouble1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheelDouble2x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheelDouble2x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>FrontLandingGearDouble2x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+		  <RotorPart>LandingGearFrontWheelDouble1x1</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_FrontLandingGearDouble2x2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Front Landing Gear Front Suspension Double 2x2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheelDouble1x1.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_FrontWheelDouble2x2.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_FrontWheelDouble2x2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>FrontLandingGearDouble2x2x2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <PrimarySound>BlockWheel3x3</PrimarySound>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.2</RequiredPowerInput>
+		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
+		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  <PropulsionForce>80</PropulsionForce>
+
+		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
+
+		  <!-- The max angle (radians) that steer angle slider can go to. -->
+		  <MaxSteer>0.8</MaxSteer>
+		  <!-- Min/Max height sets the physical boundaries of the suspension as well as the height slider limits. -->
+		  <MinHeight>-0.3</MinHeight>
+		  <MaxHeight>-0.1</MaxHeight>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <SafetyDetach>5</SafetyDetach>
+		  <SafetyDetachMax>5</SafetyDetachMax>
+		  <AxleFriction>22500</AxleFriction>
+		  <SteeringSpeed>0.015</SteeringSpeed>
+		  <AirShockMinSpeed>10</AirShockMinSpeed>
+		  <AirShockMaxSpeed>25</AirShockMaxSpeed>
+		  <AirShockActivationDelay>60</AirShockActivationDelay>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>10</PCU>
+		  <TargetingGroups>
+			  <string>Propulsion</string>
+		  </TargetingGroups>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearFrontWheelDouble1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Front Wheel Double 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_FrontWheelDouble1x1.dds</Icon>
+		  <Description>
+			Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_FrontWheelDouble1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <PhysicalMaterial>Wheel</PhysicalMaterial>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_FrontWheelDouble1x1.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				  <PlacementMode>OutsideVoxel</PlacementMode>
+				  <MaxAllowed>0.2</MaxAllowed>
+				  <MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+		  </VoxelPlacement>
+		  
+
+		  <BlockPairName>LandingGearFrontWheelDouble1x1</BlockPairName>
+		  <UsesDeformation>false</UsesDeformation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <EdgeType>Light</EdgeType>
+		  <Public>false</Public>
+		  <BuildTimeSeconds>15</BuildTimeSeconds>
+		  <InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+		  </InventorySize>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>25</PCU>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel3x3Thick.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>ASL_LandingGear3x3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>ASL_LandingGearWheel3x3s</RotorPart>
+            <PropulsionForce>3000</PropulsionForce>
+            <MinHeight>-0.3</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+	  
+
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear3x3Thick</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 3x3 Thick</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel3x3Thick.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>LandingGearWheel3x3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>ASL_LandingGearWheel3x3</RotorPart>
+            <PropulsionForce>3000</PropulsionForce>
+            <MinHeight>-0.3</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear3x3ThickT</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 3x3 Thick T</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel3x3Thick.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x3Thick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x3Thick.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>LandingGearWheel3x3T</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>ASL_LandingGearWheel3x3</RotorPart>
+            <PropulsionForce>3000</PropulsionForce>
+            <MinHeight>-0.3</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear3x3x3Thick</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 3x3x3 Thick</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel3x3Thick.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>LandingGearWheel3x3x3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>ASL_LandingGearWheel3x3x3</RotorPart>
+            <PropulsionForce>3000</PropulsionForce>
+            <MinHeight>-0.3</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear3x3x4Thick</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension 3x3x4 Thick</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel3x3Thick.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_MainWheel1x1Thick.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>LandingGearWheel3x3x4</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>ASL_LandingGearWheel3x3x4</RotorPart>
+            <PropulsionForce>3000</PropulsionForce>
+            <MinHeight>-0.3</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel3x3s</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_3x3MainWheel.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_3x3MainWheel.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+            </MountPoints>
+		  
+
+            <BlockPairName>ASL_LandingGearWheel3x3s</BlockPairName>
+            <UsesDeformation>false</UsesDeformation>
+            <DeformationRatio>0.3</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringBlock>SmallRealWheelmirrored</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <Public>false</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_3x3MainWheelDouble.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_3x3MainWheelDouble.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+            </MountPoints>
+		  
+
+            <BlockPairName>ASL_LandingGearWheel3x3</BlockPairName>
+            <UsesDeformation>false</UsesDeformation>
+            <DeformationRatio>0.3</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringBlock>SmallRealWheelmirrored</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <Public>false</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel3x3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel 3x3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_3x3x3MainWheelDouble.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_3x3x3MainWheelDouble.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+            </MountPoints>
+		  
+
+            <BlockPairName>ASL_LandingGearWheel3x3x3</BlockPairName>
+            <UsesDeformation>false</UsesDeformation>
+            <DeformationRatio>0.3</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringBlock>SmallRealWheelmirrored</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <Public>false</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheel3x3x4</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel 3x3x4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_3x3x4MainWheelDouble.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_3x3x4MainWheelDouble.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+            </MountPoints>
+		  
+
+            <BlockPairName>ASL_LandingGearWheel3x3x4</BlockPairName>
+            <UsesDeformation>false</UsesDeformation>
+            <DeformationRatio>0.3</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringBlock>SmallRealWheelmirrored</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <Public>false</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+		  <Id>
+			  <TypeId>MotorSuspension</TypeId>
+			  <SubtypeId>ASL_LandingGear_Branch_MainWheeLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Main Suspension Large </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheeLarge.dds</Icon>
+		  <Description>
+			  Landing Gear Wheel Suspension
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_Branch_MainWheeLarge.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="5" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_Branch_MainWheeLarge.mwm" />
+		  </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+		  
+
+            <BlockPairName>LandingGearWheel3x3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+		  
+		  
+            <RotorPart>ASL_LandingGearWheelLarge</RotorPart>
+		  
+            <PropulsionForce>30000</PropulsionForce>
+            <MinHeight>-0.22</MinHeight>
+            <MaxHeight>0.0</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>20000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>Wheel</TypeId>
+			  <SubtypeId>ASL_LandingGearWheelLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Landing Gear Wheel Large</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_MainWheel1x1.dds</Icon>
+		  <Description>
+			  Wheel
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_LargeMainWheelDouble.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="LargeTube" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_LargeMainWheelDouble.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+            </MountPoints>
+		  
+
+            <BlockPairName>ASL_LandingGearWheelLarge</BlockPairName>
+            <UsesDeformation>false</UsesDeformation>
+            <DeformationRatio>0.3</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringBlock>SmallRealWheelmirrored</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <Public>false</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	  
+	  <!--BranchThick-->
+	  
+	  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchThick</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Thick</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_BranchThick.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Thick
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchThick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchThick.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchThick</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+		  
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchSuspensionThick</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch SuspensionThick</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_SuspensionThick.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Suspension(decorate)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_SuspensionThick.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchSuspensionThick</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchSuspensionThick1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch SuspensionThick1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_SuspensionThick.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Suspension(decorate)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_SuspensionThick1x1.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchSuspensionThick1x1</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+	  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch Large</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_BranchThick.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Large
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_BranchLarge.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_BranchLarge.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchThick</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+		  
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LandingGearBranchSuspensionLarge</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Branch SuspensionLarge</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGear_Branch_SuspensionThick.dds</Icon>
+		  <Description>
+			  Landing Gear Branch Suspension(decorate)
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_Branch_SuspensionLarge1x1.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_Branch_SuspensionLarge1x1.mwm" />
+		  </BuildProgressModels>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BlockPairName>LandingGearBranchSuspensionThick</BlockPairName>
+		  <DeformationRatio>0.2</DeformationRatio>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>18</BuildTimeSeconds>
+		  <DisassembleRatio>3</DisassembleRatio>
+		  <Public>true</Public>
+		  <PCU>1</PCU>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+		  <Id>
+			  <TypeId>LandingGear</TypeId>
+			  <SubtypeId>ASL_LandingGearBrakes</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Brakes(MagneticPlate)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGearBrakes.dds</Icon>
+		  <Description>Description_LandingGear</Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_LandingGearBrakes.mwm</Model>
+		  <LockSound>ShipLandGearOn</LockSound>
+		  <UnlockSound>ShipLandGearOff</UnlockSound>
+		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGearBrakes.mwm" />
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_LandingGearBrakes</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+		  <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>35</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+  	  <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+		  <Id>
+			  <TypeId>LandingGear</TypeId>
+			  <SubtypeId>ASL_LandingGearBrakes2</SubtypeId>
+		  </Id>
+		  <DisplayName>Landing Gear Brakes2(MagneticPlate)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LandingGearBrakes.dds</Icon>
+		  <Description>Description_LandingGear</Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_LandingGearBrakes2.mwm</Model>
+		  <LockSound>ShipLandGearOn</LockSound>
+		  <UnlockSound>ShipLandGearOff</UnlockSound>
+		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGearBrakes2.mwm" />
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_LandingGearBrakes2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+		  <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>35</PCU>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

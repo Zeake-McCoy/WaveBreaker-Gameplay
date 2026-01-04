@@ -1,0 +1,4947 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Windowframe_Large</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Windowframe.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Windowframe.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Windowframe.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Windowframe</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Windowframe</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Windowframe.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_Windowframe.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Windowframe.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Windowframe</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowframeSlope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowframeSlope.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowframeSlope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowframeSlope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowframeSlope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x1inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x1inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x1inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x1inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x1Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x1Slope.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x1Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x1Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x1Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x1SlopeHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x1 Slope Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x1SlopeHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x1SlopeHalf.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x1SlopeHalf</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x1SlopeHalfinv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x1 Slope Half inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x1SlopeHalfinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x1SlopeHalfinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x1SlopeHalfinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x1inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x1inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x1inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x1inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x1Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x1Slope.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x1Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x1Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x1Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x1SlopeHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x1 Slope Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x1SlopeHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x1SlopeHalf.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x1SlopeHalf</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x1SlopeHalfinv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x1 Slope Half inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x1SlopeHalfinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x1SlopeHalfinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x1SlopeHalfinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor5x1</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 5x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor5x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor5x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor5x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor5x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor5x1inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 5x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor5x1.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor5x1inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor5x1inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor5x1inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor5x1Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 5x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor5x1Slope.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor5x1Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor5x1Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor5x1Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor5x1SlopeHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 5x1 Slope Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor5x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor5x1SlopeHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor5x1SlopeHalf.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor5x1SlopeHalf</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor5x1SlopeHalfinv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 5x1 Slope Half inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor5x1SlopeHalf.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="5" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor5x1SlopeHalfinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor5x1SlopeHalfinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor5x1SlopeHalfinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x2.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x2.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor2x2inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 2x2 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor2x2.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor2x2inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor2x2inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor2x2inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x2</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x2.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x2.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x2inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x2 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x2.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x2inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x2inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x2inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x3.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x3.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowArmor3x3inv</SubtypeId>
+		  </Id>
+		  <DisplayName>WindowArmor 3x3 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowArmor3x3.dds</Icon>
+		  <Description>
+			  Armor Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowArmor3x3inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowArmor3x3inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowArmor3x3inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  
+		  
+	
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1L.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1L.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1L.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1L</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Frame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Frame.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Frame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Frame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Frame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Frame_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Frame offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Frame_offset.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Frame_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Frame_offset.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Frame_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1FrameInv_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Frame Inv_offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Frame_offset.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1FrameInv_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1FrameInv_offset.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1FrameInv_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeFrame.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeFrame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeFrame_offsetL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeFrame_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeFrame_offsetR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeFrame_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeFrame_offsetL2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope offsetL2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetL2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetL2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeFrame_offsetL2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeFrame_offsetR2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Slope offsetR2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetR2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeFrame_offsetR2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeFrame_offsetR2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Half</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Half 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Half.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Half.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Half.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Half</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1INVHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Inv Half 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Half.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1INVHalf.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1INVHalf.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1INVHalf</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1HalfFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Half 1x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Half.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1HalfFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1HalfFrame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1HalfFrame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeTip</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTip.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTip.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeTip</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeTipInv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipInv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipInv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeTipInv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeTipFrameL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 1x1 FrameL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipFrameL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipFrameL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeTipFrameL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SlopeTipFrameR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 1x1 FrameR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipFrameR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SlopeTipFrameR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SlopeTipFrameR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SlopeTip</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SlopeTip.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SlopeTip.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SlopeTip</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SlopeTipInv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Tip 2x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SlopeTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SlopeTipInv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SlopeTipInv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SlopeTipInv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Side</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1Side</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Side.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Side.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Side.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Side</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>YMinusHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Sideinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1Side inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Side.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Sideinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Sideinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Sideinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>YMinusHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  		  
+			  
+		  
+		  
+		  
+		  
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetL2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetL2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetL2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetR2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetR2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetR2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetL3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetL3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetL3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetL3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x2SlopeFrame_offsetR3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x2 Slope Frame offsetR3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x2SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x2SlopeFrame_offsetR3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x2SlopeFrame_offsetR3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetL</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetR</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetL2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetL2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetL2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetR2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetR2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetR2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetL3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetL3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetL3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetL3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x3SlopeFrame_offsetR3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x3 Slope Frame offsetR3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x3SlopeFrame_offsetR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x3SlopeFrame_offsetR3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x3SlopeFrame_offsetR3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringZ>Y</MirroringZ>
+		  <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+			  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x2inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x2 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x2inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x2inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x2inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x2Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x2Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x2Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x2Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x2Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x2Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="4" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="4" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x2Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x2Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>		  
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x3.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x3inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x3 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x3.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x3inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x3inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x3inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x3Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x3 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x3Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x3Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x3Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x3Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x3Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x3 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x3Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x3Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="9" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="9" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x3Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x3Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x2inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x2 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x2inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x2inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x2inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x2Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x2Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x2Slope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x2Slope</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x2Slopeinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x2 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x2Slope.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x2Slopeinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="6" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="6" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x2Slopeinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x2Slopeinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SideRight</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Side Right</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SideRight.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideRight.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideRight.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SideRight</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>ASL_WindowUnframed2x1SideLeft</MirroringBlock>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SideRightinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Side Right inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SideRight.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideRightinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideRightinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SideRightinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>ASL_WindowUnframed2x1SideLeftinv</MirroringBlock>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SideLeft</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Side Left</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SideLeft.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideLeft.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideLeft.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SideLeft</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>ASL_WindowUnframed2x1SideRight</MirroringBlock>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SideLeftinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Side Left inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SideLeft.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideLeftinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="2" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SideLeftinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SideLeftinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>ASL_WindowUnframed2x1SideRightinv</MirroringBlock>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Face</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Face.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Face.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Face</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1FaceFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1FaceFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1FaceFrame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1FaceFrame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Faceinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Faceinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Faceinv2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Faceinv2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Faceinv3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Faceinv3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1Faceinv4</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Face4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv4.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1Faceinv4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1Faceinv4</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1Faceinv2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Faceinv2.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1Faceinv2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1Faceinv2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1Faceinv2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1Face</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1Face.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1Face.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1Face</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1Faceinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1Faceinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1Faceinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1Faceinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1FaceFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face Frame </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrame.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1FaceFrame</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1FaceFrameL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face Frame L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrameL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrameL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1FaceFrameL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1FaceFrameR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Face Frame R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrameR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1FaceFrameR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1FaceFrameR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x1Face</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x1Face.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x1Face.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x1Face.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x1Face</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed3x1Faceinv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 3x1 Face</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed3x1Faceinv.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed3x1Faceinv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="3" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed3x1Faceinv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed3x1Faceinv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  
+		  
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowFrame_1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowFrame_1.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_WindowFrame_1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_WindowFrame_1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowFrame_1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowFrame_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowFrame_2.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_WindowFrame_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_WindowFrame_2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowFrame_2</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowFrame_3</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowFrame_3.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_WindowFrame_3.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_WindowFrame_3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowFrame_3</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowFrame_4</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowFrame_4.dds</Icon>
+		  <Description>
+			  Oriel window Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_WindowFrame_4.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_WindowFrame_4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowFrame_4</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowFrame_5</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowFrame_5.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_WindowFrame_5.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_WindowFrame_5.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowFrame_5</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Windowframe1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Windowframe1x1.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Windowframe1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Windowframe1x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Windowframe1x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Windowframe1x1inv</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Frame 1x1 inv</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Windowframe1x1.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Windowframe1x1inv.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Windowframe1x1inv.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Windowframe1x1inv</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Louver</SubtypeId>
+		  </Id>
+		  <DisplayName>Louver</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Louver.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Louver.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Louver.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Louver</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <HasPhysics>false</HasPhysics>
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Louver_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>Louver offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Louver.dds</Icon>
+		  <Description>
+			  Window Frame
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Louver_offset.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Louver_offset.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Louver_offset</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+		  <HasPhysics>false</HasPhysics>
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip1x1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip1x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip1x1.mwm"/>
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerTip1x1</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase1x1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase1x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase1x1.mwm"/>
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerBase1x1</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip1x1Frame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 1x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip1x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip1x1Frame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip1x1Frame.mwm"/>
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerTip1x1Frame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip1x1Frame2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 1x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip1x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip1x1Frame2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip1x1Frame2.mwm"/>
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerTip1x1Frame2</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase1x1Frame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 1x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase1x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase1x1Frame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase1x1Frame.mwm"/>
+
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerBase1x1Frame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1M</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1M</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1 M</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1M.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1M.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1M.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1M</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase2x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 2x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase2x1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase2x1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase2x1.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerBase2x1M</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerBase2x1</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase2x1M</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 2x1 M</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase2x1M.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase2x1M.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase2x1M.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerBase2x1</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerBase2x1M</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1Frame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1Frame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1Frame.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1MFrame</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1Frame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1MFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1 MFrame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1MFrame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1MFrame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1MFrame.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1Frame</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1MFrame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1Frame2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1 Frame2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1Frame2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1Frame2.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1MFrame2</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1Frame2</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerTip2x1MFrame2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Tip 2x1 MFrame2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerTip2x1MFrame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerTip2x1MFrame2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerTip2x1MFrame2.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerTip2x1Frame2</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerTip2x1MFrame2</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase2x1Frame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 2x1 Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase2x1Frame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase2x1Frame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase2x1Frame.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerBase2x1MFrame</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerBase2x1Frame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerBase2x1MFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Corner Base 2x1 M Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerBase2x1MFrame.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_WindowCornerBase2x1MFrame.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_WindowCornerBase2x1MFrame.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringBlock>ASL_WindowCornerBase2x1Frame</MirroringBlock>
+		  <BlockPairName>ASL_WindowCornerBase2x1MFrame</BlockPairName>
+
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerSlopedCornerBase1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Sloped Corner Base 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerSlopedCornerBase1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerSlopedCornerBase1x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerSlopedCornerBase1x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Sloped Corner Base 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerSlopedCornerBase1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1L.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1L.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerSlopedCornerBase1x1L</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerSlopedCornerBase1x1R</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Sloped Corner Base 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerSlopedCornerBase1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1R.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase1x1R.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerSlopedCornerBase1x1R</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowCornerSlopedCornerBase21x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Sloped Corner Base 2 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowCornerSlopedCornerBase1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase21x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowCornerSlopedCornerBase21x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowCornerSlopedCornerBase21x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframedCornerSlope1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Corner Sloped 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframedCornerSlope1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframedCornerSlope1x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframedCornerSlope1x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Corner Sloped 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframedCornerSlope1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1L.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1L.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframedCornerSlope1x1L</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>	  
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframedCornerSlope1x1R</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Corner Sloped 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframedCornerSlope1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1R.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframedCornerSlope1x1R.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframedCornerSlope1x1R</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframedSlopeTransition1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Transition 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframedSlopeTransition1x1.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframedSlopeTransition1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframedSlopeTransition1x1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframedSlopeTransition1x1</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframedSlopeTransition1x1M</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed Slope Transition 1x1 M</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframedSlopeTransition1x1M.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframedSlopeTransition1x1M.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframedSlopeTransition1x1M.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframedSlopeTransition1x1M</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed1x1SquareSlopedCornerTip</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 1x1 Square Sloped Corner Tip</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed1x1SquareSlopedCornerTip.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed1x1SquareSlopedCornerTip.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed1x1SquareSlopedCornerTip.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed1x1SquareSlopedCornerTip</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SquareSlopedCornerTipL</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Square Sloped Corner Tip L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SquareSlopedCornerTipL.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SquareSlopedCornerTipL.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SquareSlopedCornerTipL.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SquareSlopedCornerTipL</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_WindowUnframed2x1SquareSlopedCornerTipR</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Unframed 2x1 Square Sloped Corner Tip R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_WindowUnframed2x1SquareSlopedCornerTipR.dds</Icon>
+		  <Description>
+			  Unframed Window
+		  </Description>
+		  <GuiVisible>false</GuiVisible>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_WindowUnframed2x1SquareSlopedCornerTipR.mwm</Model>
+		  <Components>
+			  <Component Subtype="AluminumAlloy_Plate" Count="1" />
+			  <Component Subtype="Girder" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_WindowUnframed2x1SquareSlopedCornerTipR.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_WindowUnframed2x1SquareSlopedCornerTipR</BlockPairName>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>4</BuildTimeSeconds>
+
+		  <IsAirTight>true</IsAirTight>
+		  <MirroringX>Z</MirroringX>
+		  <MirroringZ>X</MirroringZ>
+		  <PhysicalMaterial>Glass</PhysicalMaterial>
+		  <PCU>1</PCU>
+	  </Definition>
+
+  </CubeBlocks>
+</Definitions>
