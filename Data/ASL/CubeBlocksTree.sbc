@@ -1,0 +1,1032 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_SpruceTree</SubtypeId>
+            </Id>
+            <DisplayName>Spruce Tree</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SpruceTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="11" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_SpruceTree.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_SpruceTree.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_SpruceTree</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_SpruceTreeMedium</SubtypeId>
+            </Id>
+            <DisplayName>Spruce Tree Medium</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SpruceTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="8" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_SpruceTreeMedium.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_SpruceTreeMedium.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_SpruceTreeMedium</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_PineTree</SubtypeId>
+            </Id>
+            <DisplayName>Pine Tree</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_PineTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="13" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_PineTree.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_PineTree.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_PineTree</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_PineTreeSnowMedium</SubtypeId>
+            </Id>
+            <DisplayName>Pine Tree Medium</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_PineTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="7" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_PineTreeSnowMedium.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_PineTreeSnowMedium.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_PineTreeSnowMedium</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafTree</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Tree</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="11" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafTree.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTree.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafTree</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_DesertTree</SubtypeId>
+            </Id>
+            <DisplayName>Desert Tree</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DesertTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="7" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_DesertTree.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_DesertTree.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_DesertTree</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_DesertTreeMedium</SubtypeId>
+            </Id>
+            <DisplayName>Desert Tree Medium</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DesertTree.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_DesertTreeMedium.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_DesertTreeMedium.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_DesertTreeMedium</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	  <!-- Bush-->
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBush</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBush.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBush.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBush.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBush</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallA</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBush.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallA.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallA.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallA</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallB</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small B</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBush.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallB.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallB.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallB</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+  
+
+	  <!-- Autumn-->
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn1</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="11" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn1.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn2</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="11" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn3</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="11" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn1Medium</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn Medium 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="7" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn1Medium.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn1Medium.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn1Medium</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn2Medium</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn Medium 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="7" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn2Medium.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn2Medium.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn2Medium</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_LeafTreeAutumn3Medium</SubtypeId>
+		  </Id>
+		  <DisplayName>Leaf Tree Autumn Medium 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafTreeAutumn1.dds</Icon>
+		  <Description>
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="7" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Tree\ASL_LeafTreeAutumn3Medium.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafTreeAutumn3Medium.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_LeafTreeAutumn3Medium</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition> 
+	  
+	  
+	  
+  	  <!-- BushAutumn-->
+	  
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushAutumn1</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Autumn 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushAutumn1.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushAutumn1.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushAutumn1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushAutumn2</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Autumn 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushAutumn2.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushAutumn2.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushAutumn2</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushAutumn3</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Autumn 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushAutumn3.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushAutumn3.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushAutumn3</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+
+	  
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallAAutumn1</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small A Autumn 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn1.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn1.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallAAutumn1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallAAutumn2</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small A Autumn 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn2.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn2.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallAAutumn2</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallAAutumn3</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small A Autumn 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn3.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallAAutumn3.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallAAutumn3</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallBAutumn1</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small B Autumn 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn1.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn1.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallBAutumn1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallBAutumn2</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small B Autumn 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn2.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn2.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallBAutumn2</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+ 	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_LeafBushSmallBAutumn3</SubtypeId>
+            </Id>
+            <DisplayName>Leaf Bush Small B Autumn 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn3.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+				  
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_LeafBushSmallBAutumn3.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_LeafBushSmallBAutumn3</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition> 
+
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_SpruceTreeMediumAutumn</SubtypeId>
+            </Id>
+            <DisplayName>Spruce Tree Medium Autumn</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SpruceTreeAutumn.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="8" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_SpruceTreeMediumAutumn.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_SpruceTreeMediumAutumn.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_SpruceTreeMediumAutumn</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_SpruceTreeAutumn</SubtypeId>
+            </Id>
+            <DisplayName>Spruce Tree Autumn</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_SpruceTreeAutumn.dds</Icon>
+            <Description>
+				
+		    </Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="11" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\Tree\ASL_SpruceTreeAutumn.mwm</Model>
+			<PhysicsOption>Convex</PhysicsOption>
+            <Components>
+                <Component Subtype="Plant_Raw_Materials" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Tree\ASL_SpruceTreeAutumn.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_SpruceTreeAutumn</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+
+
+  </CubeBlocks>
+</Definitions>

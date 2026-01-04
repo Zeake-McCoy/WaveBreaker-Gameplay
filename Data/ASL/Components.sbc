@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Components>
+
+
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>Letterprint_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Letterprint Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>500</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>200</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>53</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>2500</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>AluminumAlloyLight_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Aluminum Alloy Light Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>150</MaxIntegrity>
+			<!-- 10x_5000-->
+			<DropProbability>0.9</DropProbability>
+			<Health>2650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>15000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>AluminumAlloy_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Aluminum Alloy Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>2</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>300</MaxIntegrity>
+			<!-- 10x_5000-->
+			<DropProbability>0.9</DropProbability>
+			<Health>2650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>15000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>RHSL_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Rolled Homogenous Steel Plate(Light)</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>15.0</Mass>
+			<Volume>1.5</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>1500</MaxIntegrity>
+			<!-- 10x_5000-->
+			<DropProbability>0.9</DropProbability>
+			<Health>1325</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>15000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>RHS_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Rolled Homogenous Steel Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>30</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>3000</MaxIntegrity> <!-- 10x_5000-->
+			<DropProbability>0.9</DropProbability>
+			<Health>4000</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>15000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+
+
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>RHSH_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Rolled Homogenous Steel Plate(Heavy)</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>40</Mass>
+			<Volume>6</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>6000</MaxIntegrity>
+			<!-- 10x_5000-->
+			<DropProbability>0.9</DropProbability>
+			<Health>1325</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>15000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>Ceramic_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Ceramic Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>60</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>5000</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>6650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>25000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>DepletedUranium_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Depleted Uranium Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>45</Mass>
+			<Volume>3</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>7000</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>8650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>35000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>ERA_Part</SubtypeId>
+			</Id>
+			<DisplayName>ERA Part</DisplayName>
+			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>20</Mass>
+			<Volume>4</Volume>
+			<Model>Models\Components\ExplosivesComponent.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>2000</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>6650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>25000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>Plant_Raw_Materials</SubtypeId>
+			</Id>
+			<DisplayName>Plant Raw Materials</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>1</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>1</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>53</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>2500</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>ConcreteBuildingMaterials</SubtypeId>
+			</Id>
+			<DisplayName>Concrete Building Materials</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>2000</Mass>
+			<Volume>300</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>1600</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>100</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>2500</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+			
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>BrickMaterials</SubtypeId>
+			</Id>
+			<DisplayName>Brick Materials</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.01</Z>
+			</Size>
+			<Mass>80</Mass>
+			<Volume>30</Volume>
+			<Model>Models\Components\steel_plate_component.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>200</MaxIntegrity>
+			<DropProbability>0.9</DropProbability>
+			<Health>2650</Health>
+			<MinimumOfferAmount>250</MinimumOfferAmount>
+			<MaximumOfferAmount>2500</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+
+
+
+		
+	</Components>
+</Definitions>

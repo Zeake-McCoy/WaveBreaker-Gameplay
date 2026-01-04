@@ -1,0 +1,2518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorRaisedSlopedCorner</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorRaisedSlopedCorner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>RaisedSlopedCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--HalfSlopedCornerBaseTop-->
+          <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--HalfSlopedCornerTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--RaisedSlopedCorner-->
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="14" />
+        <Component Subtype="RHSL_Plate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorRaisedSlopedCorner</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorRaisedSlopedCorner</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorRaisedSlopedCorner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>RaisedSlopedCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--HalfSlopedCornerBaseTop-->
+          <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--HalfSlopedCornerTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--RaisedSlopedCorner-->
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorRaisedSlopedCorner</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransition</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransition</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerSquareINVRight-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransition-->
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="8" />
+        <Component Subtype="RHSL_Plate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransition</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_LargeBlockArmorSlopeTransitionMirrored</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransition</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransition</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerSquareINVRight-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+		
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransition-->
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransition</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_SmallBlockArmorSlopeTransitionMirrored</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransitionBase</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBase</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlate-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseTriangle-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBase-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_3.mwm" />
+      </BuildProgressModels>
+ 
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="13" />
+        <Component Subtype="RHSL_Plate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionBase</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_LargeBlockArmorSlopeTransitionBaseMirrored</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransitionBase</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBase</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlate-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseTriangle-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBase-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionBase</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_SmallBlockArmorSlopeTransitionBaseMirrored</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionBaseMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+	  <DeformationRatio>0.000002</DeformationRatio>
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangle-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBaseMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="13" />
+        <Component Subtype="RHSL_Plate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionBaseMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_LargeBlockArmorSlopeTransitionBase</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionBaseMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <DeformationRatio>0.000002</DeformationRatio>
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangle-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBaseMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionBaseMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>RHSL_SmallBlockArmorSlopeTransitionBase</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransitionMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerSquareINVLeft-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlate-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionMirroredTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionMirrored-->
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="8" />
+        <Component Subtype="RHSL_Plate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+        <MirroringBlock>RHSL_LargeBlockArmorSlopeTransition</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransitionMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerSquareINVLeft-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlate-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionMirroredTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionMirrored-->
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+ 
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+        <MirroringBlock>RHSL_SmallBlockArmorSlopeTransition</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransitionTip</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionTip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionTip</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2Base-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipTriangleFront-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTip-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="4" />
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionTip</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringBlock>RHSL_LargeBlockArmorSlopeTransitionTipMirrored</MirroringBlock>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransitionTip</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionTip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionTip</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipBottom-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2Base-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipTriangleFront-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTip-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_3.mwm" />
+      </BuildProgressModels>
+ 
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionTip</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringBlock>RHSL_SmallBlockArmorSlopeTransitionTipMirrored</MirroringBlock>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSlopeTransitionTipMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionTipMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionTipMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipFront-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipMirroredTriangleFront-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTipMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="4" />
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionTipMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringBlock>RHSL_LargeBlockArmorSlopeTransitionTip</MirroringBlock>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSlopeTransitionTipMirrored</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSlopeTransitionTipMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionTipMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlateCorner2TipFront-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipMirroredTriangleFront-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionTipMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTipMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+   
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSlopeTransitionTipMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringBlock>RHSL_SmallBlockArmorSlopeTransitionTip</MirroringBlock>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSquareSlopedCornerBase</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerBase</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerBaseTop-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerBaseTopRight-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerBase-->
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="14" />
+        <Component Subtype="RHSL_Plate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerBase</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSquareSlopedCornerBase</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerBase</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerBaseTop-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerBaseTopRight-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseLeft-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerBase-->
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerBase</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSquareSlopedCornerTip</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerTip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerTip</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipTop-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipTopRight-->
+          <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipLeft-->
+          <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipRight-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTip-->
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="5" />
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerTip</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSquareSlopedCornerTip</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerTip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerTip</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipTop-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipTopRight-->
+          <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipLeft-->
+          <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipRight-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTip-->
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_3.mwm" />
+      </BuildProgressModels>
+   
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerTip</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_LargeBlockArmorSquareSlopedCornerTipInv</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerTipInv</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipInvTop-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipInvTopRight-->
+          <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipLeft-->
+          <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipRight-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTipInv-->
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="7" />
+        <Component Subtype="RHSL_Plate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerTipInv</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RHSL_SmallBlockArmorSquareSlopedCornerTipInv</SubtypeId>
+      </Id>
+      <DisplayName>RHSL_ArmorSquareSlopedCornerTipInv</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
+      <Description>Rolled homogenous steel armor, far stronger than the original heavy armor, but only slightly heavier than light armor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <DeformationRatio>0.000002</DeformationRatio>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipInvTop-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSquareSlopedCornerTipInvTopRight-->
+          <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipLeft-->
+          <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SlopedCornerTipRight-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseFront001-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTipInv-->
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_3.mwm" />
+      </BuildProgressModels>
+
+      <Components>
+        <Component Subtype="RHSL_Plate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>RHSL_ArmorSquareSlopedCornerTipInv</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <MirroringX>YHalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+
+
+	</CubeBlocks>
+</Definitions>

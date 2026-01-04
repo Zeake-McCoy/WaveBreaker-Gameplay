@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>AluminumAlloyLight_Plate</SubtypeId>
+		  </Id>
+		  <DisplayName>Aluminum Alloy Light Plate</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="AluminumAlloyLight_Plate" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>AluminumAlloy_Plate</SubtypeId>
+		  </Id>
+		  <DisplayName>Aluminum Alloy Plate</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="AluminumAlloy_Plate" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RHS_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Rolled Homogenous Steel Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Nickel" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="RHS_Plate" />
+			<BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>RHSL_Plate</SubtypeId>
+		  </Id>
+		  <DisplayName>Rolled Homogenous Steel Plate(Light)</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+			  <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="RHSL_Plate" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+	  
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>RHSH_Plate</SubtypeId>
+		  </Id>
+		  <DisplayName>Rolled Homogenous Steel Plate(Heavy)</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="200" TypeId="Ingot" SubtypeId="Iron" />
+			  <Item Amount="40" TypeId="Ingot" SubtypeId="Nickel" />
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="RHSH_Plate" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+	  
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Ceramic_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Ceramic Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="600" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Ceramic_Plate" />
+			<BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>Letterprint_Plate</SubtypeId>
+		  </Id>
+		  <DisplayName>Letterprint Plate</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="Letterprint_Plate" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+	  
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DepletedUranium_Plate</SubtypeId>
+			</Id>
+			<DisplayName>Depleted Uranium Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
+
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="DepletedUranium_Plate" />
+			<BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>ERA_Part</SubtypeId>
+		  </Id>
+		  <DisplayName>ERA Part</DisplayName>
+		  <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
+			  <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+			  <Item Amount="0.3" TypeId="Ingot" SubtypeId="Magnesium" />
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="ERA_Part" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+	  
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Plant_Raw_Materials</SubtypeId>
+			</Id>
+			<DisplayName>Plant Raw Materials</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Stone" />
+
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Plant_Raw_Materials" />
+			<BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>ConcreteBuildingMaterials</SubtypeId>
+		  </Id>
+		  <DisplayName>ConcreteBuildingMaterials</DisplayName>
+		  <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="ConcreteBuildingMaterials" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>BrickMaterials</SubtypeId>
+		  </Id>
+		  <DisplayName>BrickMaterials</DisplayName>
+		  <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="BrickMaterials" />
+		  <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+	  </Blueprint>
+
+
+  </Blueprints>
+</Definitions>

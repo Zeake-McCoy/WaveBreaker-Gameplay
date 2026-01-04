@@ -1,0 +1,1617 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Road5x5</SubtypeId>
+		  </Id>
+		  <DisplayName>Road 5x5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Road5x5.dds</Icon>
+		  <Description>
+			  Basic road
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Road5x5.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Road5x5.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Road5x5</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Road_cross</SubtypeId>
+		  </Id>
+		  <DisplayName>Road Cross</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Road_cross.dds</Icon>
+		  <Description>
+			  Basic road cross
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Road_cross.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Road_cross.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Road_cross</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Road5x52</SubtypeId>
+		  </Id>
+		  <DisplayName>Road 5x5 (no marking)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Road5x52.dds</Icon>
+		  <Description>
+			  Basic road
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Road5x52.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Road5x52.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Road5x52</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Road5x5Curves</SubtypeId>
+		  </Id>
+		  <DisplayName>Road 5x5 Curves</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Road5x5Curves.dds</Icon>
+		  <Description>
+			  Basic road Curves
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Road5x5Curves.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Road5x5Curves.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Road5x5Curves</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>RoadINVcorner</SubtypeId>
+		  </Id>
+		  <DisplayName>Road inv Corner</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\RoadINVcorner.dds</Icon>
+		  <Description>
+			  Basic road
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\RoadINVcorner.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\RoadINVcorner.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>RoadINVcorner</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Road5x5Slope</SubtypeId>
+		  </Id>
+		  <DisplayName>Road 5x5 Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Road5x5Slope.dds</Icon>
+		  <Description>
+			  Basic road Slope
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="2" z="5"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Road5x5Slope.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="1" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Road5x5Slope.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Road5x5Slope</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	   	  
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Taxiway21x50</SubtypeId>
+		  </Id>
+		  <DisplayName>Taxiway 21x50 </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Taxiway
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="21" y="1" z="50"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Taxiway21x50.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1050" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="21.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="21.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="21.00" EndY="50.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="21.00" EndY="50.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Taxiway21x50.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Taxiway21x50</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Taxiway21x21_cross</SubtypeId>
+		  </Id>
+		  <DisplayName>Taxiway 21x21 cross</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x21_cross.dds</Icon>
+		  <Description>
+			  Taxiway
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="21" y="1" z="21"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Taxiway21x21_cross.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="525" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Taxiway21x21_cross.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Taxiway21x21_cross</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Taxiway25x50</SubtypeId>
+		  </Id>
+		  <DisplayName>Taxiway 25x50 </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Taxiway
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="25" y="1" z="50"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Taxiway25x50.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1250" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="25.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="25.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="25.00" EndY="50.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="25.00" EndY="50.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Taxiway25x50.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Taxiway25x50</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Taxiway25x25_cross</SubtypeId>
+		  </Id>
+		  <DisplayName>Taxiway 25x25 cross</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x21_cross.dds</Icon>
+		  <Description>
+			  Taxiway
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="25" y="1" z="25"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Taxiway25x25_cross.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="625" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Taxiway25x25_cross.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Taxiway25x25_cross</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+    	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Taxiway29x50</SubtypeId>
+		  </Id>
+		  <DisplayName>Taxiway 29x50 </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Taxiway
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="29" y="1" z="50"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Taxiway29x50.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1450" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="29.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="29.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="50.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="29.00" EndY="50.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="29.00" EndY="50.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Taxiway29x50.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Taxiway29x50</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+    	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Runway19x60</SubtypeId>
+		  </Id>
+		  <DisplayName>Runway 19 x 60 </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Runway
+		  
+			  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="19" y="1" z="60"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Runway19x60.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1140" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Runway19x60.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Runway19x60</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+    	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Runway_cross</SubtypeId>
+		  </Id>
+		  <DisplayName>Runway 19 x 60 cross</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Runway cross
+		  
+			  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="19" y="1" z="60"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Runway_cross.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1140" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Runway_cross.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Runway_cross</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+    	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>RunwayEnd</SubtypeId>
+		  </Id>
+		  <DisplayName>Runway End </DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Taxiway21x50.dds</Icon>
+		  <Description>
+			  Runway
+			  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="19" y="1" z="60"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\RunwayEnd.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1140" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\RunwayEnd.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>RunwayEnd</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+    	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>RunwayEnter</SubtypeId>
+		  </Id>
+		  <DisplayName>Runway Enter</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\RunwayEnter.dds</Icon>
+		  <Description>
+			  Runway
+		  
+			  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="19" y="1" z="60"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\RunwayEnter.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="1140" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+		  <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="19.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="60.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="19.00" EndY="60.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\RunwayEnter.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>RunwayEnter</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_1</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_1_Half</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 1 Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1_Half.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_1_Half.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_1_Half.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_1_Half</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_2_Half</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 2 Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1_Half.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_2_Half.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_2_Half.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_2_Half</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_3</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_3.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_3</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_3_Half</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 3 Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1_Half.dds</Icon>
+		  <Description>
+			  Brick Block
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_3_Half.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_3_Half.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_3_Half</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_1x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_1x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_1x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_4x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_5x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 5x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_4x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_5x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_5x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_5x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquare</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder CornerSquare</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquare.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquare.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquare.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquare</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquareInverted</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder Corner Square Inverted</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquareInverted.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquareInverted</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_4x1x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 4x1x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_1x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_4x1x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_4x1x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_4x1x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_4x3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 4x3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_4x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_4x3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_4x3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_4x3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_4x5x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder 4x5x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_4x1.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_4x5x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_4x5x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_4x5x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquareInverted4x</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder CornerSquare 4x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquareInverted.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquareInverted4x</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquare4x</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder Corner Square Inverted 4x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquare.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquare4x.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquare4x.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquare4x</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquareInverted4x2L</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder Corner Square 4x2L Inverted</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquareInverted.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="2"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x2L.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x2L.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquareInverted4x2L</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>M_Shoulder_CornerSquareInverted4x2R</SubtypeId>
+		  </Id>
+		  <DisplayName>Shoulder Corner Square 4x2R Inverted</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\M_Shoulder_CornerSquareInverted.dds</Icon>
+		  <Description>
+			  Road Shoulder
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="4"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x2R.mwm</Model>
+		  <Components>
+			  <Component Subtype="ConcreteBuildingMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="ConcreteBuildingMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\M_Shoulder_CornerSquareInverted4x2R.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>M_Shoulder_CornerSquareInverted4x2R</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  
+	  
+	  
+	  
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_1_ArchDoor</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 1 Arch Door</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1_ArchDoor.dds</Icon>
+		  <Description>
+			  Brick Arch Door
+			  Works with doors from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_1_ArchDoor.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_1_ArchDoor.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_1_ArchDoor</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_2_ArchDoor</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 2 Arch Door</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_2_ArchDoor.dds</Icon>
+		  <Description>
+			  Brick Arch Door
+			  Works with doors from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_2_ArchDoor.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_2_ArchDoor.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_2_ArchDoor</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_3_ArchDoor</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 3 Arch Door</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_3_ArchDoor.dds</Icon>
+		  <Description>
+			  Brick Arch Door
+			  Works with doors from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_3_ArchDoor.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_3_ArchDoor.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_3_ArchDoor</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_1_Window</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 1 Window</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_1_Window.dds</Icon>
+		  <Description>
+			  Brick Window
+			  Works with Window from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_1_Window.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_1_Window.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_1_Window</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_2_Window</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 2 Window</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_2_Window.dds</Icon>
+		  <Description>
+			  Brick Window
+			  Works with Window from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_2_Window.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_2_Window.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_2_Window</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_3_Window</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 3 Window</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_3_Window.dds</Icon>
+		  <Description>
+			  Brick Window
+			  Works with Window from 'Air Sea Land - Multifunctional module'
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_3_Window.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_3_Window.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_3_Window</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_Arch_1</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 1 Arch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_Arch_1.dds</Icon>
+		  <Description>
+			  Brick Arch
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_Arch_1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_Arch_1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_Arch_1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_Arch_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 2 Arch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_Arch_2.dds</Icon>
+		  <Description>
+			  Brick Arch
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_Arch_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_Arch_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_Arch_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>Brick_Arch_3</SubtypeId>
+		  </Id>
+		  <DisplayName>Brick 3 Arch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\Brick_Arch_3.dds</Icon>
+		  <Description>
+			  Brick Arch
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\Brick_Arch_3.mwm</Model>
+		  <Components>
+			  <Component Subtype="BrickMaterials" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="BrickMaterials" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\Brick_Arch_3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Brick_Arch_3</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition> 
+  
+
+  </CubeBlocks>
+</Definitions>

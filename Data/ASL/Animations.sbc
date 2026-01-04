@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Animations>
+
+        <Animation>
+            <Id>
+                <TypeId>AnimationDefinition</TypeId>
+                <SubtypeId>ASL_stand</SubtypeId>
+            </Id>
+            <DisplayName>ASL_stand</DisplayName>
+            <Description>ASL_stand</Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<AnimationModel>Models\Characters\Animations\ASL_stand.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body</InfluenceArea>
+            <Public>false</Public>
+			<Loop>false</Loop>			
+        </Animation>	
+		
+        <Animation>
+            <Id>
+                <TypeId>AnimationDefinition</TypeId>
+                <SubtypeId>ASL_Drive</SubtypeId>
+            </Id>
+            <DisplayName>ASL Drive</DisplayName>
+            <Description>ASL_Drive</Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<AnimationModel>Models\Characters\Animations\ASL_Drive.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body</InfluenceArea>
+            <Public>false</Public>
+			<Loop>false</Loop>			
+        </Animation>
+
+
+
+
+
+
+	</Animations>
+</Definitions>

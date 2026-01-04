@@ -1,0 +1,2995 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+	  <!-- MDF-->
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition">
+		  <Id>
+			  <TypeId>MyProgrammableBlock</TypeId>
+			  <SubtypeId>ASL_FIS_BF109</SubtypeId>
+		  </Id>
+		  <DisplayName>Flight Instrument System BF-109(Programmable Block)</DisplayName>
+		  <Description>
+			  
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FIS_BF109.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_FIS_BF109.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_FIS_BF109.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_FIS_BF109</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Central Top Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Left Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>		  
+	  
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDF16</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display F-16</DisplayName>
+		  <Description>
+			  F-16 style Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_F16.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_F16.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_F16.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_F16</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Central Top Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Left Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_06" DisplayName="Right Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+
+
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDF18</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display F-18</DisplayName>
+		  <Description>
+			  F-18 style Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_F18.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_F18.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_F18.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_F18</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Central Top Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Top Screen" TextureResolution="512" ScreenWidth="4" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="4" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_06" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDF15</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display F-15 Back Seat</DisplayName>
+		  <Description>
+			  F-15 style Back Seat Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_F15.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_F15.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_F15.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_F15</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Right Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Small Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Right Small Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDSu27</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display Su-27</DisplayName>
+		  <Description>
+			  Su27 style Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_Su27.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_Su27.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_Su27.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_Su27</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="4" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Right Bottom Screen" TextureResolution="512" ScreenWidth="4" ScreenHeight="3" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Central Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Left Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Right Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDF35</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display F-35</DisplayName>
+		  <Description>
+			  F-35 style Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_F35.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_F35.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_F35.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_F35</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Central Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Right Top Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Central Bottom Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Left Bottom Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_06" DisplayName="Right Top Screen" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFDFTu95</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display Tu-95</DisplayName>
+		  <Description>
+			  Tu-95 style  Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_Tu95.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_Tu95.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_Tu95.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_Tu95</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Left Central Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Right Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+		  <Id>
+			  <TypeId>ButtonPanel</TypeId>
+			  <SubtypeId>ASL_MFD_Tu95_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Multi function display Tu-95 2</DisplayName>
+		  <Description>
+			  Tu-95 style  Multi function display
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_MFD_Tu95_2.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_MFD_Tu95_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="4" />
+			  <Component Subtype="Display" Count="3" />
+			  <Component Subtype="Construction" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_MFD_Tu95_2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_MFD_Tu95_2</BlockPairName>
+		  <ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Central Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Right Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_03" DisplayName="Left Large Screen" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_04" DisplayName="Left Large Screen2" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+			  <ScreenArea Name="CockpitScreen_05" DisplayName="Right Large Screen2" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+
+		  </ScreenAreas>
+
+		  <BuildTimeSeconds>8</BuildTimeSeconds>
+
+		  <MirroringZ>Y</MirroringZ>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <PCU>20</PCU>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  </Definition>
+
+
+	  <!-- HUD-->
+	  
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_AircraftControlHUD</SubtypeId>
+		  </Id>
+		  <DisplayName>Aircraft Control HUD</DisplayName>
+		  <Description>
+			  HUD for use with Aircraft control seat
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftControlHUD.dds</Icon>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\Large\ASL_AircraftControlHUD.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_AircraftControlHUD.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_AircraftControlHUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_AircraftControlHUD_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>Aircraft Control HUD</DisplayName>
+		  <Description>
+			  HUD for use with Aircraft control seat
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_AircraftControlHUD.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\Small\AircraftControlHUD_Small.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\AircraftControlHUD_Small.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_AircraftControlHUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+		  
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_F18HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL F-18 HUD</DisplayName>
+		  <Description>
+			  F-18 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_F18.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_F18.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_F18.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASLF18HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_F16HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL F-16 HUD</DisplayName>
+		  <Description>
+			  F-16 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_F16.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_F16.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_F16.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASLF16HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_F111HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL F-111 HUD</DisplayName>
+		  <Description>
+			  F-111 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_F111HUD.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_F111HUD.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_F111HUD.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_F111HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_F22HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL F-22 HUD</DisplayName>
+		  <Description>
+			  F-22 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_F22.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_F22.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_F22.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_F22HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_HUD_NonFrame</SubtypeId>
+		  </Id>
+		  <DisplayName>NonFrame HUD</DisplayName>
+		  <Description>
+			  NonFrame style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_NonFrame.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_NonFrame.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_NonFrame.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_HUD_NonFrame</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_Su27HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Su-27 HUD</DisplayName>
+		  <Description>
+			  Su-27 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_Su27.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_Su27.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_Su27.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASLSu27HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_Su33HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Su-33 HUD</DisplayName>
+		  <Description>
+			  Su-33 style HUD (Offset)
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_Su27.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_Su33.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_Su33.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASLSu33HUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_EF2000HUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL EF-2000 HUD</DisplayName>
+		  <Description>
+			  EF-2000 style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HUD_EF2000.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HUD_EF2000.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HUD_EF2000.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASLEF2000</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_HelicopterHUD</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Helicopter HUD</DisplayName>
+		  <Description>
+			  Helicopter style HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_F111HUD.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_HelicopterHUD.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_HelicopterHUD.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_HelicopterHUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+
+
+	  <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+		  <Id>
+			  <TypeId>TextPanel</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrameHUD</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame HUD</DisplayName>
+		  <Description>
+			  Canopy HUD
+		  </Description>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrameHUD.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0"/>
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrameHUD.mwm</Model>
+		  <Components>
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Display" Count="2" />
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="Display" Index="0" />
+		  <ScreenAreas>
+			  <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+		  </ScreenAreas>
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrameHUD.mwm"/>
+
+		  </BuildProgressModels>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+
+		  <BlockPairName>ASL_CanopyFrontFrameHUD</BlockPairName>
+		  <HasInventory>false</HasInventory>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+		  <ResourceSinkGroup>Utility</ResourceSinkGroup>
+		  <RequiredPowerInput>0.00002</RequiredPowerInput>
+		  <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+	  </Definition>
+			  
+			  
+
+	  <!-- Canopy-->
+			  
+			  
+	  
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFront</SubtypeId>
+            </Id>
+            <DisplayName>CanopyFront</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFront.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFront.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFront.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>CanopyFront</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFrontFrame</SubtypeId>
+            </Id>
+            <DisplayName>Canopy Front Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrame.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFrontFrame.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrame.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>CanopyFrontFrame</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFrontFrame2</SubtypeId>
+            </Id>
+            <DisplayName>Canopy Front Frame 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrame2.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFrontFrame2.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrame2.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>CanopyFrontFrame2</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+		  
+	  
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy53</SubtypeId>
+            </Id>
+            <DisplayName>Canopy5/3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy53.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>Canopy53</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFull</SubtypeId>
+            </Id>
+            <DisplayName>CanopyFull</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFull.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>CanopyFull</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFullFrame</SubtypeId>
+            </Id>
+            <DisplayName>Canopy Full Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullFrame.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFullFrame.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrame.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>CanopyFullFrame</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrame2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullFrame2.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrame2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrame2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>CanopyFullFrame2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy32</SubtypeId>
+            </Id>
+            <DisplayName>Canopy 3/2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy32.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy32.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>Canopy32</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy34</SubtypeId>
+            </Id>
+            <DisplayName>Canopy 3/4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy34.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>Canopy34</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy41_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 4/1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy41_2.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy41_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy41_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrame_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrame.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrame_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrame_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>CanopyFrontFrame_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrame2_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame 2 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrame2_3x1.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrame2_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrame2_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>CanopyFrontFrame2_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy53_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy5/3 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy53_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Canopy53_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>CanopyFull_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrame_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Frame 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrame_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrame_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullFrame_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrameCentered2_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Frame Centered2 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrameCentered2_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrameCentered2_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullFrameCentered2_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+		  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy34_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/4 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy34_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>Canopy34_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy41_3x1_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 4/1 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy41_3x1_2.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy41_3x1_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41_3x1_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy41_3x1_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrameCentered_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame Centered 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrame.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrameCentered_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrameCentered_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFrontFrameCentered_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy53Centered_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy5/3 Centered 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy53Centered_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53Centered_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy53Centered_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullCentered_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Centered 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullCentered_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullCentered_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullCentered_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy34Centered_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Centered 3/4 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy34Centered_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34Centered_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy34Centered_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy41FrameCentered_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Centered FrameCentered 4/1 3x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy41FrameCentered_3x1.dds</Icon>
+		  <Description>
+			  Cockpit canopy 3x1
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy41FrameCentered_3x1.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41FrameCentered_3x1.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy41FrameCentered_3x1</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontBrown</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFront Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontBrown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontBrown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFrontBrown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrameBrown</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrameBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrameBrown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrameBrown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFrontFrameBrown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy53Brown</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy5/3 Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy53Brown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53Brown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy53Brown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullBrown</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullBrown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullBrown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullBrown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrameBrown</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullFrameBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrameBrown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrameBrown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullFrameBrown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy32Brown</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/2 Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy32Brown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy32Brown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy32Brown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy34Brown</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/4 Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy34Brown.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34Brown.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy34Brown</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy41Brown_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 4/1 Brown</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy41Brown_2.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy41Brown_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41Brown_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy41Brown_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontGold</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFront Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontGold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontGold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFrontGold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFrontFrameGold</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Front Frame Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontFrameBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFrontFrameGold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFrontFrameGold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFrontFrameGold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy53Gold</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy5/3 Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy53Gold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53Gold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy53Gold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullGold</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullGold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullGold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullGold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrameGold</SubtypeId>
+		  </Id>
+		  <DisplayName>CanopyFull Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullFrameBrown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrameGold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrameGold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullFrameGold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy32Gold</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/2 Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy32Gold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy32Gold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy32Gold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy34Gold</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/4 Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34Brown.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy34Gold.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34Gold.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy34Gold</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy41Gold_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 4/1 Gold</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy41Gold_2.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy41Gold_2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41Gold_2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy41Gold_2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_HalfWindowSlope</SubtypeId>
+		  </Id>
+		  <DisplayName>Half Window Slope</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HalfWindowSlope.dds</Icon>
+		  <Description>
+			  
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HalfWindowSlope.mwm</Model>
+		  <Components>
+			  <Component Subtype="Girder" Count="4" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="BulletproofGlass" Count="10" />
+			  <Component Subtype="SteelPlate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HalfWindowSlope.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HalfWindowSlope</BlockPairName>
+		  <MirroringX>Y</MirroringX>
+		  <MirroringY>X</MirroringY>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>6</BuildTimeSeconds>
+		  <PCU>1</PCU>
+	  </Definition>
+	  
+
+  
+
+
+
+
+
+
+
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy53FrameCentered</SubtypeId>
+            </Id>
+            <DisplayName>Canopy 5/3 FrameCentered</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy53.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy53FrameCentered.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy53FrameCentered.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Canopy53FrameCentered</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_CanopyFullFrameCentered</SubtypeId>
+            </Id>
+            <DisplayName>Canopy Full FrameCentered</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_CanopyFullFrameCentered.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrameCentered.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_CanopyFullFrameCentered</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFullFrameCentered2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFullFrame2.dds</Icon>
+		  <Description>
+			  Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFullFrameCentered2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFullFrameCentered2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFullFrameCentered2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy41FrameCentered</SubtypeId>
+            </Id>
+            <DisplayName>Canopy 4/1 FrameCentered</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy41FrameCentered.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41FrameCentered.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Canopy41FrameCentered</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+  	          <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>ASL_Canopy41FrameCentered_2</SubtypeId>
+            </Id>
+            <DisplayName>Canopy 4/1 FrameCentered_2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32.dds</Icon>
+            <Description>
+				Cockpit canopy
+			</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Models\Cubes\small\ASL_Canopy41FrameCentered_2.mwm</Model>
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy41FrameCentered_2.mwm"/>
+
+            </BuildProgressModels>
+
+            <BlockPairName>ASL_Canopy41FrameCentered_2</BlockPairName>
+            <DeformationRatio>0.32</DeformationRatio>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <EdgeType>Light</EdgeType>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+	  <!-- Canopy WW2-->
+
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFront_WW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFront_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFront_WW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFront_WW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFront_WW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_WW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_WW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_WW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFull_WW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_FrameWW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_FrameWW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_FrameWW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFull_FrameWW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_WW2B</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame WW2 B</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull_WW2B.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_WW2B.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_WW2B.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFull_WW2B</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_WW2B2</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame WW2 B2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull_WW2B2.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_WW2B2.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_WW2B2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFull_WW2B2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFull_WW2C</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full Frame WW2 C</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFull_WW2C.dds</Icon>
+		  <Description>
+			  P-51 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFull_WW2C.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFull_WW2C.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFull_WW2C</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy34_WW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/4 WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy34_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy34_WW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy34_WW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy34_WW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy32_WW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/2 WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy32_WW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy32_WW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy32_WW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Canopy32_WW2B</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy 3/2 WW2 B</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Canopy32_WW2B.dds</Icon>
+		  <Description>
+			  P-51 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_Canopy32_WW2B.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_Canopy32_WW2B.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Canopy32_WW2B</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyOpen_WW2A</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Open WW2 A</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyOpen_WW2A.dds</Icon>
+		  <Description>
+			  BF-109 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyOpen_WW2A.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyOpen_WW2A.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyOpen_WW2A</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_CanopyFront_WW2B</SubtypeId>
+		  </Id>
+		  <DisplayName>Canopy Full WW2 B</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFront_WW2B.dds</Icon>
+		  <Description>
+			  Mig-3 Cockpit canopy
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_CanopyFront_WW2B.mwm</Model>
+		  <Components>
+			  <Component Subtype="BulletproofGlass" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_CanopyFront_WW2B.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_CanopyFront_WW2B</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,5352 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+	  <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+		  <Id>
+			  <TypeId>Door</TypeId>
+			  <SubtypeId>ASL_DriveTankHatch_1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Drive Tank Hatch 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveTankHatch_1.dds</Icon>
+		  <Description>
+			  M1 style Hatch(Drive)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_DriveTankHatch_1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_1.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DriveTankHatch_1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <MaxOpen>1.0</MaxOpen>
+		  <OpeningSpeed>2.5</OpeningSpeed>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>10</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+		  <Id>
+			  <TypeId>Door</TypeId>
+			  <SubtypeId>ASL_DriveTankHatch_1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Drive Tank Hatch 1 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveTankHatch_1.dds</Icon>
+		  <Description>
+			  M1 style Hatch(Drive)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_DriveTankHatch_1_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_1_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DriveTankHatch_1_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <MaxOpen>1.0</MaxOpen>
+		  <OpeningSpeed>2.5</OpeningSpeed>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>10</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+		  <Id>
+			  <TypeId>Door</TypeId>
+			  <SubtypeId>ASL_DriveTankHatch_2</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Drive Tank Hatch 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveTankHatch_2.dds</Icon>
+		  <Description>
+			  T-72 style Hatch(Drive)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_DriveTankHatch_2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_2.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DriveTankHatch_2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <MaxOpen>1.0</MaxOpen>
+		  <OpeningSpeed>2.5</OpeningSpeed>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>10</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+		  <Id>
+			  <TypeId>Door</TypeId>
+			  <SubtypeId>ASL_DriveTankHatch_2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Drive Tank Hatch 2 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DriveTankHatch_2.dds</Icon>
+		  <Description>
+			  T-72 style Hatch(Drive)
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_DriveTankHatch_2_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_2_offset.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DriveTankHatch_2_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <MaxOpen>1.0</MaxOpen>
+		  <OpeningSpeed>2.5</OpeningSpeed>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>10</PCU>
+	  </Definition>
+
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_1.dds</Icon>
+		  <Description>
+			  M1 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_1.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.38" y="0.41" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 1 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_1.dds</Icon>
+		  <Description>
+			  M1 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_1_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_1_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_1_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_1_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.38" y="0.16" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  Challenger 2 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_TankHatch_2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.29" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  Challenger 2 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_2_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.04" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2x1L</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2x1 L</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2x1L.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x1L.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_TankHatch_2x1L</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2x1L_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.21" y="0.25" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2x1R</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2x1 R</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2x1R.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x1R.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_2x1R</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2x1R_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.21" y="0.25" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2x3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  Challenger 2 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2x3.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x3.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_2x3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.29" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_2x3_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 2x3 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_2.dds</Icon>
+		  <Description>
+			  Challenger 2 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_2x3_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x3_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_2x3_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_2_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.04" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_3.dds</Icon>
+		  <Description>
+			  T-72 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_3.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_3.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_3_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.29" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_3_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 3 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_3.dds</Icon>
+		  <Description>
+			  T-72 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_3_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_3_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_3_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_3_Door_offset</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.04" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_4</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_4.dds</Icon>
+		  <Description>
+			  T-72 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_4.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_4.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_4</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_3_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.29" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_4_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 4 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_4.dds</Icon>
+		  <Description>
+			  T-72 style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch4_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch4_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_4_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_3_Door_offset</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.46" y="0.04" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_5</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_5.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_5.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_5</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_5_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.30" z="0"/>
+				  <MaxOpen>45</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_5x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 5x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_5.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_5x1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5x1.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_5x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_5x1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.30" y="0.25" z="0"/>
+				  <MaxOpen>45</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_5_3x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 5 3x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_5.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_5_3x1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5_3x1.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_5_3x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_5_3x1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.70" y="0.20" z="0"/>
+				  <MaxOpen>45</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_6</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 6</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_6.dds</Icon>
+		  <Description>
+			  APC style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_6.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_6.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_6</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_6_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.27" y="0.20" z="0"/>
+				  <MaxOpen>70</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_6_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 6 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_6.dds</Icon>
+		  <Description>
+			  APC style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch6_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch6_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_6_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_6_Door_offset</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.25" y="-0.05" z="0"/>
+				  <MaxOpen>70</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_6_x3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 6 x3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_6.dds</Icon>
+		  <Description>
+			  APC style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_6_x3.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_6_x3.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_6_x3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_6_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.27" y="0.20" z="0"/>
+				  <MaxOpen>70</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_7</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 7</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_7.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_7.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_7.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_TankHatch_7</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_7_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.45" y="0.27" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_7_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 7 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_7.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_7_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <MountPoints>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_7_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_7_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_7_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.45" y="0.03" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_8</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 8</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_8.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_8.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_8.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_TankHatch_8</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_8_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.45" y="0.27" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_8_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 8 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_8.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_8_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_8_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_8_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_8_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.45" y="0.03" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_8x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 8x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_8.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_8x1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_8x1.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_TankHatch_8x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_8x1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.21" y="0.25" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_8x1_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 8x1 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_8.dds</Icon>
+		  <Description>
+			  IFV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_8x1_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			</MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_8x1_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_8x1_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_8x1_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.21" y="0.00" z="0"/>
+				  <MaxOpen>120</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_9</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 9</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_6.dds</Icon>
+		  <Description>
+			  APC style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch9.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch9.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_9</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_9_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.75" y="-0.05" z="0"/>
+				  <MaxOpen>70</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_10</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 10</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_10.dds</Icon>
+		  <Description>
+			  Panzer V Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_10.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_10.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_10</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_10_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.61" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_10_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 10 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_10.dds</Icon>
+		  <Description>
+			  Panzer V Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_10_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_10_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_10_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_10_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.36" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_11</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 11</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_11.dds</Icon>
+		  <Description>
+			  Panzer V Late style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_11.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_11.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_11</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_11_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.48" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_11_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 11 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_11.dds</Icon>
+		  <Description>
+			  Panzer V Late style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_11_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_11_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_11_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_11_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.23" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_12</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 12</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_12.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_12.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_12</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_12_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.61" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_12_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 12 offset</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_12.dds</Icon>
+		  <Description>
+			  Panzer IV style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_12_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_12_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_12_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.36" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_12x1</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 12x1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_12.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_12x1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12x1.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_12x1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_12x1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.61" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_12x2</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 12x2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_12.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_12x1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12x1.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_12x2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_12x1_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.40" y="0.61" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_13</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 13</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_13.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_13.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_13.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_13</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_13_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.44" y="0.38" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_13_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 13</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_13.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_13_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_13_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_13_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_13_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.44" y="0.13" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_14</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 14</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_14.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_14.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_14.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_14</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_14_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.44" y="0.38" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_TankHatch_14_offset</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Tank Hatch 14</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_TankHatch_14.dds</Icon>
+		  <Description>
+			  Panzer IV Early style Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="2" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_TankHatch_14_offset.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_14_offset.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_TankHatch_14_offset</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_TankHatch_14_offset_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-0.44" y="0.13" z="0"/>
+				  <MaxOpen>110</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_EntranceHatch</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Entrance Hatch</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_EntranceHatch.dds</Icon>
+		  <Description>
+			  Entrance Hatch
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="4" y="1" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\small\ASL_EntranceHatch.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EntranceHatch.mwm" />
+		  </BuildProgressModels>
+		  
+		  <BlockPairName>ASL_EntranceHatch</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_EntranceHatch_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Z</RotationAxis>
+				  <PivotPosition x="-1.05" y="0.27" z="0"/>
+				  <MaxOpen>60</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_ShipDoor_Half</SubtypeId>
+		  </Id>
+		  <DisplayName>Ship Door Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ShipDoor_Half.dds</Icon>
+		  <Description>
+			  Armored doors for ships
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ShipDoor_Half.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="4" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="4" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="6" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor_Half.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ShipDoor_Half</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_ShipDoor_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-0.78" y="0.00" z="-1.35"/>
+				  <MaxOpen>100</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>1</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_ShipDoor</SubtypeId>
+		  </Id>
+		  <DisplayName>Ship Door Half</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ShipDoor.dds</Icon>
+		  <Description>
+			  Armored doors for ships
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ShipDoor.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="4" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="4" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="6" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ShipDoor</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_ShipDoor_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-0.78" y="0.00" z="-1.35"/>
+				  <MaxOpen>100</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>1</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_ShipDoor_Half2</SubtypeId>
+		  </Id>
+		  <DisplayName>Ship Door Half 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ShipDoor_Half.dds</Icon>
+		  <Description>
+			  Armored doors for ships
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ShipDoor_Half2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="4" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="4" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="6" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor_Half2.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ShipDoor_Half2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_ShipDoor_Door2</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-0.84" y="0.00" z="-0.08"/>
+				  <MaxOpen>100</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>1</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_JetBlastDefleorsct</SubtypeId>
+		  </Id>
+		  <DisplayName>Jet Blast Defleorsct</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_JetBlastDefleorsct.dds</Icon>
+		  <Description>
+			  Armored doors for ships
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_JetBlastDefleorsct.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="4" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="4" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="6" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_JetBlastDefleorsct.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_JetBlastDefleorsct</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_JetBlastDefleorsct_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>X</RotationAxis>
+				  <PivotPosition x="0.0" y="1.25" z="-1.25"/>
+				  <MaxOpen>-60</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>1</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_JetBlastDefleorsct2</SubtypeId>
+		  </Id>
+		  <DisplayName>Jet Blast Defleorsct 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_JetBlastDefleorsct.dds</Icon>
+		  <Description>
+			  Armored doors for ships
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_JetBlastDefleorsct2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="InteriorPlate" Count="4" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="4" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="InteriorPlate" Count="6" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_JetBlastDefleorsct2.mwm" />
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_JetBlastDefleorsct2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_JetBlastDefleorsct2_Door</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <!--Slide for linear-->
+				  <RotationAxis>X</RotationAxis>
+				  <PivotPosition x="0.0" y="1.25" z="-2.5"/>
+				  <MaxOpen>-60</MaxOpen>
+				  <Speed>90</Speed>
+				  <OpenDelay>0</OpenDelay>
+				  <CloseDelay>0</CloseDelay>
+				  <OpenSound></OpenSound>
+				  <CloseSound></CloseSound>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>1</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArchDoor</SubtypeId>
+		  </Id>
+		  <DisplayName>Arch Door</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArchDoor.dds</Icon>
+		  <Description>
+Arch Door
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ArchDoor.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ArchDoor.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArchDoor</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArchDoor2</SubtypeId>
+		  </Id>
+		  <DisplayName>Arch Door</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArchDoor.dds</Icon>
+		  <Description>
+			  Arch Door
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ArchDoor2.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ArchDoor2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArchDoor2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_ArchDoorGlass</SubtypeId>
+		  </Id>
+		  <DisplayName>Arch Door(Glass)</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ArchDoorGlass.dds</Icon>
+		  <Description>
+Arch Door(Glass)
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_ArchDoorGlass.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="20" />
+			  <Component Subtype="BulletproofGlass" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ArchDoorGlass.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_ArchDoorGlass</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Window_Wall</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Wall</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Window_Wall.dds</Icon>
+		  <Description>
+Window
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Window_Wall.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Window_Wall.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Window_Wall</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_Window_Wall2</SubtypeId>
+		  </Id>
+		  <DisplayName>Window Wall</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Window_Wall.dds</Icon>
+		  <Description>
+			  Window
+
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1"/>
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Window_Wall2.mwm</Model>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Window_Wall2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_Window_Wall2</BlockPairName>
+		  <DeformationRatio>0.32</DeformationRatio>
+		  <BuildTimeSeconds>3</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>true</IsAirTight>
+	  </Definition>
+
+
+
+
+
+
+
+
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_1</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_1.dds</Icon>
+		  <Description>
+			  Simple Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_1_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_1_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_2.dds</Icon>
+		  <Description>
+			  Common Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_2_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_2_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_3</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_3.dds</Icon>
+		  <Description>
+			  luxury Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_3.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_3_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_3_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_4</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_4.dds</Icon>
+		  <Description>
+			   Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_4.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_4</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_4_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_4_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_5</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door Window 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_5.dds</Icon>
+		  <Description>
+			  Window Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_5.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_5.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_5</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_5_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_5_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_6</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door Window 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_6.dds</Icon>
+		  <Description>
+			  Window Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_6.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_6.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_6</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_6_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_6_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_7</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door Window 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_7.dds</Icon>
+		  <Description>
+			  Window Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_7.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_7.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_7</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_7_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_7_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_DoubleDoor_8</SubtypeId>
+		  </Id>
+		  <DisplayName>Double Door Fire Rated</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_DoubleDoor_8.dds</Icon>
+		  <Description>
+			  Fire Rated Double Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_DoubleDoor_8.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SmallTube" Count="2" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_DoubleDoor_8.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_DoubleDoor_8</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_8_DoorL</Name>
+			  </SubpartDefinition>
+			  <SubpartDefinition>
+				  <Name>ASL_DoubleDoor_8_DoorR</Name>
+			  </SubpartDefinition>
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+			  <Opening>
+				  <IDs>1</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="-1.2" y="0" z="-1.0"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>true</InvertRotation>
+				  <Speed>90</Speed>
+			  </Opening>
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>	  
+	  
+	  
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_1</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 1</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_1.dds</Icon>
+		  <Description>
+			  Simple Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_1.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_1.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_1</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_1_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>  
+  
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_2</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_2.dds</Icon>
+		  <Description>
+			  Simple Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_2.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_2.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_2_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>  
+
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_3</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_3.dds</Icon>
+		  <Description>
+			  Metal Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_3.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_3_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>  
+
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_4</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_4.dds</Icon>
+		  <Description>
+			  Commercial Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_4.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_4</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_4_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>  
+
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_5</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_5.dds</Icon>
+		  <Description>
+			  Common Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_5.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_5.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_5</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_5_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>  
+
+		  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		  <Id>
+			  <TypeId>AdvancedDoor</TypeId>
+			  <SubtypeId>ASL_Door_6</SubtypeId>
+		  </Id>
+		  <DisplayName>Door 6</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_6.dds</Icon>
+		  <Description>
+			  Common Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_Door_6.mwm</Model>
+		  <PlaceDecals>false</PlaceDecals>
+		  <OpenSound>BlockDoorSmallOpen</OpenSound>
+		  <CloseSound>BlockDoorSmallClose</CloseSound>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SmallTube" Count="1" />
+			  <Component Subtype="Motor" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Door_6.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_Door_6</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>14</BuildTimeSeconds>
+		  <DisassembleRatio>1.2</DisassembleRatio>
+
+	  
+		  <Subparts>
+			  <SubpartDefinition>
+				  <Name>ASL_Door_6_Door</Name>
+			  </SubpartDefinition>
+
+		  </Subparts>
+		  <OpeningSequence>
+			  <Opening>
+				  <IDs>0</IDs>
+				  <Move>Rotate</Move>
+				  <RotationAxis>Y</RotationAxis>
+				  <PivotPosition x="0.6" y="0" z="1.3"/>
+				  <MaxOpen>90</MaxOpen>
+				  <InvertRotation>false</InvertRotation>
+				  <Speed>90</Speed>
+				  <OpenSound>BlockDoorSlidingClose</OpenSound>
+				  <CloseSound>BlockDoorSlidingClose</CloseSound>
+			  </Opening>
+
+		  </OpeningSequence>
+		  <PCU>10</PCU>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+	  </Definition>
+
+
+
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_3</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="2.5" z="0" />
+		  <Center x="0" y="2" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base3.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="90" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="30" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+		   <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		    </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_4</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="4" z="1" />
+		  <ModelOffset x="0" y="3.75" z="0" />
+		  <Center x="0" y="3" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base4.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="120" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="40" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	     <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		    </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_4</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_5</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="5" z="1" />
+		  <ModelOffset x="0" y="5" z="0" />
+		  <Center x="0" y="4" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base5.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="150" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="50" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			 <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		    </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base5.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_5</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_6</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="6" z="1" />
+		  <ModelOffset x="0" y="6.25" z="0" />
+		  <Center x="0" y="5" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base6.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="180" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="60" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base6.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_6</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_7</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 6</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="7" z="1" />
+		  <ModelOffset x="0" y="7.5" z="0" />
+		  <Center x="0" y="6" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base7.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="210" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="70" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		   </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base7.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_7</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_8</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 7</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="8" z="1" />
+		  <ModelOffset x="0" y="8.75" z="0" />
+		  <Center x="0" y="7" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base8.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="240" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="80" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base8.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_8</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_9</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 8</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="9" z="1" />
+		  <ModelOffset x="0" y="10" z="0" />
+		  <Center x="0" y="8" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base9.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="270" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="90" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base9.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_9</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_10</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 9</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="10" z="1" />
+		  <ModelOffset x="0" y="11.25" z="0" />
+		  <Center x="0" y="9" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base10.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="300" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="100" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base10.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_10</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_11</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 10</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="11" z="1" />
+		  <ModelOffset x="0" y="12.5" z="0" />
+		  <Center x="0" y="10" z="0" />
+		  <Model>Models\Models\Cubes\Large\ASL_HangarDoor_Base11.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="330" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="110" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HangarDoor_Base11.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_11</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>2.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_3_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 2</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="3" z="1" />
+		  <ModelOffset x="0" y="0.5" z="0" />
+		  <Center x="0" y="2" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base3.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="9" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="3" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base3.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_3</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_4_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 3</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="4" z="1" />
+		  <ModelOffset x="0" y="0.75" z="0" />
+		  <Center x="0" y="3" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base4.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="12" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="4" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="3.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		 </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base4.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_4</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_5_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 4</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="5" z="1" />
+		  <ModelOffset x="0" y="1" z="0" />
+		  <Center x="0" y="4" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base5.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="15" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="5" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="4.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		 </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base5.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_5</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_6_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 5</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="6" z="1" />
+		  <ModelOffset x="0" y="1.25" z="0" />
+		  <Center x="0" y="5" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base6.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="18" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="5.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		  </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base6.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_6</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_7_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 6</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="7" z="1" />
+		  <ModelOffset x="0" y="1.5" z="0" />
+		  <Center x="0" y="6" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base7.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="21" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="7" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="6.0" EndX="1.0" EndY="7.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		 </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base7.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_7</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_8_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 7</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="8" z="1" />
+		  <ModelOffset x="0" y="1.75" z="0" />
+		  <Center x="0" y="7" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base8.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="24" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="7.0" EndX="1.0" EndY="8.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		    </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base8.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_8</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_9_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 8</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="9" z="1" />
+		  <ModelOffset x="0" y="2" z="0" />
+		  <Center x="0" y="8" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base9.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="27" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="9" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="8.0" EndX="1.0" EndY="9.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		 </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base9.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_9</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_10_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 9</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="10" z="1" />
+		  <ModelOffset x="0" y="2.25" z="0" />
+		  <Center x="0" y="9" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base10.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="30" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="9.0" EndX="1.0" EndY="10.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		   </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base10.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_10</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>
+
+	  <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+		  <Id>
+			  <TypeId>AirtightHangarDoor</TypeId>
+			  <SubtypeId>ASL_HangarDoor_11_Small</SubtypeId>
+		  </Id>
+		  <DisplayName>ASL Hangar Door 10</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HangarDoor.dds</Icon>
+		  <Description>
+			  RHS Armor Hangar Door
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="11" z="1" />
+		  <ModelOffset x="0" y="2.5" z="0" />
+		  <Center x="0" y="10" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_HangarDoor_Base11.mwm</Model>
+		  <Sound>BlockDoorHangar</Sound>
+		  <PlaceDecals>false</PlaceDecals>
+		  <Components>
+			  <Component Subtype="RHS_Plate" Count="33" />
+			  <Component Subtype="Construction" Count="15" />
+			  <Component Subtype="SmallTube" Count="40" />
+			  <Component Subtype="Motor" Count="16" />
+			  <Component Subtype="Computer" Count="2" />
+			  <Component Subtype="Construction" Count="25" />
+			  <Component Subtype="RHS_Plate" Count="11" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+	      <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="10.0" EndX="1.0" EndY="11.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+		 </MountPoints>
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_HangarDoor_Base11.mwm"/>
+		  </BuildProgressModels>
+		  <BlockPairName>ASL_HangarDoor_11</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleHeavyMech</DamagedSound>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+		  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		  <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		  <OpeningSpeed>0.1</OpeningSpeed>
+		  <SubpartMovementDistance>0.5</SubpartMovementDistance>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+		  <PhysicalMaterial>Metal</PhysicalMaterial>
+		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+		  <DestroySound>PoofExplosionCat3</DestroySound>
+		  <PCU>115</PCU>
+	  </Definition>	  
+	  
+	  
+	  
+	  
+	  
+
+  </CubeBlocks>
+</Definitions>
