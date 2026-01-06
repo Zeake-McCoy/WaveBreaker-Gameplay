@@ -136,14 +136,14 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_AmmoRack_Grenade.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="20" />
 			  <Component Subtype="InteriorPlate" Count="20" />
 			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Computer" Count="5" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="Display" Count="1" />
 			  <Component Subtype="InteriorPlate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -184,14 +184,14 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_AmmoRack_Bomb.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="40" />
+			  <Component Subtype="SteelPlate" Count="40" />
 			  <Component Subtype="InteriorPlate" Count="40" />
 			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Computer" Count="5" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="Display" Count="1" />
 			  <Component Subtype="InteriorPlate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -232,14 +232,14 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_AmmoRack_AIM120.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="40" />
+			  <Component Subtype="SteelPlate" Count="40" />
 			  <Component Subtype="InteriorPlate" Count="40" />
 			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Computer" Count="5" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="Display" Count="1" />
 			  <Component Subtype="InteriorPlate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -280,14 +280,14 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_AmmoRack_AIM9.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="20" />
+			  <Component Subtype="SteelPlate" Count="20" />
 			  <Component Subtype="InteriorPlate" Count="20" />
 			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Computer" Count="5" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="Display" Count="1" />
 			  <Component Subtype="InteriorPlate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -328,10 +328,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_Ammo.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_Ammo.mwm"/>
@@ -370,10 +370,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack.mwm"/>
@@ -412,10 +412,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_Cargo_1.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_Cargo_1.mwm"/>
@@ -454,10 +454,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_Cargo_2.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_Cargo_2.mwm"/>
@@ -496,10 +496,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_Cargo_3.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_Cargo_3.mwm"/>
@@ -538,10 +538,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_FallDown1.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_FallDown1.mwm"/>
@@ -576,10 +576,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Rack_FallDown2.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Rack_FallDown2.mwm"/>
@@ -963,9 +963,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_HescoBastion.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="6" />
+			  <Component Subtype="Construction" Count="60" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HescoBastion.mwm"/>
@@ -1004,9 +1004,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_HescoBastionSmall.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="3" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_HescoBastionSmall.mwm"/>
@@ -1045,9 +1045,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_alone.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="30" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_alone.mwm"/>
@@ -1086,9 +1086,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_Continuous1.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="30" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_Continuous1.mwm"/>
@@ -1127,9 +1127,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_Continuous2.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="30" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_Continuous2.mwm"/>
@@ -1168,9 +1168,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_Corner1.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="4" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_Corner1.mwm"/>
@@ -1209,9 +1209,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_Corner2.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="4" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_Corner2.mwm"/>
@@ -1250,9 +1250,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_Corner3.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="4" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_Corner3.mwm"/>
@@ -1291,9 +1291,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_End1.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_End1.mwm"/>
@@ -1332,9 +1332,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_End2.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_End2.mwm"/>
@@ -1373,9 +1373,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_End3.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_End3.mwm"/>
@@ -1414,9 +1414,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_SandBag_End4.mwm</Model>
 		  <Components>
-			  <Component Subtype="ConcreteBuildingMaterials" Count="2" />
+			  <Component Subtype="Construction" Count="40" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_SandBag_End4.mwm"/>
@@ -1456,9 +1456,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoor2x1.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoor2x1.mwm"/>
@@ -1493,9 +1493,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoor2x1_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoor2x1_Half.mwm"/>
@@ -1530,9 +1530,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoor3x1.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoor3x1.mwm"/>
@@ -1567,9 +1567,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorSlopeCorner2x1.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorSlopeCorner2x1.mwm"/>
@@ -1604,9 +1604,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorSlopeCorner2x1M.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorSlopeCorner2x1M.mwm"/>
@@ -1641,9 +1641,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound1.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound1.mwm"/>
@@ -1678,9 +1678,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound2.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound2.mwm"/>
@@ -1715,9 +1715,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound3.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound3.mwm"/>
@@ -1752,9 +1752,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound4.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound4.mwm"/>
@@ -1789,9 +1789,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound5.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound5.mwm"/>
@@ -1826,9 +1826,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound6.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound6.mwm"/>
@@ -1863,9 +1863,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_ArmorDoorRound7.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_ArmorDoorRound7.mwm"/>
@@ -2048,9 +2048,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_PanzerIV.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_PanzerIV.mwm"/>
@@ -2085,9 +2085,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope.mwm"/>
@@ -2122,9 +2122,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope2.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope2.mwm"/>
@@ -2159,9 +2159,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope3.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope3.mwm"/>
@@ -2196,9 +2196,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope4.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_PanzerIV_Slope4.mwm"/>
@@ -2233,9 +2233,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_T34.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_T34.mwm"/>
@@ -2270,9 +2270,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_T34_Slope.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_T34_Slope.mwm"/>
@@ -2307,9 +2307,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_T34_Slope2.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_T34_Slope2.mwm"/>
@@ -2344,9 +2344,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_T34_Slope3.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_T34_Slope3.mwm"/>
@@ -2381,9 +2381,9 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Track_T34_Slope4.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHSL_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHSL_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Track_T34_Slope4.mwm"/>

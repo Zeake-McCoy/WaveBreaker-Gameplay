@@ -635,43 +635,6 @@
 		  <PCUConsole>2</PCUConsole>
 		  <IsAirTight>false</IsAirTight>
 	  </Definition>
-
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_BarbedWire_Military</SubtypeId>
-		  </Id>
-		  <DisplayName>Barbed Wire Military</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_BarbedWire_Military.dds</Icon>
-		  <Description>
-			  Barbed Wire Military
-		  </Description>
-		  <CubeSize>Large</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="2" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\Large\ASL_BarbedWire_Military.mwm</Model>
-		  <PhysicsOption>Convex</PhysicsOption>
-		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-		  </Components>
-		  <CriticalComponent Subtype="SteelPlate" Index="0" />
-
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_BarbedWire_Military.mwm"/>
-
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_BarbedWire_Military</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <BuildTimeSeconds>9</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <EdgeType>Light</EdgeType>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-		  <IsAirTight>false</IsAirTight>
-	  </Definition>
 	  
   	  <Definition>
 		  <Id>
@@ -1727,45 +1690,6 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
-
-
-	  <Definition>
-            <Id>
-                <TypeId>CubeBlock</TypeId>
-                <SubtypeId>ASL_ChrysanthemumSeal</SubtypeId>
-            </Id>
-            <DisplayName>Chrysanthemum Seal</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ChrysanthemumSeal.dds</Icon>
-            <Description>
-				National Seal of Japan
-		    </Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="1" />
-            <ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Models\Cubes\Large\ASL_ChrysanthemumSeal.mwm</Model>
-			<PhysicsOption>Convex</PhysicsOption>
-            <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-            </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
-
-            <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ChrysanthemumSeal.mwm"/>
-
-            </BuildProgressModels>
-
-            <BlockPairName>ASL_ChrysanthemumSeal</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-            <BuildTimeSeconds>9</BuildTimeSeconds>
-            <DisassembleRatio>2.5</DisassembleRatio>
-            <EdgeType>Light</EdgeType>
-            <PCU>1</PCU>
-            <PCUConsole>2</PCUConsole>
-            <IsAirTight>true</IsAirTight>
-        </Definition> 
-
 	  <Definition>
 		  <Id>
 			  <TypeId>CubeBlock</TypeId>
@@ -2188,10 +2112,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Cube.mwm"/>
@@ -2226,10 +2150,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Half.mwm"/>
@@ -2264,10 +2188,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Slope.mwm"/>
@@ -2302,10 +2226,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Slope21.mwm"/>
@@ -2340,10 +2264,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Slope21Tip.mwm"/>
@@ -2378,10 +2302,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_Non.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_Non.mwm"/>
@@ -2416,10 +2340,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Cube.mwm"/>
@@ -2454,10 +2378,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_offset.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool1_offset.mwm"/>
@@ -2493,10 +2417,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Half.mwm"/>
@@ -2532,10 +2456,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Slope.mwm"/>
@@ -2570,10 +2494,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_Non.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Non.mwm"/>
@@ -2609,10 +2533,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Slope21.mwm"/>
@@ -2647,10 +2571,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_Slope21Tip.mwm"/>
@@ -2685,10 +2609,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_offset.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool2_offset.mwm"/>
@@ -2724,10 +2648,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Cube.mwm"/>
@@ -2762,10 +2686,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Half.mwm"/>
@@ -2800,10 +2724,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Slope.mwm"/>
@@ -2838,10 +2762,10 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="RHS_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RHS_Plate" Index="0" />
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Slope21.mwm"/>
@@ -2876,10 +2800,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Slope21Tip.mwm"/>
@@ -2914,10 +2838,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_Non.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_Non.mwm"/>
@@ -2952,10 +2876,10 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_offset.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_Tool3_offset.mwm"/>

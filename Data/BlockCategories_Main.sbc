@@ -1,0 +1,1404 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>   WB Aircraft Sys</DisplayName>
+			<Name>WBLYNX_Jet</Name>
+			<ItemIds>
+				
+				<string>ProgrammableBlock/ASL_FIS_BF109</string>
+
+				<string>ButtonPanel/ASL_MFDF15</string>
+				<string>ButtonPanel/ASL_MFDF16</string>
+				<string>ButtonPanel/ASL_MFDF18</string>
+				<string>ButtonPanel/ASL_MFDSu27</string>
+				<string>ButtonPanel/ASL_MFDF35</string>
+				<string>ButtonPanel/ASL_MFDFTu95</string>
+				<string>ButtonPanel/ASL_MFD_Tu95_2</string>
+				
+				<string>TextPanel/ASL_F16HUD</string>
+				<string>TextPanel/ASL_F18HUD</string>
+				<string>TextPanel/ASL_F22HUD</string>
+				<string>TextPanel/ASL_F111HUD</string>
+				<string>TextPanel/ASL_HelicopterHUD</string>
+				<string>TextPanel/ASL_Su27HUD</string>
+				<string>TextPanel/ASL_Su33HUD</string>
+				<string>TextPanel/ASL_EF2000HUD</string>
+				<string>TextPanel/ASL_CanopyFrontFrameHUD</string>
+				<string>TextPanel/ASL_AircraftControlHUD</string>
+				<string>TextPanel/ASL_HUD_NonFrame</string>
+				
+				<string>CubeBlock/ASL_CanopyFront_WW2A</string>
+				<string>CubeBlock/ASL_CanopyFull_WW2A</string>
+				<string>CubeBlock/ASL_Canopy34_WW2A</string>
+				<string>CubeBlock/ASL_Canopy32_WW2A</string>
+				
+				<string>CubeBlock/ASL_CanopyFront_WW2B</string>
+				
+				<string>CubeBlock/ASL_CanopyFront</string>
+				<string>CubeBlock/ASL_CanopyFrontFrame</string>
+				<string>CubeBlock/ASL_CanopyFrontFrame2</string>
+				<string>CubeBlock/ASL_CanopyFrontFrame2</string>
+				<string>CubeBlock/ASL_Canopy53</string>
+				<string>CubeBlock/ASL_Canopy53FrameCentered</string>
+				<string>CubeBlock/ASL_CanopyFull</string>
+				<string>CubeBlock/ASL_CanopyFullFrame</string>
+				<string>CubeBlock/ASL_CanopyFullFrameCentered</string>
+				<string>CubeBlock/ASL_CanopyFullFrameCentered2</string>
+				<string>CubeBlock/ASL_Canopy32</string>
+				<string>CubeBlock/ASL_Canopy34</string>
+				<string>CubeBlock/ASL_Canopy41_2</string>
+				<string>CubeBlock/ASL_Canopy41FrameCentered</string>
+				
+				<string>CubeBlock/ASL_CanopyFrontFrame_3x1</string>
+				<string>CubeBlock/ASL_CanopyFrontFrame2_3x1</string>
+				<string>CubeBlock/ASL_Canopy53_3x1</string>
+				<string>CubeBlock/ASL_CanopyFull_3x1</string>
+				<string>CubeBlock/ASL_Canopy34_3x1</string>
+				<string>CubeBlock/ASL_Canopy41_3x1_2</string>
+				
+				<string>CubeBlock/ASL_CanopyFrontFrameCentered_3x1</string>
+				<string>CubeBlock/ASL_Canopy53Centered_3x1</string>
+				<string>CubeBlock/ASL_CanopyFullCentered_3x1</string>
+				<string>CubeBlock/ASL_Canopy34Centered_3x1</string>
+				<string>CubeBlock/ASL_Canopy41FrameCentered_3x1</string>
+				
+				<string>CubeBlock/ASL_CanopyFrontBrown</string>
+				<string>CubeBlock/ASL_CanopyFrontFrameBrown</string>
+				<string>CubeBlock/ASL_Canopy53Brown</string>
+				<string>CubeBlock/ASL_CanopyFullBrown</string>
+				<string>CubeBlock/ASL_CanopyFullFrameBrown</string>
+				<string>CubeBlock/ASL_Canopy32Brown</string>
+				<string>CubeBlock/ASL_Canopy34Brown</string>
+				<string>CubeBlock/ASL_Canopy41Brown_2</string>
+				
+				<string>CubeBlock/ASL_CanopyFrontGold</string>
+				<string>CubeBlock/ASL_CanopyFrontFrameGold</string>
+				<string>CubeBlock/ASL_Canopy53Gold</string>
+				<string>CubeBlock/ASL_CanopyFullGold</string>
+				<string>CubeBlock/ASL_CanopyFullFrameGold</string>
+				<string>CubeBlock/ASL_Canopy32Gold</string>
+				<string>CubeBlock/ASL_Canopy34Gold</string>
+				<string>CubeBlock/ASL_Canopy41Gold_2</string>
+
+				<string>CubeBlock/ASL_CameraBsea</string>
+
+				<string>ReflectorLight/ASL_SignalLightCornerTip</string>
+				<string>ReflectorLight/ASL_SignalLightSlope2x1Tip</string>
+				<string>ReflectorLight/ASL_SignalLightCornerTip2x1</string>
+				<string>ReflectorLight/ASL_SignalLightHalf</string>
+
+				<string>Gyro/ASL_StickShaker</string>
+				<string>Gyro/ASL_StickShaker2</string>
+				<string>Gyro/ASL_StickShaker3</string>
+				<string>Gyro/ASL_StickShaker4</string>
+				
+				<string>CameraBlock/ASL_IRST_Camera</string>
+				<string>CameraBlock/ASL_IRST_Camera2</string>
+				<string>CameraBlock/ASL_IRST_Camera2Thermal</string>
+				<string>CameraBlock/ASL_TargetingPodMini</string>
+				<string>CameraBlock/ASL_TargetingPodMiniThermal</string>
+				<string>CameraBlock/ASL_TargetingPod1</string>
+				<string>CameraBlock/ASL_TargetingPod2</string>
+				<string>CameraBlock/ASL_TargetingPod3</string>
+				<string>CameraBlock/ASL_TargetingPod4</string>
+				<string>CameraBlock/ASL_FLIR_Upper</string>
+				<string>CameraBlock/ASL_FLIR_Lower</string>
+				<string>CameraBlock/ASL_Bombsight</string>
+				
+				<string>AdvancedDoor/ASL_CustomRamp90_3Large</string>
+				<string>AdvancedDoor/ASL_CustomRamp45_3Large</string>
+				<string>AdvancedDoor/ASL_CustomRamp225_3Large</string>
+
+				<string>AdvancedDoor/ASL_CustomRamp290_3Large</string>
+				<string>AdvancedDoor/ASL_CustomRamp245_3Large</string>
+				<string>AdvancedDoor/ASL_CustomRamp2225_3Large</string>
+				
+				<string>AdvancedDoor/ASL_CustomRamp1125_3</string>
+				<string>AdvancedDoor/ASL_CustomRamp21125_3</string>
+				
+				<string>OxygenTank/ASL_TankFull</string>
+				<string>OxygenTank/ASL_TankFull_Half</string>
+				<string>OxygenTank/ASL_DropTankLarge</string>
+				<string>OxygenTank/ASL_DropTankMedium</string>
+				<string>OxygenTank/ASL_DropTankSmall</string>
+				
+				<string>Conveyor/ASL_Half_Conveyor_Large</string>
+				<string>Conveyor/ASL_Half_Conveyor_T_Large</string>
+				<string>Conveyor/ASL_Half_Conveyor_Cross_Large</string>
+				<string>Conveyor/ASL_Conveyor_Slope_Large</string>
+				<string>Conveyor/ASL_Conveyor_HalfSlope_Large</string>
+
+				
+				<string>CubeBlock/ASL_LandingGearBranch</string>
+				<string>CubeBlock/ASL_LandingGearBranchCollisionlesst</string>
+				<string>CubeBlock/ASL_LandingGear_BranchT</string>
+				<string>CubeBlock/ASL_LandingGearBranchSuspension</string>
+				<string>InteriorLight/ASL_LandingGearBranchLight</string>
+				<string>InteriorLight/ASL_LandingGear_Branch_SuspensionLight</string>
+				
+				<string>MotorStator/ASL_TailhookBase</string>
+				<string>MotorSuspension/ASL_FrontLandingGear1x1</string>
+				<string>MotorSuspension/ASL_FrontLandingGear2x1</string>
+				<string>MotorSuspension/ASL_FrontLandingGear2x1_offset</string>
+				<string>MotorSuspension/ASL_FrontLandingGearDouble1x1</string>
+				<string>MotorSuspension/ASL_FrontLandingGearDouble2x1</string>
+				<string>MotorSuspension/ASL_FrontLandingGearDouble2x2x2</string>
+				<string>MotorSuspension/ASL_LandingGearSlope1x1</string>
+				<string>MotorSuspension/ASL_LandingGearSlope2x1</string>
+				<string>MotorSuspension/ASL_LandingGearSlope2x2</string>
+				<string>MotorSuspension/ASL_LandingGearSlope2x2x1</string>
+				<string>MotorSuspension/ASL_LandingGear1x1</string>
+				<string>MotorSuspension/ASL_LandingGear1x1Double</string>
+				<string>MotorSuspension/ASL_LandingGear_Branch_MainWheel1x1TL</string>
+				<string>MotorSuspension/ASL_LandingGear_Branch_MainWheel1x1TR</string>
+				<string>MotorSuspension/ASL_LandingGear_Branch_MainWheel2x2TL</string>
+				<string>MotorSuspension/ASL_LandingGear_Branch_MainWheel2x2TR</string>
+				<string>MotorSuspension/ASL_LandingGear2x1L</string>
+				<string>MotorSuspension/ASL_LandingGear2x1R</string>
+				<string>MotorSuspension/ASL_LandingGear2x2x1L</string>
+				<string>MotorSuspension/ASL_LandingGear2x12xR</string>
+				<string>MotorSuspension/ASL_LandingGear2x2</string>
+				<string>MotorSuspension/ASL_LandingGearDouble2x2</string>
+				<string>MotorSuspension/ASL_LandingGearDouble2x2T</string>
+				<string>MotorSuspension/ASL_LandingGear3x3</string>
+				<string>MotorSuspension/ASL_LandingGear3x3Thick</string>
+				<string>MotorSuspension/ASL_LandingGear3x3ThickT</string>
+				<string>MotorSuspension/ASL_LandingGear3x3x3Thick</string>
+				<string>MotorSuspension/ASL_LandingGear3x3x4Thick</string>
+
+				<string>CubeBlock/ASL_LandingGearBranchThick</string>
+				<string>CubeBlock/ASL_LandingGearBranchSuspensionThick</string>
+				<string>CubeBlock/ASL_LandingGearBranchSuspensionThick1x1</string>
+				
+				<string>MotorStator/ASL_LandingGearRotor1x1</string>
+				<string>MotorStator/ASL_LandingGearRotor1x1_offset</string>
+				<string>MotorStator/ASL_BranchRotor_offsetCentered</string>
+				<string>MotorStator/ASL_LandingGearRotor1x1Thick</string>
+				
+
+				<string>AdvancedDoor/ASL_EntranceHatch</string>
+				
+				<string>LandingGear/ASL_LandingGearBrakes</string>
+				<string>LandingGear/ASL_LandingGearBrakes2</string>
+				
+				<string>Conveyor/ASL_PylonUS_Conveyor</string>
+				<string>Conveyor/ASL_PylonUS2_Conveyor</string>
+				<string>Conveyor/ASL_PylonUS3_Conveyor</string>
+				<string>Conveyor/ASL_PylonUS4_Conveyor</string>
+				<string>Conveyor/ASL_PylonUS5_Conveyor</string>
+				<string>Conveyor/ASL_PylonRu1_Conveyor</string>
+
+			</ItemIds>
+		</Category>
+			
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>   WB Ground SYS</DisplayName>
+			<Name>WB_Tank_Deco</Name>
+			<ItemIds>
+
+				<string>CameraBlock/ASL_DriveCameraHide_1</string>
+				<string>CameraBlock/ASL_DriveCameraHide_1_offset</string>
+				<string>CameraBlock/ASL_DriveCameraHide_1_offset2</string>
+				<string>CameraBlock/ASL_DriveCameraHide_2</string>
+				<string>CameraBlock/ASL_DriveCameraHide_3</string>
+				<string>CameraBlock/ASL_DriveCameraHide_4</string>
+				
+				<string>CameraBlock/ASL_TankScope_Camera</string>
+				<string>CameraBlock/ASL_TankScope_Camera_Half</string>
+				<string>CameraBlock/ASL_TankScopeNON_Camera</string>
+				<string>CameraBlock/ASL_TankScopeNON_Half_Camera_Half</string>
+				<string>CameraBlock/ASL_GunScope_Camera2</string>
+				<string>CameraBlock/ASL_GunScopeCameraHide</string>
+				<string>CameraBlock/ASL_GunScopeCameraHideT</string>
+
+				<string>CameraBlock/ASL_MGCamera</string>
+				
+				<string>RadioAntenna/ASL_TankAntenna</string>
+				<string>RadioAntenna/ASL_TankAntenna_offset</string>
+
+				<string>CameraBlock/ASL_DriveCameraHide</string>
+				<string>CameraBlock/ASL_DriveCameraHide_offset</string>
+				<string>CameraBlock/ASL_TankViewer1_Camera</string>
+				<string>CameraBlock/ASL_TankViewer1_Camera_offset</string>
+				<string>CameraBlock/ASL_TankViewer2_Camera</string>
+				<string>CameraBlock/ASL_TankViewer2_Camera_offset</string>
+				<string>CameraBlock/ASL_TankViewer3_Camera</string>
+				<string>CameraBlock/ASL_TankViewer3_Camera_offset</string>
+				<string>CameraBlock/ASL_TankViewer1_Non</string>
+				<string>CameraBlock/ASL_TankViewer1_offsetNon</string>
+				<string>CameraBlock/ASL_TankViewer1_offsetNon2</string>
+				
+				<string>ReflectorLight/ASL_TankLight</string>
+				<string>ReflectorLight/ASL_TankLight_offset</string>
+				<string>ReflectorLight/ASL_TankLight_offset2</string>
+				<string>ReflectorLight/ASL_TankLight2</string>
+				<string>ReflectorLight/ASL_TankLight2_offset</string>
+				<string>ReflectorLight/ASL_TankLight2_offset2</string>
+				<string>ReflectorLight/ASL_TailLight1</string>
+				<string>ReflectorLight/ASL_TailLight1_offset1</string>
+				<string>ReflectorLight/ASL_TailLight1_offset2</string>
+				<string>ReflectorLight/ASL_TailLight2</string>
+				<string>ReflectorLight/ASL_TailLight2_offset1</string>
+				<string>ReflectorLight/ASL_TailLight2_offset2</string>
+				
+				<string>ReflectorLight/ASL_LightBlock</string>
+				<string>ReflectorLight/ASL_LightBlockHalf</string>
+				<string>OxygenTank/ASL_AmmunitionExplosion</string>
+				<string>CargoContainer/ASL_AmmoRack</string>
+				<string>CargoContainer/ASL_AmmoRack_Half</string>
+				
+				<string>Door/ASL_DriveTankHatch_1</string>
+				<string>Door/ASL_DriveTankHatch_1_offset</string>
+				<string>Door/ASL_DriveTankHatch_2</string>
+				<string>Door/ASL_DriveTankHatch_2_offset</string>
+
+				<string>AdvancedDoor/ASL_TankHatch_1</string>
+				<string>AdvancedDoor/ASL_TankHatch_1_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_2</string>
+				<string>AdvancedDoor/ASL_TankHatch_2_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_2x1L</string>
+				<string>AdvancedDoor/ASL_TankHatch_2x1R</string>
+				<string>AdvancedDoor/ASL_TankHatch_2x3</string>
+				<string>AdvancedDoor/ASL_TankHatch_2x3_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_3</string>
+				<string>AdvancedDoor/ASL_TankHatch_3_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_4</string>
+				<string>AdvancedDoor/ASL_TankHatch_4_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_5</string>
+				<string>AdvancedDoor/ASL_TankHatch_5x1</string>
+				<string>AdvancedDoor/ASL_TankHatch_5_3x1</string>
+				<string>AdvancedDoor/ASL_TankHatch_6</string>
+				<string>AdvancedDoor/ASL_TankHatch_6_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_6_x3</string>
+				<string>AdvancedDoor/ASL_TankHatch_7</string>
+				<string>AdvancedDoor/ASL_TankHatch_7_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_8</string>
+				<string>AdvancedDoor/ASL_TankHatch_8_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_8x1</string>
+				<string>AdvancedDoor/ASL_TankHatch_8x1_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_9</string>
+				<string>AdvancedDoor/ASL_TankHatch_10</string>
+				<string>AdvancedDoor/ASL_TankHatch_10_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_11</string>
+				<string>AdvancedDoor/ASL_TankHatch_11_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_12</string>
+				<string>AdvancedDoor/ASL_TankHatch_12_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_12x1</string>
+				<string>AdvancedDoor/ASL_TankHatch_12x2</string>
+				<string>AdvancedDoor/ASL_TankHatch_13</string>
+				<string>AdvancedDoor/ASL_TankHatch_13_offset</string>
+				<string>AdvancedDoor/ASL_TankHatch_14</string>
+				<string>AdvancedDoor/ASL_TankHatch_14_offset</string>
+				
+				<string>CubeBlock/ASL_ShutterArmor</string>
+				<string>CubeBlock/ASL_EngineCover</string>
+				<string>CubeBlock/ASL_EngineCover_offset</string>
+				<string>CubeBlock/ASL_EngineCover_2x1</string>
+				<string>CubeBlock/ASL_EngineCover_2x1_offset</string>
+				<string>CubeBlock/ASL_EngineCover_2x1_Slope</string>
+				<string>CubeBlock/ASL_EngineCover_3x1</string>
+				<string>CubeBlock/ASL_EngineCover_3x1_Slope</string>
+				<string>CubeBlock/ASL_EngineCover_3x1_Slope2</string>
+				<string>CubeBlock/ASL_EngineCover_3x1_offset</string>
+				<string>CubeBlock/ASL_EngineCover_2x2</string>
+				<string>CubeBlock/ASL_EngineCover_2x2_offset</string>
+				<string>CubeBlock/ASL_EngineCover_3x3</string>
+				
+				<string>CubeBlock/ASL_Armrest</string>
+				<string>CubeBlock/ASL_Armrest2</string>
+				<string>CubeBlock/ASL_ArmrestDown</string>
+				<string>CubeBlock/ASL_ArmrestDown2</string>
+				<string>CubeBlock/ASL_ArmrestT</string>
+				<string>CubeBlock/ASL_ArmrestT2</string>
+
+				<string>CubeBlock/ASL_Armrest_offset</string>
+				<string>CubeBlock/ASL_Armrest2_offset</string>
+				<string>CubeBlock/ASL_ArmrestDown_offset</string>
+				<string>CubeBlock/ASL_ArmrestDown2_offset</string>
+				<string>CubeBlock/ASL_ArmrestT_offset</string>
+				<string>CubeBlock/ASL_ArmrestT2_offset</string>
+				
+				  <string>CubeBlock/ASL_Armrest_offset2</string>
+				  <string>CubeBlock/ASL_Armrest2_offset2</string>
+				  <string>CubeBlock/ASL_ArmrestDown_offset2</string>
+				  <string>CubeBlock/ASL_ArmrestDown2_offset2</string>
+				 <string>CubeBlock/ASL_ArmrestT_offset2</string>
+				  <string>CubeBlock/ASL_ArmrestT2_offset2</string>
+				
+				<string>CubeBlock/ASL_Hook</string>
+				<string>CubeBlock/ASL_Hook_Slope</string>
+				<string>CubeBlock/ASL_Hook_offset</string>
+				<string>CubeBlock/ASL_FuelContainer</string>
+				<string>CubeBlock/ASL_FuelContainer2</string>
+				<string>CubeBlock/ASL_FuelContainer3</string>
+				<string>CubeBlock/ASL_SmokeLauncher</string>
+				<string>CubeBlock/ASL_Tool1_Cube</string>
+				<string>CubeBlock/ASL_Tool2_Cube</string>
+				<string>CubeBlock/ASL_Tool1_Slope</string>
+				<string>CubeBlock/ASL_Tool2_Slope</string>
+				<string>CubeBlock/ASL_Tool1_Slope21</string>
+				<string>CubeBlock/ASL_Tool2_Slope21</string>
+				<string>Conveyor/ASL_GunBase</string>
+				<string>CubeBlock/ASL_ExhaustPipe_1</string>
+				<string>CubeBlock/ASL_ExhaustPipe_2</string>
+				<string>CubeBlock/ASL_ExhaustPipe_3</string>
+				<string>CubeBlock/ASL_ExhaustPipe_4</string>
+				
+				<string>CubeBlock/ASL_ArmorDoor2x1</string>
+				<string>CubeBlock/ASL_ArmorDoor2x1_Half</string>
+				<string>CubeBlock/ASL_ArmorDoor3x1</string>
+
+				<string>CubeBlock/ASL_ArmorDoorSlopeCorner2x1</string>
+				<string>CubeBlock/ASL_ArmorDoorSlopeCorner2x1M</string>
+
+				<string>CubeBlock/ASL_ArmorDoorRound1</string>
+				<string>CubeBlock/ASL_ArmorDoorRound2</string>
+				<string>CubeBlock/ASL_ArmorDoorRound3</string>
+				<string>CubeBlock/ASL_ArmorDoorRound4</string>
+				<string>CubeBlock/ASL_ArmorDoorRound5</string>
+				<string>CubeBlock/ASL_ArmorDoorRound6</string>
+				<string>CubeBlock/ASL_ArmorDoorRound7</string>
+				
+				<string>CubeBlock/Ceramic_ArmorSlope_ERA</string>
+				<string>CubeBlock/Ceramic_ArmorSlope2Base_ERA</string>
+				<string>CubeBlock/Ceramic_ArmorSlope2Tip_ERA</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_3x1_ERA</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_3x1_ERA</string>
+				<string>CubeBlock/Ceramic_Armor3X1L_ERA</string>
+				<string>CubeBlock/Ceramic_Armor3X1R_ERA</string>
+				
+				<string>CubeBlock/Large_BarredWindow</string>
+				<string>CubeBlock/Large_BarredWindow_offset</string>				
+				<string>CubeBlock/Large_BarredWindow_Slope</string>				
+				<string>CubeBlock/Large_BarredWindow_Slope2x1</string>				
+				<string>CubeBlock/Large_BarredWindowSide</string>				
+				
+				<string>CubeBlock/ASL_CzechHedgehog</string>				
+				<string>CubeBlock/ASL_BarbedWire_Military</string>				
+	
+				<string>CubeBlock/ASL_HescoBastion</string>				
+				<string>CubeBlock/ASL_HescoBastionSmall</string>				
+	
+				<string>CubeBlock/ASL_SandBag_alone</string>				
+				
+				<string>CubeBlock/ASL_BarbedWire</string>				
+				<string>CubeBlock/ASL_BarbedWire_Half</string>				
+				<string>CubeBlock/ASL_BarbedWire_Door</string>				
+
+			</ItemIds>
+		</Category>
+		
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			  <DisplayName>   WB Naval SYS</DisplayName>
+			  <Name>WBLYNX_Nav</Name>
+			<ItemIds>
+
+				<string>RadioAntenna/ASL_LargeBlockRadioAntenna</string>
+				
+				<string>CameraBlock/ASL_Telescope</string>
+				
+				<string>AdvancedDoor/ASL_ShipDoor</string>
+				<string>AdvancedDoor/ASL_ShipDoor_Half</string>
+				<string>AdvancedDoor/ASL_ShipDoor_Half2</string>
+				<string>AdvancedDoor/ASL_JetBlastDefleorsct</string>
+				<string>AdvancedDoor/ASL_JetBlastDefleorsct2</string>
+				<string>CubeBlock/ASL_FallSafetyNet</string>
+				<string>CubeBlock/ASL_DiskAntenna</string>
+				
+				<string>CubeBlock/ASL_Radar</string>
+				<string>CubeBlock/ASL_Lifebuoy</string>
+				<string>InteriorLight/ASL_SignalLight</string>
+				<string>InteriorLight/ASL_SignalLightFull</string>
+				
+				<string>CubeBlock/ASL_RailingStraight</string>
+				<string>CubeBlock/ASL_CatwalkStraight</string>
+				
+				<string>Gyro/ASL_Rudder</string>
+				<string>Gyro/ASL_Rudder_offset</string>
+				
+				<string>CubeBlock/ASL_ANSLQ_32</string>
+				
+				<string>CubeBlock/ASL_LifeRaft</string>
+				<string>CubeBlock/ASL_LifeRaft_2x</string>
+				<string>CubeBlock/ASL_LifeRaft_2x_offset</string>
+				<string>CubeBlock/ASL_StairsSmall</string>
+
+
+			</ItemIds>
+		</Category>
+
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>   WB Aircraft Armor</DisplayName>
+			<Name>WB_Air_Armor</Name>
+			<ItemIds>
+
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_6x1M</string>
+
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Slope_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Slope_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Slope_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Slope_6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x2</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x3</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x4</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x5</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x6</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_2x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_3x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_4x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_5x1M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_6x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_6x1M</string>
+
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition32</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition32M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition43</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition43M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition54</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition54M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition65</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition65M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition31</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition31M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition42</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition42M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition53</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition53M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition64</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition64M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition31</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition31M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition42</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition42M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition53</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition53M</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition64</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition64M</string>
+
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_2x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_3x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_4x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_5x1</string>
+				<string>CubeBlock/AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_6x1</string>
+
+			</ItemIds>
+
+		</Category>
+		
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>   WB Decor Blocks</DisplayName>
+			<Name>WB_Decor </Name>
+			<ItemIds>
+
+				<string>CubeBlock/ASL_FireEquipmentLocker</string>
+				<string>CubeBlock/ASL_FireExtinguisher</string>
+				<string>CubeBlock/ASL_LargeFireExtinguisher</string>
+				<string>CubeBlock/ASL_FirstAidBox</string>
+				
+				<string>CargoContainer/ASL_DrawerToolCabinet</string>
+				<string>CubeBlock/LargeBlockDeskComputer</string>
+				<string>CubeBlock/LargeBlockDeskCornerComputerInv</string>
+
+
+				<string>CargoContainer/ASL_Fridge</string>
+				<string>CargoContainer/ASL_Fridge2</string>
+				<string>InteriorLight/ASL_Pole</string>
+
+				<string>CubeBlock/ASL_TrashCan</string>
+				<string>CubeBlock/ASL_Mailbox</string>
+				<string>CubeBlock/ASL_PottedPlant</string>
+				<string>CubeBlock/ASL_Cabinet</string>
+				<string>CubeBlock/ASL_WineCabinet</string>
+				<string>CubeBlock/ASL_WineCabinet2</string>
+				<string>CargoContainer/ASL_Wardrobe1</string>
+				<string>CargoContainer/ASL_Wardrobe2</string>
+
+				<string>CubeBlock/ASL_ArchDoor</string>
+				<string>CubeBlock/ASL_ArchDoor2</string>
+				<string>CubeBlock/ASL_ArchDoorGlass</string>
+				<string>CubeBlock/ASL_Window_Wall</string>
+				<string>CubeBlock/ASL_Window_Wall2</string>
+
+				<string>InteriorLight/ASL_WallLamp1</string>
+				<string>InteriorLight/ASL_WallLamp2</string>
+				<string>InteriorLight/ASL_LightChandelier</string>
+				<string>InteriorLight/ASL_FloorLamp1</string>
+				<string>InteriorLight/ASL_OutdoorPostLight1</string>
+				<string>InteriorLight/ASL_OutdoorPostLight2</string>
+
+				<string>AdvancedDoor/ASL_Door_1</string>
+				<string>AdvancedDoor/ASL_Door_2</string>
+				<string>AdvancedDoor/ASL_Door_3</string>
+				<string>AdvancedDoor/ASL_Door_4</string>
+				<string>AdvancedDoor/ASL_Door_5</string>
+				<string>AdvancedDoor/ASL_Door_6</string>
+
+				<string>AdvancedDoor/ASL_DoubleDoor_1</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_2</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_3</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_4</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_5</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_6</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_7</string>
+				<string>AdvancedDoor/ASL_DoubleDoor_8</string>
+
+				<string>CubeBlock/ASL_WindowFrame_1</string>
+				<string>CubeBlock/ASL_WindowFrame_2</string>
+				<string>CubeBlock/ASL_WindowFrame_3</string>
+				<string>CubeBlock/ASL_WindowFrame_4</string>
+				<string>CubeBlock/ASL_WindowFrame_5</string>
+
+				<string>CubeBlock/ASL_Stairs_1</string>
+				<string>CubeBlock/ASL_Stairs_2</string>
+				<string>CubeBlock/ASL_Stairs_3</string>
+				<string>CubeBlock/ASL_Stairs_Half</string>
+
+				<string>CubeBlock/ASL_Louver</string>
+				<string>CubeBlock/ASL_Louver_offset</string>
+
+				<string>CubeBlock/ASL_Sink</string>
+				<string>CubeBlock/ASL_Toilet</string>
+				<string>CubeBlock/ASL_Toilet_PartitionBoard</string>
+				<string>CubeBlock/ASL_Urinal</string>
+				<string>CubeBlock/ASL_Tub</string>
+
+				<string>CubeBlock/ASL_Fence</string>
+				<string>CubeBlock/ASL_Fence_Corner</string>
+				<string>CubeBlock/ASL_Fence_Pillar</string>
+				<string>CubeBlock/ASL_Fence_Pillar_offsetL</string>
+				<string>CubeBlock/ASL_Fence_Pillar_offsetR</string>
+				<string>CubeBlock/ASL_Fence_Corner_Pillar</string>
+				<string>CubeBlock/ASL_Pillar</string>
+				<string>CubeBlock/ASL_Pillar_Corner</string>
+								
+				<string>CubeBlock/ASL_DeskKitchenCabinets</string>
+				<string>CubeBlock/ASL_DeskKitchenCabinetsCorner</string>
+				
+				<string>CubeBlock/ASL_SingleBed_Left</string>
+				<string>CubeBlock/ASL_PackBench</string>
+
+				<string>CubeBlock/ASL_BasketballStan</string>
+				
+				<string>CubeBlock/ASL_SpruceTree</string>
+				<string>CubeBlock/ASL_SpruceTreeMedium</string>
+				<string>CubeBlock/ASL_PineTree</string>
+				<string>CubeBlock/ASL_LeafTree</string>
+				<string>CubeBlock/ASL_DesertTree</string>
+				<string>CubeBlock/ASL_PineTreeSnowMedium</string>
+
+			</ItemIds>
+		</Category>
+
+		
+		    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>   WB Industry</DisplayName>
+      <Name>WB Industry</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+				<string>CargoContainer/1x1x3CargoSG</string>
+				<string>CargoContainer/2x1x2CargoSG</string>
+				<string>CargoContainer/2x1x2CargoSGInv</string>
+				<string>CargoContainer/2x2x2CargoSG</string>
+				<string>CargoContainer/StorageShelfv1SG</string>
+				<string>CargoContainer/StorageShelfv2SG</string>
+				<string>CargoContainer/StorageShelfv3SG</string>
+				<string>CargoContainer/9x11x5CargoSG</string>
+				<string>CargoContainer/HalfBlockCargo</string>
+				<string>CargoContainer/EDPAccessCargoTube</string>
+				<string>CargoContainer/StorageShelfv1LG</string>
+				<string>CargoContainer/StorageShelfv2LG</string>
+				<string>CargoContainer/StorageShelfv3LG</string>		
+				<string>CargoContainer/3x3x1Cargo</string>
+				<string>CargoContainer/3x3x1OpenCargo</string>
+				<string>CargoContainer/3x3x1OpenCargoV2</string>
+				<string>CargoContainer/3x5x3LargeContainer</string>
+				<string>CargoContainer/3x11x3LargeContainer</string>
+				<string>CargoContainer/7x11x3LargeContainer</string>
+					
+				<string>RadioAntenna/Deflector_MK1</string>
+				<string>SensorBlock/Long_Range_Sensor_Array_Large</string>
+				<string>SoundBlock/LargeLongRangeSoundBlock</string>
+				
+				<string>Drill/StaticDrill</string>
+				<string>Drill/BasicStaticDrill</string>
+				<string>Drill/AdvancedStaticDrill</string>
+		
+				<string>CargoContainer/ASL_Container_Small</string>		
+
+				<string>CargoContainer/ASL_Container</string>
+
+				<string>CubeBlock/ASL_PalletTruck</string>
+				<string>CubeBlock/ASL_Pallet_1</string>
+				<string>CubeBlock/ASL_Pallet_2</string>
+				<string>CubeBlock/ASL_Pallet_3</string>
+				<string>CubeBlock/ASL_Pallet_Cargo1</string>
+				<string>CubeBlock/ASL_Pallet_Cargo2</string>		
+				<string>CubeBlock/ASL_Pallet_Cargo3</string>		
+				<string>CubeBlock/ASL_Pallet_WaterTank</string>		
+				<string>CargoContainer/ASL_CargoBox</string>		
+				<string>CubeBlock/ASL_Rack</string>		
+				<string>CubeBlock/ASL_Rack_Cargo_1</string>		
+				<string>CubeBlock/ASL_Rack_Cargo_2</string>		
+				<string>CubeBlock/ASL_Rack_Cargo_3</string>		
+						
+				<string>CubeBlock/ASL_Rack_FallDown1</string>		
+				<string>CubeBlock/ASL_Rack_FallDown2</string>		
+		
+				<string>CubeBlock/ASL_Container_Empty</string>
+				
+				<string>ConveyorSorter/BeamToolTurret</string>
+		
+      </ItemIds>
+    </Category>	
+	
+	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>   WB Symbols</DisplayName>
+      <Name>WB_Symbols</Name>
+      <ItemIds>
+		<string>CubeBlock/Characters_A_1x1_Large</string>
+		<string>CubeBlock/Characters_A_2x2_Large</string>
+		<string>CubeBlock/Characters_A_3x3_Large</string>				
+      </ItemIds>
+    </Category>	
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipTools</DisplayName>
+            <Name>ShipTools</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <IsToolCategory>true</IsToolCategory>
+            <ItemIds>
+                <string>ConveyorSorter/BeamToolTurret</string>
+            </ItemIds>
+        </Category>
+		
+		    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ArmorBlocks</DisplayName>
+      <Name>Armorblocks</Name>
+      <ItemIds>
+	  
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_2x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_3x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_4x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_5x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_6x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SquareSlopedCornerTip_6x1M</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_2x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_3x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_4x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_5x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionT_6x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransition_6x1M</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_2x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_3x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_4x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_5x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_6x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionTip_6x1M</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_2x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_3x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_4x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_5x1M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_6x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopeTransitionBase_6x1M</string>
+
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_6x1M</string>
+
+				<string>CubeBlock/HalfSquareSlopedCorner2x2</string>
+				<string>CubeBlock/HalfSquareSlopedCorner2x2M</string>
+
+
+				<string>CubeBlock/SmallBlockArmorBlock_Slope_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Slope_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Slope_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Slope_6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlope_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlope_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlope_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlope_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlope_6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_2x1x2</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_2x1x3</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_2x1x4</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_2x1x5</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_2x1x6</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_SquareSquareCorner_2x1x2</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SquareSquareCorner_2x1x3</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SquareSquareCorner_2x1x4</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SquareSquareCorner_2x1x5</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SquareSquareCorner_2x1x6</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerTip_6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCornerBase_6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_InvCorner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_InvCorner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_InvCorner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_InvCorner_6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfInvCorner_6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfCorner_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfCorner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfCorner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfCorner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfCorner_6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedCorner_6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_SlopedTransition_6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_2x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_3x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_4x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_5x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_6x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_RaisedSlopedCorner_6x1M</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition21</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition21M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition32</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition32M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition43</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition43M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition54</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition54M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition65</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition65M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_Slope_21x2x1</string>
+				
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half21</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half21M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half32</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half32M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half43</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half43M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half54</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half54M</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half65</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_Half65M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_Squarer_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_Squarer_3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_Squarer_4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_Squarer_5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_Corner_Squarer_6x1</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_2x2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_3x2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_4x2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_5x2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_6x2x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvBase_2x2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvBase_2x3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvBase_2x4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvBase_2x5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvBase_2x6x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvTip_2x2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvTip_2x3x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvTip_2x4x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvTip_2x5x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_CornerInvTip_2x6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x6x1</string>
+
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Slope_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Slope_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Slope_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Slope_6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlope_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlope_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlope_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlope_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlope_6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x2</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x3</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x4</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x5</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x6</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_InvCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_InvCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_InvCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_InvCorner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfCorner_6x1</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_6x1M</string>
+
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition32</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition32M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition43</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition43M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition54</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition54M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition65</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition65M</string>
+				
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition31</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition31M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition42</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition42M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition53</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition53M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition64</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SlopedTransition64M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition31</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition31M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition42</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition42M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition53</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition53M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition64</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition64M</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_6x1</string>
+				
+				<string>CubeBlock/21HalfSlope_Armor_Block</string>
+				<string>CubeBlock/21HalfSlope_Armor_BlockCorner</string>
+				<string>CubeBlock/SlopedCornerINV</string>
+				<string>CubeBlock/SlopedCornerINVm</string>
+				
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock</string>
+				<string>CubeBlock/Ceramic_HalfArmorBlock</string>
+				<string>CubeBlock/ASL_L_Armor</string>
+				<string>CubeBlock/ASL_HALF_SLOPE_CORNER</string>
+
+				<string>CubeBlock/BuiltIn_PanelArmor_Block</string>
+
+
+				<string>CubeBlock/SmallSloped2x1BaseTransition</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransitionM</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition2x1</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition2x1M</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition3x1</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition3x1M</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition4x1</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition4x1M</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition5x1</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition5x1M</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition6x1</string>
+				<string>CubeBlock/SmallSloped2x1BaseTransition6x1M</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlopeINVTransitionBase_1x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlopeINVTransitionBase_1x1M</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlopeINVTransitionBase_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSlopeINVTransitionBase_2x1M</string>
+
+				<string>CubeBlock/SmallArmorPanelAluminum</string>
+				<string>CubeBlock/SmallArmorCenterPanelAluminum</string>
+				
+				<string>CubeBlock/LargeBlockArmorBlock_Slope_CenteredTip</string>
+
+				<string>CubeBlock/ASL_L_L</string>
+				<string>CubeBlock/ASL_L_R</string>
+
+
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlope</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlope2Base</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlope2Tip</string>
+
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_3x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_4x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_5x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_6x1</string>
+
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_2x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_3x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_4x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_5x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_HalfSlope_6x1</string>
+
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_2x2x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_3x2x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_4x2x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_5x2x1</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorBlock_Slope_6x2x1</string>
+
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_2x1</string>
+				<string>CubeBlock/SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_2x1M</string>
+
+
+				<string>CubeBlock/Ceramic_SmallBlockArmorCornerInv</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorCorner</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorInvCorner2Base</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorInvCorner2Tip</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorCorner2Base</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorCorner2Tip</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlopedCornerBase</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlopedCorner</string>
+				<string>CubeBlock/Ceramic_SmallBlockArmorSlopedCornerTip</string>
+
+
+				<string>CubeBlock/LargeLightArmorSlopedSidePanelCentered</string>
+				<string>CubeBlock/LargeLightArmor2x1SlopedSideBasePanelCentered</string>
+				<string>CubeBlock/LargeLightArmor2x1SlopedSideBasePanelCenteredIvn</string>
+				<string>CubeBlock/LargeLightArmor2x1SlopeSideTipPanelCentered</string>
+				<string>CubeBlock/LargeLightArmor2x1SlopeSideTipPanelCenteredInv</string>
+
+				<string>CubeBlock/LargeLightArmor2x2x1SlopeSideTipPanel</string>
+				<string>CubeBlock/LargeLightArmor2x2x1SlopeSideTipPanelCentered</string>
+
+				<string>CubeBlock/SmallLightArmor3x1SlopedPanel</string>
+				<string>CubeBlock/SmallLightArmor3x1SlopedPanelinv</string>
+				<string>CubeBlock/SmallLightArmor4x1SlopedPanel</string>
+				<string>CubeBlock/SmallLightArmor4x1SlopedPanelinv</string>
+				<string>CubeBlock/SmallLightArmor5x1SlopedPanel</string>
+				<string>CubeBlock/SmallLightArmor5x1SlopedPanelinv</string>
+				<string>CubeBlock/SmallLightArmor6x1SlopedPanel</string>
+				<string>CubeBlock/SmallLightArmor6x1SlopedPanelinv</string>
+				<string>CubeBlock/SmallLightArmor3x1SlopedPanelCentered</string>
+				<string>CubeBlock/SmallLightArmor3x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/SmallLightArmor4x1SlopedPanelCentered</string>
+				<string>CubeBlock/SmallLightArmor4x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/SmallLightArmor5x1SlopedPanelCentered</string>
+				<string>CubeBlock/SmallLightArmor5x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/SmallLightArmor6x1SlopedPanelCentered</string>
+				<string>CubeBlock/SmallLightArmor6x1SlopedPanelCenteredinv</string>
+
+				<string>CubeBlock/LargeLightArmor3x1SlopedPanel</string>
+				<string>CubeBlock/LargeLightArmor3x1SlopedPanelinv</string>
+				<string>CubeBlock/LargeLightArmor4x1SlopedPanel</string>
+				<string>CubeBlock/LargeLightArmor4x1SlopedPanelinv</string>
+				<string>CubeBlock/LargeLightArmor5x1SlopedPanel</string>
+				<string>CubeBlock/LargeLightArmor5x1SlopedPanelinv</string>
+				<string>CubeBlock/LargeLightArmor6x1SlopedPanel</string>
+				<string>CubeBlock/LargeLightArmor6x1SlopedPanelinv</string>
+				<string>CubeBlock/LargeLightArmor3x1SlopedPanelCentered</string>
+				<string>CubeBlock/LargeLightArmor3x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/LargeLightArmor4x1SlopedPanelCentered</string>
+				<string>CubeBlock/LargeLightArmor4x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/LargeLightArmor5x1SlopedPanelCentered</string>
+				<string>CubeBlock/LargeLightArmor5x1SlopedPanelCenteredinv</string>
+				<string>CubeBlock/LargeLightArmor6x1SlopedPanelCentered</string>
+				<string>CubeBlock/LargeLightArmor6x1SlopedPanelCenteredinv</string>
+
+				<string>CubeBlock/ASL_LargeLightArmor1x1FacePanel</string>
+				<string>CubeBlock/ASL_LargeLightArmor1x1FaceInvPanel</string>
+				<string>CubeBlock/ASL_LargeLightArmor2x1FacePanel</string>
+				<string>CubeBlock/ASL_LargeLightArmor2x1FaceInvPanel</string>
+				<string>CubeBlock/ASL_SlopeHalf</string>
+				<string>CubeBlock/ASL_SlopeHalfL</string>
+				<string>CubeBlock/ASL_SlopeHalfR</string>
+				<string>CubeBlock/ASL_CornerPanel</string>
+				<string>CubeBlock/ASL_CornerPanelHalf</string>
+				<string>CubeBlock/ASL_2x1x1SlopedCornerPanel</string>
+
+				<string>CubeBlock/ASL_LightArmor1x1FacePanel</string>
+				<string>CubeBlock/ASL_LightArmor1x1FaceInvPanel</string>
+				<string>CubeBlock/ASL_LightArmor2x1FacePanel</string>
+				<string>CubeBlock/ASL_LightArmor2x1FaceInvPanel</string>
+
+				<string>CubeBlock/AluminumAlloy_SmallArmorHalfCentered1x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered1x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerINVCentered6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered1x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallArmorCornerCentered6x1</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_1x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_6x1</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_1x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_2x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_3x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_4x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_5x1</string>
+				<string>CubeBlock/LargeBlockArmorBlock_Shrill_offset_6x1</string>
+
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_2x1REV</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_2x1REVM</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_3x1REV</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_3x1REVM</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_4x1REV</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_4x1REVM</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_5x1REV</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_5x1REVM</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_6x1REV</string>
+				<string>CubeBlock/LargeBlockArmorBlock_SlopedTransition_6x1REVM</string>
+
+				
+				<string>CubeBlock/ASL_HalfCorner_2x1</string>
+				
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_2x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_2x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_3x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_3x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_4x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_4x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_5x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_5x1M</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_6x1</string>
+				<string>CubeBlock/AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_6x1M</string>
+				
+				<string>CubeBlock/ASL_LightArmor2x1SlopeTip</string>
+				<string>CubeBlock/ASL_LightArmor2x1SlopeBase</string>
+				<string>CubeBlock/ASL_LightArmor3x1SlopeTip</string>
+				<string>CubeBlock/ASL_LightArmor3x1SlopeBase</string>
+
+
+
+      </ItemIds>
+    </Category>
+		
+	</CategoryClasses>
+</Definitions>

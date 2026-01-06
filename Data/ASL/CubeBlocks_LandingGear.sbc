@@ -21,10 +21,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch.mwm" />
 		  </BuildProgressModels>
@@ -63,10 +63,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch.mwm" />
 		  </BuildProgressModels>
@@ -100,10 +100,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchT.mwm" />
 		  </BuildProgressModels>
@@ -135,10 +135,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchT.mwm" />
 		  </BuildProgressModels>
@@ -171,10 +171,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_Suspension.mwm" />
 		  </BuildProgressModels>
@@ -213,10 +213,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_Suspension.mwm" />
 		  </BuildProgressModels>
@@ -251,11 +251,11 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Light.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -307,11 +307,11 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionLight.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -368,7 +368,7 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotor.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
@@ -424,9 +424,9 @@
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotorHead.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -468,7 +468,7 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotor_offset.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
@@ -522,7 +522,7 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotor_offsetCentered.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
@@ -577,7 +577,7 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotorThick.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
@@ -638,9 +638,9 @@
 		  <Model>Models\Models\Cubes\small\ASL_BranchRotorHeadThick.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -682,10 +682,10 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_BranchRotorLarge.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 
 		  </Components>
-		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.97" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.97" EndX="1.00" EndY="0.99"/>
@@ -743,9 +743,9 @@
 		  <Model>Models\Models\Cubes\Large\ASL_BranchRotorHeadLarge.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -795,11 +795,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -879,11 +879,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -961,11 +961,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1045,11 +1045,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1129,11 +1129,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1213,11 +1213,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1295,11 +1295,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1379,11 +1379,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1463,11 +1463,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1545,11 +1545,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1627,11 +1627,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1711,11 +1711,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1793,10 +1793,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1857,10 +1857,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1921,10 +1921,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1987,11 +1987,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2070,10 +2070,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -2136,11 +2136,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2221,11 +2221,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2306,11 +2306,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2391,11 +2391,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2476,11 +2476,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2561,11 +2561,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2647,11 +2647,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2731,10 +2731,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -2798,11 +2798,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2884,11 +2884,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2970,11 +2970,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3054,10 +3054,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -3120,11 +3120,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3201,11 +3201,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3281,11 +3281,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -3359,11 +3359,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3439,11 +3439,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3519,10 +3519,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3590,10 +3590,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3661,10 +3661,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3732,10 +3732,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3804,11 +3804,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="SmallTube" Count="5" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3887,10 +3887,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3957,10 +3957,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchThick.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_BranchThick.mwm" />
 		  </BuildProgressModels>
@@ -3999,10 +3999,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_SuspensionThick.mwm" />
 		  </BuildProgressModels>
@@ -4041,10 +4041,10 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick1x1.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="2" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_LandingGear_Branch_SuspensionThick1x1.mwm" />
 		  </BuildProgressModels>
@@ -4083,10 +4083,10 @@
 		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_BranchLarge.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_BranchLarge.mwm" />
 		  </BuildProgressModels>
@@ -4125,10 +4125,10 @@
 		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_Branch_SuspensionLarge1x1.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="10" />
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_LandingGear_Branch_SuspensionLarge1x1.mwm" />
 		  </BuildProgressModels>
@@ -4168,7 +4168,7 @@
 		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
@@ -4211,7 +4211,7 @@
 		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="Construction" Count="1" />
+			  <Component Subtype="Construction" Count="10" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>

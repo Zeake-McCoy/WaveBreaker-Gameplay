@@ -25,9 +25,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_1.mwm" />
@@ -70,9 +70,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_1_offset.mwm" />
@@ -115,9 +115,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_2.mwm" />
@@ -160,9 +160,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_DriveTankHatch_2_offset.mwm" />
@@ -208,9 +208,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_1.mwm" />
@@ -276,9 +276,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_1_offset.mwm" />
@@ -344,9 +344,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2.mwm" />
@@ -410,9 +410,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2_offset.mwm" />
@@ -476,9 +476,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -547,9 +547,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -618,9 +618,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x3.mwm" />
@@ -684,9 +684,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_2x3_offset.mwm" />
@@ -750,9 +750,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_3.mwm" />
@@ -816,9 +816,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_3_offset.mwm" />
@@ -882,9 +882,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_4.mwm" />
@@ -948,9 +948,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch4_offset.mwm" />
@@ -1014,9 +1014,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5.mwm" />
@@ -1080,9 +1080,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5x1.mwm" />
@@ -1146,9 +1146,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="6" />
+			  <Component Subtype="SteelPlate" Count="6" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_5_3x1.mwm" />
@@ -1212,9 +1212,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_6.mwm" />
@@ -1278,9 +1278,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch6_offset.mwm" />
@@ -1344,9 +1344,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="6" />
+			  <Component Subtype="SteelPlate" Count="6" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_6_x3.mwm" />
@@ -1411,9 +1411,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1482,9 +1482,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1553,9 +1553,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1624,9 +1624,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1695,9 +1695,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1766,9 +1766,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
@@ -1837,9 +1837,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch9.mwm" />
@@ -1903,9 +1903,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_10.mwm" />
@@ -1969,9 +1969,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_10_offset.mwm" />
@@ -2035,9 +2035,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_11.mwm" />
@@ -2101,9 +2101,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_11_offset.mwm" />
@@ -2167,9 +2167,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12.mwm" />
@@ -2233,9 +2233,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12_offset.mwm" />
@@ -2299,9 +2299,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12x1.mwm" />
@@ -2365,9 +2365,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_12x1.mwm" />
@@ -2431,9 +2431,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_13.mwm" />
@@ -2497,9 +2497,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_13_offset.mwm" />
@@ -2563,9 +2563,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_14.mwm" />
@@ -2629,9 +2629,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_TankHatch_14_offset.mwm" />
@@ -2696,9 +2696,9 @@
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="1" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_EntranceHatch.mwm" />
@@ -2768,9 +2768,9 @@
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="InteriorPlate" Count="6" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="8" />
+			  <Component Subtype="SteelPlate" Count="8" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor_Half.mwm" />
 		  </BuildProgressModels>
@@ -2839,9 +2839,9 @@
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="InteriorPlate" Count="6" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="8" />
+			  <Component Subtype="SteelPlate" Count="8" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor.mwm" />
 		  </BuildProgressModels>
@@ -2910,9 +2910,9 @@
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="InteriorPlate" Count="6" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="8" />
+			  <Component Subtype="SteelPlate" Count="8" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_ShipDoor_Half2.mwm" />
 		  </BuildProgressModels>
@@ -2981,9 +2981,9 @@
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="InteriorPlate" Count="6" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_JetBlastDefleorsct.mwm" />
 		  </BuildProgressModels>
@@ -3052,9 +3052,9 @@
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="InteriorPlate" Count="6" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0" />
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_JetBlastDefleorsct2.mwm" />
 		  </BuildProgressModels>
@@ -4317,13 +4317,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="90" />
+			  <Component Subtype="SteelPlate" Count="90" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="30" />
+			  <Component Subtype="SteelPlate" Count="30" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 		   <MountPoints>
@@ -4375,13 +4375,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="120" />
+			  <Component Subtype="SteelPlate" Count="120" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="40" />
+			  <Component Subtype="SteelPlate" Count="40" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	     <MountPoints>
@@ -4433,13 +4433,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="150" />
+			  <Component Subtype="SteelPlate" Count="150" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="50" />
+			  <Component Subtype="SteelPlate" Count="50" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 			 <MountPoints>
@@ -4491,13 +4491,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="180" />
+			  <Component Subtype="SteelPlate" Count="180" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="60" />
+			  <Component Subtype="SteelPlate" Count="60" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4549,13 +4549,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="210" />
+			  <Component Subtype="SteelPlate" Count="210" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="70" />
+			  <Component Subtype="SteelPlate" Count="70" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4607,13 +4607,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="240" />
+			  <Component Subtype="SteelPlate" Count="240" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="80" />
+			  <Component Subtype="SteelPlate" Count="80" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4665,13 +4665,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="270" />
+			  <Component Subtype="SteelPlate" Count="270" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="90" />
+			  <Component Subtype="SteelPlate" Count="90" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4723,13 +4723,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="300" />
+			  <Component Subtype="SteelPlate" Count="300" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="100" />
+			  <Component Subtype="SteelPlate" Count="100" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4781,13 +4781,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="330" />
+			  <Component Subtype="SteelPlate" Count="330" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="110" />
+			  <Component Subtype="SteelPlate" Count="110" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4840,13 +4840,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="9" />
+			  <Component Subtype="SteelPlate" Count="9" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4898,13 +4898,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="12" />
+			  <Component Subtype="SteelPlate" Count="12" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="4" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -4956,13 +4956,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="15" />
+			  <Component Subtype="SteelPlate" Count="15" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="5" />
+			  <Component Subtype="SteelPlate" Count="5" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5014,13 +5014,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="18" />
+			  <Component Subtype="SteelPlate" Count="18" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="6" />
+			  <Component Subtype="SteelPlate" Count="6" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5072,13 +5072,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="21" />
+			  <Component Subtype="SteelPlate" Count="21" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="7" />
+			  <Component Subtype="SteelPlate" Count="7" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5130,13 +5130,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="24" />
+			  <Component Subtype="SteelPlate" Count="24" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="8" />
+			  <Component Subtype="SteelPlate" Count="8" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5188,13 +5188,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="27" />
+			  <Component Subtype="SteelPlate" Count="27" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="9" />
+			  <Component Subtype="SteelPlate" Count="9" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5246,13 +5246,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="30" />
+			  <Component Subtype="SteelPlate" Count="30" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="10" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>
@@ -5304,13 +5304,13 @@ Window
 		  <Sound>BlockDoorHangar</Sound>
 		  <PlaceDecals>false</PlaceDecals>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="33" />
+			  <Component Subtype="SteelPlate" Count="33" />
 			  <Component Subtype="Construction" Count="15" />
 			  <Component Subtype="SmallTube" Count="40" />
 			  <Component Subtype="Motor" Count="16" />
 			  <Component Subtype="Computer" Count="2" />
 			  <Component Subtype="Construction" Count="25" />
-			  <Component Subtype="RHS_Plate" Count="11" />
+			  <Component Subtype="SteelPlate" Count="11" />
 		  </Components>
 		  <CriticalComponent Subtype="Computer" Index="0" />
 	      <MountPoints>

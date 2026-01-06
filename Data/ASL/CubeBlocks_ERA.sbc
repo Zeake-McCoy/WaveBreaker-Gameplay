@@ -2,211 +2,6 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA1</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 1</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA1.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA1.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="4" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA1.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA1</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>
-	  
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA2</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 2</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA2.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA2.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="4" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA2.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA2</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>	  
-  
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA3</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 3</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA3.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA3.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="4" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA3.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA3</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>	  
-
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA4</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 4</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA4.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA4.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="4" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA4.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA4</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>	  
-
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA4_Thin</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 4(Thin)</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA4_Thin.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA4_Thin.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="3" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA4_Thin.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA4_Thin</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>	
-
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>ASL_ERA4_Thin_offset</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 4(Thin offset)</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_ERA4_Thin.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\ASL_ERA4_Thin_offset.mwm</Model>
-		  <Components>
-			  <Component Subtype="ERA_Part" Count="3" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_ERA4_Thin_offset.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>ASL_ERA4_Thin_offset</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>	
-
 		  <Definition>
 		  <Id>
 			  <TypeId>CubeBlock</TypeId>
@@ -223,11 +18,12 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\Ceramic_ArmorSlope_ERA.mwm</Model>
 		  <Components>
-			  <Component Subtype="ERA_Part" Count="3" />
-			  <Component Subtype="Ceramic_Plate" Count="1" />
-		  <Component Subtype="Ceramic_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="1" />
+				<Component Subtype="KGS_ERA_Layer" Count="2" />
+				<Component Subtype="SteelPlate" Count="2" />
 		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\Ceramic_ArmorSlope_ERA.mwm"/>
 		  </BuildProgressModels>
@@ -259,11 +55,12 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\Ceramic_ArmorSlope2Base_ERA.mwm</Model>
 		  <Components>
-			  <Component Subtype="ERA_Part" Count="3" />
-			  <Component Subtype="Ceramic_Plate" Count="1" />
-		  <Component Subtype="Ceramic_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="1" />
+				<Component Subtype="KGS_ERA_Layer" Count="2" />
+				<Component Subtype="SteelPlate" Count="2" />
 		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\Ceramic_ArmorSlope2Base_ERA.mwm"/>
 		  </BuildProgressModels>
@@ -295,11 +92,12 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\Ceramic_ArmorSlope2Tip_ERA.mwm</Model>
 		  <Components>
-			  <Component Subtype="ERA_Part" Count="3" />
-			  <Component Subtype="Ceramic_Plate" Count="1" />
-		  <Component Subtype="Ceramic_Plate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="1" />
+				<Component Subtype="KGS_ERA_Layer" Count="2" />
+				<Component Subtype="SteelPlate" Count="2" />
 		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\Ceramic_ArmorSlope2Tip_ERA.mwm"/>
 		  </BuildProgressModels>
@@ -338,10 +136,12 @@
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_Slope_3x1_ERA.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="6" />
-			<Component Subtype="ERA_Part" Count="6" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="9" />
+				<Component Subtype="Construction" Count="3" />
+				<Component Subtype="KGS_ERA_Layer" Count="6" />
+				<Component Subtype="SteelPlate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_Slope_3x1_ERA.mwm"/>
@@ -378,10 +178,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_Slope_4x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="8" />
-			<Component Subtype="ERA_Part" Count="9" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="12" />
+				<Component Subtype="Construction" Count="4" />
+				<Component Subtype="KGS_ERA_Layer" Count="8" />
+				<Component Subtype="SteelPlate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_Slope_4x1_ERA.mwm"/>
@@ -420,10 +222,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_Slope_5x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="10" />
-			<Component Subtype="ERA_Part" Count="12" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="KGS_ERA_Layer" Count="10" />
+				<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_Slope_5x1_ERA.mwm"/>
@@ -460,10 +264,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_Slope_6x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="12" />
-			<Component Subtype="ERA_Part" Count="12" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="18" />
+				<Component Subtype="Construction" Count="6" />
+				<Component Subtype="KGS_ERA_Layer" Count="12" />
+				<Component Subtype="SteelPlate" Count="12" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_Slope_6x1_ERA.mwm"/>
@@ -508,10 +314,12 @@
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_3x1_ERA.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="6" />
-			<Component Subtype="ERA_Part" Count="6" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="9" />
+				<Component Subtype="Construction" Count="3" />
+				<Component Subtype="KGS_ERA_Layer" Count="6" />
+				<Component Subtype="SteelPlate" Count="6" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_3x1_ERA.mwm"/>
@@ -550,10 +358,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_4x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="8" />
-			<Component Subtype="ERA_Part" Count="9" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="12" />
+				<Component Subtype="Construction" Count="4" />
+				<Component Subtype="KGS_ERA_Layer" Count="8" />
+				<Component Subtype="SteelPlate" Count="8" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_4x1_ERA.mwm"/>
@@ -591,10 +401,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_5x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="10" />
-			<Component Subtype="ERA_Part" Count="12" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="KGS_ERA_Layer" Count="10" />
+				<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_5x1_ERA.mwm"/>
@@ -631,10 +443,12 @@
             <ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_6x1_ERA.mwm</Model>
             <Components>
-                <Component Subtype="Ceramic_Plate" Count="12" />
-			<Component Subtype="ERA_Part" Count="12" />
-            </Components>
-            <CriticalComponent Subtype="Ceramic_Plate" Index="0" />
+				<Component Subtype="SteelPlate" Count="18" />
+				<Component Subtype="Construction" Count="6" />
+				<Component Subtype="KGS_ERA_Layer" Count="12" />
+				<Component Subtype="SteelPlate" Count="12" />
+		  </Components>
+		  <CriticalComponent Subtype="KGS_ERA_Layer" Index="0" />
  
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_HalfSlope_6x1_ERA.mwm"/>
@@ -651,79 +465,6 @@
             <PCUConsole>2</PCUConsole>
             <IsAirTight>true</IsAirTight>
         </Definition>
-	  
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>Ceramic_Armor3X1L_ERA</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 3x1 L</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\Ceramic_Armor3X1L_ERA.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="3" y="2" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\Ceramic_Armor3X1L_ERA.mwm</Model>
-		  <Components>
-                <Component Subtype="Ceramic_Plate" Count="8" />
-			<Component Subtype="ERA_Part" Count="12" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\Ceramic_Armor3X1L_ERA.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>Ceramic_Armor3X1L_ERA</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>
-	  
-	  <Definition>
-		  <Id>
-			  <TypeId>CubeBlock</TypeId>
-			  <SubtypeId>Ceramic_Armor3X1R_ERA</SubtypeId>
-		  </Id>
-		  <DisplayName>Explosive reactive armour 3x1 R</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\Ceramic_Armor3X1R_ERA.dds</Icon>
-		  <Description>
-			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
-		  </Description>
-		  <CubeSize>Small</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="3" y="2" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\small\Ceramic_Armor3X1R_ERA.mwm</Model>
-		  <Components>
-                <Component Subtype="Ceramic_Plate" Count="8" />
-			<Component Subtype="ERA_Part" Count="12" />
-		  </Components>
-		  <CriticalComponent Subtype="ERA_Part" Index="0" />
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\Ceramic_Armor3X1R_ERA.mwm"/>
-		  </BuildProgressModels>
-
-		  <BlockPairName>Ceramic_Armor3X1R_ERA</BlockPairName>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>2</BuildTimeSeconds>
-		  <DisassembleRatio>2.5</DisassembleRatio>
-		  <NavigationDefinition>Default</NavigationDefinition>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <PCU>1</PCU>
-		  <PCUConsole>2</PCUConsole>
-	  </Definition>
-	  
-
-
 
   </CubeBlocks>
 </Definitions>

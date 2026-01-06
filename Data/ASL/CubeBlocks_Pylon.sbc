@@ -21,9 +21,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUSc.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
@@ -62,9 +62,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS2C.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
@@ -103,9 +103,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS3c.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
@@ -144,9 +144,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS4c.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
@@ -185,9 +185,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS5c.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
@@ -228,9 +228,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonRu1c.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
@@ -270,9 +270,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\ASL_CameraBsea.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00"/>
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -301,9 +301,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS6C.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
@@ -332,9 +332,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonUS6MC.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 		  <MountPoints>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
@@ -364,9 +364,9 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\Models\Cubes\small\PylonBottom.mwm</Model>
 		  <Components>
-			  <Component Subtype="RHS_Plate" Count="1"/>
+			  <Component Subtype="InteriorPlate" Count="10"/>
 		  </Components>
-		  <CriticalComponent Subtype="RHS_Plate" Index="0"/>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0"/>
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\PylonBottom.mwm" />
