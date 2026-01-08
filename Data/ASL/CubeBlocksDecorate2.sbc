@@ -192,9 +192,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\Large\ASL_Pole.mwm</Model>
 		  <Components>
-			  <Component Subtype="Plant_Raw_Materials" Count="3" />
+			  <Component Subtype="Construction" Count="15" />
 		  </Components>
-		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 
 
@@ -357,9 +357,9 @@
 			<Model>Models\Models\Cubes\Large\ASL_TrashCan.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="Plant_Raw_Materials" Count="1" />
+                <Component Subtype="Construction" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_TrashCan.mwm"/>
@@ -394,9 +394,9 @@
 			<Model>Models\Models\Cubes\Large\ASL_Mailbox.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="Plant_Raw_Materials" Count="1" />
+                <Component Subtype="Construction" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
 
             <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_Mailbox.mwm"/>
@@ -431,9 +431,9 @@
 		  <Model>Models\Models\Cubes\Large\ASL_PottedPlant.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="Plant_Raw_Materials" Count="1" />
+			  <Component Subtype="Construction" Count="10" />
 		  </Components>
-		  <CriticalComponent Subtype="Plant_Raw_Materials" Index="0" />
+		  <CriticalComponent Subtype="Construction" Index="0" />
 
 		  <BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Large\ASL_PottedPlant.mwm"/>
