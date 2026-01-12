@@ -1,0 +1,919 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+			<Id>
+				<TypeId>RadioAntenna</TypeId>
+				<SubtypeId>CAPOMissileAntenna</SubtypeId>
+			</Id>
+			<DisplayName>Missile Antenna</DisplayName>
+			<Description>Missile Antenna for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileAntenna.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileAntenna.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="RadioCommunication" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="RadioCommunication" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileAntenna_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileAntenna</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<MaxBroadcastRadius>10000</MaxBroadcastRadius>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+			<Id>
+				<TypeId>BatteryBlock</TypeId>
+				<SubtypeId>CAPOMissileBattery</SubtypeId>
+			</Id>
+			<DisplayName>Missile Battery</DisplayName>
+			<Description>Missile Battery for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileBattery.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileBattery.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="PowerCell" Count="3">
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="PowerCell" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				
+			</MountPoints>
+			<BlockPairName>CAPOMissileBattery</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileBattery_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+
+			<ResourceSourceGroup>Battery</ResourceSourceGroup>
+			<MaxPowerOutput>0.5</MaxPowerOutput>
+
+
+			
+			<ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+			<RequiredPowerInput>0.2</RequiredPowerInput>
+			<MaxStoredPower>0.05</MaxStoredPower>
+			<InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+			<RechargeMultiplier>0.8</RechargeMultiplier>
+			
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			
+			
+			<Public>true</Public>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<TargetingGroups>
+				<string>PowerSystems</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+			<Id>
+				<TypeId>Gyro</TypeId>
+				<SubtypeId>CAPOMissileGyro</SubtypeId>
+			</Id>
+			<DisplayName>Missile Gyro</DisplayName>
+			<Description>Missile Gyroscope for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileGyro.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileGyro.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileGyro_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileGyro</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			
+			<PrimarySound>BlockGyroscope</PrimarySound>
+
+			<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+			<ForceMagnitude>13440</ForceMagnitude>
+			<RequiredPowerInput>0.004</RequiredPowerInput>
+
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+			<Id>
+				<TypeId>OxygenTank</TypeId>
+				<SubtypeId>CAPOMissileH2Tank</SubtypeId>
+			</Id>
+			<DisplayName>Missile Hydrogen Tank</DisplayName>
+			<Description>Missile Hydrogen Tank for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileH2Tank.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileH2Tank.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="Construction" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileH2Tank_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileH2Tank</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<OperationalPowerConsumption>0.0002</OperationalPowerConsumption>
+			<StandbyPowerConsumption>0.0000002</StandbyPowerConsumption>
+			<Capacity>300</Capacity>
+			<InventoryMaxVolume>0.12</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Hydrogen</SubtypeId>
+			</StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<PCU>25</PCU>
+			<LeakPercent>0.025</LeakPercent>
+			<GasExplosionMaxRadius>3</GasExplosionMaxRadius>
+			<GasExplosionNeededVolumeToReachMaxRadius>15000</GasExplosionNeededVolumeToReachMaxRadius>
+			<GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+			<GasExplosionSound>WepLrgWarheadExpl</GasExplosionSound>
+			<GasExplosionEffect>BlockDestroyedExplosion_Large</GasExplosionEffect>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>300</unsignedInt>
+				<unsignedInt>600</unsignedInt>
+			</TieredUpdateTimes>
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAPOMissileH2Thruster</SubtypeId>
+			</Id>
+			<DisplayName>Missile Hydrogen Thruster</DisplayName>
+			<Description>Missile Hydrogen Thruster for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileH2Thruster.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileH2Thruster.mwm</Model>
+			<ThrusterType>Hydrogen</ThrusterType>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Construction" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SmallTube" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileH2Thruster_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileH2Thruster</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>24600</ForceMagnitude>
+			
+			<FuelConverter>
+				<FuelId>
+					<TypeId>GasProperties</TypeId>
+					<SubtypeId>Hydrogen</SubtypeId>
+				</FuelId>
+				<Efficiency>1</Efficiency>
+			</FuelConverter>
+			<MaxPowerConsumption>0.0135</MaxPowerConsumption>
+			<MinPowerConsumption>0.000000001</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			
+			<MinPlanetaryInfluence>1</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameLengthScale>1</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.3</X>
+				<Y>0.1</Y>
+				<Z>0.1</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.3</X>
+				<Y>0.1</Y>
+				<Z>0.1</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameFlare>SmallGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>5</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>MissileFlightSound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAPOMissileFinStabilizerThruster</SubtypeId>
+			</Id>
+			<DisplayName>Missile Stabilizer Fin</DisplayName>
+			<Description>Missile Stabilizer Fin for the Sparrow block set.
+			Acts as a light thruster.
+			Place around missile gyro block				
+			Works better at high alt</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileFinStabilizerThruster.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<ThrusterType>Atmospheric</ThrusterType>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileFinStabilizerThruster.mwm</Model>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>true</HasPhysics>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			
+			<BlockPairName>CAPOMissileFinStabilizerThruster</BlockPairName>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>5400</ForceMagnitude>
+			
+			<MaxPowerConsumption>0.050</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+
+			<MinPlanetaryInfluence>1</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>0.6</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameFlare>SmallGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0.25</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>3</PropellerAccelerationTime>
+			<PropellerDecelerationTime>6</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>60</PropellerMaxVisibleDistance>
+			<PrimarySound>SmShipSmJetAtmo</PrimarySound>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+	
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>CAPOMissileFinStabilizerThrusterLong</SubtypeId>
+			</Id>
+			<DisplayName>Missile Stabilizer Fin Long</DisplayName>
+			<Description>Missile Stabilizer Fin for the Sparrow block set.
+			Acts as a light thruster.
+			Place around missile gyro block			
+			Works better at low alt</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileFinStabilizerThrusterLong.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<ThrusterType>Atmospheric</ThrusterType>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileFinStabilizerThrusterLong.mwm</Model>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>true</HasPhysics>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileFinStabilizerThrusterLong_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileFinStabilizerThrusterLong</BlockPairName>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>5400</ForceMagnitude>
+			
+			<MaxPowerConsumption>0.050</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+
+			<MinPlanetaryInfluence>0.6</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+			<FlameDamageLengthScale>0</FlameDamageLengthScale>
+			<FlameDamage>0</FlameDamage>
+			<FlameLengthScale>0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<W>0</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameFlare>SmallGridSmallThruster</FlameFlare>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareQuerySize>0.25</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>3</PropellerAccelerationTime>
+			<PropellerDecelerationTime>6</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>60</PropellerMaxVisibleDistance>
+			<PrimarySound>SmShipSmJetAtmo</PrimarySound>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>3600</unsignedInt>
+				<unsignedInt>0</unsignedInt>
+			</TieredUpdateTimes>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+	
+	
+		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition">
+			<Id>
+				<TypeId>MyProgrammableBlock</TypeId>
+				<SubtypeId>CAPOMissileProgram</SubtypeId>
+			</Id>
+			<DisplayName>Missile Programmable Block</DisplayName>
+			<Description>{Missile Programmable Block for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileProgram.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileProgram.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Construction" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileProgram_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileProgram</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<MirroringZ>Y</MirroringZ>
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+			<Id>
+				<TypeId>Warhead</TypeId>
+				<SubtypeId>CAPOMissileWarhead</SubtypeId>
+			</Id>
+			<DisplayName>Missile Warhead HE</DisplayName>
+			<Description>Missile Warhead HE for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileWarhead.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileWarhead.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="Explosives" Count="3"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Explosives" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+			</MountPoints>
+			<BlockPairName>CAPOMissileWarhead</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileWarhead_BS1.mwm"/>
+			</BuildProgressModels>
+			
+			<ActionSound>Aim9Explosion</ActionSound>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<ExplosionRadius>4</ExplosionRadius>
+			<WarheadExplosionDamage>1000</WarheadExplosionDamage>
+			<DestroyEffect>HEMediumExplosion</DestroyEffect>
+			<DestroySound>Aim9Explosion</DestroySound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<TargetingGroups>
+				<string>Weapons</string>
+			</TargetingGroups>
+			
+			
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+			<Id>
+				<TypeId>RemoteControl</TypeId>
+				<SubtypeId>CAPOMissileRemote</SubtypeId>
+			</Id>
+			<DisplayName>Missile Remote Control</DisplayName>
+			<Description>Missile Remote Control for the Sparrow block set.
+			Yellow Triangles indicate up and forward			</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileRemote.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileRemote.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Construction" Count="1"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileRemote_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileRemote</BlockPairName>
+			
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.01</RequiredPowerInput>
+			<EnableFirstPerson>false</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>false</EnableBuilderCockpit>
+			<Public>true</Public>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>25</PCU>
+			<IsAirTight>false</IsAirTight>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+			<Id>
+				<TypeId>CameraBlock</TypeId>
+				<SubtypeId>CAPOMissileCamera</SubtypeId>
+			</Id>
+			<DisplayName>Missile Camera</DisplayName>
+			<Description>Missile Camera for the Sparrow block set.
+			Place below antenna missile block</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileCamera.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileCamera.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileCamera_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileCamera</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildTimeSeconds>6</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.00003</RequiredPowerInput>
+			<RequiredChargingInput>0.001</RequiredChargingInput>
+			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
+			<MinFov>0.001</MinFov>
+			<MaxFov>1.04719755</MaxFov>
+			<RaycastConeLimit>60</RaycastConeLimit>
+			<RaycastDistanceLimit>-1</RaycastDistanceLimit>
+			<RaycastTimeMultiplier>2.0</RaycastTimeMultiplier>
+			<Public>true</Public>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+			<DestroyEffectOffset>
+				<X>0</X>
+				<Y>1</Y>
+				<Z>0</Z>
+			</DestroyEffectOffset>
+			<DestroySound>PoofExplosionCat1</DestroySound>
+			<PCU>25</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_SensorBlockDefinition">
+            <Id>
+                <TypeId>SensorBlock</TypeId>
+				<SubtypeId>CAPOMissileSensor</SubtypeId>
+			</Id>
+			<DisplayName>Missile Sensor</DisplayName>
+			<Description>Missile Sensor for the Sparrow block set.
+			Place below the remote control missile block</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileSensor.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileSensor.mwm</Model>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Components>
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Detector" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Detector" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileSensor_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileSensor</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <MaxRange>20</MaxRange>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <ActionSound>BlockSensor</ActionSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+		</Definition>
+		
+		
+		<Definition>
+			<Id>
+				<TypeId>TerminalBlock</TypeId>
+				<SubtypeId>CAPOMissileTubeWing</SubtypeId>
+			</Id>
+			<DisplayName>Missile Tube Wing</DisplayName>
+			<Description>Missile Tube Body.
+			Acts as a wing</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileBattery.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileBattery.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				
+			</MountPoints>
+			<BlockPairName>CAPOMissileTubeWing</BlockPairName>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+
+			
+
+			
+			
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_OffensiveCombatBlockDefinition">
+			<Id>
+				<TypeId>OffensiveCombatBlock</TypeId>
+				<SubtypeId>CAPOMissileAIOffensive</SubtypeId>
+			</Id>
+			<DisplayName>Missile AI Offensive</DisplayName>
+			<Description>Missile AI Offensive block for the Sparrow block set.</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileAIOffensive.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\ModularMissiles\CAPOMissileAntenna.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="SmallTube" Count="1"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileAntenna_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>CAPOMissileAIOffensive</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			
+			<MaxBroadcastRadius>10000</MaxBroadcastRadius>
+			<EdgeType>Light</EdgeType>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<UseModelIntersection>true</UseModelIntersection>
+			
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_FlightMovementBlockDefinition">
+            <Id>
+                <TypeId>FlightMovementBlock</TypeId>
+                <SubtypeId>CAPOMissileAIMove</SubtypeId>
+            </Id>
+            <DisplayName>Missile AI Move</DisplayName>
+			<Description>Missile AI Move block for the Sparrow block set.
+			Yellow Triangles indicate up and forward			</Description>
+			<Icon>Textures\ModularMissilesCAPO\CAPOMissileAIMove.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\small\ModularMissiles\CAPOMissileRemote.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+				<Component Subtype="Construction" Count="1"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			
+			<CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ModularMissiles\CAPOMissileRemote_BS1.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>CAPOMissileAIMove</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PCU>25</PCU>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.01</RequiredPowerInput>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<UseModelIntersection>true</UseModelIntersection>
+        </Definition>
+		
+		
+	</CubeBlocks>
+	
+	
+	
+	
+</Definitions>

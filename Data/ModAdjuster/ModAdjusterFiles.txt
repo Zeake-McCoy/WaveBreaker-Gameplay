@@ -7,6 +7,7 @@ CAP_Propellers.xml
 CAP_HeavyProp_3_Blade.xml
 CAP_HeavyProp_4_Blade.xml
 CAP_HeloProps.xml
+CAPOMissileBlocksSparrow.xml
 Blocks_HeliThrust.xml
 Blocks_DuctedFanandProps.xml
 Blocks_PropsHalf.xml

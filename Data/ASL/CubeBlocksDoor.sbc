@@ -38,6 +38,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <MaxOpen>1.0</MaxOpen>
 		  <OpeningSpeed>2.5</OpeningSpeed>
 		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -83,6 +84,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <MaxOpen>1.0</MaxOpen>
 		  <OpeningSpeed>2.5</OpeningSpeed>
 		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -128,6 +130,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <MaxOpen>1.0</MaxOpen>
 		  <OpeningSpeed>2.5</OpeningSpeed>
 		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -173,6 +176,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <MaxOpen>1.0</MaxOpen>
 		  <OpeningSpeed>2.5</OpeningSpeed>
 		  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -222,7 +226,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -290,7 +294,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -358,7 +362,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -424,7 +428,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -495,7 +499,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -566,7 +570,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -632,7 +636,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -698,7 +702,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -764,7 +768,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -830,7 +834,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -896,7 +900,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -962,7 +966,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1028,7 +1032,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1094,7 +1098,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1160,7 +1164,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1226,7 +1230,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1292,7 +1296,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1358,7 +1362,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1430,7 +1434,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1501,7 +1505,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1572,7 +1576,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1643,7 +1647,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1714,7 +1718,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1785,7 +1789,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1851,7 +1855,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1917,7 +1921,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -1983,7 +1987,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2049,7 +2053,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2115,7 +2119,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2181,7 +2185,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2247,7 +2251,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2313,7 +2317,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2379,7 +2383,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2445,7 +2449,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2511,7 +2515,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2577,7 +2581,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2643,7 +2647,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2710,7 +2714,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2781,7 +2785,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2852,7 +2856,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2923,7 +2927,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -2994,7 +2998,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3065,7 +3069,7 @@
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3126,6 +3130,7 @@ Arch Door
 		  <DeformationRatio>0.32</DeformationRatio>
 		  <BuildTimeSeconds>3</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <EdgeType>Light</EdgeType>
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
@@ -3163,6 +3168,7 @@ Arch Door
 		  <DeformationRatio>0.32</DeformationRatio>
 		  <BuildTimeSeconds>3</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <EdgeType>Light</EdgeType>
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
@@ -3200,6 +3206,7 @@ Arch Door(Glass)
 		  <DeformationRatio>0.32</DeformationRatio>
 		  <BuildTimeSeconds>3</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <EdgeType>Light</EdgeType>
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
@@ -3237,6 +3244,7 @@ Window
 		  <DeformationRatio>0.32</DeformationRatio>
 		  <BuildTimeSeconds>3</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <EdgeType>Light</EdgeType>
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
@@ -3274,6 +3282,7 @@ Window
 		  <DeformationRatio>0.32</DeformationRatio>
 		  <BuildTimeSeconds>3</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 		  <EdgeType>Light</EdgeType>
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
@@ -3326,7 +3335,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3402,7 +3411,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3478,7 +3487,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3554,7 +3563,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3630,7 +3639,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3706,7 +3715,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3782,7 +3791,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3858,7 +3867,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 
 		  <Subparts>
 			  <SubpartDefinition>
@@ -3935,7 +3944,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -4001,7 +4010,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -4067,7 +4076,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -4133,7 +4142,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -4199,7 +4208,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
@@ -4265,7 +4274,7 @@ Window
 		  <EdgeType>Light</EdgeType>
 		  <BuildTimeSeconds>14</BuildTimeSeconds>
 		  <DisassembleRatio>1.2</DisassembleRatio>
-
+		  <ResourceSinkGroup>Doors</ResourceSinkGroup>
 	  
 		  <Subparts>
 			  <SubpartDefinition>
