@@ -2100,10 +2100,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool1_Cube</SubtypeId>
             </Id>
-            <DisplayName>Tool 1 Cube</DisplayName>
+            <DisplayName>75mm Tool Var 1 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Cube.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2112,8 +2112,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2138,10 +2138,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool1_Half</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 1 Half</DisplayName>
+		  <DisplayName>75mm Tool Var 1 Half</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Half.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2150,8 +2150,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2176,10 +2176,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool1_Slope</SubtypeId>
             </Id>
-            <DisplayName>Tool 1 Slope</DisplayName>
+            <DisplayName>75mm Tool Var 1 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Slope.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2188,8 +2188,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2214,10 +2214,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool1_Slope21</SubtypeId>
             </Id>
-            <DisplayName>Tool 1 Slope 2/1</DisplayName>
+            <DisplayName>75mm Tool Var 1 Slope 2x1 Base</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Slope21.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2226,8 +2226,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool1_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2252,10 +2252,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool1_Slope21Tip</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 1 Slope 2/1 Tip</DisplayName>
+		  <DisplayName>75mm Tool Var 1 Slope 2x1 Tip</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Slope21.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2264,8 +2264,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool1_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2290,10 +2290,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool1_Non</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 1 Non</DisplayName>
+		  <DisplayName>Offset Tool Var 1 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  Offset block comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2328,10 +2328,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool2_Cube</SubtypeId>
             </Id>
-            <DisplayName>Tool 2 Cube</DisplayName>
+            <DisplayName>75mm Tool Var 2 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Cube.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2340,8 +2340,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2366,10 +2366,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool1_offset</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 1 offset</DisplayName>
+		  <DisplayName>Offset Tool Var 1 2x1 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool1_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  Offset block comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2405,10 +2405,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool2_Half</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 2 Half</DisplayName>
+		  <DisplayName>75mm Tool Var 2 Half</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Half.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2417,8 +2417,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2444,10 +2444,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool2_Slope</SubtypeId>
             </Id>
-            <DisplayName>Tool 2 Slope</DisplayName>
+            <DisplayName>75mm Tool Var 2 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Slope.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2456,8 +2456,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2482,10 +2482,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool2_Non</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 2 Non</DisplayName>
+		  <DisplayName>Offset Tool Var 2 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  Offset block comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2521,10 +2521,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool2_Slope21</SubtypeId>
             </Id>
-            <DisplayName>Tool 2 Slope 2/1</DisplayName>
+            <DisplayName>75mm Tool Var 2 Slope 2/1 Base</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Slope21.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2533,8 +2533,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool2_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2559,10 +2559,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool2_Slope21Tip</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 2 Slope 2/1 Tip</DisplayName>
+		  <DisplayName>75mm Tool Var 2 Slope 2/1 Tip</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Slope21.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2571,8 +2571,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool2_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2597,10 +2597,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool2_offset</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 2 offset</DisplayName>
+		  <DisplayName>Offset Tool Var 2 2x1 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool2_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  Offset block comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2636,10 +2636,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool3_Cube</SubtypeId>
             </Id>
-            <DisplayName>Tool 3 Cube</DisplayName>
+            <DisplayName>75mm Tool Var 3 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Cube.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2648,8 +2648,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Cube.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2674,10 +2674,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool3_Half</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 3 Half</DisplayName>
+		  <DisplayName>75mm Tool Var 3 Half</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Half.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2686,8 +2686,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_Half.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2712,10 +2712,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool3_Slope</SubtypeId>
             </Id>
-            <DisplayName>Tool 3 Slope</DisplayName>
+            <DisplayName>75mm Tool Var 3 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Slope.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2724,8 +2724,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Slope.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2750,10 +2750,10 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>ASL_Tool3_Slope21</SubtypeId>
             </Id>
-            <DisplayName>Tool 3 Slope 2/1</DisplayName>
+            <DisplayName>75mm Tool Var 3 Slope 2/1 Base</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Slope21.dds</Icon>
             <Description>
-				RHA armor comes with tools
+				75mm armor comes with tools
 		    </Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2762,8 +2762,8 @@
 			<Model>Models\Models\Cubes\Small\ASL_Tool3_Slope21.mwm</Model>
 			<PhysicsOption>Convex</PhysicsOption>
             <Components>
-				<Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2788,10 +2788,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool3_Slope21Tip</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 3 Slope 2/1 Tip</DisplayName>
+		  <DisplayName>75mm Tool Var 3 Slope 2/1 Tip</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Slope21.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2800,8 +2800,8 @@
 		  <Model>Models\Models\Cubes\Small\ASL_Tool3_Slope21Tip.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="SteelPlate" Count="3" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 
@@ -2826,10 +2826,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool3_Non</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 3 Non</DisplayName>
+		  <DisplayName>Offset Tool Var 3 Cube</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  Offset block comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
@@ -2864,10 +2864,10 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>ASL_Tool3_offset</SubtypeId>
 		  </Id>
-		  <DisplayName>Tool 3 offset</DisplayName>
+		  <DisplayName>Offset Tool Var 3 2x1 Slope</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_Tool3_Cube.dds</Icon>
 		  <Description>
-			  RHA armor comes with tools
+			  75mm armor comes with tools
 		  </Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>

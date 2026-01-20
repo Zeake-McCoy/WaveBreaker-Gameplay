@@ -7,7 +7,7 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>Ceramic_ArmorSlope_ERA</SubtypeId>
 		  </Id>
-		  <DisplayName>Ceramic ArmorSlope (ERA)</DisplayName>
+		  <DisplayName>100mm Armor Slope (ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\Ceramic_ArmorSlope_ERA.dds</Icon>
 		  <Description>
 			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
@@ -44,7 +44,7 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>Ceramic_ArmorSlope2Base_ERA</SubtypeId>
 		  </Id>
-		  <DisplayName>Ceramic ArmorSlope2Base (ERA)</DisplayName>
+		  <DisplayName>100mm Armor Armor Slope 2x1 Base (ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\Ceramic_ArmorSlope2Base_ERA.dds</Icon>
 		  <Description>
 			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
@@ -81,7 +81,7 @@
 			  <TypeId>CubeBlock</TypeId>
 			  <SubtypeId>Ceramic_ArmorSlope2Tip_ERA</SubtypeId>
 		  </Id>
-		  <DisplayName>Ceramic ArmorSlope2Tip (ERA)</DisplayName>
+		  <DisplayName>100mm Armor Slope 2x1 Tip (ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\Ceramic_ArmorSlope2Tip_ERA.dds</Icon>
 		  <Description>
 			ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
@@ -124,7 +124,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_Slope_3x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Slope 3x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Slope 3x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_3x1_ERA.dds</Icon>
 				  <Description>
 					  ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
@@ -166,7 +166,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_Slope_4x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Slope 4x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Slope 4x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_4x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>
@@ -210,7 +210,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_Slope_5x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Slope 5x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Slope 5x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_5x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>
@@ -252,7 +252,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_Slope_6x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Slope 6x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Slope 6x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_6x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>
@@ -302,7 +302,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_HalfSlope_3x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Half Slope 3x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Half Slope 3x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfSlope_3x1_ERA.dds</Icon>
 				  <Description>
 					  ERA shaped armor, slightly stronger than ordinary Ceramic, but lighter
@@ -346,7 +346,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_HalfSlope_4x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Half Slope 4x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Half Slope 4x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfSlope_4x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>
@@ -389,7 +389,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_HalfSlope_5x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Half Slope 5x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Half Slope 5x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfSlope_5x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>
@@ -431,7 +431,7 @@
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>Ceramic_SmallBlockArmorBlock_HalfSlope_6x1_ERA</SubtypeId>
             </Id>
-            <DisplayName>Ceramic_ArmorBlock Half Slope 6x1(ERA)</DisplayName>
+            <DisplayName>100mm Armor Half Slope 6x1(ERA)</DisplayName>
 		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfSlope_6x1_ERA.dds</Icon>
 			<PhysicsOption>Convex</PhysicsOption>
 				  <Description>

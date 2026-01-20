@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Components>
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>KGS_ERA_Layer</SubtypeId>
+			</Id>
+			<DisplayName>Explosive Sheet</DisplayName>
+			<Size>
+				<X>0.25</X>
+				<Y>0.05</Y>
+				<Z>0.05</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>1</Volume>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>560</MaxIntegrity>
+			<DropProbability>0.1</DropProbability>
+			<Health>560</Health>
+		</Component>		
+				
+	</Components>
+</Definitions>
