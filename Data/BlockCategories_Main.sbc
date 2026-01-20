@@ -395,7 +395,58 @@
 				
 				<string>CubeBlock/ASL_BarbedWire</string>				
 				<string>CubeBlock/ASL_BarbedWire_Half</string>				
-				<string>CubeBlock/ASL_BarbedWire_Door</string>				
+				<string>CubeBlock/ASL_BarbedWire_Door</string>		
+
+				<!--Stators 3x3-->
+				<string>MotorStator/TurretRingStator3x3</string>
+				<string>MotorStator/TurretRingStator3x3_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3_CENTERED</string>
+				<string>MotorStator/TurretRingStator3x3Floored</string>
+				<string>MotorStator/TurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3Floored_CENTERED</string>
+				<!--Advanced Stators 3x3-->
+				<string>MotorAdvancedStator/TurretRingStator3x3Floored</string>
+				<string>MotorAdvancedStator/TurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorAdvancedStator/TurretRingStator3x3Floored_CENTERED</string>
+				<!--Rotors 3x3-->
+				<string>MotorRotor/TurretRingRotor3x3</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor3x3</string>
+				<!--Mantlet 3x3-->
+				<string>CubeBlock/TurretRing3x3Mantlet</string>
+				<string>CubeBlock/TurretRing3x3MantletHalfOffset</string>
+
+				<!--Stators 4x4-->
+				<string>MotorStator/TurretRingStator4x4</string>
+				<string>MotorStator/TurretRingStator4x4_OFFSET</string>
+				<string>MotorStator/TurretRingStator4x4Floored</string>
+				<string>MotorStator/TurretRingStator4x4Floored_OFFSET</string>
+				<!--Advanced Stators 4x4-->
+				<string>MotorAdvancedStator/TurretRingStator4x4Floored</string>
+				<string>MotorAdvancedStator/TurretRingStator4x4Floored_OFFSET</string>
+
+				<!--Stators 5x5-->
+				<string>MotorStator/TurretRingStator5x5</string>
+				<string>MotorStator/TurretRingStator5x5_OFFSET</string>
+				<string>MotorStator/TurretRingStator5x5Floored</string>
+				<string>MotorStator/TurretRingStator5x5Floored_OFFSET</string>
+				<!--Advanced Stators 5x5-->
+				<string>MotorAdvancedStator/TurretRingStator5x5Floored</string>
+				<string>MotorAdvancedStator/TurretRingStator5x5Floored_OFFSET</string>
+				<!--Rotors 5x5-->
+				<string>MotorRotor/TurretRingRotor5x5</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
+				<!--Mantlet 5x5-->
+				<string>CubeBlock/TurretRing5x5Mantlet</string>
+				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+
+				<!--SlimRotors-->
+				<string>MotorStator/NakedStator</string>
+				<string>MotorRotor/NakedRotor</string>
+				<string>MotorStator/NakedStatorOffset</string>
+				<string>MotorStator/NakedStatorQuarterOffset</string>
+				
+				<string>TurretControlBlock/TurretTraverseCTC</string>
+				<string>MyProgrammableBlock/TurretTraversePB</string>
 
 			</ItemIds>
 		</Category>

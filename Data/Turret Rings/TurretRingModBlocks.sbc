@@ -1,0 +1,1669 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+<!--_____________________________________3x3 START______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator3x3_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator3x3_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator3x3Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator3x3Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator3x3Floored_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator3x3Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator3x3Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator3x3Floored_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorRotor</TypeId>
+					<SubtypeId>TurretRingRotor3x3</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedRotor</TypeId>
+					<SubtypeId>AdvTurretRingRotor3x3</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing3x3Mantlet</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing3x3MantletHalfOffset</SubtypeId>
+				</BlockVariant>
+				
+			</BlockVariants>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3Floored-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3Floored</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3 Floored</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3Floored-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator3x3Floored</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 3x3 Floored</DisplayName>
+			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator3x3Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator3x3Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition> <!--Rotor3x3-->
+			<Id>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>TurretRingRotor3x3</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor Part 3x3</DisplayName>
+			<Description>I am [TITLECARD]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotor5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotor3x3.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="22"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>TurretRingRotor3x3</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition> <!--AdvRotor3x3-->
+            <Id>
+				<TypeId>MotorAdvancedRotor</TypeId>
+				<SubtypeId>AdvTurretRingRotor3x3</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor Part 3x3</DisplayName>
+			<Description>I am [TITLECARD]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingRotor3x3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingRotor3x3.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>AdvTurretRingRotor3x3</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3_CENTERED-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3_CENTERED</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3 Centered</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze, centered!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3_CENTERED.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3_CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3 Floored Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3Floored_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3Floored_CENTERED-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator3x3Floored_CENTERED</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 3x3 Floored Centered</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator3x3Floored_CENTERED.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator3x3Floored_CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator3x3Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 3x3 Floored Offset</DisplayName>
+			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator3x3Floored_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="SteelPlate" Count="30"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator3x3Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3Floored_CENTERED-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator3x3Floored_CENTERED</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 3x3 Floored Centered</DisplayName>
+			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator3x3Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator3x3Floored_CENTERED.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator3x3Floored_CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing3x3Mantlet-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing3x3Mantlet</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 3x3 Mantlet</DisplayName>
+			<Description>A decorative Turret Ring!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRing3x3Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRing3x3Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing3x3Mantlet</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing3x3MantletHalfOffset-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing3x3MantletHalfOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 3x3 Mantlet Half Offset</DisplayName>
+			<Description>A decorative Turret Ring! - Half Offset</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRing3x3Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRing3x3MantletHalfOffset.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing3x3MantletHalfOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		
+		
+		
+<!--_____________________________________3x3 END :: 4x4 START______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4--> 
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator4x4</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 4x4</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator4x4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator4x4.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator4x4</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+			<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator4x4Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator4x4Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator4x4Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator4x4Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4Floored-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator4x4Floored</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 4x4 Floored</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator4x4Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator4x4Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator4x4Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4Floored-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator4x4Floored</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 4x4 Floored</DisplayName>
+			<Description>A durable (Conveyored) rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator4x4Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator4x4Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator4x4Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4_OFFSET--> 
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 4x4 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator4x4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator4x4_OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator4x4_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator4x4Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 4x4 Floored Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator4x4Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator4x4Floored_OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator4x4Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator4x4Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 4x4 Floored Offset</DisplayName>
+			<Description>A durable (Conveyored) rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator4x4Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator4x4Floored_OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator4x4Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		
+		
+		
+<!--_____________________________________4x4 END :: 5x5 START______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator5x5</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 5x5</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator5x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator5x5</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator5x5_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator5x5_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator5x5Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator5x5Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator5x5Floored_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator5x5Floored</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator5x5Floored_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedStator</TypeId>
+					<SubtypeId>AdvTurretRingStator5x5Floored_CENTERED</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorRotor</TypeId>
+					<SubtypeId>TurretRingRotor5x5</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorAdvancedRotor</TypeId>
+					<SubtypeId>AdvTurretRingRotor5x5</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing5x5Mantlet</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing5x5MantletHalfOffset</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5Floored-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator5x5Floored</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 5x5 Floored</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator5x5Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator5x5Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator5x5Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5Floored-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator5x5Floored</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 5x5 Floored</DisplayName>
+			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator5x5Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator5x5Floored.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator5x5Floored</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+
+		<Definition> <!--Rotor5x5-->
+			<Id>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>TurretRingRotor5x5</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor Part 5x5</DisplayName>
+			<Description>I am [TITLECARD]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotor5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotor5x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="22"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>TurretRingRotor5x5</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition> <!--AdvRotor5x5-->
+            <Id>
+				<TypeId>MotorAdvancedRotor</TypeId>
+				<SubtypeId>AdvTurretRingRotor5x5</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor Part 5x5</DisplayName>
+			<Description>I am [TITLECARD]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingRotor5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingRotor5x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>AdvTurretRingRotor5x5</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator5x5_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 5x5 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator5x5_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator5x5_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator5x5Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 5x5 Floored Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingStator5x5Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingStator5x5Floored_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator5x5Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+	
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5Floored_OFFSET-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>AdvTurretRingStator5x5Floored_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>Advanced TurretRing Rotor 5x5 Floored Offset</DisplayName>
+			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AdvTurretRingStator5x5Floored.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AdvTurretRingStator5x5Floored_EVEN.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>AdvTurretRingStator5x5Floored_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing5x5Mantlet-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing5x5Mantlet</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 5x5 Mantlet</DisplayName>
+			<Description>A decorative Turret Ring!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRing5x5Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRing5x5Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing5x5Mantlet</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<PCU>5</PCU>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing5x5MantletHalfOffset-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing5x5MantletHalfOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 5x5 Mantlet Half Offset</DisplayName>
+			<Description>A decorative Turret Ring! - Half Offset</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRing5x5Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRing5x5MantletHalfOffset.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing5x5MantletHalfOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<PCU>5</PCU>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+<!--_____________________________________5x5 END :: NakedStator Start______________________________________________-->	
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStator-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>NakedStator</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring Slim Rotor</DisplayName>
+			<Description>A somewhat durable rotor that can survive more than a strong breeze - as bare as it gets</Description>
+			<Icon>Textures\GUI\Icons\Cubes\NakedStator.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\NakedStator.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>NakedStator</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>NakedRotor</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<BlockVariants>
+			<BlockVariant>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>NakedRotorOffset</SubtypeId>
+			</BlockVariant>
+			<BlockVariant>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>NakedRotorHalfOffset</SubtypeId>
+			</BlockVariant>
+			<BlockVariant>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>NakedRotor</SubtypeId>
+			</BlockVariant>
+			</BlockVariants>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStatorOffset-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>NakedStatorOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring Slim Rotor Offset</DisplayName>
+			<Description>A somewhat durable rotor that can survive more than a strong breeze - as bare as it gets, and Offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\NakedStator.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\NakedStatorOffset.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>NakedStatorOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>NakedRotor</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<BlockVariants>
+			<BlockVariant>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>NakedRotor</SubtypeId>
+			</BlockVariant>
+			</BlockVariants>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStatorQuarterOffset-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>NakedStatorQuarterOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring Slim Rotor Quarter Offset</DisplayName>
+			<Description>A somewhat durable rotor that can survive more than a strong breeze - as bare as it gets, and Offset!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\NakedStator.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0.125" y="0" z="0"/>
+			<Model>Models\Cubes\small\NakedStator.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>NakedStatorQuarterOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>NakedRotor</RotorPart>
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<BlockVariants>
+			<BlockVariant>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>NakedRotor</SubtypeId>
+			</BlockVariant>
+			</BlockVariants>
+		</Definition>
+		<Definition> <!--NakedRotor-->
+			<Id>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>NakedRotor</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring Slim Rotor Part</DisplayName>
+			<Description>I am [TITLECARD]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\NakedRotor.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\NakedRotor.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="22"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>NakedRotor</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+
+<!-- CTC -->
+		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC-->
+			<Id>
+				<TypeId>TurretControlBlock</TypeId>
+				<SubtypeId>TurretTraverseCTC</SubtypeId>
+			</Id>
+			<DisplayName>Turret Traverse Custom Turret Controller</DisplayName>
+			<Description>A Manual Turret Traverse - Custom Turret Controller</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<!--Fuckery Begins-->
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PlayerInputDivider>75</PlayerInputDivider>
+			<PowerInputIdle>0.0005</PowerInputIdle>
+			<PCU>100</PCU>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+			</TieredUpdateTimes>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>TurretControlBlock</TypeId>
+					<SubtypeId>TurretTraverseCTC_OU</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>TurretControlBlock</TypeId>
+					<SubtypeId>TurretTraverseCTC_OD</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC_OU-->
+			<Id>
+				<TypeId>TurretControlBlock</TypeId>
+				<SubtypeId>TurretTraverseCTC_OU</SubtypeId>
+			</Id>
+			<DisplayName>Turret Traverse Custom Turret Controller OffsetUp</DisplayName>
+			<Description>A Manual Turret Traverse - Custom Turret Controller</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y=".25" z="0"/>
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<!--Fuckery Begins-->
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PlayerInputDivider>75</PlayerInputDivider>
+			<PowerInputIdle>0.0005</PowerInputIdle>
+			<PCU>100</PCU>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+			</TieredUpdateTimes>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC_OD-->
+			<Id>
+				<TypeId>TurretControlBlock</TypeId>
+				<SubtypeId>TurretTraverseCTC_OD</SubtypeId>
+			</Id>
+			<DisplayName>Turret Traverse Custom Turret Controller OffsetDown</DisplayName>
+			<Description>A Manual Turret Traverse - Custom Turret Controller</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="-0.25" z="0"/>
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<!--Fuckery Begins-->
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PlayerInputDivider>75</PlayerInputDivider>
+			<PowerInputIdle>0.0005</PowerInputIdle>
+			<PCU>100</PCU>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+				<unsignedInt>1000</unsignedInt>
+			</TieredUpdateTimes>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		
+<!-- ProgrammableBlock-->
+		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition"> <!--PB-->
+			<Id>
+				<TypeId>MyProgrammableBlock</TypeId>
+				<SubtypeId>TurretTraversePB</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Turret Traverse Programmable Block</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<Description>A Manual Turret Traverse - Programmable Block</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<!--Fuckery Begins-->
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>MyProgrammableBlock</TypeId>
+					<SubtypeId>TurretTraversePB_OD</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MyProgrammableBlock</TypeId>
+					<SubtypeId>TurretTraversePB_OU</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition"> <!--PB_OU-->
+			<Id>
+				<TypeId>MyProgrammableBlock</TypeId>
+				<SubtypeId>TurretTraversePB_OU</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Turret Traverse Programmable Block OffsetUp</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<Description>A Manual Turret Traverse - Programmable Block</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0.25" z="0" />
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<!--Fuckery Begins-->
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition"> <!--PB_OD-->
+			<Id>
+				<TypeId>MyProgrammableBlock</TypeId>
+				<SubtypeId>TurretTraversePB_OD</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Turret Traverse Programmable Block OffsetDown</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\TurretTraverse.dds</Icon>
+			<Description>A Manual Turret Traverse - Programmable Block</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="-0.25" z="0" />
+			<Model>Models\Cubes\small\TurretTraverse.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5"/>
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="SteelPlate" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<!--Fuckery Begins-->
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+
+		
+
+	</CubeBlocks>
+</Definitions>
