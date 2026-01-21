@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>25mm1x2SquareCornerBase</SubtypeId>
+			</Id>
+			<DisplayName>25mm 1x2 Square Corner Base</DisplayName>
+			<Description></Description>
+			<Icon>Models\Cubes\small\25mm1x2Slope.png</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\100mm1x2SquareCornerBase.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>25mm1x2SquareCornerBase</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

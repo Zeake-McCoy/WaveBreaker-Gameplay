@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<Model Name="M8Mantlet2">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Material Name="MetalMilitary">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\MetalMilitary_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\MetalMilitary_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\MetalMilitary_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate.002">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate.003">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate.004">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate.005">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+	<Material Name="SquarePlate.006">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorableGlossy_add.dds</Parameter>
+	</Material>
+</Model>

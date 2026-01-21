@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2SlopeOffsetCut</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2 Slope Offset Cut</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\2SlopeOffsetCut.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <BlockVariants>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2SlopeSquareCornerBase</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2SlopeSquareCornerTip</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmSlopeHalf</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmSquareCorner</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmSquareCornerQuarter</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeFlatCorner</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeSmallCorner</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeLargeCorner</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeSquareCorner1</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeSquareCorner2</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeSquareCorner3</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeSquareCorner4</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf1Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf2Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf3Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf4Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf1Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf2Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf3Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm4SlopeHalf4Right</SubtypeId>
+			</BlockVariant>
+			
+		  </BlockVariants>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2SlopeSquareCornerBase</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2 Slope Square Corner Base</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\2SlopeSquareCornerBase.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2SlopeSquareCornerTip</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2 Slope Square Corner Tip</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\2SlopeSquareCornerTip.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmSlopeHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Slope Half</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\SlopeHalf.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmSquareCorner</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Square Corner</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\SquareCorner.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		<Public>false</Public>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmSquareCornerQuarter</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Square Corner Quarter</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\SquareCornerQuarter.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeFlatCorner</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Flat Corner</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeFlatCorner.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeSmallCorner</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Small Corner</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeSmallCorner.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeLargeCorner</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Large Corner</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeLargeCorner.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeSquareCorner1</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Square Corner 1</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeSquareCorner1.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeSquareCorner2</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Square Corner 2</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeSquareCorner2.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeSquareCorner3</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Square Corner 3</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeSquareCorner3.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeSquareCorner4</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Square Corner 4</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeSquareCorner4.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf1Left</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 1 (Left)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf1Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf2Left</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 2 (Left)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf2Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf3Left</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 3 (Left)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf3Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf4Left</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 4 (Left)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf4Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf1Right</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 1 (Right)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf1Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf2Right</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 2 (Right)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf2Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf3Right</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 3 (Right)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf3Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm4SlopeHalf4Right</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 4 Slope Half 4 (Right)</DisplayName>
+		  <Icon>Models\Cubes\small\12mmExtraShapes.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\small\4SlopeHalf4Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

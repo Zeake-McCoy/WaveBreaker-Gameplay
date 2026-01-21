@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>Tarp1x3IAP</SubtypeId>
+			</Id>
+			<DisplayName>Tarp 1x3</DisplayName>
+			<Description></Description>
+			<Icon>Models\Cubes\small\MiscIcon.png</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Tarp1x3.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>Tarp1x3IAP</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

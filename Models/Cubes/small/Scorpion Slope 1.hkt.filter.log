@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Miche\AppData\Local\Temp\space_engineers_qsnmy19m.hko -p C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 1.hkt C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 1.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon Jun 26 07:51:20 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 1.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+            <Id>
+                <TypeId>AutopilotComponent</TypeId>
+                <SubtypeId>GBU-6AIMove</SubtypeId>
+            </Id>
+            <MinHeightAlignmentEnabled>true</MinHeightAlignmentEnabled>
+            <CoastingTestEnabled>false</CoastingTestEnabled>
+            <AutopilotSpeedLimit>100</AutopilotSpeedLimit>
+            <!--Distance from direct line between two waypoints, at which will the autopilot try to correct with CourseCorrectionMaxThrust% thrust. Small grid only setting-->
+            <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+            <!--Distance from direct line between two waypoints, at which will the autopilot try to correct with CourseCorrectionMaxThrust% thrust. Large grid only setting-->
+            <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+            <!--Max percentage of thrust dedicated to correcting course toward nearest point on direct line between two traveled points-->
+            <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+            <!--Max angle in radians between vectors 'Grid.Forward' and 'NextWaypoint.Forward' or 'Grid.Position - NextWaypoint.Position' when going toward first waypoint 
+            before starting thrust-->
+            <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+            <!--Max angle in radians between vectors 'Grid.Forward' and 'NextWaypoint.Forward' or 'Grid.Position - NextWaypoint.Position' when going toward first waypoint
+            before starting thrust. In Precision mode-->
+            <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+            <!--Distance from direct line between two waypoints (in multiples of gridSize), at which will the autopilot try to correct with
+            CourseCorrectionMaxThrust% thrust in precision mode-->
+            <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+            <!--How many radians remaining to be considered fully rotated-->
+            <RotationDeadzoneAdaptiveSpeed>0.009</RotationDeadzoneAdaptiveSpeed>
+            <!--How many radians remaining to be considered fully rotated. For adaptive speed waypoints-->
+            <RotationDeadzone>0.03</RotationDeadzone>
+            <!--Minimum rotation speed (vanila was about 0.05)-->
+            <MinRotationSpeed>0.5</MinRotationSpeed>
+            <!--Maximum rotation speed (vanila was about 1.8)-->
+            <MaxRotationSpeed>2</MaxRotationSpeed>
+            <!--Under this value rotation speed will always be MinRotationSpeed (vanila was 0)-->
+            <MinRotationSpeedThresholdRadians>0.2</MinRotationSpeedThresholdRadians>
+            <!--Above this value rotation speed will always be MaxRotationSpeed (vanila was infinite)-->
+            <MaxRotationSpeedTresholdRadians>1</MaxRotationSpeedTresholdRadians>
+            <!--Rotation velocity in precision mode is divided by this value -->
+            <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+            <!--Rotation velocity is divided by this value for automatic behavior with acuqired target-->
+            <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+            <!--Treshold under which grids with AutomaticBehavior (like drones) and target,
+            will divide their torque by RotationVelocitySlowFactorAutomaticBehavior-->
+            <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+        </EntityComponent>
+		
+	</EntityComponents>
+	
+	<EntityContainers>
+	
+		<Container>
+            <Id>
+                <TypeId>FlightMovementBlock</TypeId>
+                <SubtypeId>GBU-6AIMove</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="SmallFlightMovement" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AiBlockComponent" SubtypeId="SmallFlightMovement" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AiBlockPowerComponent" SubtypeId="SmallFlightMovement" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+	
+		
+		<Container>
+            <Id>
+                <TypeId>OffensiveCombatBlock</TypeId>
+                <SubtypeId>GBU-6AIOffensive</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_TargetLockingBlockComponent" SubtypeId="AIBlock" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_SearchEnemyComponent" SubtypeId="DefaultEnemySearch" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_OffensiveCombatCircleOrbit" SubtypeId="OffensiveCombatBlock" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_OffensiveCombatStayAtRange" SubtypeId="OffensiveCombatBlock" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_OffensiveCombatHitAndRun" SubtypeId="OffensiveCombatBlock" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_OffensiveCombatIntercept" SubtypeId="OffensiveCombatBlock" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AiBlockComponent" SubtypeId="OffensiveCombat" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AiBlockPowerComponent" SubtypeId="OffensiveCombat" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+	</EntityContainers>
+</Definitions>

@@ -1,0 +1,54 @@
+Running from: C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small 
+Command: C:\Users\Miche\Assets SE\Tools\MWMBuilder\MwmBuilder.exe /f /s:C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small /m:Scorpion Slope 2*.fbx /o:C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small /x:C:\Users\Miche\Assets SE\Materials 
+C:\Users\Miche\Assets SE\Materials\Armors.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\Character.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\enenra.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\Foliage.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\Items.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\LODs.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\Materials.xml: 
+    Materialslib
+C:\Users\Miche\Assets SE\Materials\PlayerItems.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: C:\Users\Miche\Assets SE\Materials
+: 
+    **FileName: C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 2.fbx
+: 
+    **Filename (without extension): Scorpion Slope 2
+: 
+    **Directory Name: C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small
+: 
+    **Number of characters to cull: 62
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 1 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 2.fbx: WARNING: 
+    Material: SquarePlate is already defined in the processor. Not adding it again..
+C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 2.fbx: 
+    : Finished in 0.2s
+: 
+    **FileName: C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 2.hkt.fbx
+: 
+    **Filename (without extension): Scorpion Slope 2.hkt
+: 
+    **Directory Name: C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small
+: 
+    **Number of characters to cull: 62
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 1 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\Miche\AppData\Roaming\SpaceEngineers\Mods\Tank Decor\Models\Cubes\small\Scorpion Slope 2.hkt.fbx: 
+    : Finished in 0.2s
