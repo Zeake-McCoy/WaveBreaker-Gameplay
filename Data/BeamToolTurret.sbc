@@ -195,7 +195,7 @@
 			<InventorySize>
 				<X>5</X>
 				<Y>1</Y>
-				<Z>1</Z>
+				<Z>2</Z>
 			</InventorySize>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
