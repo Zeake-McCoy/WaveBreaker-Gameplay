@@ -8,6 +8,7 @@
 			<DisplayName>FacePanel</DisplayName>
 			<Description>FacePanel group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LargeLightArmor1x1FacePanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LargeLightArmor1x1FaceInvPanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LargeLightArmor2x1FacePanel" />
@@ -21,7 +22,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LightArmor2x1FaceInvPanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LightArmor3x1FacePanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LightArmor3x1FaceInvPanel" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -53,10 +53,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor6x2x1SlopeSideTipPanelInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor6x2x1SlopedSideBasePanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor6x2x1SlopedSideBasePanelIvn" />
-				
-				
-				
-				
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x2x1SlopeSideTipPanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x2x1SlopeSideTipPanelInv" />
@@ -78,8 +74,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor6x2x1SlopeSideTipPanelInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor6x2x1SlopedSideBasePanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor6x2x1SlopedSideBasePanelIvn" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -112,10 +106,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor6x2x1SlopedSideBasePanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor6x2x1SlopedSideBasePanelCenteredIvn" />
 
-
-
-
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x2x1SlopeSideTipPanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x2x1SlopeSideTipPanelCenteredInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x2x1SlopedSideBasePanelCentered" />
@@ -137,8 +127,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor6x2x1SlopedSideBasePanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor6x2x1SlopedSideBasePanelCenteredIvn" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -148,6 +136,7 @@
 			<DisplayName>SlopedPane1x1</DisplayName>
 			<Description>SlopedPane1x1 group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmorSlopedSidePanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor2x1SlopedSideBasePanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor2x1SlopedSideBasePanelCenteredIvn" />
@@ -160,8 +149,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x1SlopeSideTipPanelCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallLightArmor2x1SlopeSideTipPanelCenteredInv" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -171,6 +158,7 @@
 			<DisplayName>Shril</DisplayName>
 			<Description>Shrill group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_1x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_3x1" />
@@ -185,8 +173,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Shrill_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Shrill_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Shrill_6x1" />
-			
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -197,6 +183,7 @@
 			<DisplayName>Shril_offset</DisplayName>
 			<Description>Shrill_offset group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_offset_1x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_offset_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Shrill_offset_3x1" />
@@ -212,8 +199,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Shrill_offset_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Shrill_offset_6x1" />
 			
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -223,6 +208,7 @@
 			<DisplayName>SlopedPane</DisplayName>
 			<Description>SlopedPane group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor3x1SlopedPanel" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor3x1SlopedPanelinv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeLightArmor4x1SlopedPanel" />
@@ -268,6 +254,7 @@
 			<DisplayName>ASL_CanopyFront_WW2A</DisplayName>
 			<Description>ASL_CanopyFront_WW2A group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFront_WW2A" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFront_WW2B" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFull_WW2A" />
@@ -280,8 +267,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy32_WW2B" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyOpen_WW2A" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -291,6 +276,7 @@
 			<DisplayName>Canopy</DisplayName>
 			<Description>Canopy group</Description>
 			<Blocks>
+			
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFront" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontFrame" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontFrame2" />
@@ -306,7 +292,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41_2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41FrameCentered" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41FrameCentered_2" />
-		
+	
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -326,7 +312,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy34_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41_3x1_2" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -345,46 +330,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41FrameCentered_3x1" />
 
 			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Canopy1x1Brown_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontBrown.dds</Icon>
-			<DisplayName>Canopy Brown</DisplayName>
-			<Description>Canopy Brown group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontBrown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontFrameBrown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy53Brown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFullBrown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFullFrameBrown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy32Brown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy34Brown" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41Brown_2" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Canopy1x1Gold_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_CanopyFrontBrown.dds</Icon>
-			<DisplayName>Canopy Gold</DisplayName>
-			<Description>Canopy Gold group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontGold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFrontFrameGold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy53Gold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFullGold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CanopyFullFrameGold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy32Gold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy34Gold" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Canopy41Gold_2" />
-
-
-			</Blocks>
-		</BlockVariantGroup>		
-		
+		</BlockVariantGroup>	
 		
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Tool_Group" />
@@ -392,6 +338,7 @@
 			<DisplayName>Tool</DisplayName>
 			<Description>Tool group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tool1_Cube" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tool2_Cube" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tool3_Cube" />
@@ -414,10 +361,8 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tool2_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tool3_offset" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
-
 
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="3x1lightArmorSlope_Group" />
@@ -425,6 +370,7 @@
 			<DisplayName>light Armor Slope 3x1</DisplayName>
 			<Description>light Armor Slope group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_5x1" />
@@ -444,6 +390,7 @@
 			<DisplayName>light Armor Half Slope 3x1</DisplayName>
 			<Description>light Armor Half Slope group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfSlope_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfSlope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfSlope_4x1" />
@@ -455,6 +402,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlope_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlope_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlope_6x1" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -464,6 +412,7 @@
 			<DisplayName>light Armor Slope2x2x1</DisplayName>
 			<Description>light Armor Slope2x2x1 group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_2x2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_3x2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Slope_4x2x1" />
@@ -478,44 +427,6 @@
 
 			</Blocks>
 		</BlockVariantGroup>
-		
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSArmorSlope2x2x1_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_2x2x1.dds</Icon>
-			<DisplayName>RHS Armor Slope2x2x1</DisplayName>
-			<Description>RHS Armor Slope2x2x1 group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Slope_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Slope_3x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Slope_4x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Slope_5x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Slope_6x2x1" />
-				
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Slope_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Slope_3x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Slope_4x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Slope_5x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Slope_6x2x1" />			
-
-			</Blocks>
-		</BlockVariantGroup>
-		
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ceramic_ArmorSlope2x2x1_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_2x2x1.dds</Icon>
-			<DisplayName>Ceramic Armor Slope2x2x1</DisplayName>
-			<Description>Ceramic Armor Slope2x2x1 group</Description>
-			<Blocks>
-
-				
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_3x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_4x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_5x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_6x2x1" />			
-
-			</Blocks>
-		</BlockVariantGroup>
 
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="3x1lightArmorCorner_Group" />
@@ -523,6 +434,7 @@
 			<DisplayName>light Armor Corner 3x1</DisplayName>
 			<Description>light Armor Corner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_5x1" />
@@ -542,6 +454,7 @@
 			<DisplayName>light Armor Half Corner 3x1</DisplayName>
 			<Description>light Armor Half Corner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfCorner_4x1" />
@@ -554,7 +467,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfCorner_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfCorner_6x1" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -564,6 +476,7 @@
 			<DisplayName>light Armor Corner 2x1x2</DisplayName>
 			<Description>light Armor Corner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_2x1x2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_2x1x3" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_2x1x4" />
@@ -594,34 +507,14 @@
 
 			</Blocks>
 		</BlockVariantGroup>
-		
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS2x1x2lightArmorCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\Corner2x1x2.dds</Icon>
-			<DisplayName>RHS Armor Corner 2x1x2</DisplayName>
-			<Description>RHS Armor Corner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Corner_2x1x2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Corner_2x1x3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Corner_2x1x4" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Corner_2x1x5" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_Corner_2x1x6" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Corner_2x1x2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Corner_2x1x3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Corner_2x1x4" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Corner_2x1x5" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_Corner_2x1x6" />
-
-			</Blocks>
-		</BlockVariantGroup>
-			
+					
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="3x1lightArmorInvCorner_Group" />
 			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_InvCorner_3x1.dds</Icon>
 			<DisplayName>light Armor InvCorner 3x1</DisplayName>
 			<Description>light Armor InvCorner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_InvCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_InvCorner_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_InvCorner_5x1" />
@@ -641,6 +534,7 @@
 			<DisplayName>light Armor HalfInvCorner 3x1</DisplayName>
 			<Description>light Armor HalfInvCorner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfInvCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfInvCorner_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_HalfInvCorner_3x1" />
@@ -673,7 +567,6 @@
 			<Description>light Armor SquareSlopedCorner group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_3x1" />
@@ -685,9 +578,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCorner_6x1M" />
 		
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 			
@@ -708,7 +598,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SquareSlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_3x1" />
@@ -719,41 +608,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSArmorSquareSlopedCornerTip_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\SquareSlopedCornerTip2x1.dds</Icon>
-			<DisplayName>RHS Armor SquareSlopedCornerTip 3x1</DisplayName>
-			<Description>RHS Armor SquareSlopedCornerTip group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
-
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -774,7 +628,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerTip_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerTip_6x1M" />
-
 				
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerTip_2x1M" />
@@ -786,7 +639,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerTip_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerTip_6x1M" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -802,8 +654,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlopeINVTransitionBase_1x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlopeINVTransitionBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSlopeINVTransitionBase_2x1M" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -826,8 +676,6 @@
 			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_6x1" />
 			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_HalfSquareSlopedCornerTipr_6x1M" />
 
-
-
 		  </Blocks>
 	  </BlockVariantGroup>
 			
@@ -843,8 +691,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_CornerInvBase_2x4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_CornerInvBase_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_CornerInvBase_2x6x1" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -862,44 +708,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_CornerInvTip_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_CornerInvTip_2x6x1" />
 
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS_CornerInv2x2x1Base_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\CornerInv2x2x1Base.dds</Icon>
-			<DisplayName>RHS_CornerInv2x2x1Base</DisplayName>
-			<Description>RHS_CornerInv2x2x1Base group</Description>
-			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvBase_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvBase_2x3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvBase_2x4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvBase_2x5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvBase_2x6x1" />
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS_CornerInv2x2x1Tip_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\CornerInv2x2x1Tip.dds</Icon>
-			<DisplayName>RHS_CornerInv2x2x1Tip</DisplayName>
-			<Description>RHS_CornerInv2x2x1Tip group</Description>
-			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvTip_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvTip_2x3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvTip_2x4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvTip_2x5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_CornerInvTip_2x6x1" />
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -915,8 +723,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerInvBase_2x6x1" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -934,8 +740,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerInvTip_2x6x1" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -945,6 +749,7 @@
 			<DisplayName>light Armor RaisedSlopedCorner 3x1</DisplayName>
 			<Description>light Armor RaisedSlopedCorner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_3x1" />
@@ -955,7 +760,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_RaisedSlopedCorner_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_RaisedSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_RaisedSlopedCorner_2x1M" />
@@ -968,8 +772,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_RaisedSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_RaisedSlopedCorner_6x1M" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -979,6 +781,7 @@
 			<DisplayName>light Armor SlopeTransitionTip 2x1</DisplayName>
 			<Description>light Armor SlopeTransitionTip group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_3x1" />
@@ -989,8 +792,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionTip_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionTip_2x1M" />
@@ -1003,9 +804,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionTip_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1015,6 +813,7 @@
 			<DisplayName>light Armor SlopeTransition 2x1</DisplayName>
 			<Description>light Armor SlopeTransition group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_3x1" />
@@ -1025,8 +824,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransition_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransition_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransition_2x1M" />
@@ -1039,9 +836,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransition_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransition_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1051,6 +845,7 @@
 			<DisplayName>light Armor SlopeTransitionBase 2x1</DisplayName>
 			<Description>light Armor SlopeTransitionBase group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_3x1" />
@@ -1061,9 +856,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopeTransitionBase_6x1M" />
-
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionBase_2x1M" />
@@ -1076,78 +868,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopeTransitionBase_6x1M" />
 
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS_ArmorSlopeTransitionTip_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\SlopeTransitionTip2x1.dds</Icon>
-			<DisplayName>RHS Armor SlopeTransitionTip 2x1</DisplayName>
-			<Description>RHS Armor SlopeTransitionTip group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionTip_6x1M" />
-
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionTip_6x1M" />
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS_ArmorSlopeTransitionBase_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\SlopeTransitionBase2x1.dds</Icon>
-			<DisplayName>RHS_ Armor SlopeTransitionBase 2x1</DisplayName>
-			<Description>RHS_ Armor SlopeTransitionBase group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopeTransitionBase_6x1M" />
-
-
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopeTransitionBase_6x1M" />
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1157,18 +877,6 @@
 			<DisplayName>AluminumAlloy Armor SlopeTransitionTip 2x1</DisplayName>
 			<Description>AluminumAlloy Armor SlopeTransitionTip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionTip_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionTip_2x1M" />
@@ -1181,9 +889,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionTip_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1193,19 +898,6 @@
 			<DisplayName>AluminumAlloy_ Armor SlopeTransitionBase 2x1</DisplayName>
 			<Description>AluminumAlloy_ Armor SlopeTransitionBase group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopeTransitionBase_6x1M" />
-
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionBase_2x1M" />
@@ -1218,44 +910,9 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopeTransitionBase_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>		
 
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSArmorRaisedSlopedCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\RaisedSlopedCorner2x1.dds</Icon>
-			<DisplayName>RHS Armor RaisedSlopedCorner 3x1</DisplayName>
-			<Description>RHS Armor RaisedSlopedCorner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_RaisedSlopedCorner_7x1M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_RaisedSlopedCorner_6x1M" />
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
 
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSArmorSquareSlopedCornerBase_Group" />
@@ -1263,6 +920,7 @@
 			<DisplayName>RHS Armor SquareSlopedCornerBase 3x1</DisplayName>
 			<Description>RHS Armor SquareSlopedCornerBase group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1" />
@@ -1286,79 +944,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M" />
 
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSLArmorSquareSlopedCornerBase_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\SquareSlopedCornerBase2x1.dds</Icon>
-			<DisplayName>RHSL Armor SquareSlopedCornerBase 3x1</DisplayName>
-			<Description>RHSL Armor SquareSlopedCornerBase group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_LargeBlockArmorBlock_SquareSlopedCornerBase_7x1M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSL_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M" />
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHSHArmorSquareSlopedCornerBase_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\SquareSlopedCornerBase2x1.dds</Icon>
-			<DisplayName>RHSH Armor SquareSlopedCornerBase 3x1</DisplayName>
-			<Description>RHSH Armor SquareSlopedCornerBase group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_LargeBlockArmorBlock_SquareSlopedCornerBase_7x1M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHSH_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M" />
-
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1368,17 +953,6 @@
 			<DisplayName>AluminumAlloyLight Armor SquareSlopedCornerBase 3x1</DisplayName>
 			<Description>AluminumAlloyLight Armor SquareSlopedCornerBase group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerBase_7x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
@@ -1391,9 +965,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1403,17 +974,6 @@
 			<DisplayName>AluminumAlloy Armor SquareSlopedCornerBase 3x1</DisplayName>
 			<Description>AluminumAlloy Armor SquareSlopedCornerBase group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerBase_7x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_2x1M" />
@@ -1426,9 +986,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerBase_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1439,17 +996,6 @@
 			<DisplayName>AluminumAlloy Armor RaisedSlopedCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor RaisedSlopedCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_RaisedSlopedCorner_7x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_2x1M" />
@@ -1462,9 +1008,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_RaisedSlopedCorner_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1474,6 +1017,7 @@
 			<DisplayName>light Armor Sloped Corner Base 3x1</DisplayName>
 			<Description>light Armor Sloped Corner Base group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerBase_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCornerBase_3x1" />
@@ -1497,7 +1041,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCornerBase_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -1507,6 +1050,7 @@
 			<DisplayName>light Armor Sloped Corner 3x1</DisplayName>
 			<Description>light Armor Sloped Corner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCorner_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedCorner_3x1" />
@@ -1528,7 +1072,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCorner_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedCorner_6x1M" />
-	
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -1539,6 +1082,7 @@
 			<DisplayName>light Armor Sloped Transition 3x1</DisplayName>
 			<Description>light Armor Sloped Transition group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_3x1" />
@@ -1562,10 +1106,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition_6x1M" />
 
-		
-
-	
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1575,6 +1115,7 @@
 			<DisplayName>light Armor Sloped Transition 3x1 REV</DisplayName>
 			<Description>light Armor Sloped Transition REV group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_2x1REV" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_2x1REVM" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_SlopedTransition_3x1REV" />
@@ -1597,10 +1138,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition_5x1REVM" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition_6x1REV" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition_6x1REVM" />
-
-
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -1635,47 +1172,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition65" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_SlopedTransition65M" />
 
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RHS_ArmorSlopedTransition_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_SlopeTransition21.dds</Icon>
-			<DisplayName>RHS Armor Sloped Transition 3to2</DisplayName>
-			<Description>RHS Armor Sloped Transition group</Description>
-			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition21" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition21M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition32" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition32M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition43" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition43M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition54" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition54M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition65" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_LargeBlockArmorBlock_SlopedTransition65M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition21" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition21M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition32" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition32M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition43" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition43M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition54" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition54M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition65" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="RHS_SmallBlockArmorBlock_SlopedTransition65M" />
-
-
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -1697,10 +1193,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Slope_65x2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock_Slope_65x2x1M" />
 
-
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 			
@@ -1710,6 +1202,7 @@
 			<DisplayName>light Armor Corner Corner 2x1</DisplayName>
 			<Description>light Armor Corner Corner group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_Squarer_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_Squarer_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock_Corner_Squarer_4x1" />
@@ -1731,6 +1224,7 @@
 			<DisplayName>Window Unframed 1x1</DisplayName>
 			<Description>Window Unframed 1x1 group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowUnframed1x1Face" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowUnframed1x1Faceinv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowUnframed1x1Faceinv2" />
@@ -1746,7 +1240,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowUnframed3x1Face" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowUnframed3x1Faceinv" />
 
-
 			</Blocks>
 		</BlockVariantGroup>		
 
@@ -1756,12 +1249,12 @@
 			<DisplayName>Armo Window 2x1</DisplayName>
 			<Description>Armo Window 2x1 group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor2x1inv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor2x1Slope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor2x1SlopeHalf" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor2x1SlopeHalfinv" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -1772,12 +1265,12 @@
 			<DisplayName>Armo Window 3x1</DisplayName>
 			<Description>Armo Window 3x1 group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor3x1inv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor3x1Slope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor3x1SlopeHalf" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor3x1SlopeHalfinv" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -1793,7 +1286,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor5x1Slope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor5x1SlopeHalf" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowArmor5x1SlopeHalfinv" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -1861,7 +1353,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_HalfCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_HalfCorner_6x1M" />
 
-			
 			</Blocks>
 		</BlockVariantGroup>
 				
@@ -1871,6 +1362,7 @@
 			<DisplayName>Sloped2x1BaseTransition</DisplayName>
 			<Description>Sloped2x1BaseTransition group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSloped2x1BaseTransition" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSloped2x1BaseTransitionM" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSloped2x1BaseTransition2x1" />
@@ -1884,7 +1376,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSloped2x1BaseTransition6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSloped2x1BaseTransition6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1894,11 +1385,6 @@
 			<DisplayName>AluminumAlloy Armor Slope2x2x1</DisplayName>
 			<Description>AluminumAlloy Armor Slope2x2x1 group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_3x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_4x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_5x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_6x2x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Slope_2x2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Slope_3x2x1" />
@@ -1915,11 +1401,6 @@
 			<DisplayName>AluminumAlloy Armor Corner 2x1x2</DisplayName>
 			<Description>AluminumAlloy Armor Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_2x1x2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_2x1x3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_2x1x4" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_2x1x5" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_2x1x6" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_2x1x3" />
@@ -1936,18 +1417,6 @@
 			<DisplayName>AluminumAlloy Armor SquareSlopedCornerTip 3x1</DisplayName>
 			<Description>AluminumAlloy Armor SquareSlopedCornerTip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
@@ -1960,7 +1429,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -1970,18 +1438,6 @@
 			<DisplayName>AluminumAlloy Armor Sloped Transition 3to2</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Transition group</Description>
 			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition21" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition21M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition32" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition32M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition43" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition43M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition54" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition54M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition65" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition65M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition21" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition21M" />
@@ -1994,8 +1450,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition65" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition65M" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2005,18 +1459,6 @@
 			<DisplayName>AluminumAlloy Armor Sloped Transition_Half 3to2</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Transition_Half group</Description>
 			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half21" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half21M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half32" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half32M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half43" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half43M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half54" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half54M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half65" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_Half65M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_Half21" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_Half21M" />
@@ -2029,8 +1471,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_Half65" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_Half65M" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2041,7 +1481,6 @@
 			<Description>AluminumAlloy Armor Sloped Transition 31 group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition31" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition31M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition42" />
@@ -2050,8 +1489,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition53M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition64" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition64M" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -2063,7 +1500,6 @@
 			<Description>AluminumAlloy Armor Half Sloped Transition 31 group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition31" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition31M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition42" />
@@ -2072,8 +1508,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition53M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition64" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlopedTransition64M" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -2084,18 +1518,14 @@
 			<DisplayName>DisplayName_Block_AluminumAlloyArmorBlock</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aluminum_LargeBlockArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCornerSquare" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCornerSquareInverted" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aluminum_SmallBlockArmorBlock" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCornerInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCornerSquare" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCornerSquareInverted" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2105,13 +1535,7 @@
 			<DisplayName>DisplayName_BlockGroup_ArmorAluminumAlloyRampGroup</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aluminum_LargeHalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeHalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfSlopedCorner" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlope2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlope2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aluminum_HalfArmorBlock" />
@@ -2119,6 +1543,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfSlopeCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfSlopedCorner" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2128,18 +1553,14 @@
 			<DisplayName>DisplayName_BlockGroup_ArmorAluminumAlloyRampCornerGroup</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfSlopeInverted" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCorner2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorCorner2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorInvCorner2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorInvCorner2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfSlopeCornerInverted" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfSlopeInverted" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2149,12 +1570,11 @@
 			<DisplayName>DisplayName_Block_AluminumAlloyRoundArmorSlope</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorRoundSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorRoundCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorRoundCornerInv" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorRoundSlope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorRoundCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorRoundCornerInv" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2164,14 +1584,7 @@
 			<DisplayName>DisplayName_BlockGroup_AluminumAlloyArmorSlopedCorners</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorRaisedSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSquareSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSquareSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSquareSlopedCornerTipInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorHalfSlopedCornerBase" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopedCornerTip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorRaisedSlopedCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSquareSlopedCornerTip" />
@@ -2180,6 +1593,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopedCornerBase" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopedCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorHalfSlopedCornerBase" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2189,18 +1603,14 @@
 			<DisplayName>DisplayName_BlockGroup_AluminumAlloyArmorTransitionBlocks</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransitionBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransition" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransitionTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransitionBaseMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransitionMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorSlopeTransitionTipMirrored" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransitionBase" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransition" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransitionTip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransitionBaseMirrored" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransitionMirrored" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorSlopeTransitionTipMirrored" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2210,10 +1620,6 @@
 			<DisplayName>AluminumAlloy_light Armor Slope 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Slope group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Slope_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Slope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Slope_4x1" />
@@ -2229,17 +1635,13 @@
 			<DisplayName>AluminumAlloy_light Armor Half Slope 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Half Slope group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfSlope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfSlope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfSlope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfSlope_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlope_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlope_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlope_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfSlope_6x1" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2249,10 +1651,6 @@
 			<DisplayName>AluminumAlloy_light Armor Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_4x1" />
@@ -2268,18 +1666,12 @@
 			<DisplayName>AluminumAlloy_light Armor Half Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Half Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfCorner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfCorner_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfCorner_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfCorner_6x1" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -2290,10 +1682,6 @@
 			<DisplayName>AluminumAlloy_light Armor InvCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor InvCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_InvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_InvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_InvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_InvCorner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_InvCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_InvCorner_4x1" />
@@ -2309,16 +1697,6 @@
 			<DisplayName>AluminumAlloy_light Armor HalfInvCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor HalfInvCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_HalfInvCorner_6x1M" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_HalfInvCorner_2x1M" />
@@ -2340,17 +1718,6 @@
 			<DisplayName>AluminumAlloy_light Armor Sloped Corner Tip 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner Tip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerTip_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1M" />
@@ -2363,7 +1730,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2373,17 +1739,6 @@
 			<DisplayName>AluminumAlloy_light Armor Sloped Corner Base 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner Base group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCornerBase_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1M" />
@@ -2396,7 +1751,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2406,16 +1760,6 @@
 			<DisplayName>AluminumAlloy_light Armor Sloped Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedCorner_6x1M" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1M" />
@@ -2428,7 +1772,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2438,17 +1781,6 @@
 			<DisplayName>AluminumAlloy_light Armor Sloped Transition 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Transition group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_SlopedTransition_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_2x1M" />
@@ -2461,10 +1793,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_SlopedTransition_6x1M" />
 
-
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2474,11 +1802,6 @@
 			<DisplayName>light Armor Corner Corner 2x1</DisplayName>
 			<Description>light Armor Corner Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_Squarer_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_Squarer_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_Squarer_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_Squarer_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_Corner_Squarer_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_Corner_Squarer_3x1" />
@@ -2496,15 +1819,10 @@
 			<Description>AluminumAlloy_Half Corner Slope group</Description>
 			<Blocks>
 
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerSlope_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_CornerSlope_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerSlope_2x1Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallBlockArmorBlock_CornerSlope_2x1TipM" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_CornerSlope_2x1Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_LargeBlockArmorBlock_CornerSlope_2x1TipM" />
-				.
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -2515,6 +1833,7 @@
 			<DisplayName>AluminumAlloy Centered</DisplayName>
 			<Description>AluminumAlloy Centered group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallArmorHalfCentered1x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallArmorCornerINVCentered1x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloy_SmallArmorCornerINVCentered2x1" />
@@ -2533,7 +1852,6 @@
 			</Blocks>
 		</BlockVariantGroup>
 		
-		
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Door_Group" />
 			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_Door_1.dds</Icon>
@@ -2547,7 +1865,6 @@
 				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="ASL_Door_4" />
 				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="ASL_Door_5" />
 				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="ASL_Door_6" />
-
 		
 			</Blocks>
 		</BlockVariantGroup>	
@@ -2583,7 +1900,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowFrame_3" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowFrame_4" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowFrame_5" />
-			
 		
 			</Blocks>
 		</BlockVariantGroup>
@@ -2611,7 +1927,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowCornerBase2x1Frame" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_WindowCornerBase2x1MFrame" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -2628,12 +1943,9 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Stairs_4L" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Stairs_4R" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Stairs_Half" />
-
 		
 			</Blocks>
 		</BlockVariantGroup>	
-		
-		
 			
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FenceAndPillar_Group" />
@@ -2641,6 +1953,7 @@
 			<DisplayName>Fence_And_Pillar</DisplayName>
 			<Description>Fence And Pillar group</Description>
 			<Blocks>
+			
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Fence" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Fence_Corner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Fence_Pillar" />
@@ -2654,411 +1967,11 @@
 		</BlockVariantGroup>
 
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalCubeGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
-			<DisplayName>DisplayName_Block_AerometalArmorBlock</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCornerSquare" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCornerSquareInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCornerSquare" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCornerSquareInverted" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalRampGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ArmorAerometalRampGroup</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeHalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeHalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_HalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_HalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfSlopedCorner" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalRampCornerGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ArmorAerometalRampCornerGroup</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfSlopeInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfSlopeInverted" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalRoundGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
-			<DisplayName>DisplayName_Block_AerometalRoundArmorSlope</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorRoundSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorRoundCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorRoundCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorRoundSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorRoundCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorRoundCornerInv" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalSlopedCorners" />
-			<Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_AerometalArmorSlopedCorners</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorRaisedSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSquareSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSquareSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSquareSlopedCornerTipInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorHalfSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorRaisedSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSquareSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSquareSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSquareSlopedCornerTipInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorHalfSlopedCornerBase" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorAerometalTransitionBlocks" />
-			<Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_AerometalArmorTransitionBlocks</DisplayName>
-			<Description>Description_AerometalArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransitionBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransition" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransitionTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransitionBaseMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransitionMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorSlopeTransitionTipMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransitionBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransition" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransitionTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransitionBaseMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransitionMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorSlopeTransitionTipMirrored" />
-			</Blocks>
-		</BlockVariantGroup>
-
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorSlope_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_3x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Slope 3x1</DisplayName>
-			<Description>Aerometal Armor Slope group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Slope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Slope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Slope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Slope_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Slope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Slope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Slope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Slope_6x1" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorHalfSlope_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfSlope_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Half Slope 3x1</DisplayName>
-			<Description>Aerometal Armor Half Slope group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfSlope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfSlope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfSlope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfSlope_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfSlope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfSlope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfSlope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfSlope_6x1" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Corner_3x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Corner 3x1</DisplayName>
-			<Description>Aerometal Armor Corner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_6x1" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorHalfCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfCorner_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Half Corner 3x1</DisplayName>
-			<Description>Aerometal Armor Half Corner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfCorner_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfCorner_6x1" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorInvCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_InvCorner_3x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor InvCorner 3x1</DisplayName>
-			<Description>Aerometal Armor InvCorner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_InvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_InvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_InvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_InvCorner_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_InvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_InvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_InvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_InvCorner_6x1" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorHalfInvCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_HalfInvCorner_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor HalfInvCorner 3x1</DisplayName>
-			<Description>Aerometal Armor HalfInvCorner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_HalfInvCorner_6x1M" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_HalfInvCorner_6x1M" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorSlopedCornerTip_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_SlopedCornerTip_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Sloped Corner Tip 3x1</DisplayName>
-			<Description>Aerometal Armor Sloped Corner Tip group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCornerTip_6x1M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCornerTip_6x1M" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorSlopedCorner_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_SlopedCorner_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Sloped Corner 3x1</DisplayName>
-			<Description>Aerometal Armor Sloped Corner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedCorner_6x1M" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedCorner_6x1M" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorSlopedTransition_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_SlopedTransition_2x1.dds</Icon>
-			<DisplayName>Aerometal_light Armor Sloped Transition 3x1</DisplayName>
-			<Description>Aerometal Armor Sloped Transition group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_SlopedTransition_6x1M" />
-
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_SlopedTransition_6x1M" />
-
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_3x1lightArmorCorner_Squarer_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Corner_Squarer_2x1.dds</Icon>
-			<DisplayName>light Armor Corner Corner 2x1</DisplayName>
-			<Description>light Armor Corner Corner group</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_Squarer_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_Squarer_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_Squarer_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_Squarer_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_Corner_Squarer_6x1" />
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_Squarer_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_Squarer_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_Squarer_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_Squarer_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_Corner_Squarer_6x1" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aerometal_HalfCornerSlope_Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Corner_Slope_2x1.dds</Icon>
-			<DisplayName>Aerometal_Half Corner Slope 2x1</DisplayName>
-			<Description>Aerometal_Half Corner Slope group</Description>
-			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_CornerSlope_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_CornerSlope_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_CornerSlope_2x1Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_SmallBlockArmorBlock_CornerSlope_2x1TipM" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_CornerSlope_2x1Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Aerometal_LargeBlockArmorBlock_CornerSlope_2x1TipM" />
-				.
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ceramic_3x1lightArmorSlope(ERA)_Group" />
 			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_lightArmor_Slope_3x1_ERA.dds</Icon>
 			<DisplayName>Ceramic_light Armor Slope 3x1 (ERA)</DisplayName>
 			<Description>Ceramic Armor Slope (ERA) group</Description>
 			<Blocks>
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_3x1_ERA" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Ceramic_SmallBlockArmorBlock_Slope_4x1_ERA" />
@@ -3100,17 +2013,16 @@
 			</Blocks>
 		</BlockVariantGroup>
 		
-	
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarbedWire_Group" />
 			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_BarbedWire.dds</Icon>
 			<DisplayName>BarbedWire</DisplayName>
 			<Description>BarbedWire group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_BarbedWire" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_BarbedWire_Half" />
 				<Block Type="MyObjectBuilder_Door" Subtype="ASL_BarbedWire_Door" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3121,6 +2033,7 @@
 			<DisplayName>PalletTruck</DisplayName>
 			<Description>Pallet group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_PalletTruck" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Pallet_1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Pallet_2" />
@@ -3129,7 +2042,6 @@
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Pallet_Cargo2" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Pallet_Cargo3" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Pallet_WaterTank" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3140,6 +2052,7 @@
 			<DisplayName>Rack</DisplayName>
 			<Description>Rack group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Rack" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Rack_Cargo_1" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_Rack_Cargo_2" />
@@ -3147,11 +2060,8 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Rack_FallDown1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Rack_FallDown2" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
-
 
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ASL_EngineCover_Group" />
@@ -3159,6 +2069,7 @@
 			<DisplayName>EngineCover</DisplayName>
 			<Description>Engine Cover group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_EngineCover" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_EngineCover_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_EngineCover5x2" />
@@ -3181,8 +2092,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_EngineCover_SlopeHalf3x5x2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_EngineCover_SlopeHalf4x2" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3192,13 +2101,13 @@
 			<DisplayName>Armrest</DisplayName>
 			<Description>Armrest group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT2" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3209,13 +2118,13 @@
 			<DisplayName>Armrest offset</DisplayName>
 			<Description>Armrest offset group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest2_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown2_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT_offset" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT2_offset" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3226,13 +2135,13 @@
 			<DisplayName>Armrest offset</DisplayName>
 			<Description>Armrest offset group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest_offset2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Armrest2_offset2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown_offset2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestDown2_offset2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT_offset2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArmrestT2_offset2" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3243,15 +2152,13 @@
 			<DisplayName>Hook</DisplayName>
 			<Description>Hook group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Hook" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Hook_Slope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Hook_offset" />
-" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
-
 
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ASL_LifeRaft_Group" />
@@ -3259,6 +2166,7 @@
 			<DisplayName>Emergency equipment</DisplayName>
 			<Description>Emergency equipment group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LifeRaft" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LifeRaft_2x" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LifeRaft_2x_offset" />
@@ -3271,8 +2179,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_FireExtinguisher_Small" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="ASL_FirstAidBox_Small" />
 
-				
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3282,14 +2188,12 @@
 			<DisplayName>Bathroom</DisplayName>
 			<Description>Bathroom group</Description>
 			<Blocks>
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Sink" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Toilet" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Toilet_PartitionBoard" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Urinal" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Tub" />
-
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3300,10 +2204,12 @@
 			<Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
 			<Description>Description_Desk</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_DeskKitchenCabinets" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_DeskKitchenCabinetsCorner" />
 				<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockDeskComputer" />
 				<Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockDeskCornerComputerInv" />
+			
 			</Blocks>
 		</BlockVariantGroup>
 				
@@ -3321,7 +2227,6 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="ASL_OutdoorPostLight1" />
 				<Block Type="MyObjectBuilder_InteriorLight" Subtype="ASL_OutdoorPostLight2" />
 
-
             </Blocks>
         </BlockVariantGroup>
 
@@ -3337,8 +2242,6 @@
 				<Block Type="MyObjectBuilder_InteriorLight" Subtype="ASL_SignalLightCornerTip2x1" />
 				<Block Type="MyObjectBuilder_InteriorLight" Subtype="ASL_SignalLightHalf" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 		
@@ -3348,6 +2251,7 @@
 			<DisplayName>Naval Railing</DisplayName>
 			<Description>Naval Railing group</Description>
 			<Blocks>
+			
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_RailingStraight" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_RailingCenter" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_RailingCorner" />
@@ -3370,6 +2274,7 @@
 			<DisplayName>Naval Catwalk and Stairs</DisplayName>
 			<Description>Naval Catwalk and Stairs group</Description>
 			<Blocks>
+			
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CatwalkStraight" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CatwalkCenter" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_CatwalkCorner" />
@@ -3392,6 +2297,7 @@
 			<DisplayName>ASL Bed</DisplayName>
 			<Description>ASL Bed group</Description>
 			<Blocks>
+			
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SingleBed_Left" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SingleBed_Right" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SingleBed2_Left" />
@@ -3402,105 +2308,9 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_BunkBed_Left" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_BunkBed_Right" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 		
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteCubeGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
-			<DisplayName>DisplayName_Block_ConcreteArmorBlock</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCornerSquare" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCornerSquareInverted" />
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteRampGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ArmorConcreteRampGroup</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeHalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeHalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfSlopedCorner" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteRampCornerGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ArmorConcreteRampCornerGroup</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfSlopeInverted" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteRoundGroup" />
-			<Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
-			<DisplayName>DisplayName_Block_ConcreteRoundArmorSlope</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorRoundSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorRoundCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorRoundCornerInv" />
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteSlopedCorners" />
-			<Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ConcreteArmorSlopedCorners</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorRaisedSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSquareSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSquareSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSquareSlopedCornerTipInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorHalfSlopedCornerBase" />
-
-			</Blocks>
-		</BlockVariantGroup>
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorConcreteTransitionBlocks" />
-			<Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
-			<DisplayName>DisplayName_BlockGroup_ConcreteArmorTransitionBlocks</DisplayName>
-			<Description>Description_ConcreteArmor</Description>
-			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransitionBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransition" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransitionTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransitionBaseMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransitionMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Concrete_LargeBlockArmorSlopeTransitionTipMirrored" />
-
-			</Blocks>
-		</BlockVariantGroup>
 		
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ASL_SandBag_Group" />
@@ -3508,6 +2318,7 @@
 			<DisplayName>SandBag</DisplayName>
 			<Description>SandBag group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SandBag_alone" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SandBag_Continuous1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SandBag_Continuous2" />
@@ -3519,31 +2330,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SandBag_End3" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SandBag_End4" />
 				
-
-
-			</Blocks>
-		</BlockVariantGroup>
-
-
-		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ASL Tree Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_SpruceTree.dds</Icon>
-			<DisplayName>ASL Tree</DisplayName>
-			<Description>ASL Tree group</Description>
-			<Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SpruceTree" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SpruceTreeMedium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_PineTree" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTree" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_DesertTree" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_DesertTreeMedium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_PineTreeSnowMedium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBush" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallA" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallB" />
-				
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3553,46 +2339,12 @@
 			<DisplayName>ArchDoor</DisplayName>
 			<Description>ArchDoor group</Description>
 			<Blocks>
+			
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArchDoor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArchDoor2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_ArchDoorGlass" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Window_Wall" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_Window_Wall2" />
-
-
-
-
-			</Blocks>
-		</BlockVariantGroup>
-		
-		
-		
-		
-		
-				<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ASL Tree Autumn Group" />
-			<Icon>Models\Textures\GUI\Icons\Cubes\ASL_LeafBushAutumn1.dds</Icon>
-			<DisplayName>ASL Tree Autumn</DisplayName>
-			<Description>ASL Tree Autumn group</Description>
-			<Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn1Medium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn2Medium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafTreeAutumn3Medium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushAutumn1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushAutumn2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushAutumn3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallAAutumn1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallAAutumn2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallAAutumn3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallBAutumn1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallBAutumn2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_LeafBushSmallBAutumn3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SpruceTreeAutumn" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="ASL_SpruceTreeMediumAutumn" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3604,7 +2356,6 @@
 			<Description>light Armor SquareSlopedCorner group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_3x1" />
@@ -3615,9 +2366,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_5x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCorner_6x1M" />
-
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3635,8 +2383,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerInvBase_2x6x1" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3653,8 +2399,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerInvTip_2x6x1" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3664,18 +2408,6 @@
 			<DisplayName>AluminumAlloy Armor SlopeTransitionTip 2x1</DisplayName>
 			<Description>AluminumAlloy Armor SlopeTransitionTip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionTip_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionTip_2x1M" />
@@ -3688,9 +2420,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionTip_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3700,19 +2429,6 @@
 			<DisplayName>AluminumAlloyLight_ Armor SlopeTransitionBase 2x1</DisplayName>
 			<Description>AluminumAlloyLight_ Armor SlopeTransitionBase group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopeTransitionBase_6x1M" />
-
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionBase_2x1M" />
@@ -3725,7 +2441,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopeTransitionBase_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3735,17 +2450,6 @@
 			<DisplayName>AluminumAlloy Armor RaisedSlopedCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor RaisedSlopedCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_RaisedSlopedCorner_7x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_2x1M" />
@@ -3758,9 +2462,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_RaisedSlopedCorner_6x1M" />
 
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3770,11 +2471,6 @@
 			<DisplayName>AluminumAlloy Armor Slope2x2x1</DisplayName>
 			<Description>AluminumAlloy Armor Slope2x2x1 group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_2x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_3x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_4x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_5x2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_6x2x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Slope_2x2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Slope_3x2x1" />
@@ -3791,11 +2487,6 @@
 			<DisplayName>AluminumAlloy Armor Corner 2x1x2</DisplayName>
 			<Description>AluminumAlloy Armor Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_2x1x2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_2x1x3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_2x1x4" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_2x1x5" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_2x1x6" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x2" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_2x1x3" />
@@ -3812,18 +2503,6 @@
 			<DisplayName>AluminumAlloy Armor SquareSlopedCornerTip 3x1</DisplayName>
 			<Description>AluminumAlloy Armor SquareSlopedCornerTip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
-
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerTip_2x1M" />
@@ -3836,7 +2515,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SquareSlopedCornerTip_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3846,18 +2524,6 @@
 			<DisplayName>AluminumAlloy Armor Sloped Transition 3to2</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Transition group</Description>
 			<Blocks>
-
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition21" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition21M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition32" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition32M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition43" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition43M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition54" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition54M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition65" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition65M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition21" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition21M" />
@@ -3870,8 +2536,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition65" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition65M" />
 
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3882,7 +2546,6 @@
 			<Description>AluminumAlloy Armor Sloped Transition 31 group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition31" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition31M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition42" />
@@ -3891,8 +2554,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition53M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition64" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition64M" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3904,7 +2565,6 @@
 			<Description>AluminumAlloy Armor Half Sloped Transition 31 group</Description>
 			<Blocks>
 
-
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition31" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition31M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition42" />
@@ -3913,8 +2573,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition53M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition64" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlopedTransition64M" />
-
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -3925,18 +2583,14 @@
 			<DisplayName>DisplayName_Block_AluminumAlloyArmorBlock</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCornerInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCornerSquare" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCornerSquareInverted" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCornerInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCornerSquare" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCornerSquareInverted" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3946,13 +2600,7 @@
 			<DisplayName>DisplayName_BlockGroup_ArmorAluminumAlloyRampGroup</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeHalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeHalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfSlopedCorner" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlope2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlope2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_HalfArmorBlock" />
@@ -3960,6 +2608,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfSlopeCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfSlopedCorner" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3969,18 +2618,14 @@
 			<DisplayName>DisplayName_BlockGroup_ArmorAluminumAlloyRampCornerGroup</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfSlopeInverted" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCorner2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorCorner2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorInvCorner2Base" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorInvCorner2Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfSlopeCornerInverted" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfSlopeInverted" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -3990,12 +2635,11 @@
 			<DisplayName>DisplayName_Block_AluminumAlloyRoundArmorSlope</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorRoundSlope" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorRoundCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorRoundCornerInv" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorRoundSlope" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorRoundCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorRoundCornerInv" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4005,14 +2649,7 @@
 			<DisplayName>DisplayName_BlockGroup_AluminumAlloyArmorSlopedCorners</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorRaisedSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSquareSlopedCornerTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSquareSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSquareSlopedCornerTipInv" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopedCornerBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorHalfSlopedCornerBase" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopedCornerTip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorRaisedSlopedCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSquareSlopedCornerTip" />
@@ -4021,6 +2658,7 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopedCornerBase" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopedCorner" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorHalfSlopedCornerBase" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4030,18 +2668,14 @@
 			<DisplayName>DisplayName_BlockGroup_AluminumAlloyArmorTransitionBlocks</DisplayName>
 			<Description>Description_AluminumAlloyArmor</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransitionBase" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransition" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransitionTip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransitionBaseMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransitionMirrored" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorSlopeTransitionTipMirrored" />
+
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransitionBase" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransition" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransitionTip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransitionBaseMirrored" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransitionMirrored" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorSlopeTransitionTipMirrored" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4051,10 +2685,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Slope 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Slope group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Slope_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Slope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Slope_4x1" />
@@ -4070,17 +2700,13 @@
 			<DisplayName>AluminumAlloyLight_light Armor Half Slope 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Half Slope group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfSlope_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfSlope_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfSlope_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfSlope_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfSlope_6x1" />
+				
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4090,10 +2716,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_4x1" />
@@ -4109,18 +2731,12 @@
 			<DisplayName>AluminumAlloyLight_light Armor Half Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Half Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfCorner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_4x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_5x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfCorner_6x1" />
-
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -4131,10 +2747,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor InvCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor InvCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_InvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_InvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_InvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_InvCorner_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_3x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_InvCorner_4x1" />
@@ -4150,16 +2762,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor HalfInvCorner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor HalfInvCorner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_HalfInvCorner_6x1M" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_HalfInvCorner_2x1M" />
@@ -4181,17 +2783,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Sloped Corner Tip 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner Tip group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerTip_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_2x1M" />
@@ -4204,7 +2795,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerTip_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4214,17 +2804,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Sloped Corner Base 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner Base group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCornerBase_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_2x1M" />
@@ -4237,7 +2816,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCornerBase_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4247,16 +2825,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Sloped Corner 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedCorner_6x1M" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_2x1M" />
@@ -4269,7 +2837,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedCorner_6x1M" />
 
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4279,17 +2846,6 @@
 			<DisplayName>AluminumAlloyLight_light Armor Sloped Transition 3x1</DisplayName>
 			<Description>AluminumAlloy Armor Sloped Transition group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_3x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_4x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_5x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_6x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_SlopedTransition_6x1M" />
-
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_2x1M" />
@@ -4302,10 +2858,6 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_6x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_SlopedTransition_6x1M" />
 
-
-
-
-
 			</Blocks>
 		</BlockVariantGroup>
 
@@ -4315,11 +2867,6 @@
 			<DisplayName>light Armor Corner Corner 2x1</DisplayName>
 			<Description>light Armor Corner Corner group</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_Squarer_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_Squarer_3x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_Squarer_4x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_Squarer_5x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_Corner_Squarer_6x1" />
 
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_2x1" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_Corner_Squarer_3x1" />
@@ -4337,15 +2884,10 @@
 			<Description>AluminumAlloyLight_Half Corner Slope group</Description>
 			<Blocks>
 
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerSlope_2x1M" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_CornerSlope_2x1" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_CornerSlope_2x1M" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerSlope_2x1Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_SmallBlockArmorBlock_CornerSlope_2x1TipM" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_CornerSlope_2x1Tip" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluminumAlloyLight_LargeBlockArmorBlock_CornerSlope_2x1TipM" />
-				.
 
 			</Blocks>
 		</BlockVariantGroup>
@@ -4373,14 +2915,6 @@
 
 			</Blocks>
 		</BlockVariantGroup>
-		
-		
-		
-		
-		
-		
-		
-
 
 	</BlockVariantGroups>
 </Definitions>
