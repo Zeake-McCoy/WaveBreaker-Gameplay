@@ -1,5 +1,6 @@
 ZEROASP_AmmoMagazines.xml
 Wheels.xml
+KGS_Seat_CubeBlocks.xml
 BankingSystem.xml
 CubeBlocks_Sorters.xml
 CAP_Propeller_Half.xml
