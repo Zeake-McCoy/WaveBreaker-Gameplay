@@ -49,7 +49,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\JEB\small\JEB_SG_LA_DoubleSlopeTip.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<MountPoints>
