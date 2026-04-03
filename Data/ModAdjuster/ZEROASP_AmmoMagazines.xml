@@ -353,7 +353,7 @@
             <DisplayName>[ZSP] 105mm HE Round</DisplayName>
             <Size>
                 <X>0.0525</X>
-                <Y>0.385</Y>
+                <Y>0.245</Y>
                 <Z>0.0525</Z>
             </Size>
             <Mass>10</Mass>
