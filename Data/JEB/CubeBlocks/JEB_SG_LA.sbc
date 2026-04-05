@@ -40,7 +40,7 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>JEB_SG_LA_DoubleSlopeTip</SubtypeId>
 			</Id>
-			<DisplayName>Light Armor Double Slope Tip}</DisplayName>
+			<DisplayName>Light Armor Double Slope Tip</DisplayName>
 			<Description>Description_LightArmor</Description>
 			<Icon>Textures\GUI\Icons\Cubes\JEB_SG_LA_DoubleSlopeTip.dds</Icon>
 			<CubeSize>Small</CubeSize>
