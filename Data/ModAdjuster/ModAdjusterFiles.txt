@@ -1,4 +1,3 @@
-ZEROASP_AmmoMagazines.xml
 Wheels.xml
 KGS_Seat_CubeBlocks.xml
 BankingSystem.xml
