@@ -39,12 +39,11 @@
 				<Radius>3</Radius>
 				<Length>350</Length>
 				<Speed>2</Speed>
-				<WorkRate>15</WorkRate>
-                <IdlePower>0.5</IdlePower>
-                <ActivePower>5</ActivePower>
+				<WorkRate>12</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
-				<PickUpFloatings>false</PickUpFloatings>
+				<PickUpFloatings>true</PickUpFloatings>
+				<Action Type="Primary" SizeRatio="1" SpeedRatio="1" HarvestRatio="1" />
 				<Turret>
 					<TargetRadius>350</TargetRadius>
 					<Subpart>
@@ -116,10 +115,11 @@
 				<Radius>3</Radius>
 				<Length>350</Length>
 				<Speed>4</Speed>
-				<WorkRate>15</WorkRate>
+				<WorkRate>12</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
 				<PickUpFloatings>true</PickUpFloatings>
+				<Action Type="Primary" SizeRatio="1" SpeedRatio="1" HarvestRatio="1" />
 				<Turret>
 					<TargetRadius>350</TargetRadius>
 					<Subpart>
@@ -210,223 +210,6 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.03" EndX="1.00" EndY="0.16"/>
 				<MountPoint Side="Right" StartX="0.00" StartY="0.03" EndX="1.00" EndY="0.16"/>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" PressurizedWhenOpen="true"/>
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\BeamToolTurret_BS1.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\BeamToolTurret_BS2.mwm"/>
-			</BuildProgressModels>
-		</Definition>
-		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-			<Id>
-				<TypeId>ConveyorSorter</TypeId>
-				<SubtypeId>BeamToolTurretSG</SubtypeId>
-			</Id>
-			<DisplayName>Beam Turret Multitool</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\BeamToolTurret.dds</Icon>
-			<Description>200m range beam multitool</Description>
-			<CubeSize>Small</CubeSize>
-			<GuiVisible>true</GuiVisible>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="5" y="5" z="5" />
-			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\large\BeamToolTurret.mwm</Model>
-			<UseModelIntersection>true</UseModelIntersection>
-			<Components>
-				<Component Subtype="InteriorPlate" Count="30" />
-				<Component Subtype="Construction" Count="50" />
-				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="SmallTube" Count="30" />
-				<Component Subtype="Computer" Count="20" />
-				<Component Subtype="RadioCommunication" Count="10" />
-				<Component Subtype="Motor" Count="20" />
-				<Component Subtype="Construction" Count="20" />
-				<Component Subtype="InteriorPlate" Count="10" />
-			</Components>
-			<CriticalComponent Subtype="Motor" Index="0" />
-
-			<ToolValues Type="Weld">
-				<EffectShape>Cylinder</EffectShape>
-				<WorkOrder>Backward</WorkOrder>
-				<WorkOrigin>Emitter</WorkOrigin>
-				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-175" />
-				<HalfExtent x="5" y="8" z="5" />
-				<Radius>2</Radius>
-				<Length>200</Length>
-				<Speed>3</Speed>
-				<WorkRate>10</WorkRate>
-				<IdlePower>0.25</IdlePower>
-                <ActivePower>2</ActivePower>
-				<Debug>false</Debug>
-				<AffectOwnGrid>true</AffectOwnGrid>
-				<PickUpFloatings>true</PickUpFloatings>
-				<Turret>
-					<TargetRadius>200</TargetRadius>
-					<Subpart>
-						<Name>MissileTurretBase1</Name>
-						<RotationAxis>Up</RotationAxis>
-						<RotationSpeed>130</RotationSpeed>
-					</Subpart>
-					<Subpart>
-						<Name>MissileTurretBarrels</Name>
-						<RotationAxis>Right</RotationAxis>
-						<RotationSpeed>90</RotationSpeed>
-						<MinRotation>-20</MinRotation>
-						<MaxRotation>180</MaxRotation>
-					</Subpart>
-				</Turret>
-				<Event Trigger="RayHit">
-					<Beam>
-						<Start>emitter</Start>
-						<EndLocation>Hit</EndLocation>
-						<Material>WeaponLaser</Material>
-						<Width>0.2</Width>
-						<Color>
-							<X>10</X>
-							<Y>30</Y>
-							<Z>70</Z>
-							<W>1</W>
-						</Color>
-					</Beam>
-					<ParticleEffect>
-						<Name>ShipWelderArc</Name>
-						<Location>Hit</Location>
-						<Dummy>emitter</Dummy>
-						<Offset x="0" y="0" z="-4" />
-					</ParticleEffect>
-					<Sound>
-						<Name>LaserMultitoolSoundLoop</Name>
-					</Sound>
-				</Event>
-				<Event Trigger="Firing">
-					<Beam>
-						<Start>emitter</Start>
-						<EndLocation>Hit</EndLocation>
-						<Material>WeaponLaser</Material>
-						<Width>0.04</Width>
-						<Color>
-							<X>1</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<W>0.5</W>
-						</Color>
-					</Beam>
-					<Sound>
-						<Name>ArcToolLrgWeldIdle</Name>
-					</Sound>
-				</Event>
-				<MaterialSpecificModifiers>
-					<Material Category="Sand" SpeedRatio="0.5" HarvestRatio="1.3"/>
-					<Material Category="Soil" SpeedRatio="5" HarvestRatio="0.2"/>
-				</MaterialSpecificModifiers>
-			</ToolValues>
-
-			<ToolValues Type="Grind">
-				<EffectShape>Cylinder</EffectShape>
-				<WorkOrder>Forward</WorkOrder>
-				<WorkOrigin>Emitter</WorkOrigin>
-				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-175" />
-				<HalfExtent x="5" y="8" z="5" />
-				<Radius>2</Radius>
-				<Length>200</Length>
-				<Speed>4</Speed>
-				<WorkRate>10</WorkRate>
-                <IdlePower>0.25</IdlePower>
-                <ActivePower>2</ActivePower>
-				<Debug>false</Debug>
-				<AffectOwnGrid>true</AffectOwnGrid>
-				<PickUpFloatings>true</PickUpFloatings>
-				<Turret>
-					<TargetRadius>200</TargetRadius>
-					<Subpart>
-						<Name>MissileTurretBase1</Name>
-						<RotationAxis>Up</RotationAxis>
-						<RotationSpeed>130</RotationSpeed>
-					</Subpart>
-					<Subpart>
-						<Name>MissileTurretBarrels</Name>
-						<RotationAxis>Right</RotationAxis>
-						<RotationSpeed>90</RotationSpeed>
-						<MinRotation>-20</MinRotation>
-						<MaxRotation>180</MaxRotation>
-					</Subpart>
-				</Turret>
-				<Event Trigger="RayHit">
-					<Beam>
-						<Start>emitter</Start>
-						<EndLocation>Hit</EndLocation>
-						<Material>WeaponLaser</Material>
-						<Width>0.2</Width>
-						<Color>
-							<X>70</X>
-							<Y>30</Y>
-							<Z>10</Z>
-							<W>1</W>
-						</Color>
-					</Beam>
-					<ParticleEffect>
-						<Name>ShipWelderArc</Name>
-						<Location>Hit</Location>
-						<Dummy>emitter</Dummy>
-						<Offset x="0" y="0" z="-4" />
-					</ParticleEffect>
-					<Sound>
-						<Name>LaserMultitoolSoundLoop</Name>
-					</Sound>
-				</Event>
-				<Event Trigger="Firing">
-					<Beam>
-						<Start>emitter</Start>
-						<EndLocation>Hit</EndLocation>
-						<Material>WeaponLaser</Material>
-						<Width>0.04</Width>
-						<Color>
-							<X>1</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<W>0.5</W>
-						</Color>
-					</Beam>
-					<Sound>
-						<Name>ArcToolLrgWeldIdle</Name>
-					</Sound>
-				</Event>
-				<MaterialSpecificModifiers>
-					<Material Category="Sand" SpeedRatio="0.5" HarvestRatio="1.3"/>
-					<Material Category="Soil" SpeedRatio="5" HarvestRatio="0.2"/>
-				</MaterialSpecificModifiers>
-			</ToolValues>
-			<BlockPairName>BeamToolTurret</BlockPairName>
-
-            <SimpleUpdateVisualOnSkinChange>true</SimpleUpdateVisualOnSkinChange>
-
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>40</BuildTimeSeconds>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
-			<ResourceSinkGroup>Conveyors</ResourceSinkGroup>
-			<PowerInput>0.00025</PowerInput>
-			<InventorySize>
-				<X>5</X>
-				<Y>1</Y>
-				<Z>2</Z>
-			</InventorySize>
-			<EmissiveColorPreset>Default</EmissiveColorPreset>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>50</PCU>
-			<IsAirTight>true</IsAirTight>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" PressurizedWhenOpen="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.03" EndX="5.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" Default="true" PressurizedWhenOpen="true"/>
 			</MountPoints>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\BeamToolTurret_BS1.mwm"/>

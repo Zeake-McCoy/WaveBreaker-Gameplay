@@ -437,9 +437,9 @@
 
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
-			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00"/>
-			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
-			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 
 		  </MountPoints>
 		  <BuildProgressModels>
@@ -482,9 +482,9 @@
 
 			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
 			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
-			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00"/>
-			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
-			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 
 		  </MountPoints>
 		  <BuildProgressModels>
@@ -636,9 +636,9 @@
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 
-			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 
@@ -755,9 +755,9 @@
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <MountPoints>
 
-			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+			  <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			  <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
 			  <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 			  <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
 
@@ -1919,6 +1919,117 @@
 		  <BlockPairName>Hook_offset</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer.dds</Icon>
+		  <Description>
+			  Fuel Container
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer2</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container 2x</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer2.dds</Icon>
+		  <Description>
+			  FuelContainer
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer2.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer2.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+		  <BuildTimeSeconds>9</BuildTimeSeconds>
+		  <DisassembleRatio>2.5</DisassembleRatio>
+		  <EdgeType>Light</EdgeType>
+		  <PCU>1</PCU>
+		  <PCUConsole>2</PCUConsole>
+		  <IsAirTight>false</IsAirTight>
+	  </Definition>
+	  
+	  <Definition>
+		  <Id>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>ASL_FuelContainer3</SubtypeId>
+		  </Id>
+		  <DisplayName>Fuel Container</DisplayName>
+		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_FuelContainer.dds</Icon>
+		  <Description>
+			  Fuel Container
+		  </Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Models\Cubes\Small\ASL_FuelContainer3.mwm</Model>
+		  <PhysicsOption>Convex</PhysicsOption>
+		  <Components>
+			  <Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+		  <BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\Small\ASL_FuelContainer3.mwm"/>
+
+		  </BuildProgressModels>
+
+		  <BlockPairName>ASL_FuelContainer3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
