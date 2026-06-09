@@ -115,8 +115,8 @@
 				<HalfExtent x="5" y="8" z="5" />
 				<Radius>3</Radius>
 				<Length>350</Length>
-				<Speed>4</Speed>
-				<WorkRate>15</WorkRate>
+				<Speed>3</Speed>
+				<WorkRate>10</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
 				<PickUpFloatings>true</PickUpFloatings>
@@ -194,7 +194,7 @@
 			<PowerInput>0.00025</PowerInput>
 			<InventorySize>
 				<X>5</X>
-				<Y>1</Y>
+				<Y>2</Y>
 				<Z>2</Z>
 			</InventorySize>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -249,7 +249,7 @@
 				<WorkOrder>Backward</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-175" />
+				<Offset x="0" y="0" z="-100" />
 				<HalfExtent x="5" y="8" z="5" />
 				<Radius>2</Radius>
 				<Length>200</Length>
@@ -259,7 +259,7 @@
                 <ActivePower>2</ActivePower>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
-				<PickUpFloatings>true</PickUpFloatings>
+				<PickUpFloatings>false</PickUpFloatings>
 				<Turret>
 					<TargetRadius>200</TargetRadius>
 					<Subpart>
@@ -331,7 +331,7 @@
 				<Radius>2</Radius>
 				<Length>200</Length>
 				<Speed>4</Speed>
-				<WorkRate>10</WorkRate>
+				<WorkRate>8</WorkRate>
                 <IdlePower>0.25</IdlePower>
                 <ActivePower>2</ActivePower>
 				<Debug>false</Debug>
@@ -404,14 +404,14 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
 			<ResourceSinkGroup>Conveyors</ResourceSinkGroup>
 			<PowerInput>0.00025</PowerInput>
 			<InventorySize>
 				<X>5</X>
-				<Y>1</Y>
+				<Y>2</Y>
 				<Z>2</Z>
 			</InventorySize>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
