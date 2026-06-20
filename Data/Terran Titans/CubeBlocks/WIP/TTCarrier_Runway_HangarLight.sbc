@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+            <Id>
+                <TypeId>ReflectorLight</TypeId>
+				<SubtypeId>TTCarrier_Runway_HangarLight</SubtypeId>
+			</Id>
+			<DisplayName>Carrier Hangar Light for runwaydeck</DisplayName>
+			<Description>Model early work in progress, fits between runway sections 
+            to provide good lighting inside your hangar.</Description>
+			<Icon>Textures\GUI\Icons\TTCarrier_Runway_HangarLight.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTCarrier_Runway_HangarLight.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8"></Component>
+                <Component Subtype="Girder" Count="10"></Component>
+                <Component Subtype="InteriorPlate" Count="10"></Component>
+                <Component Subtype="Construction" Count="20"></Component>
+                <Component Subtype="BulletproofGlass" Count="4"></Component>
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0"></CriticalComponent>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.80" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.80" EndX="2.00" EndY="1.00"/>
+			</MountPoints>
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <EdgeType>Light</EdgeType>
+			<BlockPairName>TTCarrier_Runway_HangarLight</BlockPairName>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+			<PointLightEmissiveMaterial>TTEmissiveAtlas</PointLightEmissiveMaterial>
+			<SpotLightEmissiveMaterial>TTEmissiveAtlas</SpotLightEmissiveMaterial>
+            <ReflectorThickness>4</ReflectorThickness>
+            <ReflectorTexture>Textures\Lights\flood_light.dds</ReflectorTexture>
+            <ReflectorConeDegrees>90</ReflectorConeDegrees>
+            <Flare>SpotlightLarge</Flare>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <LightRadius Min="5" Max="10" Default="5" />
+            <LightReflectorRadius Min="60" Max="190" Default="120" />
+            <LightFalloff Min="1" Max="3" Default="1.5" />
+            <LightIntensity Min="0.5" Max="5" Default="3" />
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00008</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>-1.1</Y>
+                <Z>1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>20</PCU>
+            <IsAirTight>false</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_ANGLED</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Angled Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_ANGLED.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_ANGLED.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="25" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.56" StartY="0.00" EndX="1.96" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.04" StartY="0.00" EndX="1.44" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="1.45" StartY="1.45" EndX="1.95" EndY="1.95"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_ANGLED</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringZ>MinusHalfY</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTDARING_ANGLED_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTDARING_ANGLED_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_ANGLED_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_ANGLED_left</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Angled Left Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_ANGLED_left.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_ANGLED_left.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="25" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.04" StartY="0.00" EndX="1.44" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="1.51" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="1.51" StartY="0.00" EndX="2.00" EndY="0.49"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_ANGLED_left</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringBlock>TTDARING_ANGLED_Right</MirroringBlock>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTDARING_ANGLED_left_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTDARING_ANGLED_left_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_ANGLED_left_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_ANGLED_Right</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Angled Right Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_ANGLED_Right.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_ANGLED_Right.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="25" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.56" StartY="0.00" EndX="1.96" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.94" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="1.45" StartY="0.95" EndX="1.95" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_ANGLED_Right</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringBlock>TTDARING_ANGLED_left</MirroringBlock>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTDARING_ANGLED_Right_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTDARING_ANGLED_Right_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_ANGLED_Right_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_CeilingOffset</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Ceiling Offset Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_CeilingOffset.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_CeilingOffset.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.20"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.20"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.20"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.20"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_CeilingOffset</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTDARING_CeilingOffset_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_CeilingOffset_BS2.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_Straight</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Straight Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_Straight.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_Straight.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="15" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_Straight</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTDARING_Straight_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTDARING_Straight_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_Straight_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_HalfSlope</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Angled HalfSlope Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_HalfSlope.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_HalfSlope.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.51" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.49" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.49"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_HalfSlope</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTDARING_HalfSlope_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTDARING_HalfSlope_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_HalfSlope_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TTDARING_Ceiling</SubtypeId>
+			</Id>
+			<DisplayName>Bridge Window Ceiling Daring Class</DisplayName>
+			<Description>Bridge parts based on:
+			The Type 45 destroyer, also known as the D or Daring class, 
+			is a class of six guided-missile destroyers built for the 
+			United Kingdom's Royal Navy in the early 21st century. 			
+			</Description>
+			<Icon>Textures\GUI\Icons\TTDARING_Ceiling.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTDARING_Ceiling.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="5" />
+					<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>TTDARING_Ceiling</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTDARING_Ceiling_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTDARING_Ceiling_BS2.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

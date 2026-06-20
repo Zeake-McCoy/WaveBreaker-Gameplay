@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+			<Id>
+				<TypeId>AdvancedDoor</TypeId>
+				<SubtypeId>TTCarrier_CenterLift_9x7x5</SubtypeId>
+			</Id>
+			<DisplayName>Carrier Central Elevator 9X7X5</DisplayName>
+			<Description>Central elevator for flight operations, designed for 3 block tall hangars.</Description>
+			<Icon>Textures\GUI\Icons\TTCarrier_CenterLift_9x7x5.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="5" z="9"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTCarrier_CenterLift_9x7x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="InteriorPlate" Count="20" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="MetalGrid" Count="150" />
+				<Component Subtype="SmallTube" Count="4" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="InteriorPlate" Count="60" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="150" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="7.00" EndY="1.10"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="3.90" EndX="7.00" EndY="4.90"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="7.00" EndY="1.10"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="3.90" EndX="7.00" EndY="4.90"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="9.00" EndY="1.10"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="3.90" EndX="9.00" EndY="4.90"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="9.00" EndY="1.10"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="3.90" EndX="9.00" EndY="4.90"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="6.00" EndY="9.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="7.00" EndY="9.00" Enabled="false"/>
+			</MountPoints>
+			<BlockPairName>TTCarrier_CenterLift_9x7x5</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTCarrier_CenterLift_9x7x5_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTCarrier_CenterLift_9x7x5_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTCarrier_CenterLift_9x7x5_BS3.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>45</BuildTimeSeconds>
+			<DisassembleRatio>25</DisassembleRatio>
+			<DamageEffectId>212</DamageEffectId>
+			<PCU>225</PCU>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.250</PowerConsumptionMoving>
+			<UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+			<Subparts>
+				<SubpartDefinition><!--0-->
+					<Name>platform</Name>
+				</SubpartDefinition>
+				<SubpartDefinition><!--1-->
+					<Name>platform_2</Name>
+				</SubpartDefinition>
+				<SubpartDefinition><!--2-->
+					<Name>rail_1</Name>
+				</SubpartDefinition>
+			</Subparts>
+			<OpeningSequence>
+			<!-- Platform 1 -->
+			<Opening>
+				<IDs>0</IDs>
+				<Move>Slide</Move>
+				<SlideDirection x="0" y="-1" z="0" />
+				<MaxOpen>10</MaxOpen>
+				<Speed>1</Speed>
+				<OpenDelay>0.25</OpenDelay>
+				<CloseDelay>0</CloseDelay>
+				<OpenSound>BlockDoorHangar</OpenSound>
+				<CloseSound>BlockDoorHangar</CloseSound>
+			</Opening>
+
+			<!-- Platform 2 -->
+			<Opening>
+				<IDs>1</IDs>
+				<Move>Slide</Move>
+				<SlideDirection x="0" y="-1" z="0" />
+				<MaxOpen>1.1</MaxOpen>
+				<Speed>1</Speed>
+				<OpenDelay>7.75</OpenDelay>
+				<CloseDelay>1.0</CloseDelay>
+				<OpenSound>BlockDoorHangar</OpenSound>
+				<CloseSound>BlockDoorHangar</CloseSound>
+			</Opening>
+
+			<!-- Rails -->
+			<Opening>
+				<IDs>2</IDs>
+				<Move>Slide</Move>
+				<SlideDirection x="0" y="1" z="0" />
+				<MaxOpen>0.74</MaxOpen>
+				<Speed>1</Speed>
+				<OpenDelay>0</OpenDelay>
+				<CloseDelay>10.0</CloseDelay>
+				<OpenSound>BlockDoorHangar</OpenSound>
+				<CloseSound>BlockDoorHangar</CloseSound>
+			</Opening>
+			</OpeningSequence>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

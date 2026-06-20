@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>TTIOWASTACK</SubtypeId>
+			</Id>
+			<DisplayName>IOWA Class SmokeStack</DisplayName>
+			<Description>TBA</Description>
+			<Icon>Textures\GUI\Icons\TTIOWASTACK.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTIOWASTACK.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BlockPairName>TTIOWASTACK</BlockPairName>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTZumwaltPartsGroup" />
+        <Icon>Textures\GUI\Icons\TTBridgeWindow2x1x1Base.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTZumwaltPartsGroupGroup</DisplayName>
+        <Description>Zumwalt Bridge Parts</Description>
+        <Blocks>
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTBridgeWindow2x1x1Base" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTBridgeWindowInvCorner2x1x1Base" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTBridgeWindowCorner2x1x1Base" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTDaringBridgePartsGroup" />
+        <Icon>Textures\GUI\Icons\TTDARING_HalfSlope.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTDaringBridgeGroupGroup</DisplayName>
+        <Description>Daring Bridge Parts</Description>
+        <Blocks>
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_HalfSlope" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_Straight" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_ANGLED_Right" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_ANGLED_left" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_ANGLED" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_Ceiling" />
+          <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTDARING_CeilingOffset" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTZevenprovSmokestackGroup" />
+        <Icon>Textures\GUI\Icons\ShipExhaustProvinces2x2R.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTZevenprovSmokestackGroupGroup</DisplayName>
+        <Description>Zeven Provinciën Smoke Stacks</Description>
+        <Blocks>
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="ShipExhaustProvinces2x2L" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="ShipExhaustProvinces2x2R" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="ShipExhaustProvinces2x2C" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="ShipExhaustProvinces1x1C" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="TTBURKESTACKFront" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="TTBURKESTACKRear" />
+          <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="1x1RoundExaust" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTManeuveringPropSet" />
+        <Icon>Textures\GUI\Icons\TTfullblockprop.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTManeuveringPropSetGroup</DisplayName>
+        <Description>Maneuvering Propeller Sets</Description>
+        <Blocks>
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TTfullblockprop" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TT1x1slope2x1baseprop" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TThalfblockprop" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TTfullblockpropMP" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TT1x1slope2x1basepropMP" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TThalfblockpropMP" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TTfullblockpropLP" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TT1x1slope2x1basepropLP" />
+            <Block Type="MyObjectBuilder_Thrust" Subtype="TThalfblockpropLP" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTConnectors" />
+        <Icon>Textures\GUI\Icons\TTConveyorConnector.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTConnectorsGroup</DisplayName>
+        <Description>Connector sets</Description>
+        <Blocks>
+            <Block Type="MyObjectBuilder_ShipConnector" Subtype="TTConveyorConnector" />
+            <Block Type="MyObjectBuilder_ShipConnector" Subtype="TTConveyorConnectorDouble" />
+            <Block Type="MyObjectBuilder_ShipConnector" Subtype="TTConveyorConnectorhalf" />
+            <Block Type="MyObjectBuilder_ShipConnector" Subtype="TTConveyorConnectorDoubleHalf" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTMagplates" />
+        <Icon>Textures\GUI\Icons\TTMagplateBlock.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTMagplatesGroup</DisplayName>
+        <Description>Magplates sets</Description>
+        <Blocks>
+            <Block Type="MyObjectBuilder_LandingGear" Subtype="TTMagplateBlock" />
+            <Block Type="MyObjectBuilder_LandingGear" Subtype="TTMagplateBlock1X2X1" />
+            <Block Type="MyObjectBuilder_LandingGear" Subtype="TTMagplateBlockhalf" />
+            <Block Type="MyObjectBuilder_LandingGear" Subtype="TTMagplateBlockHalf1X2X1" />
+        </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarbetteGroup" />
+        <Icon>Textures\GUI\Icons\TTBarbette5x5.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_BarbetteGroup</DisplayName>
+        <Description>Barbette</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TTBarbette5x5" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TTBarbette3x3" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TTBarbette1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTEXTSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTEXTSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTEXTSlope</DisplayName>
+        <Description>TTEXTSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTEXTSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTEXTSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTEXTSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTEXTSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTEXTSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTINVSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTINVSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTINVSlope</DisplayName>
+        <Description>TTINVSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTINVSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTINVSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTINVSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTINVSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTINVSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTSlope</DisplayName>
+        <Description>TTSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTHEXTSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTHEXTSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTHEXTSlope</DisplayName>
+        <Description>TTHEXTSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHEXTSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHEXTSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHEXTSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHEXTSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHEXTSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTHINVSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTHINVSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTHINVSlope</DisplayName>
+        <Description>TTHINVSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHINVSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHINVSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHINVSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHINVSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHINVSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTHSlopeGroup" />
+        <Icon>Textures\GUI\Icons\TTHSlope2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTHSlope</DisplayName>
+        <Description>TTHSlope</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHSlope2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHSlope3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHSlope4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHSlope5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHSlope6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTLSLOPEGroup" />
+        <Icon>Textures\GUI\Icons\TTLSLOPE2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTLSLOPE</DisplayName>
+        <Description>TTLSLOPE</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTLSLOPE2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTLSLOPE3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTLSLOPE4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTLSLOPE5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTLSLOPE6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+        <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TTHLSLOPEGroup" />
+        <Icon>Textures\GUI\Icons\TTHLSLOPE2x1x1.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_TTHLSLOPE</DisplayName>
+        <Description>TTHLSLOPE</Description>
+        <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHLSLOPE2x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHLSLOPE3x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHLSLOPE4x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHLSLOPE5x1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TTHLSLOPE6x1x1" />
+        </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+  <BlockPositions>
+       <BlockPosition>
+          <Name>TTZumwaltPartsGroup</Name>  // where this is the pairname of the block you want shown.
+          <Position>
+            <X>1</X>
+            <Y>3</Y>
+          </Position>
+        </BlockPosition>
+       <BlockPosition>
+          <Name>TTDaringBridgePartsGroup</Name>  // where this is the pairname of the block you want shown.
+          <Position>
+            <X>1</X>
+            <Y>3</Y>
+          </Position>
+        </BlockPosition>
+        <BlockPosition>
+           <Name>TTZevenprovSmokestackGroup</Name>  // where this is the pairname of the block you want shown.
+           <Position>
+             <X>2</X>
+             <Y>3</Y>
+           </Position>
+         </BlockPosition>
+         <BlockPosition>
+            <Name>TTManeuveringPropSet</Name>  // where this is the pairname of the block you want shown.
+            <Position>
+              <X>4</X>
+              <Y>5</Y>
+            </Position>
+          </BlockPosition>
+          <BlockPosition>
+             <Name>TTConnectors</Name>  // where this is the pairname of the block you want shown.
+             <Position>
+               <X>6</X>
+               <Y>7</Y>
+             </Position>
+           </BlockPosition>
+           <BlockPosition>
+              <Name>TTMagplates</Name>  // where this is the pairname of the block you want shown.
+              <Position>
+                <X>8</X>
+                <Y>9</Y>
+              </Position>
+            </BlockPosition>
+            <BlockPosition>
+               <Name>BarbetteGroup</Name>  // where this is the pairname of the block you want shown.
+               <Position>
+                 <X>1</X>
+                 <Y>3</Y>
+               </Position>
+             </BlockPosition>
+ </BlockPositions>
+</Definitions>

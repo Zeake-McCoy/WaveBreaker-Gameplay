@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>TTBURKESTACKRear</SubtypeId>
+			</Id>
+			<DisplayName>Arleight Burke SmokeStack Rear</DisplayName>
+			<Description>Arleigh Burke Rear Smoke Stack</Description>
+			<Icon>Textures\GUI\Icons\TTBURKESTACKRear.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTBURKESTACKRear.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BlockPairName>TTBURKESTACKRear</BlockPairName>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+								<string>Dummy</string>
+					<string>ArleighBurkeSmoke</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTBURKESTACKRear_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTBURKESTACKRear_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTBURKESTACKRear_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>TTBURKESTACKFront</SubtypeId>
+			</Id>
+			<DisplayName>Arleight Burke SmokeStack Front</DisplayName>
+			<Description>Arleigh Burke Front Smoke Stack</Description>
+			<Icon>Textures\GUI\Icons\TTBURKESTACKFront.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TTBURKESTACKFront.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BlockPairName>TTBURKESTACKFront</BlockPairName>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+								<string>Dummy</string>
+					<string>ArleighBurkeSmoke</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\TTBURKESTACKFront_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\TTBURKESTACKFront_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTBURKESTACKFront_BS3.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

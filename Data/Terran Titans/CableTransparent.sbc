@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TransparentMaterials>
+		<TransparentMaterial>
+			<Id>
+				<TypeId>TransparentMaterialDefinition</TypeId>
+				<SubtypeId>TTSteelCable</SubtypeId>
+			</Id>
+			<AlphaMistingEnable>false</AlphaMistingEnable>
+			<AlphaSaturation>1</AlphaSaturation>
+			<CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+			<IgnoreDepth>false</IgnoreDepth>
+			<SoftParticleDistanceScale>0.1</SoftParticleDistanceScale>
+
+			<Texture>Textures\TT\TT_SteelCable_cm.dds</Texture>
+
+			<Color>
+			<X>0.75</X>
+			<Y>0.75</Y>
+			<Z>0.75</Z>
+			<W>1.0</W>
+			</Color>
+
+			<ColorAdd>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0.0</Z>
+			<W>0.0</W>
+			</ColorAdd>
+
+			<ShadowMultiplier>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0.0</Z>
+			<W>0.0</W>
+			</ShadowMultiplier>
+
+			<LightMultiplier>
+			<X>0.05</X>
+			<Y>0.05</Y>
+			<Z>0.05</Z>
+			<W>0.05</W>
+			</LightMultiplier>
+
+			<Reflectivity>0.6</Reflectivity>
+			<Fresnel>0.4</Fresnel>
+			<ReflectionShadow>0.6</ReflectionShadow>
+
+			<Gloss>0.8</Gloss>
+			<GlossTextureAdd>1</GlossTextureAdd>
+			<GlossTexture>Textures\TT\TT_SteelCable_ng.dds</GlossTexture>
+
+			<SpecularColorFactor>4.0</SpecularColorFactor>
+
+			<IsFlareOccluder>true</IsFlareOccluder>
+		</TransparentMaterial>
+
+	</TransparentMaterials>
+</Definitions>

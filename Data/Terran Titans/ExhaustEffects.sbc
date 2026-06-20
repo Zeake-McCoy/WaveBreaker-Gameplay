@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Definition xsi:type="MyObjectBuilder_ExhaustEffectDefinition">
+        <Id Type="MyObjectBuilder_ExhaustEffectDefinition" Subtype="ArleighBurkeSmoke" />
+        <AvailableInSurvival>false</AvailableInSurvival>
+        <ExhaustPipes>
+            <Pipe>
+                <Name>Pipe0</Name>
+                <Dummy>emitter</Dummy>
+                <Effect>ArleighBurkeSmoke</Effect>
+                <EffectIntensity>1</EffectIntensity>
+                <PowerToRadius>1</PowerToRadius>
+                <PowerToBirth>1</PowerToBirth>
+                <PowerToVelocity>1</PowerToVelocity>
+                <PowerToColorIntensity>1</PowerToColorIntensity>
+                <PowerToLife>1</PowerToLife>
+            </Pipe>
+        </ExhaustPipes>
+    </Definition>
+   
+</Definitions>

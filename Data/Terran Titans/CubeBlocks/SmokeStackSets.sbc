@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>ShipExhaustProvinces2x2R</SubtypeId>
+			</Id>
+			<DisplayName>Zeven Provinciën-class Smokestack Right</DisplayName>
+			<Description>The De Zeven Provinciën-class frigates are highly advanced air-defence and command frigates
+				in service with the Royal Navy of the Netherlands (Koninklijke Marine).
+				This class of ships is also known as LCF (Luchtverdedigings- en commandofregat, air defense and command frigate).
+				The ships are similar to the German Sachsen-class frigates in role and mission.
+
+				Smokestack Style
+			</Description>
+			<Icon>Textures\GUI\Icons\ShipExhaustProvinces2x2R.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="2" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\ShipExhaustProvinces2x2R.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+			</MountPoints>
+			<BlockPairName>ShipExhaustProvinces2x2R</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ShipExhaustProvinces2x2L</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>ShipExhaustProvinces2x2L</SubtypeId>
+			</Id>
+			<DisplayName>Zeven Provinciën-class Smokestack Left</DisplayName>
+			<Description>The De Zeven Provinciën-class frigates are highly advanced air-defence and command frigates
+				in service with the Royal Navy of the Netherlands (Koninklijke Marine).
+				This class of ships is also known as LCF (Luchtverdedigings- en commandofregat, air defense and command frigate).
+				The ships are similar to the German Sachsen-class frigates in role and mission.
+
+				Smokestack Style
+			</Description>
+			<Icon>Textures\GUI\Icons\ShipExhaustProvinces2x2L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="2" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\ShipExhaustProvinces2x2L.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+			</MountPoints>
+			<BlockPairName>ShipExhaustProvinces2x2L</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringBlock>ShipExhaustProvinces2x2R</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>ShipExhaustProvinces2x2C</SubtypeId>
+			</Id>
+			<DisplayName>Zeven Provinciën-class Smokestack Center</DisplayName>
+			<Description>The De Zeven Provinciën-class frigates are highly advanced air-defence and command frigates
+				in service with the Royal Navy of the Netherlands (Koninklijke Marine).
+				This class of ships is also known as LCF (Luchtverdedigings- en commandofregat, air defense and command frigate).
+				The ships are similar to the German Sachsen-class frigates in role and mission.
+
+				Smokestack Style
+			</Description>
+			<Icon>Textures\GUI\Icons\ShipExhaustProvinces2x2C.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="2" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\ShipExhaustProvinces2x2C.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="10" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="LargeTube" Count="4" />
+					<Component Subtype="Motor" Count="8" />
+					<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+			</MountPoints>
+			<BlockPairName>ShipExhaustProvinces2x2C</BlockPairName>
+      <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>ShipExhaustProvinces1x1C</SubtypeId>
+			</Id>
+			<DisplayName>Zeven Provinciën-class Smokestack Center 1x1</DisplayName>
+			<Description>The De Zeven Provinciën-class frigates are highly advanced air-defence and command frigates
+				in service with the Royal Navy of the Netherlands (Koninklijke Marine).
+				This class of ships is also known as LCF (Luchtverdedigings- en commandofregat, air defense and command frigate).
+				The ships are similar to the German Sachsen-class frigates in role and mission.
+
+				Smokestack Style</Description>
+			<Icon>Textures\GUI\Icons\ShipExhaustProvinces1x1C.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\ShipExhaustProvinces1x1C.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="Construction" Count="10" />
+					<Component Subtype="LargeTube" Count="2" />
+					<Component Subtype="Motor" Count="4" />
+					<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\ShipExhaustProvinces1x1C_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\ShipExhaustProvinces1x1C_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ShipExhaustProvinces1x1C</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+				<Id>
+						<TypeId>ExhaustBlock</TypeId>
+				<SubtypeId>1x1RoundExaust</SubtypeId>
+			</Id>
+			<DisplayName>1x1 Round Smokestack Design</DisplayName>
+			<Description>Simple 1x1 round smokestack</Description>
+			<Icon>Textures\GUI\Icons\1x1RoundExaust.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\1x1RoundExaust.mwm</Model>
+			<Components>
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="Construction" Count="10" />
+					<Component Subtype="LargeTube" Count="2" />
+					<Component Subtype="Motor" Count="4" />
+					<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\1x1RoundExaust_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\1x1RoundExaust_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\1x1RoundExaust_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>1x1RoundExaust</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<PCU>50</PCU>
+			<AvailableEffects>
+					<string>Dummy</string>
+					<string>CarSmoke</string>
+					<string>CarSmokeSmall</string>
+					<string>ElectricArc</string>
+					<string>ElectricArcSmall</string>
+					<string>Fire</string>
+					<string>FireSmall</string>
+					<string>FireAndSmoke</string>
+					<string>FireAndSmokeSmall</string>
+					<string>Smoke</string>
+					<string>SmokeSmall</string>
+					<string>SmokeElectric</string>
+					<string>SmokeElectricSmall</string>
+					<string>SmokeReactor</string>
+					<string>SmokeReactorSmall</string>
+					<string>SmokeWhite</string>
+					<string>SmokeWhiteSmall</string>
+			</AvailableEffects>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
