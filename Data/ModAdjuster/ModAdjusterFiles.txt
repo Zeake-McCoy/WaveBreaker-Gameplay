@@ -1,4 +1,7 @@
 Wheels.xml
+KGS_AmmoMagazines.xml
+KGS_Blueprints.xml
+KGS_BlueprintClasses.xml
 KGS_Seat_CubeBlocks.xml
 BankingSystem.xml
 CubeBlocks_Sorters.xml

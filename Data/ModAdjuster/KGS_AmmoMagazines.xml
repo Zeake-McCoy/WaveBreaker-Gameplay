@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AmmoMagazines>
+		
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>KGS_Crotale_SAM_Magazine</SubtypeId>
+            </Id>
+            <DisplayName>Crotale Surface-to-Air Missile</DisplayName>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>150</Volume>
+            <PhysicalMaterial>KGS_ShellCasing</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+        </AmmoMagazine>	
+
+		
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>KGS_Kornet_ATGM_Magazine</SubtypeId>
+            </Id>
+            <DisplayName>Kornet ATGM</DisplayName>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>35</Mass>
+            <Volume>60</Volume>
+            <PhysicalMaterial>KGS_ShellCasing</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+        </AmmoMagazine>	
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>KGS_Spike_ATGM_Magazine</SubtypeId>
+            </Id>
+            <DisplayName>Spike ATGM</DisplayName>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>21</Mass>
+            <Volume>60</Volume>
+            <PhysicalMaterial>KGS_ShellCasing</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+        </AmmoMagazine>	
+		
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>KGS_TYPE_1_PROX_MAG</SubtypeId>
+			</Id>
+			<DisplayName>Type-I Airburst Magazine</DisplayName>
+			<Size>
+				<X>0.1</X>
+				<Y>0.1</Y>
+				<Z>0.1</Z>
+			</Size>
+			<Mass>40</Mass>
+			<Volume>16</Volume>
+			<Capacity>100</Capacity>
+			<AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+		</AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>KGS_Type_4_MLRS_Magazine</SubtypeId>
+            </Id>
+            <DisplayName>Type-IV Artillery Rocket</DisplayName>
+            <Size>
+                <X>3</X>
+                <Y>0.35</Y>
+                <Z>0.35</Z>
+            </Size>
+            <Mass>150</Mass>
+            <Volume>50</Volume>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+        </AmmoMagazine>	
+
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>KGS_IRON_FIST_APS_AMMO</SubtypeId>
+			</Id>
+			<DisplayName>Iron Fist APS Canister</DisplayName>
+			<Size>
+				<X>0.1</X>
+				<Y>0.1</Y>
+				<Z>0.1</Z>
+			</Size>
+			<Mass>50</Mass>
+			<Volume>50</Volume>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+		</AmmoMagazine>		
+			
+
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>KGS_ARENA_APS_AMMO</SubtypeId>
+			</Id>
+			<DisplayName>Arena APS Canister</DisplayName>
+			<Size>
+				<X>0.1</X>
+				<Y>0.1</Y>
+				<Z>0.1</Z>
+			</Size>
+			<Mass>50</Mass>
+			<Volume>50</Volume>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="KGS_GENERIC_AMMO" />
+		</AmmoMagazine>				
+			
+	
+	</AmmoMagazines>
+</Definitions>
