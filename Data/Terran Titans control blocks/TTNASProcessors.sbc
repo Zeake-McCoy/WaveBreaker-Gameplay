@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- ═══════════════════════════════════════════════════
+         ENGINEERING PROCESSOR
+         ═══════════════════════════════════════════════════ -->
+
+    <!-- Large Grid -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_Eng_Processor</SubtypeId>
+      </Id>
+      <DisplayName>TT Engineering Processor</DisplayName>
+      <Description>Engineering data hub. Monitors ship mass, power, propulsion, weapons, hull integrity and water depth. Place one per ship.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\large\TTGridCoreTempLG.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="25" />
+        <Component Subtype="Computer"     Count="15" />
+        <Component Subtype="Construction" Count="5"  />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTGridCoreTempLG_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTGridCoreTempLG_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>3000</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_Eng_Processor</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <!-- Small Grid -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_Eng_Processor_SG</SubtypeId>
+      </Id>
+      <DisplayName>TT Engineering Processor Small</DisplayName>
+      <Description>Engineering data hub. Monitors ship mass, power, propulsion, weapons, hull integrity and water depth. Place one per ship.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\small\TTGridCoreTempsg.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="5" />
+        <Component Subtype="Computer"     Count="5" />
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\TTGridCoreTempsg_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\TTGridCoreTempsg_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>500</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_Eng_Processor</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <!-- ═══════════════════════════════════════════════════
+         CIC PROCESSOR
+         ═══════════════════════════════════════════════════ -->
+
+    <!-- Large Grid -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_CIC_Processor</SubtypeId>
+      </Id>
+      <DisplayName>TT CIC Processor</DisplayName>
+      <Description>Combat Information Centre processor. Tracks threats, friendlies, inbound missiles and manages fire control systems. Place one per ship.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\large\TTGridCoreTempLG.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="25" />
+        <Component Subtype="Computer"     Count="15" />
+        <Component Subtype="Construction" Count="5"  />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTGridCoreTempLG_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTGridCoreTempLG_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>3000</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_CIC_Processor</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <!-- Small Grid -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_CIC_Processor_SG</SubtypeId>
+      </Id>
+      <DisplayName>TT CIC Processor Small</DisplayName>
+      <Description>Combat Information Centre processor. Tracks threats, friendlies, inbound missiles and manages fire control systems. Place one per ship.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\small\TTGridCoreTempsg.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="5" />
+        <Component Subtype="Computer"     Count="5" />
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\TTGridCoreTempsg_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\TTGridCoreTempsg_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>500</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_CIC_Processor</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <!-- ═══════════════════════════════════════════════════
+         FIRE CONTROL
+         ═══════════════════════════════════════════════════ -->
+
+    <!-- Missile Fire Control -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_FireControl_Missile</SubtypeId>
+      </Id>
+      <DisplayName>TT Missile Fire Control WIP</DisplayName>
+      <Description>Select targets from the grid AI threat list, assign static missile launchers, and engage with a controlled salvo.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\large\TTGridCoreTempLG.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="25" />
+        <Component Subtype="Computer"     Count="15" />
+        <Component Subtype="Construction" Count="5"  />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTGridCoreTempLG_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTGridCoreTempLG_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>3000</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_FireControl_Missile</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <!-- Missile Defence Control -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>TT_MissileDefence</SubtypeId>
+      </Id>
+      <DisplayName>TT Missile Defence Control WIP</DisplayName>
+      <Description>Automated missile defence system. Assigns CIWS and intercept turrets to inbound missile threats.</Description>
+      <Icon>Textures\GUI\Icons\TTGridCoreTempLG.dds</Icon>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\large\TTGridCoreTempLG.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate"   Count="25" />
+        <Component Subtype="Computer"     Count="15" />
+        <Component Subtype="Construction" Count="5"  />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\TTGridCoreTempLG_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TTGridCoreTempLG_BS2.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MaxIntegrity>3000</MaxIntegrity>
+      <MountPoints>
+        <MountPoint Side="Top"    StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left"   StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front"  StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back"   StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>TT_MissileDefence</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <!--
+      Claims the storage GUIDs this mod owns. A GUID must be claimed by exactly ONE loaded mod
+      (claiming is game-wide), or the game logs "Duplicate ModStorageComponent GUID".
+      Owned here:
+        4d5a2c8e... = Anchor       (TTNAS/Anchor/AnchorBlock.cs)
+        7C4F2A8B... = Catapult     (TTNAS/Catapult/CatapultBlock.cs)
+        a8f3c21d... = Afterburner  (TTNAS/Afterburner/AfterburnerController.cs) - the live framework copy.
+                      The old copy in DYG_Air_supportblocks is leftover from before this was relocated here.
+      Owned elsewhere (NOT claimed here):
+        a1b2..0001 / a1b2..0002 = CIC Audio -> this mod's Data/ModStorage.sbc
+    -->
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>TTNavalAdvancedSystems</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>4d5a2c8e-3a0a-4c1d-9a2f-9f1c4d1e7c1b</guid>
+        <guid>7C4F2A8B-5E3D-4A1C-9B7F-2E8D1C5F3A4E</guid>
+        <guid>a8f3c21d-5e7b-4a2f-9c6d-1b3e8f4a7d2c</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

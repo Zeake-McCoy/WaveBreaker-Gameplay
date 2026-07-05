@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>TTNAS_Audio</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>a1b2c3d4-e5f6-7890-abcd-ef1234560001</guid>
+        <guid>a1b2c3d4-e5f6-7890-abcd-ef1234560002</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

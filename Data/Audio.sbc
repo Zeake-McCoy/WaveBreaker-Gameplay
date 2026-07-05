@@ -1,26 +1,101 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Sounds>
-	<Sound>
-		<Id>
-			<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-			<SubtypeId>LaserMultitoolSoundLoop</SubtypeId>
-		</Id>
-	    <Category>SHOT</Category>
-	    <MaxDistance>150</MaxDistance>
-            <VolumeVariation>0.03</VolumeVariation>
-            <PitchVariation>10</PitchVariation>
-	    <Loopable>true</Loopable>
-	    <PreventSynchronization>1</PreventSynchronization>
-	    <Volume>2</Volume>
-	    <SoundLimit>10</SoundLimit>
-		<Waves>
-			<Wave Type="D3">
-				<Start>Audio\LaserStart.wav</Start>
-				<Loop>Audio\LaserLoop.wav</Loop>
-				<End>Audio\LaserEnd.wav</End>
-			</Wave>
-		</Waves>
-	</Sound>
-    </Sounds>
+  <Sounds>
+  <!-- Action Stations / General Quarters -->
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>TTNAS_action_royalnavy</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>150</MaxDistance>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>5</Volume>
+			<Loopable>true</Loopable>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="500" Sound="TTNAS_action_royalnavy" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\action_RoyalNavyAlarm.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>TTNAS_action_usnavyold</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>150</MaxDistance>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>5</Volume>
+			<Loopable>true</Loopable>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="500" Sound="TTNAS_action_usnavyold" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\action_usnavyold.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>TTNAS_action_usnavynew</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>150</MaxDistance>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>5</Volume>
+			<Loopable>true</Loopable>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="500" Sound="TTNAS_action_usnavynew" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\action_usnavynew.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>TTNAS_action_submarine</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>150</MaxDistance>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>5</Volume>
+			<Loopable>true</Loopable>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="500" Sound="TTNAS_action_submarine" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\action_submarine.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  <!-- Action Stations / General Quarters -->
+
+
+  </Sounds>
 </Definitions>
