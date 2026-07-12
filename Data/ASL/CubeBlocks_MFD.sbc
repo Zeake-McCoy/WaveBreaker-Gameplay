@@ -916,7 +916,7 @@
 			  <SubtypeId>ASL_HalfWindowSlope</SubtypeId>
 		  </Id>
 		  <DisplayName>Half Window Slope</DisplayName>
-		  <Icon>Models\Textures\GUI\Icons\Cubes\ASL_HalfWindowSlope.dds</Icon>
+		  <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 		  <Description>
 			  
 		  </Description>

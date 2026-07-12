@@ -868,7 +868,7 @@
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <HasPhysics>false</HasPhysics>
-
+		  <IsStandAlone>false</IsStandAlone>
 
 
 		  <BuildProgressModels>
@@ -915,7 +915,7 @@
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <HasPhysics>false</HasPhysics>
-
+		  <IsStandAlone>false</IsStandAlone>
 
 
 		  <BuildProgressModels>

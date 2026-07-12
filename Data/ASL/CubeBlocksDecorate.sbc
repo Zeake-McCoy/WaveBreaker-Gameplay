@@ -940,7 +940,7 @@
 		  <BlockTopology>TriangleMesh</BlockTopology>
 		  <Size x="2" y="1" z="3" />
 		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_Slope 3x2.mwm</Model>
+		  <Model>Models\Models\Cubes\Small\ASL_EngineCover_Slope_3x2.mwm</Model>
 		  <PhysicsOption>Convex</PhysicsOption>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="6" />
@@ -1852,6 +1852,7 @@
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
 		  <IsAirTight>false</IsAirTight>
+		  <IsStandAlone>false</IsStandAlone>
 	  </Definition>
 	  
 	  <Definition>
@@ -1889,6 +1890,7 @@
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
 		  <IsAirTight>false</IsAirTight>
+		  <IsStandAlone>false</IsStandAlone>
 	  </Definition>
 	  <Definition>
 		  <Id>
@@ -1925,6 +1927,7 @@
 		  <PCU>1</PCU>
 		  <PCUConsole>2</PCUConsole>
 		  <IsAirTight>false</IsAirTight>
+		  <IsStandAlone>false</IsStandAlone>
 	  </Definition>
 	  	  
 		<Definition>
