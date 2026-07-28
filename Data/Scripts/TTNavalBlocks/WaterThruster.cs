@@ -30,7 +30,7 @@ namespace TTNavalBlocks.Logic
             }
             else
             {
-                ((IMyThrust)thruster).ThrustMultiplier = 0.05f;
+                ((IMyThrust)thruster).ThrustMultiplier = 1f;
             }
         }
 
