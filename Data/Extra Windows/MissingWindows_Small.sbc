@@ -19,9 +19,9 @@
 			<Center x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Centered_Window_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -58,9 +58,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Half_Slope_Window_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -97,9 +97,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Half_Slope_Window_Inv_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -138,9 +138,9 @@
 			<Center x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Angled_Slope_Window_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -180,9 +180,9 @@
 			<Center x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Angled_Slope_Window_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -222,9 +222,9 @@
 			<Center x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Angled_Slope_Window_Inv_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>
@@ -264,9 +264,9 @@
 			<Center x="0" y="0" z="0" />
 			<Model>Models\Windows\Small\Angled_Slope_Window_Inv_Small.mwm</Model>
 			<Components>
-				<Component Subtype="Girder" Count="10" />
-				<Component Subtype="BulletproofGlass" Count="15" />
-				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Girder" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
+				<Component Subtype="BulletproofGlass" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<MountPoints>

@@ -1369,7 +1369,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerTip_2x1.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_2x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_2x1</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1403,7 +1405,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerTip_3x1.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_3x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_3x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_3x1</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1439,7 +1443,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_4x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_4x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_4x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1472,8 +1478,10 @@
 
 		  </BuildProgressModels>
 
-		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_5x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_5x1M</MirroringBlock>
+		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_5x1M</BlockPairName>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_5x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1507,7 +1515,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_6x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_6x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1541,7 +1551,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerBase_2x1.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_2x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_2x1</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1575,7 +1587,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerBase_3x1.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_3x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_3x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_3x1</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1611,7 +1625,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_4x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_4x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_4x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1645,7 +1661,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_5x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_5x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_5x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1679,7 +1697,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_6x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_6x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1713,8 +1733,10 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerTip_2x1M.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_2x1</MirroringBlock>
-		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_2x1M</BlockPairName>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_2x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <BlockPairName>SmallBlockArmorBlock_SlopedCornerTip_2x1</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
@@ -1747,7 +1769,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerTip_3x1M.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_3x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_3x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_3x1M</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1783,7 +1807,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_4x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_4x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_4x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1817,7 +1843,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_5x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_5x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_5x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1851,7 +1879,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerTip_6x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerTip_6x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerTip_6x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1885,7 +1915,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerBase_2x1M.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_2x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_2x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_2x1M</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1919,7 +1951,9 @@
 			  <Model BuildPercentUpperBound="1.00" File="Models\Models\Cubes\small\ASL_lightArmor_SlopedCornerBase_3x1M.mwm"/>
 
 		  </BuildProgressModels>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_3x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_3x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_3x1M</BlockPairName>
 
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
@@ -1955,7 +1989,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_4x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_4x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_4x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -1989,7 +2025,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_5x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_5x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_5x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2023,7 +2061,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCornerBase_6x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCornerBase_6x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCornerBase_6x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2059,7 +2099,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_2x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_2x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2093,7 +2135,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_3x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_3x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_3x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2127,7 +2171,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_4x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_4x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_4x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2161,7 +2207,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_5x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_5x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_5x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2195,7 +2243,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_6x1</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_6x1M</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1M</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2231,7 +2281,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_2x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_2x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_2x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2265,7 +2317,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_3x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_3x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_3x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2299,7 +2353,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_4x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_4x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_4x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2333,7 +2389,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_5x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_5x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_5x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
@@ -2368,7 +2426,9 @@
 		  </BuildProgressModels>
 
 		  <BlockPairName>AluminumAlloy_ArmorBlockSlopedCorner_6x1M</BlockPairName>
-		  <MirroringBlock>SmallBlockArmorBlock_SlopedCorner_6x1</MirroringBlock>
+		  <MirroringBlock>AluminumAlloy_SmallBlockArmorBlock_SlopedCorner_6x1</MirroringBlock>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
 		  <BuildTimeSeconds>9</BuildTimeSeconds>
 		  <DisassembleRatio>2.5</DisassembleRatio>
 		  <EdgeType>Light</EdgeType>
