@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_MG</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_T34</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_T34_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>		
+		
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfCylinder</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>		
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Below</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Back</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_BackOffset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Close</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+	
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Centred</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Centred_Back</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_Centred_BackOffset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_Below</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_Further</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_FurtherBelow</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>			
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_Centred</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfPlate_CentredFurther</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_L</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_L_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+	
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Slope</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Slope_Back</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Slope_BackOffset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>		
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Slope_SideOffset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Side_Left</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_45_Side_Right</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_1x2_Slope_Base</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>	
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_1x2_Slope_Base_Back</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>	
+		</Definition>		
+	
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_1x2_Slope_Tip</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>	
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_Plate_1x2_Slope_Tip_Back</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>	
+		</Definition>
+
+
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfBlock</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfBlock_Centred</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfBlock_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfBlock_Side</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_HalfBlock_SideCentred</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_3x3x1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_Mantlet_3x3x1_Edge</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>
+		
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_TurretRing_5x5</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_TurretRing_4x4</SubtypeId>
+			</Id>
+
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>			
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_TurretRing_3x3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>				
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>KGS_TurretRing_2x2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+		</Definition>				
+
+	</CubeBlocks>
+</Definitions>
