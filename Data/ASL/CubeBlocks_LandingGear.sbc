@@ -1367,10 +1367,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1431,10 +1431,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1495,10 +1495,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -1644,10 +1644,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -2305,10 +2305,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -2628,10 +2628,10 @@
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <PhysicalMaterial>Wheel</PhysicalMaterial>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
 		  <BuildProgressModels>
@@ -3093,10 +3093,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="3" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3164,10 +3164,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="3" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3235,10 +3235,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="3" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3306,10 +3306,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="3" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -3461,10 +3461,10 @@
             <DeformationRatio>0.1</DeformationRatio>
             <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="3" />
 			  <Component Subtype="LargeTube" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="4" />
 		  </Components>
 		  <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>

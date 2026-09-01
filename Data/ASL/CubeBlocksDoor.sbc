@@ -47,6 +47,66 @@
 		  <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
 		  <DestroySound>PoofExplosionCat3</DestroySound>
 		  <PCU>10</PCU>
+		  
+		  <BlockVariants>
+				<BlockVariant>
+					<TypeId>Door</TypeId>
+					<SubtypeId>ASL_DriveTankHatch_1</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>Door</TypeId>
+					<SubtypeId>ASL_DriveTankHatch_1_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>Door</TypeId>
+					<SubtypeId>ASL_DriveTankHatch_2</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>Door</TypeId>
+					<SubtypeId>ASL_DriveTankHatch_2_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2x1L</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2x1R</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2x3</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_2x3_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_3</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_3_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_4</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_4_offset</SubtypeId>
+				</BlockVariant>	
+				
+			</BlockVariants>
 	  </Definition>
 
 	  <Definition xsi:type="MyObjectBuilder_DoorDefinition">
@@ -254,9 +314,65 @@
 		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
 		  <DestroySound>WepSmallWarheadExpl</DestroySound>
 
+		  <BlockVariants>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_1</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_1_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_10</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_10_offset</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_11</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_11_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_12</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_12_offset</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_12x1</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_12x2</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_13</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_13_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_14</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_14_offset</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
 	  </Definition>
-
-
 
 	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
 		  <Id>
@@ -1060,6 +1176,56 @@
 		  <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
 		  <DestroySound>WepSmallWarheadExpl</DestroySound>
 
+		  <BlockVariants>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_5x1</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_5_3x1</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_6</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_6_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_6_x3</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_7</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_7_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_8</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_8_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_8x1</SubtypeId>
+				</BlockVariant>			
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_8x1_offset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>ASL_TankHatch_9</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
 	  </Definition>
 	  
 	  <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
