@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CAPSeats"/>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPilotSeat"/>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPilotSeatForwardOffset"/>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPilotSeatUpwardOffset"/>
+		<Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPaxSeat"/>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPaxSeatForwardOffset"/>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CAPPaxSeatUpwardOffset"/>
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+
+
+</Definitions>

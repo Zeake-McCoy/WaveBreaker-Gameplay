@@ -34,15 +34,16 @@
 				<WorkOrder>Backward</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-175" />
+				<Offset x="0" y="0" z="350" />
 				<HalfExtent x="5" y="8" z="5" />
 				<Radius>3</Radius>
 				<Length>350</Length>
-				<Speed>2</Speed>
-				<WorkRate>15</WorkRate>
+				<Speed>3</Speed>
+				<WorkRate>20</WorkRate>
                 <IdlePower>0.5</IdlePower>
                 <ActivePower>5</ActivePower>
 				<Debug>false</Debug>
+				<DamageCharacters>false</DamageCharacters>
 				<AffectOwnGrid>true</AffectOwnGrid>
 				<PickUpFloatings>false</PickUpFloatings>
 				<Turret>
@@ -111,12 +112,12 @@
 				<WorkOrder>Forward</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="-175" />
+				<Offset x="0" y="0" z="-350" />
 				<HalfExtent x="5" y="8" z="5" />
 				<Radius>3</Radius>
 				<Length>350</Length>
-				<Speed>3</Speed>
-				<WorkRate>10</WorkRate>
+				<Speed>4</Speed>
+				<WorkRate>15</WorkRate>
 				<Debug>false</Debug>
 				<AffectOwnGrid>true</AffectOwnGrid>
 				<PickUpFloatings>true</PickUpFloatings>

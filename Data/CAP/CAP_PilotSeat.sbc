@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>CAPPaxSeat</SubtypeId>
+			</Id>
+			<DisplayName>Passenger Seat</DisplayName>
+			<Description>Airplane Passenger Seat</Description>
+			<Icon>Textures\CAPPilotSeat.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\CAP_PilotSeat.mwm</Model>
+			<CharacterAnimation>SeatedPoseCAP</CharacterAnimation>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="Computer" Count="3"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>CAPPilotSeat</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\CAP_PilotSeat_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\CAP_PilotSeat_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_PilotSeat_BS3.mwm"/>
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<EdgeType>Light</EdgeType>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>true</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<GetInSound>ShipSmCockpitIn</GetInSound>
+			<GetOutSound>ShipSmCockpitOut</GetOutSound>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>CAPPaxSeatForwardOffset</SubtypeId>
+			</Id>
+			<DisplayName>Passenger Seat Forward Offset</DisplayName>
+			<Description>Airplane Passenger Seat</Description>
+			<Icon>Textures\CAPPilotSeat.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="-0.125"/>
+			<Model>Models\Cubes\small\CAP_PilotSeat.mwm</Model>
+			<CharacterAnimation>SeatedPoseCAP</CharacterAnimation>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="Computer" Count="3"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>CAPPilotSeatForwardOffset</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\CAP_PilotSeat_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\CAP_PilotSeat_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_PilotSeat_BS3.mwm"/>
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<EdgeType>Light</EdgeType>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>true</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<GetInSound>ShipSmCockpitIn</GetInSound>
+			<GetOutSound>ShipSmCockpitOut</GetOutSound>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>CAPPaxSeatUpwardOffset</SubtypeId>
+			</Id>
+			<DisplayName>Passenger Seat Upward Offset</DisplayName>
+			<Description>Airplane Passenger Seat</Description>
+			<Icon>Textures\CAPPilotSeat.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0.25" z="0"/>
+			<Model>Models\Cubes\small\CAP_PilotSeat.mwm</Model>
+			<CharacterAnimation>SeatedPoseCAP</CharacterAnimation>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="Computer" Count="3"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>CAPPilotSeatUpwardOffset</BlockPairName>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\CAP_PilotSeat_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\CAP_PilotSeat_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CAP_PilotSeat_BS3.mwm"/>
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<EdgeType>Light</EdgeType>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>true</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+			<GetInSound>ShipSmCockpitIn</GetInSound>
+			<GetOutSound>ShipSmCockpitOut</GetOutSound>
+			<UseModelIntersection>true</UseModelIntersection>
+		</Definition>
+		
+	</CubeBlocks>
+</Definitions>

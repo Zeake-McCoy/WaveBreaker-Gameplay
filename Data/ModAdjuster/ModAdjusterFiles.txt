@@ -2,8 +2,10 @@ Wheels.xml
 KGS_AmmoMagazines.xml
 KGS_Seat_CubeBlocks.xml
 KGS_Mantlets_CubeBlocks.xml
+KGS_Weaponry_CubeBlocks.xml
 BankingSystem.xml
 CubeBlocks_Sorters.xml
+CAP_BlockVariantCategory.xml
 CAP_Propeller_Half.xml
 CAP_Propellers.xml
 CAP_HeavyProp_3_Blade.xml

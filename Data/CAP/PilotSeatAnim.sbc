@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Animations>
+
+        <Animation>
+            <Id>
+                <TypeId>AnimationDefinition</TypeId>
+                <SubtypeId>SeatedPoseCAP</SubtypeId>
+            </Id>
+            <DisplayName>SeatedPoseCAP</DisplayName>
+            <Description>SeatedPoseCAP</Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <AnimationModel>Models\Cubes\small\SeatedPoseCAP.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body</InfluenceArea>
+            <Public>false</Public>
+			<Loop>false</Loop>			
+        </Animation>	
+
+    </Animations>
+</Definitions>
