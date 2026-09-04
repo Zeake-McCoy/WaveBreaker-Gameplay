@@ -51,9 +51,9 @@
 			</VoxelPlacement>
 			<EdgeType>Light</EdgeType>
 			<EnableFirstPerson>true</EnableFirstPerson>
-			<EnableShipControl>true</EnableShipControl>
-			<EnableBuilderCockpit>true</EnableBuilderCockpit>
-			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<EnableShipControl>false</EnableShipControl>
+			<EnableBuilderCockpit>false</EnableBuilderCockpit>
+			<TargetLockingEnabled>false</TargetLockingEnabled>
 			<IsPressurized>false</IsPressurized>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -115,9 +115,9 @@
 			</VoxelPlacement>
 			<EdgeType>Light</EdgeType>
 			<EnableFirstPerson>true</EnableFirstPerson>
-			<EnableShipControl>true</EnableShipControl>
-			<EnableBuilderCockpit>true</EnableBuilderCockpit>
-			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<EnableShipControl>false</EnableShipControl>
+			<EnableBuilderCockpit>false</EnableBuilderCockpit>
+			<TargetLockingEnabled>false</TargetLockingEnabled>
 			<IsPressurized>false</IsPressurized>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -179,9 +179,9 @@
 			</VoxelPlacement>
 			<EdgeType>Light</EdgeType>
 			<EnableFirstPerson>true</EnableFirstPerson>
-			<EnableShipControl>true</EnableShipControl>
-			<EnableBuilderCockpit>true</EnableBuilderCockpit>
-			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<EnableShipControl>false</EnableShipControl>
+			<EnableBuilderCockpit>false</EnableBuilderCockpit>
+			<TargetLockingEnabled>false</TargetLockingEnabled>
 			<IsPressurized>false</IsPressurized>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
