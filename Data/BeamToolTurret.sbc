@@ -34,7 +34,7 @@
 				<WorkOrder>Backward</WorkOrder>
 				<WorkOrigin>Emitter</WorkOrigin>
 				<Emitter>emitter</Emitter>
-				<Offset x="0" y="0" z="350" />
+				<Offset x="0" y="0" z="-350" />
 				<HalfExtent x="5" y="8" z="5" />
 				<Radius>3</Radius>
 				<Length>350</Length>
