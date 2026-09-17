@@ -21,8 +21,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -63,8 +63,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -100,8 +100,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -135,8 +135,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchT.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -171,8 +171,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -213,8 +213,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Suspension.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -251,9 +251,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_Light.mwm</Model>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Construction" Index="0" />
 		  <MountPoints>
@@ -307,9 +307,9 @@
 		  <ModelOffset x="0" y="0" z="0" />
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionLight.mwm</Model>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Construction" Index="0" />
 		  <MountPoints>
@@ -369,11 +369,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -406,7 +406,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 		  
 	
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
@@ -453,11 +453,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -488,7 +488,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 		  
 	
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
@@ -535,11 +535,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="1" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -570,7 +570,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 		  
 	
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
@@ -619,11 +619,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -656,7 +656,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>1000</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
@@ -703,11 +703,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -740,7 +740,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>2000</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 
 		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
@@ -787,11 +787,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -822,7 +822,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>2000</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 
 		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
@@ -869,11 +869,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -906,7 +906,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 		  
 
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
@@ -953,11 +953,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -990,7 +990,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 
 
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
@@ -1037,11 +1037,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1072,7 +1072,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 	
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
@@ -1119,11 +1119,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -1154,7 +1154,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 	
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
@@ -1201,11 +1201,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1238,7 +1238,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 
 
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
@@ -1285,11 +1285,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1322,7 +1322,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 
 
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
@@ -1561,11 +1561,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1600,7 +1600,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 		  <RotorPart>LandingGearWheelDouble1x1</RotorPart>
 		  
@@ -1710,11 +1710,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1749,7 +1749,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
 		  
@@ -1795,11 +1795,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1834,7 +1834,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 		  
 		  <RotorPart>LandingGearWheel1x1</RotorPart>
 		  
@@ -1880,11 +1880,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -1919,7 +1919,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
 		  
@@ -1965,11 +1965,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2004,7 +2004,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>250</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 		  
 		  <RotorPart>LandingGearWheel2x2</RotorPart>
 		  
@@ -2050,11 +2050,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2088,7 +2088,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 
 
 		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
@@ -2135,11 +2135,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2175,7 +2175,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 
 		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
 
@@ -2221,11 +2221,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2261,7 +2261,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 
 		  <RotorPart>LandingGearFrontWheel1x1</RotorPart>
 
@@ -2372,11 +2372,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2412,7 +2412,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 
 		  <RotorPart>LandingGearFrontWheelDouble1x1</RotorPart>
 
@@ -2458,11 +2458,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2498,7 +2498,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>3000</PropulsionForce>
 
 		  <RotorPart>LandingGearFrontWheelDouble1x1</RotorPart>
 
@@ -2544,11 +2544,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2584,7 +2584,7 @@
 		  <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
 		  <MaxForceMagnitude>1E9</MaxForceMagnitude>
 		  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-		  <PropulsionForce>80</PropulsionForce>
+		  <PropulsionForce>5000</PropulsionForce>
 
 		  <RotorPart>LandingGearWheelDouble2x2</RotorPart>
 
@@ -2694,11 +2694,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2734,7 +2734,7 @@
             <MaxForceMagnitude>1E9</MaxForceMagnitude>
             <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
             <RotorPart>ASL_LandingGearWheel3x3s</RotorPart>
-            <PropulsionForce>3000</PropulsionForce>
+            <PropulsionForce>7500</PropulsionForce>
             <MinHeight>-0.3</MinHeight>
             <MaxHeight>0.0</MaxHeight>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2775,11 +2775,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2815,7 +2815,7 @@
             <MaxForceMagnitude>1E9</MaxForceMagnitude>
             <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
             <RotorPart>ASL_LandingGearWheel3x3</RotorPart>
-            <PropulsionForce>3000</PropulsionForce>
+            <PropulsionForce>7500</PropulsionForce>
             <MinHeight>-0.3</MinHeight>
             <MaxHeight>0.0</MaxHeight>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2855,11 +2855,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 
@@ -2893,7 +2893,7 @@
             <MaxForceMagnitude>1E9</MaxForceMagnitude>
             <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
             <RotorPart>ASL_LandingGearWheel3x3</RotorPart>
-            <PropulsionForce>3000</PropulsionForce>
+            <PropulsionForce>7500</PropulsionForce>
             <MinHeight>-0.3</MinHeight>
             <MaxHeight>0.0</MaxHeight>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2933,11 +2933,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -2973,7 +2973,7 @@
             <MaxForceMagnitude>1E9</MaxForceMagnitude>
             <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
             <RotorPart>ASL_LandingGearWheel3x3x3</RotorPart>
-            <PropulsionForce>3000</PropulsionForce>
+            <PropulsionForce>7500</PropulsionForce>
             <MinHeight>-0.3</MinHeight>
             <MaxHeight>0.0</MaxHeight>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -3013,11 +3013,11 @@
 		  <DeformationRatio>0.1</DeformationRatio>
 		  <UsesDeformation>false</UsesDeformation>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="SmallTube" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="3" />
 		  </Components>
 		  <CriticalComponent Subtype="Motor" Index="0" />
 		  <MountPoints>
@@ -3053,7 +3053,7 @@
             <MaxForceMagnitude>1E9</MaxForceMagnitude>
             <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
             <RotorPart>ASL_LandingGearWheel3x3x4</RotorPart>
-            <PropulsionForce>3000</PropulsionForce>
+            <PropulsionForce>7500</PropulsionForce>
             <MinHeight>-0.3</MinHeight>
             <MaxHeight>0.0</MaxHeight>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -3531,8 +3531,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_BranchThick.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -3573,8 +3573,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -3615,8 +3615,8 @@
 		  <Model>Models\Models\Cubes\small\ASL_LandingGear_Branch_SuspensionThick1x1.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -3657,8 +3657,8 @@
 		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_BranchLarge.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -3699,8 +3699,8 @@
 		  <Model>Models\Models\Cubes\Large\ASL_LandingGear_Branch_SuspensionLarge1x1.mwm</Model>
 		  <UseModelIntersection>true</UseModelIntersection>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="10" />
-			  <Component Subtype="SteelPlate" Count="10" />
+			  <Component Subtype="SteelPlate" Count="2" />
+			  <Component Subtype="SteelPlate" Count="2" />
 		  </Components>
 		  <CriticalComponent Subtype="SteelPlate" Index="0" />
 		  <BuildProgressModels>
@@ -3742,7 +3742,7 @@
 		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
@@ -3785,7 +3785,7 @@
 		  <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="1" />
-			  <Component Subtype="Construction" Count="10" />
+			  <Component Subtype="Construction" Count="2" />
 			  <Component Subtype="Motor" Count="1" />
 			  <Component Subtype="SteelPlate" Count="1" />
 		  </Components>
