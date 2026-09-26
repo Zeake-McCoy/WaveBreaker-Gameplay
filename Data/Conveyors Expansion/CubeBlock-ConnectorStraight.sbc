@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+		<!-- Region King Conveyor system -->
+		<!-- Tubes -->
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>LG_KingConveyor_Tube_02x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Kings_2x_Conveyor_Tube</DisplayName>
+            <Icon>Textures\King_Conveyor_Tube_2x.png</Icon>
+			<Description>Description_ConveyorTube</Description>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Tube_2x.mwm</Model>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="20" />
+				<Component Subtype="Construction" Count="30" />
+				<Component Subtype="SmallTube" Count="18" />
+				<Component Subtype="Motor" Count="9" />
+				<Component Subtype="InteriorPlate" Count="8" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\skingnet\King_Tube_2x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Tube_2x_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>KingConveyor_Tube_02x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>LG_KingConveyor_Tube_03x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Kings_3x_Conveyor_Tube</DisplayName>
+            <Icon>Textures\King_Conveyor_Tube_3x.png</Icon>
+			<Description>Description_ConveyorTube</Description>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Tube_3x.mwm</Model>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="30" />
+				<Component Subtype="Construction" Count="45" />
+				<Component Subtype="SmallTube" Count="27" />
+				<Component Subtype="Motor" Count="13" />
+				<Component Subtype="InteriorPlate" Count="12" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\skingnet\King_Tube_3x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Tube_3x_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>KingConveyor_Tube_03x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>LG_KingConveyor_Tube_05x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Kings_5x_Conveyor_Tube</DisplayName>
+            <Icon>Textures\King_Conveyor_Tube_5x.png</Icon>
+			<Description>Description_ConveyorTube</Description>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="5" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Tube_5x.mwm</Model>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="50" />
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="SmallTube" Count="45" />
+				<Component Subtype="Motor" Count="22" />
+				<Component Subtype="InteriorPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\skingnet\King_Tube_5x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Tube_5x_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>KingConveyor_Tube_05x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>LG_KingConveyor_Tube_10x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Kings_10x_Conveyor_Tube</DisplayName>
+            <Icon>Textures\King_Conveyor_Tube_10x.png</Icon>
+			<Description>Description_ConveyorTube</Description>
+			<GuiVisible>true</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="10" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Tube_10x.mwm</Model>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="100" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="SmallTube" Count="90" />
+				<Component Subtype="Motor" Count="45" />
+				<Component Subtype="InteriorPlate" Count="40" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\skingnet\King_Tube_10x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Tube_10x_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>KingConveyor_Tube_10x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+
+		<!-- Ducts -->
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Duct_02x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_2x_Conveyor_Duct</DisplayName>
+            <Icon>Textures\King_Conveyor_Duct_2x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Model>Models\skingnet\King_Duct_2x.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="InteriorPlate" Count="18" />
+                <Component Subtype="Construction" Count="35" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+  			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\king_duct_2x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\king_duct_2x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\king_duct_2x_BS3.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>KingConveyor_Duct_02x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <AutorotateMode>OppositeDirections</AutorotateMode>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Duct_03x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_3x_Conveyor_Duct</DisplayName>
+            <Icon>Textures\King_Conveyor_Duct_3x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Model>Models\skingnet\King_Duct_3x.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="45" />
+				<Component Subtype="InteriorPlate" Count="22" />
+                <Component Subtype="Construction" Count="45" />
+                <Component Subtype="SmallTube" Count="27" />
+                <Component Subtype="Motor" Count="13" />
+                <Component Subtype="InteriorPlate" Count="9" />
+                <Component Subtype="SteelPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+  			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\king_duct_3x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\king_duct_3x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\king_duct_3x_BS3.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>KingConveyor_Duct_03x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <AutorotateMode>OppositeDirections</AutorotateMode>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Duct_05x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_5x_Conveyor_Duct</DisplayName>
+            <Icon>Textures\King_Conveyor_Duct_5x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Model>Models\skingnet\King_Duct_5x.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="75" />
+				<Component Subtype="InteriorPlate" Count="37" />
+                <Component Subtype="Construction" Count="75" />
+                <Component Subtype="SmallTube" Count="45" />
+                <Component Subtype="Motor" Count="22" />
+                <Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+  			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\king_duct_5x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\king_duct_5x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\king_duct_5x_BS3.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>KingConveyor_Duct_05x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <AutorotateMode>OppositeDirections</AutorotateMode>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Duct_10x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_10x_Conveyor_Duct</DisplayName>
+            <Icon>Textures\King_Conveyor_Duct_10x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+			<Model>Models\skingnet\King_Duct_10x.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="InteriorPlate" Count="75" />
+                <Component Subtype="Construction" Count="150" />
+                <Component Subtype="SmallTube" Count="90" />
+                <Component Subtype="Motor" Count="45" />
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+  			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\king_duct_10x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\king_duct_10x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\king_duct_10x_BS3.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>KingConveyor_Duct_10x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <AutorotateMode>OppositeDirections</AutorotateMode>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+		
+		<!-- Pipes -->
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Pipe_02x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_2x_Conveyor_Pipe</DisplayName>
+            <Icon>Textures\King_Conveyor_Pipe_2x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Pipe_2x.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+				<Component Subtype="Construction" Count="30" />
+                <Component Subtype="SmallTube" Count="18" />
+                <Component Subtype="Motor" Count="9" />
+                <Component Subtype="InteriorPlate" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\King_Pipe_2x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\King_Pipe_2x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Pipe_2x_BS3.mwm"/>
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <BlockPairName>KingConveyor_Pipe_02x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <DLC>HeavyIndustry</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Pipe_03x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_3x_Conveyor_Pipe</DisplayName>
+            <Icon>Textures\King_Conveyor_Pipe_3x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Pipe_3x.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+				<Component Subtype="Construction" Count="45" />
+                <Component Subtype="SmallTube" Count="27" />
+                <Component Subtype="Motor" Count="13" />
+                <Component Subtype="InteriorPlate" Count="12" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\King_Pipe_3x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\King_Pipe_3x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Pipe_3x_BS3.mwm"/>
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <BlockPairName>KingConveyor_Pipe_03x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <DLC>HeavyIndustry</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Pipe_05x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_5x_Conveyor_Pipe</DisplayName>
+            <Icon>Textures\King_Conveyor_Pipe_5x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Pipe_5x.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="50" />
+				<Component Subtype="Construction" Count="75" />
+                <Component Subtype="SmallTube" Count="45" />
+                <Component Subtype="Motor" Count="22" />
+                <Component Subtype="InteriorPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\King_Pipe_5x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\King_Pipe_5x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Pipe_5x_BS3.mwm"/>
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <BlockPairName>KingConveyor_Pipe_05x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <DLC>HeavyIndustry</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>LG_KingConveyor_Pipe_10x</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Kings_10x_Conveyor_Pipe</DisplayName>
+            <Icon>Textures\King_Conveyor_Pipe_10x.png</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\skingnet\King_Pipe_10x.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="100" />
+				<Component Subtype="Construction" Count="150" />
+                <Component Subtype="SmallTube" Count="90" />
+                <Component Subtype="Motor" Count="45" />
+                <Component Subtype="InteriorPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\skingnet\King_Pipe_10x_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\skingnet\King_Pipe_10x_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\skingnet\King_Pipe_10x_BS3.mwm"/>
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <BlockPairName>KingConveyor_Pipe_10x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>25</BuildTimeSeconds>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <DLC>HeavyIndustry</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	
+	</CubeBlocks>
+</Definitions>

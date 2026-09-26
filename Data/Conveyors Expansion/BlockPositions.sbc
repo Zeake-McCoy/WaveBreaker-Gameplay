@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlockPositions>
+		<!-- Row 22 -->
+		<!-- X 1 Conveyor -->
+		<!-- X 2 ConveyorPipeJunction -->
+		<!-- X 3 ConveyorSmall -->
+		<!-- X 4 Collector -->
+		<!-- X 5 Connector -->
+		<BlockPosition>
+			<Name>KingConveyor_Duct_02x</Name>
+			<Position>
+				<X>6</X>
+				<Y>22</Y>
+			</Position>
+		</BlockPosition>
+	</BlockPositions>
+</Definitions>

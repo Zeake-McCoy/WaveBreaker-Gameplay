@@ -833,4 +833,53 @@
   <data name="DisplayName_AQD_BannerLCDHalf" xml:space="preserve">
     <value>Banner LCD Half</value>
   </data>
+  
+  <data name="DisplayName_Kings_2x_Conveyor_Duct" xml:space="preserve">
+    <value>Reinforced Conveyor Tube 2x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_3x_Conveyor_Duct" xml:space="preserve">
+    <value>Reinforced Conveyor Tube 3x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_5x_Conveyor_Duct" xml:space="preserve">
+    <value>Reinforced Conveyor Tube 5x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_10x_Conveyor_Duct" xml:space="preserve">
+    <value>Reinforced Conveyor Tube 10x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_2x_Conveyor_Pipe" xml:space="preserve">
+    <value>Conveyor Pipe 2x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_3x_Conveyor_Pipe" xml:space="preserve">
+    <value>Conveyor Pipe 3x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_5x_Conveyor_Pipe" xml:space="preserve">
+    <value>Conveyor Pipe 5x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_10x_Conveyor_Pipe" xml:space="preserve">
+    <value>Conveyor Pipe 10x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_2x_Conveyor_Tube" xml:space="preserve">
+    <value>Conveyor Tube 2x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_3x_Conveyor_Tube" xml:space="preserve">
+    <value>Conveyor Tube 3x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_5x_Conveyor_Tube" xml:space="preserve">
+    <value>Conveyor Tube 5x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Kings_10x_Conveyor_Tube" xml:space="preserve">
+    <value>Conveyor Tube 10x</value>
+    <comment/>
+  </data>
 </root>

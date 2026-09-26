@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlockVariantGroups>
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="King Extended Conveyors Group" />
+			<Icon>Textures\King_Conveyor_Duct_5x.png</Icon>
+			<DisplayName>Kings Conveyors</DisplayName>
+			<Description>Kings Conveyors - Now 2x, 3x, 5x and 10x length conveyors!</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Duct_02x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Duct_03x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Duct_05x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Duct_10x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Pipe_02x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Pipe_03x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Pipe_05x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Pipe_10x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Tube_02x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Tube_03x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Tube_05x" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LG_KingConveyor_Tube_10x" />
+			</Blocks>
+		</BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>
