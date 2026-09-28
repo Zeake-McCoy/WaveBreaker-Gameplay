@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Blocks" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-3.dds</Icon>
+            <DisplayName>Type-3 Ammoracks</DisplayName>
+            <Description>All Block-Style Ammoracks of Type-3.</Description>
+            <Blocks>
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-3" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-3a" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-4" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5a" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5b" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Floor Ammorack" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-2.dds</Icon>
+            <DisplayName>Type-3 Ammoracks</DisplayName>
+            <Description>All Other Ammoracks of Type-3.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeII" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIIa" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-2" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6a" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6b" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7a" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7b" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7c" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7d" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7e" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackAdvanced-1" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIV-2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-IV Drum Ammorack" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIV-2.dds</Icon>
+            <DisplayName>Type-4 Ammoracks</DisplayName>
+            <Description>All Other Ammoracks of Type-4.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIV-2" />
+
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="KornetATGMRack" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack.dds</Icon>
+            <DisplayName>ATGM Ammoracks</DisplayName>
+            <Description>All ATGM Ammoracks.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-2" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-4" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-3" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="ATGMRack-Drum" /> 
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>
